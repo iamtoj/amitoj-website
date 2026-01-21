@@ -1,0 +1,96 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+
+// Get published blog posts, sorted by date (newest first)
+const posts = (await getCollection('blog', ({ data }) => !data.draft))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .slice(0, 5);
+---
+
+<Layout title="Amitoj Singh">
+  <section class="container-zen section-zen">
+    <div class="max-w-2xl">
+      <h1 class="mb-8 text-balance">
+        Amitoj Singh
+      </h1>
+
+      <div class="accent-line mb-8"></div>
+
+      <p class="text-lg text-ink-light mb-6">
+        Writer, strategist, yoga practitioner. Exploring the Third Enlightenment:
+        where technology meets contemplative wisdom.
+      </p>
+
+      <p class="text-ink-light mb-8">
+        I work at the intersection of artificial intelligence and human flourishing,
+        helping individuals and organizations navigate transformation with clarity and purpose.
+      </p>
+
+      <nav class="flex gap-6">
+        <a href="/about" class="text-ink hover:text-ink-light">
+          About me &rarr;
+        </a>
+        <a href="/writing" class="text-ink hover:text-ink-light">
+          Read my writing &rarr;
+        </a>
+      </nav>
+    </div>
+  </section>
+
+  <section class="container-zen section-zen border-t border-oat-300">
+    <h2 class="text-2xl mb-8">Recent Writing</h2>
+
+    {posts.length > 0 ? (
+      <ul class="list-none m-0 p-0 space-y-6">
+        {posts.map((post) => (
+          <li class="border-b border-oat-300 pb-6 last:border-0">
+            <a href={`/blog/${post.slug}`} class="no-underline group">
+              <h3 class="text-xl mb-2 group-hover:text-ink-light transition-colors">
+                {post.data.title}
+              </h3>
+              <p class="text-ink-muted text-sm mb-2">
+                {post.data.pubDate.toLocaleDateString('en-US', {
+                  year: 'numeric',
+                  month: 'long',
+                  day: 'numeric'
+                })}
+              </p>
+              <p class="text-ink-light">
+                {post.data.description}
+              </p>
+            </a>
+          </li>
+        ))}
+      </ul>
+    ) : (
+      <p class="text-ink-muted italic">
+        Coming soon.
+      </p>
+    )}
+
+    {posts.length > 0 && (
+      <div class="mt-8">
+        <a href="/writing" class="text-ink hover:text-ink-light">
+          View all writing &rarr;
+        </a>
+      </div>
+    )}
+  </section>
+
+  <section class="container-zen section-zen border-t border-oat-300">
+    <h2 class="text-2xl mb-8">Third Enlightenment</h2>
+
+    <div class="max-w-2xl">
+      <p class="text-ink-light mb-6">
+        The First Enlightenment brought scientific reason. The Second brought digital connection.
+        The Third integrates artificial intelligence with contemplative practice,
+        creating new possibilities for wisdom, creativity, and human development.
+      </p>
+
+      <a href="/contact" class="text-ink hover:text-ink-light">
+        Work with me &rarr;
+      </a>
+    </div>
+  </section>
+</Layout>

@@ -1,0 +1,138 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection, type CollectionEntry } from 'astro:content';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog');
+  return posts.map((post) => ({
+    params: { slug: post.slug },
+    props: post,
+  }));
+}
+
+type Props = CollectionEntry<'blog'>;
+
+const post = Astro.props;
+const { Content } = await post.render();
+---
+
+<Layout title={`${post.data.title} | Amitoj Singh`} description={post.data.description}>
+  <article class="container-zen section-zen">
+    <header class="max-w-2xl mb-12">
+      <a href="/writing" class="text-ink-muted text-sm no-underline hover:text-ink mb-6 inline-block">
+        &larr; Back to Writing
+      </a>
+
+      <h1 class="mb-4 text-balance">{post.data.title}</h1>
+
+      <p class="text-ink-muted mb-4">
+        {post.data.pubDate.toLocaleDateString('en-US', {
+          year: 'numeric',
+          month: 'long',
+          day: 'numeric'
+        })}
+        {post.data.updatedDate && (
+          <span class="ml-4">
+            (Updated: {post.data.updatedDate.toLocaleDateString('en-US', {
+              year: 'numeric',
+              month: 'long',
+              day: 'numeric'
+            })})
+          </span>
+        )}
+      </p>
+
+      {post.data.tags.length > 0 && (
+        <div class="flex gap-2">
+          {post.data.tags.map((tag) => (
+            <span class="text-xs text-ink-muted bg-oat-100 px-2 py-1">
+              {tag}
+            </span>
+          ))}
+        </div>
+      )}
+
+      <div class="accent-line mt-8"></div>
+    </header>
+
+    {post.data.heroImage && (
+      <figure class="mb-12">
+        <img
+          src={post.data.heroImage}
+          alt=""
+          class="w-full max-w-3xl"
+        />
+      </figure>
+    )}
+
+    <div class="prose max-w-2xl">
+      <Content />
+    </div>
+  </article>
+
+  <section class="container-zen section-zen border-t border-oat-300">
+    <div class="max-w-2xl flex justify-between items-center">
+      <a href="/writing" class="text-ink hover:text-ink-light no-underline">
+        &larr; All Writing
+      </a>
+      <a href="/contact" class="text-ink hover:text-ink-light no-underline">
+        Get in touch &rarr;
+      </a>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .prose {
+    @apply text-ink leading-relaxed;
+  }
+
+  .prose h2 {
+    @apply text-2xl mt-12 mb-4;
+  }
+
+  .prose h3 {
+    @apply text-xl mt-8 mb-3;
+  }
+
+  .prose p {
+    @apply mb-6;
+  }
+
+  .prose ul,
+  .prose ol {
+    @apply mb-6 pl-6;
+  }
+
+  .prose li {
+    @apply mb-2;
+  }
+
+  .prose blockquote {
+    @apply border-l-4 border-sage-300 pl-6 my-6 text-ink-light italic;
+  }
+
+  .prose code {
+    @apply bg-oat-100 px-1 py-0.5 text-sm;
+  }
+
+  .prose pre {
+    @apply bg-oat-100 p-4 overflow-x-auto mb-6;
+  }
+
+  .prose pre code {
+    @apply bg-transparent p-0;
+  }
+
+  .prose a {
+    @apply text-ink underline decoration-sage-300 underline-offset-4 hover:decoration-sage-500;
+  }
+
+  .prose img {
+    @apply my-8;
+  }
+
+  .prose hr {
+    @apply border-oat-300 my-12;
+  }
+</style>

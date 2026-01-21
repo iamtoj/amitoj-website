@@ -1,0 +1,107 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Contact | Amitoj Singh" description="Get in touch to discuss collaboration, consulting, or conversation.">
+  <section class="container-zen section-zen">
+    <div class="max-w-2xl">
+      <h1 class="mb-8 text-balance">Get in Touch</h1>
+
+      <div class="accent-line mb-8"></div>
+
+      <p class="text-lg text-ink-light mb-6">
+        Whether you're navigating personal transformation, organizational change,
+        or the emerging AI landscape, I welcome the conversation.
+      </p>
+
+      <p class="text-ink-light">
+        I'm particularly interested in discussing Third Enlightenment themes:
+        the integration of technology and contemplative practice, AI-assisted human development,
+        and creating systems that serve human flourishing.
+      </p>
+    </div>
+  </section>
+
+  <section class="container-zen section-zen border-t border-oat-300">
+    <div class="max-w-2xl">
+      <h2 class="text-2xl mb-8">Connect</h2>
+
+      <div class="space-y-6">
+        <div>
+          <h3 class="text-lg mb-2">Email</h3>
+          <a href="mailto:hello@amitoj.co" class="text-ink-light hover:text-ink">
+            hello@amitoj.co
+          </a>
+        </div>
+
+        <div>
+          <h3 class="text-lg mb-2">Social</h3>
+          <ul class="list-none m-0 p-0 space-y-2">
+            <li>
+              <a href="https://twitter.com/" class="text-ink-light hover:text-ink" target="_blank" rel="noopener noreferrer">
+                Twitter / X
+              </a>
+            </li>
+            <li>
+              <a href="https://linkedin.com/in/" class="text-ink-light hover:text-ink" target="_blank" rel="noopener noreferrer">
+                LinkedIn
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container-zen section-zen border-t border-oat-300 bg-oat-100">
+    <div class="max-w-2xl">
+      <h2 class="text-2xl mb-8">Send a Message</h2>
+
+      <form class="space-y-6" action="#" method="POST">
+        <div>
+          <label for="name" class="block text-sm mb-2">Name</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            required
+            class="w-full px-4 py-3 bg-oat-200 border border-oat-300 focus:border-sage-400 focus:outline-none transition-colors"
+          />
+        </div>
+
+        <div>
+          <label for="email" class="block text-sm mb-2">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            class="w-full px-4 py-3 bg-oat-200 border border-oat-300 focus:border-sage-400 focus:outline-none transition-colors"
+          />
+        </div>
+
+        <div>
+          <label for="message" class="block text-sm mb-2">Message</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="6"
+            required
+            class="w-full px-4 py-3 bg-oat-200 border border-oat-300 focus:border-sage-400 focus:outline-none transition-colors resize-y"
+          ></textarea>
+        </div>
+
+        <button
+          type="submit"
+          class="px-6 py-3 bg-ink text-oat-100 hover:bg-ink-light transition-colors cursor-pointer"
+        >
+          Send Message
+        </button>
+
+        <p class="text-ink-muted text-sm">
+          Form currently inactive. Please use email for now.
+        </p>
+      </form>
+    </div>
+  </section>
+</Layout>
