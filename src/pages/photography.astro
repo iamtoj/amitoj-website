@@ -9,18 +9,18 @@ import path from 'node:path';
 // ORDERING: Files sort alphabetically. To control order:
 //   01-photo.jpg, 02-photo.jpg, 03-photo.jpg
 // Or use date prefixes: 2024-01-15-photo.jpg
-const photographyDir = 'public/images/photography';
+const photographyDir = 'public/images/photography-optimized';
 let galleryImages: { src: string; alt: string }[] = [];
 
 try {
   const publicDir = path.join(process.cwd(), photographyDir);
   if (fs.existsSync(publicDir)) {
     const files: string[] = fs.readdirSync(publicDir)
-      .filter((f: string) => /\.(jpg|jpeg|png|webp|gif)$/i.test(f))
+      .filter((f: string) => /\.(webp)$/i.test(f))
       .sort(); // Alphabetical - prefix with numbers for ordering
 
     galleryImages = files.map((file: string) => ({
-      src: `/images/photography/${file}`,
+      src: `/images/photography-optimized/${file}`,
       alt: file.replace(/\.[^.]+$/, '').replace(/[-_]/g, ' ').replace(/^\d+\s*/, '') // Remove number prefix from alt text
     }));
   }
@@ -45,7 +45,7 @@ try {
   {galleryImages.length === 0 ? (
     <section class="container-zen section-zen border-t border-oat-300">
       <p class="text-ink-muted">
-        Gallery coming soon. Export photos to <code>Work/Website/public/images/photography/</code>.
+        Gallery coming soon. Export photos to <code>Work/Website/public/images/photography-optimized/</code>.
       </p>
     </section>
   ) : (
