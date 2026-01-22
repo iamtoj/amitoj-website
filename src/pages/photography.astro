@@ -102,21 +102,21 @@ const archiveImages = galleryImages.filter(img => !img.featured);
 </Layout>
 
 <style>
-  /* Masonry grid using CSS columns */
+  /* Masonry grid using CSS columns - larger photos (2 across on desktop) */
   .masonry-grid {
-    column-count: 2;
-    column-gap: 1rem;
+    column-count: 1;
+    column-gap: 1.5rem;
   }
 
   @media (min-width: 768px) {
     .masonry-grid {
-      column-count: 3;
+      column-count: 2;
     }
   }
 
   @media (min-width: 1024px) {
     .masonry-grid {
-      column-count: 4;
+      column-count: 2;
     }
   }
 
