@@ -1,0 +1,77 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const essays = [
+  {
+    slug: 'why-organizations-survive',
+    title: 'Why Organizations Survive',
+    tldrPeople: 'Success often comes from appearing legitimate, not from being effective.',
+    tldrCompanies: 'Organizations survive by conforming to what their environment considers proper, not just by being efficient.',
+    wordCount: 1342,
+  },
+  {
+    slug: 'invisible-architecture',
+    title: 'The Invisible Architecture of Organizations',
+    tldrPeople: 'What you take for granted shapes what you can accomplish.',
+    tldrCompanies: 'Organizations are attention machines. The premises everyone accepts determine outcomes before any decision gets made.',
+    wordCount: 1347,
+  },
+  {
+    slug: 'the-right-direction',
+    title: 'The Right Direction',
+    tldrPeople: 'Before asking "how do I win?", someone has to decide what game you\'re playing.',
+    tldrCompanies: 'Markets coordinate brilliantly within frameworks they cannot generate.',
+    wordCount: 1347,
+  },
+  {
+    slug: 'architecture-of-commitment',
+    title: 'The Architecture of Commitment',
+    tldrPeople: 'Know what to commit to and what to leave open. Lock in your values; stay flexible on methods.',
+    tldrCompanies: 'As measurement improves, variance shifts from execution to objective selection.',
+    wordCount: 1347,
+  },
+];
+---
+
+<Layout title="Essays | Amitoj Singh" description="Essays on organizations, strategy, and human flourishing.">
+  <section class="container-zen section-zen">
+    <div class="max-w-2xl">
+      <h1 class="mb-8 text-balance">Essays</h1>
+
+      <div class="accent-line mb-8"></div>
+
+      <p class="text-lg text-ink-light mb-12">
+        Essays exploring how organizations work, how markets coordinate, and what it means to commit to something worth doing.
+      </p>
+    </div>
+  </section>
+
+  <section class="container-zen section-zen border-t border-oat-300">
+    <div class="max-w-3xl">
+      <div class="space-y-12">
+        {essays.map((essay) => (
+          <article class="group">
+            <a href={`/essays/${essay.slug}`} class="block">
+              <h2 class="text-2xl mb-4 group-hover:text-sage-600 transition-colors">
+                {essay.title}
+              </h2>
+
+              <div class="space-y-3 mb-4">
+                <p class="text-ink-light">
+                  <span class="text-ink font-medium">For people:</span> {essay.tldrPeople}
+                </p>
+                <p class="text-ink-light">
+                  <span class="text-ink font-medium">For organizations:</span> {essay.tldrCompanies}
+                </p>
+              </div>
+
+              <p class="text-ink-muted text-sm">
+                {essay.wordCount} words
+              </p>
+            </a>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+</Layout>
