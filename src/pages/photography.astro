@@ -1,8 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import { getCollection } from 'astro:content';
-import fs from 'fs';
-import path from 'path';
+import fs from 'node:fs';
+import path from 'node:path';
 
 // Read images from public/images/photography/ folder
 // User exports photos there; /next sync picks them up
@@ -12,11 +11,11 @@ let galleryImages: { src: string; alt: string; featured: boolean }[] = [];
 try {
   const publicDir = path.join(process.cwd(), photographyDir);
   if (fs.existsSync(publicDir)) {
-    const files = fs.readdirSync(publicDir)
-      .filter(f => /\.(jpg|jpeg|png|webp|gif)$/i.test(f))
+    const files: string[] = fs.readdirSync(publicDir)
+      .filter((f: string) => /\.(jpg|jpeg|png|webp|gif)$/i.test(f))
       .sort(); // Alphabetical - prefix with numbers for ordering
 
-    galleryImages = files.map((file, i) => ({
+    galleryImages = files.map((file: string, i: number) => ({
       src: `/images/photography/${file}`,
       alt: file.replace(/\.[^.]+$/, '').replace(/[-_]/g, ' '),
       featured: i < 20 // First 20 are featured
