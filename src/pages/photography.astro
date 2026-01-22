@@ -5,8 +5,12 @@ import path from 'node:path';
 
 // Read images from public/images/photography/ folder
 // User exports photos there; /next sync picks them up
+//
+// ORDERING: Files sort alphabetically. To control order:
+//   01-photo.jpg, 02-photo.jpg, 03-photo.jpg
+// Or use date prefixes: 2024-01-15-photo.jpg
 const photographyDir = 'public/images/photography';
-let galleryImages: { src: string; alt: string; featured: boolean }[] = [];
+let galleryImages: { src: string; alt: string }[] = [];
 
 try {
   const publicDir = path.join(process.cwd(), photographyDir);
@@ -15,18 +19,14 @@ try {
       .filter((f: string) => /\.(jpg|jpeg|png|webp|gif)$/i.test(f))
       .sort(); // Alphabetical - prefix with numbers for ordering
 
-    galleryImages = files.map((file: string, i: number) => ({
+    galleryImages = files.map((file: string) => ({
       src: `/images/photography/${file}`,
-      alt: file.replace(/\.[^.]+$/, '').replace(/[-_]/g, ' '),
-      featured: i < 20 // First 20 are featured
+      alt: file.replace(/\.[^.]+$/, '').replace(/[-_]/g, ' ').replace(/^\d+\s*/, '') // Remove number prefix from alt text
     }));
   }
 } catch (e) {
   // If folder doesn't exist yet, show placeholder message
 }
-
-const featuredImages = galleryImages.filter(img => img.featured);
-const archiveImages = galleryImages.filter(img => !img.featured);
 ---
 
 <Layout title="Photography | Amitoj Singh" description="Visual explorations. Seeing as practice.">
@@ -49,41 +49,19 @@ const archiveImages = galleryImages.filter(img => !img.featured);
       </p>
     </section>
   ) : (
-    <>
-      {/* Featured Section */}
-      <section class="container-zen section-zen border-t border-oat-300">
-        <h2 class="text-2xl mb-8">Featured</h2>
-        <div class="masonry-grid">
-          {featuredImages.map((image) => (
-            <figure class="masonry-item">
-              <img
-                src={image.src}
-                alt={image.alt}
-                loading="lazy"
-              />
-            </figure>
-          ))}
-        </div>
-      </section>
-
-      {/* Archive Section - only if there are non-featured images */}
-      {archiveImages.length > 0 && (
-        <section class="container-zen section-zen border-t border-oat-300">
-          <h2 class="text-2xl mb-8">Archive</h2>
-          <div class="masonry-grid masonry-small">
-            {archiveImages.map((image) => (
-              <figure class="masonry-item">
-                <img
-                  src={image.src}
-                  alt={image.alt}
-                  loading="lazy"
-                />
-              </figure>
-            ))}
-          </div>
-        </section>
-      )}
-    </>
+    <section class="container-zen section-zen border-t border-oat-300">
+      <div class="masonry-grid">
+        {galleryImages.map((image) => (
+          <figure class="masonry-item">
+            <img
+              src={image.src}
+              alt={image.alt}
+              loading="lazy"
+            />
+          </figure>
+        ))}
+      </div>
+    </section>
   )}
 
   <section class="container-zen section-zen border-t border-oat-300 bg-oat-100">
@@ -117,23 +95,6 @@ const archiveImages = galleryImages.filter(img => !img.featured);
   @media (min-width: 1024px) {
     .masonry-grid {
       column-count: 2;
-    }
-  }
-
-  /* Smaller grid for archive */
-  .masonry-small {
-    column-count: 3;
-  }
-
-  @media (min-width: 768px) {
-    .masonry-small {
-      column-count: 4;
-    }
-  }
-
-  @media (min-width: 1024px) {
-    .masonry-small {
-      column-count: 5;
     }
   }
 
