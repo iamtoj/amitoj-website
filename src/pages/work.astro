@@ -4,8 +4,8 @@ import Layout from '../layouts/Layout.astro';
 // Project data - replace with actual project details
 const projects = [
   {
-    title: 'DigiToj',
-    description: 'A digital twin system that captures, classifies, and processes information through a cognitive loop. Personal infrastructure for thinking, creating, and acting with AI partnership.',
+    title: 'Knowledge Creation Systems',
+    description: 'Building personal infrastructure for thinking, creating, and acting with AI partnership. Systems that capture, classify, and process information through cognitive loops.',
     tags: ['AI Partnership', 'Personal Infrastructure', 'Knowledge Management'],
     status: 'Active Development',
     link: null,
@@ -26,15 +26,6 @@ const projects = [
   },
 ];
 
-// Past/archived projects
-const pastProjects = [
-  {
-    title: 'GIC',
-    description: 'Investment professional at Singapore\'s sovereign wealth fund, deploying capital across global private equity and infrastructure.',
-    tags: ['Private Equity', 'Infrastructure', 'Sovereign Wealth'],
-    year: '2020-2023',
-  },
-];
 ---
 
 <Layout title="Work | Amitoj Singh" description="Projects at the intersection of technology, strategy, and human flourishing.">
@@ -84,35 +75,6 @@ const pastProjects = [
                 Learn more &rarr;
               </a>
             )}
-          </div>
-        </article>
-      ))}
-    </div>
-  </section>
-
-  <section class="container-zen section-zen border-t border-oat-300">
-    <h2 class="text-2xl mb-8">Past Work</h2>
-
-    <div class="max-w-2xl">
-      <p class="text-ink-muted italic mb-6">
-        Selected past projects and engagements.
-      </p>
-
-      {pastProjects.map((project) => (
-        <article class="border-b border-oat-300 pb-6 mb-6 last:border-0 last:mb-0">
-          <div class="flex items-start justify-between gap-4 mb-2">
-            <h3 class="text-lg m-0">{project.title}</h3>
-            <span class="text-ink-muted text-sm">{project.year}</span>
-          </div>
-          <p class="text-ink-light mb-3">
-            {project.description}
-          </p>
-          <div class="flex flex-wrap gap-2">
-            {project.tags.map((tag) => (
-              <span class="text-xs text-ink-muted bg-oat-100 px-2 py-1">
-                {tag}
-              </span>
-            ))}
           </div>
         </article>
       ))}
