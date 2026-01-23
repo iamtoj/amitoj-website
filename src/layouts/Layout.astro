@@ -35,15 +35,42 @@ const { title, description = 'Amitoj Singh - Third Enlightenment consulting, wri
         <a href="/" class="text-xl no-underline hover:text-ink-light">
           Amitoj Singh
         </a>
-        <ul class="flex gap-6 md:gap-8 list-none m-0 p-0">
+
+        <!-- Desktop Nav -->
+        <ul class="hidden md:flex gap-8 list-none m-0 p-0">
           <li><a href="/about" class="no-underline hover:text-ink-light">About</a></li>
           <li><a href="/work" class="no-underline hover:text-ink-light">Work</a></li>
           <li><a href="/essays" class="no-underline hover:text-ink-light">Essays</a></li>
-          <li class="hidden md:block"><a href="/yoga" class="no-underline hover:text-ink-light">Yoga</a></li>
-          <li class="hidden md:block"><a href="/photography" class="no-underline hover:text-ink-light">Photography</a></li>
+          <li><a href="/yoga" class="no-underline hover:text-ink-light">Yoga</a></li>
+          <li><a href="/photography" class="no-underline hover:text-ink-light">Photography</a></li>
           <li><a href="/contact" class="no-underline hover:text-ink-light">Contact</a></li>
         </ul>
+
+        <!-- Mobile Hamburger Button -->
+        <button
+          id="mobile-menu-button"
+          class="md:hidden p-2 -mr-2"
+          aria-label="Toggle menu"
+          aria-expanded="false"
+        >
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path id="menu-icon" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            <path id="close-icon" class="hidden" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
       </nav>
+
+      <!-- Mobile Nav Menu -->
+      <div id="mobile-menu" class="hidden md:hidden mt-6 pb-4 border-t border-oat-300 pt-6">
+        <ul class="flex flex-col gap-4 list-none m-0 p-0">
+          <li><a href="/about" class="no-underline hover:text-ink-light block py-1">About</a></li>
+          <li><a href="/work" class="no-underline hover:text-ink-light block py-1">Work</a></li>
+          <li><a href="/essays" class="no-underline hover:text-ink-light block py-1">Essays</a></li>
+          <li><a href="/yoga" class="no-underline hover:text-ink-light block py-1">Yoga</a></li>
+          <li><a href="/photography" class="no-underline hover:text-ink-light block py-1">Photography</a></li>
+          <li><a href="/contact" class="no-underline hover:text-ink-light block py-1">Contact</a></li>
+        </ul>
+      </div>
     </header>
 
     <main id="main">
@@ -61,6 +88,21 @@ const { title, description = 'Amitoj Singh - Third Enlightenment consulting, wri
         </ul>
       </div>
     </footer>
+
+    <script>
+      const button = document.getElementById('mobile-menu-button');
+      const menu = document.getElementById('mobile-menu');
+      const menuIcon = document.getElementById('menu-icon');
+      const closeIcon = document.getElementById('close-icon');
+
+      button?.addEventListener('click', () => {
+        const isExpanded = button.getAttribute('aria-expanded') === 'true';
+        button.setAttribute('aria-expanded', (!isExpanded).toString());
+        menu?.classList.toggle('hidden');
+        menuIcon?.classList.toggle('hidden');
+        closeIcon?.classList.toggle('hidden');
+      });
+    </script>
   </body>
 </html>
 
