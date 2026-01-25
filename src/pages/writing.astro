@@ -1,0 +1,112 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+
+// Get all blog posts, sorted by date
+const posts = (await getCollection('blog'))
+  .filter(post => !post.data.draft)
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+// Essays (pinned)
+const essays = [
+  {
+    slug: 'the-right-direction',
+    title: 'The Right Direction',
+    description: 'Markets coordinate brilliantly within frameworks they cannot generate.',
+    pubDate: 'January 2026',
+    type: 'essay',
+  },
+  {
+    slug: 'strategic-time',
+    title: 'Strategic Time',
+    description: 'Strategic choice exists in a temporal zone between market speed and survival anxiety.',
+    pubDate: 'January 2026',
+    type: 'essay',
+  },
+  {
+    slug: 'architecture-of-commitment',
+    title: 'The Architecture of Commitment',
+    description: 'As measurement improves, variance shifts from execution to objective selection.',
+    pubDate: 'January 2026',
+    type: 'essay',
+  },
+];
+---
+
+<Layout title="Writing | Amitoj Singh" description="Essays and notes on organizations, strategy, intelligence, and human flourishing.">
+  <section class="container-zen section-zen">
+    <div class="max-w-2xl">
+      <h1 class="mb-8 text-balance">Writing</h1>
+
+      <div class="accent-line mb-8"></div>
+
+      <p class="text-lg text-ink-light mb-12">
+        Long-form essays on how organizations work, and shorter notes on AI, cognition, and what I'm learning along the way.
+      </p>
+    </div>
+  </section>
+
+  <!-- Essays (Pinned) -->
+  <section class="container-zen section-zen border-t border-oat-300">
+    <div class="max-w-3xl">
+      <h2 class="text-sm text-ink-muted uppercase tracking-wider mb-8">Essays</h2>
+
+      <div class="space-y-8">
+        {essays.map((essay) => (
+          <article class="group">
+            <a href={`/essays/${essay.slug}`} class="block no-underline">
+              <div class="flex justify-between items-start gap-4">
+                <div>
+                  <h3 class="text-xl mb-2 group-hover:text-sage-600 transition-colors">
+                    {essay.title}
+                  </h3>
+                  <p class="text-ink-light">{essay.description}</p>
+                </div>
+                <span class="text-ink-muted text-sm whitespace-nowrap">{essay.pubDate}</span>
+              </div>
+            </a>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog Posts -->
+  {posts.length > 0 && (
+    <section class="container-zen section-zen border-t border-oat-300">
+      <div class="max-w-3xl">
+        <h2 class="text-sm text-ink-muted uppercase tracking-wider mb-8">Notes</h2>
+
+        <div class="space-y-8">
+          {posts.map((post) => (
+            <article class="group">
+              <a href={`/blog/${post.slug}`} class="block no-underline">
+                <div class="flex justify-between items-start gap-4">
+                  <div>
+                    <h3 class="text-xl mb-2 group-hover:text-sage-600 transition-colors">
+                      {post.data.title}
+                    </h3>
+                    <p class="text-ink-light">{post.data.description}</p>
+                    {post.data.tags.length > 0 && (
+                      <div class="flex gap-2 mt-2">
+                        {post.data.tags.map((tag) => (
+                          <span class="text-xs text-ink-muted">{tag}</span>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                  <span class="text-ink-muted text-sm whitespace-nowrap">
+                    {post.data.pubDate.toLocaleDateString('en-US', {
+                      year: 'numeric',
+                      month: 'short',
+                    })}
+                  </span>
+                </div>
+              </a>
+            </article>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+</Layout>

@@ -1,8 +1,15 @@
 ---
 import Layout from '../layouts/Layout.astro';
 
-// Project data - replace with actual project details
+// Project data
 const projects = [
+  {
+    title: 'Research & Writing',
+    description: 'Essays and explorations on technology, contemplative practice, and human development. Investigating what it means to thrive in an age of intelligent machines.',
+    tags: ['Essays', 'Technology', 'Contemplative Practice'],
+    status: 'Primary Focus',
+    link: '/writing',
+  },
   {
     title: 'Knowledge Creation Systems',
     description: 'Building personal infrastructure for thinking, creating, and acting with AI partnership. Systems that capture, classify, and process information through cognitive loops.',
@@ -18,11 +25,11 @@ const projects = [
     link: '/contact',
   },
   {
-    title: 'Research & Writing',
-    description: 'Essays and explorations on technology, contemplative practice, and human development. Investigating what it means to thrive in an age of intelligent machines.',
-    tags: ['Essays', 'Technology', 'Contemplative Practice'],
-    status: 'Ongoing',
-    link: '/writing',
+    title: 'Executive Coaching',
+    description: 'One-on-one work with leaders navigating complexity, building self-awareness, and aligning action with values. Drawing on contemplative practice, organizational theory, and lived experience.',
+    tags: ['Leadership', 'Self-Awareness', 'Values Alignment'],
+    status: 'By Referral',
+    link: '/contact',
   },
 ];
 
@@ -38,6 +45,11 @@ const projects = [
       <p class="text-lg text-ink-light mb-6">
         Projects exploring how technology can serve human flourishing,
         from personal knowledge systems to organizational transformation.
+      </p>
+
+      <p class="text-ink-muted mb-6">
+        My core focus is academic research. All projects serve my curiosity and research interests—
+        the work below grows from questions I'm genuinely trying to answer.
       </p>
     </div>
   </section>
@@ -112,7 +124,7 @@ const projects = [
 
   @media (min-width: 1024px) {
     .project-grid {
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(2, 1fr);
     }
   }
 
