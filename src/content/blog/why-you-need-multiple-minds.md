@@ -37,7 +37,7 @@ So I started experimenting with simulating it.
 
 The idea came from my Digital Twin setup—this system I've built where I drop thoughts and notes and the machine helps process them. I'd already discovered that talking to AI could surface patterns in my own thinking. What I hadn't tried was getting the AI to argue with itself.
 
-Here's what I mean.
+The setup looks like this.
 
 Instead of asking one machine "what do you think of this idea," I set up a structure where multiple perspectives engage the idea simultaneously. Three agents, each with a different stance.
 
@@ -53,7 +53,7 @@ The first time I ran this on my firm evolution framework, I learned something in
 
 Agent Two—the critic—immediately asked a question I hadn't considered: "How do we distinguish, empirically, between discovery and preference change? Both result in the firm doing something different. What observable evidence would tell us which mechanism is operating?"
 
-I read the question and felt that particular vertigo of realizing you've been fuzzy where you thought you were precise. I'd been treating discovery and preference change as conceptually distinct—and they are—but I hadn't worked out how you'd actually tell them apart in the world. The framework was internally consistent but empirically underdetermined.
+I read the question and felt the vertigo of realizing you've been fuzzy where you thought you were precise. I'd been treating discovery and preference change as conceptually distinct—and they are—but I hadn't worked out how you'd actually tell them apart in the world. The framework was internally consistent but empirically underdetermined.
 
 Agent One (representing my thinking) tried to respond. It offered some possibilities—timing of change relative to information arrival, behavioral consistency before and after—but the response felt weak even coming from my own advocate. I could feel the framework wobbling.
 
@@ -83,7 +83,7 @@ Human reasoning evolved for contexts very different from solo theoretical work. 
 
 What the multi-agent debate does is put the social context back in, artificially. I'm not conversing with humans, but I'm conversing with something that creates the structure of intellectual exchange. Claim, objection, response, synthesis. The rhythm of productive disagreement.
 
-And here's what surprised me: it doesn't feel fake. Or rather, the fakeness doesn't matter. When Agent Two raises an objection I hadn't considered, my brain responds the same way it does when a colleague raises an objection I hadn't considered. The epistemic update happens regardless of the source. What matters is whether the objection has merit, not whether it came from carbon or silicon.
+The surprising part: it doesn't feel fake. Or rather, the fakeness doesn't matter. When Agent Two raises an objection I hadn't considered, my brain responds the same way it does when a colleague raises an objection I hadn't considered. The epistemic update happens regardless of the source. What matters is whether the objection has merit, not whether it came from carbon or silicon.
 
 ---
 

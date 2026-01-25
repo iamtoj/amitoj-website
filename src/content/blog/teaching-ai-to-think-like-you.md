@@ -43,7 +43,7 @@ My mom couldn't write down how much salt. The sommelier can't produce a formula.
 
 ---
 
-Here's what I'm realizing about the Digital Twin: it inverts the extraction process.
+The Digital Twin inverts the extraction process.
 
 <div class="callout">
 

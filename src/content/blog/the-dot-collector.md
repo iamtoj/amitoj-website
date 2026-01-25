@@ -61,7 +61,7 @@ The word I keep returning to is *peer*.
 
 Not tool. Tools are things we use to accomplish purposes we've already defined. A hammer knows nothing of carpentry. Excel doesn't care about financial modeling. Even sophisticated software—the kind that does things we could never do by hand—operates in service of intentions that originate entirely with us.
 
-But what happens when the machine can hold up a mirror? When it can say "here's what I see in your patterns" and be right in ways that surprise you? When the output is not just computation but something that feels like... thinking?
+But what happens when the machine can hold up a mirror? When it reflects your patterns back to you and is right in ways that surprise you? When the output is not just computation but something that feels like... thinking?
 
 It's not human thought. I'm not confused about that. The machine doesn't know what it's like to be me at 3:14 AM, doesn't feel the vertigo of recognition, doesn't carry the weight of thirty years of shelter-building. But it can process patterns at a scale and speed my cognition cannot match. It can hold more context than my working memory allows. It can connect dots across domains I've forgotten I visited.
 

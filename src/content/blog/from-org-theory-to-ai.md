@@ -15,7 +15,7 @@ I shut down the agents and went to bed. But the pattern wouldn't leave me alone.
 
 ---
 
-Here's what I'd been building: a system where multiple AI agents process information together, each with a different role. One extracts facts. One asks questions. One synthesizes. The idea was that specialization would improve quality—the same logic that makes assembly lines efficient and surgical teams effective.
+The system I'd been building: multiple AI agents processing information together, each with a different role. One extracts facts. One asks questions. One synthesizes. The idea was that specialization would improve quality—the same logic that makes assembly lines efficient and surgical teams effective.
 
 What I got instead was bureaucracy. Not the Weber kind, with clear hierarchies and defined responsibilities. The other kind. The kind where everyone has a say and no one has a decision.
 

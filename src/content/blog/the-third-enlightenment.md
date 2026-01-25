@@ -11,13 +11,13 @@ I've been thinking about this unbundling ever since I started working with AI sy
 
 ---
 
-Here's the uncomfortable truth about how most organizations work: they treat people like interchangeable parts.
+An uncomfortable truth about how most organizations work: they treat people like interchangeable parts.
 
 This isn't malice. It's necessity. When you're running a hospital or a factory or a government office, you need to know that if Sarah quits, Marcus can step in and the work continues. You need standardized roles with defined responsibilities. You need the function to survive the person.
 
 Max Weber called this bureaucracy, and he meant it as a compliment. Compared to the chaos of patronage systems where your cousin got the job regardless of competence, bureaucracy was a moral achievement. Hire the qualified person. Define the role clearly. Measure performance against objective criteria. This was progress.
 
-But progress has costs. To make roles interchangeable, you have to strip away everything that makes people different. Sarah's particular gifts, her unusual way of seeing problems, her capacity to notice what others miss—none of that fits in the job description. The job description needs to work for Marcus too. And for whoever comes after Marcus.
+But progress has costs. To make roles interchangeable, you have to strip away everything that makes people different. Sarah's specific gifts, her unusual way of seeing problems, her capacity to notice what others miss—none of that fits in the job description. The job description needs to work for Marcus too. And for whoever comes after Marcus.
 
 So we end up with what Weber also called the "iron cage"—organizations that work precisely because they've squeezed the human out of the human.
 
@@ -63,9 +63,9 @@ AI can be the cog. The reliable, consistent, predictable part. This doesn't elim
 
 ---
 
-I've been watching this happen in my own work. I built a system I call a Digital Twin—a partnership between my thinking and AI processing. Here's what I've learned:
+I've been watching this happen in my own work. I built a system I call a Digital Twin—a partnership between my thinking and AI processing.
 
-The work divides naturally. Some parts are irreducibly mine: noticing what's worth paying attention to, feeling when something's off, bringing the accumulated weight of my particular history to bear on a problem. Other parts are better suited for the machine: holding more context than my working memory allows, finding patterns across materials I'd forgotten I read, connecting dots across a field too large for any human to survey.
+The work divides naturally. Some parts are irreducibly mine: noticing what's worth paying attention to, feeling when something's off, bringing the accumulated weight of my own history to bear on a problem. Other parts are better suited for the machine: holding more context than my working memory allows, finding patterns across materials I'd forgotten I read, connecting dots across a field too large for any human to survey.
 
 The interesting thing is where this division occurs. It's not "I do the hard parts, the machine does the easy parts." It's more like: I do the parts that require being me. The machine does the parts that require consistency, scale, tireless attention.
 
