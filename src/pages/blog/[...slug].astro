@@ -86,23 +86,22 @@ const { Content } = await post.render();
   .prose {
     @apply text-ink leading-relaxed;
     font-size: 1.125rem; /* 18px for better readability */
-    line-height: 1.75;
-  }
-
-  .prose h2 {
-    @apply text-2xl mt-14 mb-6;
-  }
-
-  .prose h3 {
-    @apply text-xl mt-10 mb-4;
   }
 
   .prose p {
-    @apply mb-7;
+    margin-bottom: 1.5rem;
+    line-height: 1.8;
   }
 
-  .prose p + p {
-    @apply mt-7;
+  .prose h2 {
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  .prose h3 {
+    @apply text-xl mt-8 mb-4;
   }
 
   .prose ul,
