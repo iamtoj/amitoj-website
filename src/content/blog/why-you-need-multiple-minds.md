@@ -5,7 +5,7 @@ pubDate: 2026-01-25
 tags: ["AI", "thinking", "debate", "cognition"]
 ---
 
-Last Tuesday I spent four hours convinced I had solved a theoretical problem.
+I spent weeks convinced I had solved a theoretical problem.
 
 The problem: how do firms change over time? This is what I study—strategy, organizations, the mechanics of corporate evolution. And I'd been wrestling with a specific puzzle about whether firms change because they discover new information or because their preferences shift. Discovery versus preference change. Two fundamentally different engines of evolution.
 
@@ -15,9 +15,9 @@ Then I stopped writing and asked myself the question I'd been avoiding.
 
 *What's the strongest argument against this?*
 
-I sat there. The cursor blinked. And I realized I couldn't generate one.
+I could generate counterarguments—I've been trained to do exactly that. But the counterarguments I generated felt like sparring partners I'd hired. They went where I expected them to go. They pushed on the points I was already worried about. They didn't surprise me.
 
-Not because there wasn't an argument to be made. There's always an argument to be made. But because I'd spent four hours building a case, and my brain had become the case. Every neural pathway was running in one direction. I could no longer see around the thing I'd constructed.
+I'd spent weeks building a case, and my brain had become the case. Even my attempts to argue against it were shaped by the same assumptions that built it. I needed friction I hadn't anticipated.
 
 ---
 
@@ -65,9 +65,9 @@ This was genuinely useful. It didn't refute my framework; it revealed where it l
 
 What makes this work isn't that the machine is smarter than me. It isn't. The individual agents don't have better ideas than I do. But they have different positions, and the structure forces friction into existence.
 
-When you're thinking alone, you can slide past your own soft spots. The argument that would reveal the weakness never gets made because you're the only one in the room and you're not motivated to undermine yourself. Even when you try to play devil's advocate in your head, you're using the same brain that built the original argument. You can't genuinely surprise yourself.
+When you're thinking alone, you can slide past your own soft spots. You can generate counterarguments, but they're your counterarguments—shaped by the same blind spots that shaped the original argument. Even when you try to play devil's advocate in your head, you're using the same brain that built the original case. The objections you anticipate are the ones you've already prepared for. What you need is friction you didn't see coming.
 
-Multiple perspectives—even simulated ones—change the dynamics. The devil's advocate doesn't care about your emotional attachment to the framework. It doesn't know you spent four hours building it. It just looks for the cracks. And the synthesis agent isn't trying to be nice—it's trying to find the formulation that survives the debate. The structure creates epistemic pressure that wouldn't exist otherwise.
+Multiple perspectives—even simulated ones—change the dynamics. The devil's advocate doesn't care about your emotional attachment to the framework. It doesn't know you spent weeks building it. It just looks for the cracks. And the synthesis agent isn't trying to be nice—it's trying to find the formulation that survives the debate. The structure creates epistemic pressure that wouldn't exist otherwise.
 
 ---
 
@@ -75,7 +75,11 @@ There's something almost embarrassing about this. I'm a PhD student. I've spent 
 
 But that's precisely the point. The architecture is the problem.
 
+<div class="callout">
+
 Human reasoning evolved for contexts very different from solo theoretical work. We're good at thinking socially—at responding to objections, updating when confronted with evidence, navigating the give-and-take of conversation. We're not as good at generating the objections ourselves. The social context is load-bearing. Remove it and something important breaks.
+
+</div>
 
 What the multi-agent debate does is put the social context back in, artificially. I'm not conversing with humans, but I'm conversing with something that creates the structure of intellectual exchange. Claim, objection, response, synthesis. The rhythm of productive disagreement.
 
@@ -91,7 +95,7 @@ Sometimes the framework survives intact. The devil's advocate swings and misses,
 
 More often, the framework shifts. The original insight remains, but its boundaries change. I learn where it applies and where it doesn't. I find the careful formulation that survives the stress test, which is almost never the formulation I started with.
 
-The four hours I spent last Tuesday weren't wasted—the framework was a real insight—but they were incomplete. I needed the multiple minds to see what one mind couldn't.
+The weeks I spent weren't wasted—the framework was a real insight—but they were incomplete. I needed the multiple minds to see what one mind couldn't.
 
 ---
 

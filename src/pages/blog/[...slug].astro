@@ -85,39 +85,56 @@ const { Content } = await post.render();
 <style>
   .prose {
     @apply text-ink leading-relaxed;
+    font-size: 1.125rem; /* 18px for better readability */
+    line-height: 1.75;
   }
 
   .prose h2 {
-    @apply text-2xl mt-12 mb-4;
+    @apply text-2xl mt-14 mb-6;
   }
 
   .prose h3 {
-    @apply text-xl mt-8 mb-3;
+    @apply text-xl mt-10 mb-4;
   }
 
   .prose p {
-    @apply mb-6;
+    @apply mb-7;
+  }
+
+  .prose p + p {
+    @apply mt-7;
   }
 
   .prose ul,
   .prose ol {
-    @apply mb-6 pl-6;
+    @apply mb-7 pl-6;
   }
 
   .prose li {
-    @apply mb-2;
+    @apply mb-3;
   }
 
   .prose blockquote {
-    @apply border-l-4 border-sage-300 pl-6 my-6 text-ink-light italic;
+    @apply border-l-4 border-sage-300 pl-6 my-8 text-ink-light italic;
+  }
+
+  /* Pull quote - highlighted key insight in white box (like essays) */
+  .prose blockquote.pullquote,
+  .prose > p > strong:only-child {
+    @apply not-italic font-normal;
+  }
+
+  /* White box callout for key insights */
+  .prose .callout {
+    @apply bg-oat-50 border border-oat-300 p-6 my-10 text-ink;
   }
 
   .prose code {
-    @apply bg-oat-100 px-1 py-0.5 text-sm;
+    @apply bg-oat-100 px-1.5 py-0.5 text-sm;
   }
 
   .prose pre {
-    @apply bg-oat-100 p-4 overflow-x-auto mb-6;
+    @apply bg-oat-100 p-4 overflow-x-auto mb-7;
   }
 
   .prose pre code {
@@ -129,10 +146,24 @@ const { Content } = await post.render();
   }
 
   .prose img {
-    @apply my-8;
+    @apply my-10;
   }
 
   .prose hr {
-    @apply border-oat-300 my-12;
+    @apply border-oat-300 my-14;
+  }
+
+  /* Emphasis styling for key phrases */
+  .prose em {
+    @apply text-ink;
+  }
+
+  .prose strong {
+    @apply font-semibold text-ink;
+  }
+
+  /* First paragraph after hr - slightly larger */
+  .prose hr + p:first-line {
+    font-size: 1.1em;
   }
 </style>

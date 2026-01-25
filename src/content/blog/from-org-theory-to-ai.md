@@ -59,7 +59,11 @@ I'm still working on this part. It's harder than the others because it requires 
 
 ---
 
-The deeper realization is that AI agent design *is* organizational design. The questions are the same: How do you aggregate different perspectives? How do you resolve disagreements? How do you maintain useful diversity while still getting decisions made? How do you adapt when conditions change?
+<div class="callout">
+
+The deeper realization is that AI agent design *is* organizational design.
+
+</div> The questions are the same: How do you aggregate different perspectives? How do you resolve disagreements? How do you maintain useful diversity while still getting decisions made? How do you adapt when conditions change?
 
 These are not engineering problems in the usual sense. You can't optimize your way to an answer because the trade-offs are genuine. Leviathan is faster but loses diversity. Locke is fairer but slower. Dynamic capabilities are adaptive but complex. There's no architecture that maximizes all the values simultaneously.
 

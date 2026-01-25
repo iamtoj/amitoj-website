@@ -5,11 +5,9 @@ pubDate: 2026-01-25
 tags: ["AI", "work", "enlightenment", "human flourishing"]
 ---
 
-My grandfather worked as a clerk in Punjab during the Partition. Ledger books, fountain pens, columns of numbers that had to balance by end of day. He once told me about a colleague who had beautiful handwriting—calligraphy, really—but couldn't add reliably. Every evening, another clerk would sit beside him and quietly verify his sums while he copied final figures into the master book.
+Picture the old clerical offices—rows of workers at wooden desks, ledger books open, columns of numbers that had to balance by end of day. Each person doing exactly one function: this one adds, that one copies, another one verifies. The organization had learned to unbundle what looked like a single role into specialized tasks. A job wasn't one thing—it was a bundle.
 
-Two men. One job. The organization had learned to unbundle the function of "clerk" into "person who writes beautifully" and "person who adds correctly." They'd discovered, informally, that a job was actually a bundle of tasks, and the bundle could be rearranged.
-
-I've been thinking about that story ever since I started working with AI systems. Not because AI is like a colleague who checks your math—that's too simple. But because something similar is happening at a scale my grandfather couldn't have imagined.
+I've been thinking about this unbundling ever since I started working with AI systems. Not because AI is like a colleague who checks your math—that's too simple. But because something similar is happening now at a scale those offices couldn't have imagined.
 
 ---
 
@@ -57,7 +55,11 @@ But what if consistency stopped being a human job?
 
 Not the work itself. The consistency. The showing-up-the-same-way-every-day. The mechanical reliability that organizations need but humans were never designed to provide.
 
+<div class="callout">
+
 AI can be the cog. The reliable, consistent, predictable part. This doesn't eliminate the human—it liberates them to be fully human. To bring judgment instead of procedure. To notice instead of process. To connect instead of compute.
+
+</div>
 
 ---
 
@@ -83,11 +85,11 @@ This isn't utopian fantasy. It's already happening in pockets. The question is w
 
 ---
 
-My grandfather's colleague with the beautiful handwriting—I don't know what happened to him after the calculator arrived. The organization probably didn't need someone whose only function was to write numbers elegantly. The bundle shifted, and he may have been left out.
+Think about those clerical workers when the calculator arrived. The ones whose only valued function was precise addition suddenly found their bundle shifted. Some were left out.
 
 This is real. Transitions hurt real people. I'm not pretending the path from here to human flourishing is painless or automatic.
 
-But I also wonder what else that clerk might have been. What capacities he had that the job never asked for, never made space for. The bureaucracy needed handwriting, so handwriting is what he gave it. Everything else—whatever made him irreducibly him—stayed hidden.
+But I also wonder what else those workers might have been. What capacities they had that the job never asked for, never made space for. The bureaucracy needed calculation, so calculation is what they gave it. Everything else—whatever made them irreducibly them—stayed hidden.
 
 Maybe the Third Enlightenment looks like this: organizations that finally have the option to want the whole person. Not because they've become more virtuous but because the machine-parts can be handled by actual machines. The cage opens not through moral progress but through technological shift.
 

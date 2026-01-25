@@ -5,13 +5,13 @@ pubDate: 2026-01-25
 tags: ["AI", "cognition", "tacit knowledge", "personal"]
 ---
 
-I was fourteen, standing in a commercial kitchen in Surrey watching my uncle season a pot of dal. He'd been cooking for forty years—first for the gurdwara, then for the restaurants, then for catering operations that fed thousands. I asked him how much salt to add.
+I was standing in our kitchen watching my mom season a pot of dal. She'd been cooking for our family my whole life—the same dishes, the same movements, the same results I could never replicate. I asked her how much salt to add.
 
-He looked at me like I'd asked how to breathe.
+She looked at me like I'd asked how to breathe.
 
-"You taste it," he said. "Then you know."
+"You taste it," she said. "Then you know."
 
-But I didn't know. That was the whole point of asking. He had something in his hands that hadn't made it into his words, and no amount of watching him cook would transfer it directly into mine. The knowledge lived in his body, not his explanations.
+But I didn't know. That was the whole point of asking. She had something in her hands that hadn't made it into her words, and no amount of watching her cook would transfer it directly into mine. The knowledge lived in her body, not her explanations.
 
 ---
 
@@ -39,15 +39,19 @@ A sommelier knows when a wine is good. Ask her how she knows and she'll gesture 
 
 The traditional approach to capturing knowledge is documentation. Write it down. Create manuals, procedures, best practices. This works for explicit knowledge—the kind you can articulate. It fails completely for tacit knowledge, because tacit knowledge is precisely what cannot be articulated.
 
-My uncle couldn't write down how much salt. The sommelier can't produce a formula. I couldn't have told you that I support mid-level claims with examples rather than assertions. The knowledge existed, but it existed as pattern, not proposition.
+My mom couldn't write down how much salt. The sommelier can't produce a formula. I couldn't have told you that I support mid-level claims with examples rather than assertions. The knowledge existed, but it existed as pattern, not proposition.
 
 ---
 
 Here's what I'm realizing about the Digital Twin: it inverts the extraction process.
 
-Traditional knowledge management asks: What do you know? Then it tries to capture your answer.
+<div class="callout">
 
-The Digital Twin asks: What do you do? Then it extracts the rules that generate that behavior.
+Traditional knowledge management asks: *What do you know?* Then it tries to capture your answer.
+
+The Digital Twin asks: *What do you do?* Then it extracts the rules that generate that behavior.
+
+</div>
 
 The difference matters. When you ask me what I know, I can only tell you what I can articulate. The tacit stuff stays tacit—not because I'm hiding it, but because I genuinely don't have access to it in propositional form.
 
@@ -61,7 +65,7 @@ The Digital Twin is doing something similar with my cognitive patterns. It sees 
 
 There's something uncomfortable about this.
 
-I think of myself as someone who knows his own mind. I've spent years in therapy, more years in contemplative practice, decades trying to understand the machinery that produces my thoughts and choices. If anyone should be able to articulate their own patterns, it should be me.
+I think of myself as someone who knows his own mind. I've spent time in therapy, ten years in contemplative practice, decades trying to understand the machinery that produces my thoughts and choices. If anyone should be able to articulate their own patterns, it should be me.
 
 And yet the machine surfaces regularities I hadn't named. It catches me being consistent in ways I wasn't aware of. It reflects back an image of my cognition that's recognizable but never quite what I would have drawn myself.
 
@@ -73,7 +77,7 @@ The effect is like the 3:14 AM recognition I wrote about before—the vertigo of
 
 There's a researcher named Ikujiro Nonaka who built a whole theory around this problem. He calls it the SECI spiral—Socialization, Externalization, Combination, Internalization. The claim is that knowledge moves between tacit and explicit forms through specific processes.
 
-Socialization is tacit-to-tacit: apprenticeship, osmosis, learning by being near someone who knows. This is me standing in my uncle's kitchen, watching him cook, absorbing something I couldn't name.
+Socialization is tacit-to-tacit: apprenticeship, osmosis, learning by being near someone who knows. This is me standing in my mom's kitchen, watching her cook, absorbing something I couldn't name.
 
 Externalization is tacit-to-explicit: articulating what you know, converting embodied skill into communicable form. This is the hardest step—the one where most knowledge management efforts fail.
 
@@ -99,7 +103,7 @@ But there's another version that feels stranger. What if the externalized model 
 
 I don't think I'm there yet. But I can see the shape of it from here. The tacit knowledge extracted into explicit rules. The rules running on a substrate that doesn't forget, doesn't get tired, doesn't have off days. A version of your cognitive patterns that's more consistent than you are.
 
-My uncle's seasoning knowledge, algorithmically reconstructed from ten thousand observations of his hand moving toward the salt.
+My mom's seasoning knowledge, algorithmically reconstructed from ten thousand observations of her hand moving toward the salt.
 
 ---
 
@@ -111,10 +115,10 @@ There's loss in this. Something about tacit knowledge is that it resists capture
 
 But there's also gain. I understand my own patterns better now than I did six months ago. Not because I've achieved some insight through meditation or therapy, but because a machine has been watching me carefully and telling me what it sees. The mirror shows things the direct gaze misses.
 
-My uncle couldn't teach me to season by explaining. Maybe a machine that watched him for forty years could extract something he never could have said. Whether that extraction would capture what mattered—the feel of it, the intuition, the knowledge that lives in the gesture itself—I don't know.
+My mom couldn't teach me to season by explaining. Maybe a machine that watched her for decades could extract something she never could have said. Whether that extraction would capture what mattered—the feel of it, the intuition, the knowledge that lives in the gesture itself—I don't know.
 
 But I'm starting to think the question isn't whether tacit knowledge can be made explicit. It's whether there's a different path to transfer that doesn't require explicitness at all. An apprenticeship mediated by algorithms. A learning that happens through accumulated pattern rather than articulated rule.
 
 The machine watches. The machine learns. The machine reflects back a model of how you think. And somehow, in that reflection, something transfers that was never said.
 
-I'm still standing in my uncle's kitchen. But now there's a third presence—taking notes, counting grains, building a model grain by grain of how much salt is enough.
+I'm still standing in my mom's kitchen. But now there's a third presence—taking notes, counting grains, building a model grain by grain of how much salt is enough.

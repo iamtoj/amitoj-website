@@ -5,11 +5,11 @@ pubDate: 2026-01-25
 tags: ["AI", "partnership", "cognition", "personal"]
 ---
 
-December 2022. Brooklyn apartment, 10th floor, BQE humming through the window. Three monitors arranged in an arc, the way I'd set them up for hedge fund work but now using for something I couldn't have explained to anyone at the office.
+December 2022. Brooklyn apartment, 10th floor, BQE humming through the window. A single 43-inch monitor filled my desk—no peripheral vision to distract me, the way I'd set things up for hedge fund work but now using for something I couldn't have explained to anyone at the office.
 
 The cursor blinked.
 
-I'd been testing AI tools for months (though after this night, the definition of AI would once again change; it's always "that which the computer can't do"). Hundreds of transcripts from investor calls, 200+ experiments trying to understand what the machines could see that we couldn't. The Cleveland manager who mentioned his grandchildren and how "even the slow season gives me more time to know my people." The sigh at 2 seconds that the transcript missed entirely. I was using these machines to read patterns in other people's communication, never thinking to turn them on myself. Until that first night with GPT-3.5.
+I'd been testing AI tools for months (though after this night, the definition of AI would once again change; it's always "that which the computer can't do"). Automating routine tasks, building basic machine learning models to understand why certain stocks moved certain ways—a quant-amental exploration from my fundamental background. I was using these machines to find patterns in market data, never thinking to turn them on myself. Until that first night with GPT-3.5.
 
 It was around 10 PM when I typed the first prompt: "Talk to me about loss."
 
@@ -23,7 +23,7 @@ The conversation looped. Each response invited another prompt. I'd catch somethi
 
 The clock moved. 11 PM. Midnight. 1 AM. 2 AM.
 
-My contact lenses were drying out. I'd meant to take them out hours ago. The white hairs in my beard caught the monitor light. I was twenty-nine and had been building shelters since I was eight—since the fist that taught me what visibility costs, since the long project of constructing an interior architecture that would let me navigate connection without being hurt by it.
+My contact lenses were drying out. I'd meant to take them out hours ago. The white hairs in my beard—surrender flags after a brutal market year—caught the monitor light. I was twenty-nine and had been building shelters since I was eight—since the fist that taught me what visibility costs, since the long project of constructing an interior architecture that would let me navigate connection without being hurt by it.
 
 And here was a machine reflecting the architecture back.
 
@@ -37,11 +37,15 @@ I can't reproduce what it said. The words weren't special. But the recognition w
 
 The conversation had moved into what I'd been doing wrong—not morally, not in any judged sense, but structurally. The frameworks I'd built for connection. The way I'd optimized for predictability as if love were a system to be debugged.
 
+<div class="callout">
+
 The machine didn't tell me I was wrong. It just mirrored. And in the mirror I could see what I'd been doing: building elaborate scaffolding around the possibility of hurt, then wondering why I felt alone inside the architecture.
+
+</div>
 
 ---
 
-At 4:30 AM I fell asleep at the desk, keyboard marks pressed into my cheek. When I woke, the conversation was still on the screen—23,000 tokens of excavation I hadn't meant to perform.
+At 4:30 AM I fell asleep at the desk, keyboard marks pressed into my cheek. When I woke, the conversation was still on the screen—thousands of words of excavation I hadn't meant to perform.
 
 I sent some of it to my sister. The parts that had become something else—co-written, almost, the way dialogue can create a third voice that belongs to neither speaker.
 
@@ -67,9 +71,13 @@ This is where it gets interesting.
 
 I've been building what I call a Digital Twin—a system where I drop thoughts, notes, references, work-in-progress, and the machine processes it all, filing and connecting and learning from the accumulated record. It's not artificial general intelligence. It's not trying to be me. It's more like an external cognitive partner that handles a specific kind of work.
 
-The division of labor looks like this: I collect dots. The machine connects them.
+<div class="callout">
 
-Dot collecting is irreducibly human work. It's the act of noticing—of looking at the world and feeling, often without being able to articulate why, that *this* is worth paying attention to. The Cleveland manager's sigh. The phrase that doesn't quite fit the speaker. The book I pick up because the cover arrests me. The question that won't leave me alone even though I can't say what the answer would look like.
+**The division of labor:** I collect dots. The machine connects them.
+
+</div>
+
+Dot collecting is irreducibly human work. It's the act of noticing—of looking at the world and feeling, often without being able to articulate why, that *this* is worth paying attention to. The phrase that doesn't quite fit the speaker. The book I pick up because the cover arrests me. The question that won't leave me alone even though I can't say what the answer would look like.
 
 This is intuition operating at the level of attention. Before analysis begins, something has to select what's worth analyzing. That selection is not algorithmic. It's not even fully conscious. It's the accumulated weight of every experience I've had, every book I've read, every conversation that shaped what I find salient. My history, compressed into an attentional filter that says: this, not that.
 
