@@ -35,11 +35,11 @@ What remains is the irreducibly human.
 
 I've started calling this the Third Enlightenment, which is grandiose but maybe earned.
 
-The first Enlightenment—call it Western, call it scientific—gave us a framework for understanding the natural world through reason. We could measure, experiment, build theories, test them. This was liberation from superstition, from the arbitrary authority of tradition. The universe ran on laws we could discover.
+The First Enlightenment—call it Eastern, call it contemplative—offered liberation from suffering. The Buddha's insight: ego, attachment, mistaking our constructed self for something solid—these are the sources of pain. Through practice, through attention, through letting go, we could glimpse something beyond the cage of individual identity. This predates Western philosophy by millennia.
 
-The second Enlightenment—call it Eastern, call it contemplative—offered a different liberation. The suffering caused by ego, by attachment, by mistaking our constructed self for something solid. Through practice, through attention, through letting go, we could glimpse something beyond the cage of individual identity.
+The Second Enlightenment—call it Western, call it scientific—gave us a framework for understanding the natural world through reason. Starting with the Renaissance, accelerating through the scientific revolution: we could measure, experiment, build theories, test them. This was liberation from superstition, from the arbitrary authority of tradition. Descartes said "I think, therefore I am," and the split between mind and world became productive. The universe ran on laws we could discover.
 
-Both Enlightenments had shadows. Western rationality gave us bureaucracy—the machine-logic applied to human organization. Eastern detachment could become passivity, withdrawal, quietism. Each had something the other needed.
+Both Enlightenments had shadows. Eastern detachment could become passivity, withdrawal, quietism. Western rationality gave us bureaucracy—the machine-logic applied to human organization. Each had something the other needed.
 
 The Third Enlightenment might be their synthesis. What if we could take the efficiency gains of machine-thinking and redirect them toward human flourishing? What if the point of AI isn't to replace humans but to handle precisely the dehumanizing parts of work—the parts where we had to pretend to be machines because no actual machines could do it?
 
