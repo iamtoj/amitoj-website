@@ -13,7 +13,7 @@ This split is fractal. Every *how*, once you look closer, contains its own *that
 
 ---
 
-What I've been noticing, building systems that try to capture how I work, is that the boundary between *that* and *how* isn't fixed. It moves.
+Building systems that try to capture how I work, I've noticed the boundary between *that* and *how* isn't fixed. It moves.
 
 When something is tacit—when I can't articulate why I make a certain choice—it has to stay a *how*. I leave it to judgment because I can't specify it. But as tacit knowledge becomes explicit, *hows* can be decomposed into *thats*. The thing I used to leave to discretion becomes something I can nail down.
 
@@ -45,7 +45,7 @@ I've been building a system that helps me process information. Early on, I tried
 
 The fix wasn't better specifications. It was knowing where to stop specifying. Some things stay as principles rather than rules. Some *hows* stay as *hows* even when I could, in theory, decompose them further.
 
-Not because I can't articulate them. Because articulating them would be wrong.
+Not because I can't articulate them. Because articulating them would be wrong [for the given objective]
 
 ---
 
