@@ -110,11 +110,36 @@ import Layout from '../../layouts/Layout.astro';
         <p>That clarity is its own kind of progress—even if I'm still uncertain where the boundary ultimately lies.</p>
       </div>
 
-      <div class="mt-16 pt-8 border-t border-oat-300">
-        <p class="text-ink-muted text-sm">
-          This essay draws on distinctions from Hubert Dreyfus (<em>What Computers Can't Do</em>, 1972), Gareth Evans (<em>The Varieties of Reference</em>, 1982), John McDowell (<em>Mind and World</em>, 1994), and Michael Polanyi (<em>The Tacit Dimension</em>, 1966).
-        </p>
+      <!-- Footnotes -->
+      <div class="mt-12 pt-8 border-t border-oat-300">
+        <h3 class="text-lg font-medium mb-4">Notes</h3>
+        <ol class="text-sm text-ink-light space-y-3 list-decimal pl-5">
+          <li id="fn1">The distinction between conceptual and non-conceptual content draws on Hubert Dreyfus (<em>What Computers Can't Do</em>, 1972), Gareth Evans (<em>The Varieties of Reference</em>, 1982), and John McDowell (<em>Mind and World</em>, 1994). Whether there exists genuinely irreducible non-conceptual content remains debated.</li>
+          <li id="fn2">Michael Polanyi's concept of tacit knowledge—"we know more than we can tell"—comes from <em>The Tacit Dimension</em> (1966). I extend this by distinguishing between tacit-because-costly and potentially-irreducibly-tacit knowledge.</li>
+          <li id="fn3">The rule-code/principle-guidance distinction is my operationalization of Herbert Simon's programmed vs. unprogrammed decision distinction. Some decisions can be proceduralized; others require judgment that resists full specification.</li>
+        </ol>
+      </div>
+
+      <div class="mt-8 pt-8 border-t border-oat-300">
+        <p class="text-ink-muted text-sm mb-6">Published January 2026</p>
+        <div class="bg-sage-50 p-6 rounded">
+          <p class="text-ink mb-4">The boundary between what can be specified and what must remain judgment is one of the central questions in building intelligent systems. If you're working on similar questions, I'd welcome the conversation.</p>
+          <a href="/contact" class="text-sage-700 hover:text-sage-900 font-medium">Continue the conversation &rarr;</a>
+        </div>
       </div>
     </div>
   </article>
 </Layout>
+
+<style>
+  .prose p {
+    margin-bottom: 1.5rem;
+    line-height: 1.8;
+  }
+  .prose h2 {
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+</style>
