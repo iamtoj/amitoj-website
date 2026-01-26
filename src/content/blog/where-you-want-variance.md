@@ -45,7 +45,7 @@ I've been building a system that helps me process information. Early on, I tried
 
 The fix wasn't better specifications. It was knowing where to stop specifying. Some things stay as principles rather than rules. Some *hows* stay as *hows* even when I could, in theory, decompose them further.
 
-Not because I can't articulate them. Because articulating them would be wrong.
+Not because I can't articulate them. Because articulating them would be wrong for the given objective.
 
 ---
 
