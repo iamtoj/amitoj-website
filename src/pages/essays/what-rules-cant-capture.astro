@@ -1,0 +1,120 @@
+---
+import Layout from '../../layouts/Layout.astro';
+---
+
+<Layout title="What Rules Can't Capture | Amitoj Singh" description="The more rules I wrote, the less the system understood what I actually wanted. Some knowledge resists becoming rules—and that's where the interesting work begins.">
+  <article class="container-zen section-zen">
+    <div class="max-w-2xl">
+      <a href="/writing" class="text-ink-muted hover:text-ink mb-8 inline-block">&larr; Back to Writing</a>
+
+      <h1 class="mb-8 text-balance">What Rules Can't Capture</h1>
+
+      <div class="accent-line mb-8"></div>
+
+      <div class="bg-oat-100 p-6 mb-12 space-y-4">
+        <p class="text-ink-light">
+          <span class="text-ink font-medium">For individuals:</span> Rules work when variance is low—same situation, same response. Principles work when context varies but the underlying goal is stable. The skill is knowing which regime you're in. AI can help by surfacing your tacit knowledge, but some knowledge may remain hard to articulate. Let the rules handle what rules can handle, so your judgment can focus on what rules can't.
+        </p>
+        <p class="text-ink-light">
+          <span class="text-ink font-medium">For organizations:</span> Before codifying a practice, ask: Is this a rule (can be specified precisely) or a principle (requires interpretation)? Treating principles as rules produces bureaucracy without clarity. Treating rules as principles produces inconsistency without meaning. The distinction is about the nature of the knowledge, not its importance.
+        </p>
+      </div>
+
+      <div class="prose prose-lg">
+        <p>I had written 247 rules for how the system should process information.</p>
+
+        <p>Each rule solved a problem I'd encountered. Rule 12 handled the case where a note mentioned a person but wasn't primarily about that person. Rule 89 dealt with tasks that had implicit deadlines versus explicit ones. Rule 156 covered the edge case where a reference contained original thinking that should also be filed as a thought.</p>
+
+        <p>The rules were specific. They were comprehensive. They were, I was confident, covering every case that mattered.</p>
+
+        <p>And the system was getting worse.</p>
+
+        <p>Not in obvious ways. The rules were being followed. But something had shifted. I'd spend fifteen minutes classifying a piece of information that should have taken fifteen seconds, because I had to check which rules applied and whether they conflicted. The system had become a bureaucracy of my own making—each rule a small constraint that, accumulated, produced rigidity without clarity.</p>
+
+        <p>The more rules I wrote, the less the system understood what I actually wanted.</p>
+
+        <h2>The Gap</h2>
+
+        <p>I've been thinking about the gap between what can be written down and what can't—between the rule and the judgment that resists becoming one. The more I build systems that run on rules, the more I discover the same thing: more rules don't make the system smarter. Sometimes they make it worse.</p>
+
+        <p>There's a distinction in philosophy that helps frame what I was observing. Philosophers of mind—Hubert Dreyfus drawing on phenomenology, Gareth Evans on perception, John McDowell on experience—distinguish between <em>conceptual</em> and <em>non-conceptual</em> content. Conceptual content is what can be articulated in propositions, captured in language, structured by concepts we possess. Non-conceptual content is what we register and act on without (or before) conceptualizing it—the skilled perception of the expert, the immediate recognition that something is off.</p>
+
+        <p>Michael Polanyi, coming from a different tradition, called the unarticulated part <em>tacit</em> knowledge: "we know more than we can tell." The carpenter sizes up a joint. The chess master reads a position. Something is known that can't fully be said.</p>
+
+        <p>The standard framing treats this as a binary: knowledge is either explicit (articulable) or tacit (not). But I've started thinking there's a more useful distinction within the tacit category itself.</p>
+
+        <p>Some tacit knowledge is tacit only because making it explicit is <em>costly</em>. With enough time, reflection, and careful self-observation, you could probably articulate it. The knowledge is tacit because explication is expensive, not because it's impossible.</p>
+
+        <p>Other tacit knowledge might be tacit because it genuinely <em>cannot</em> be fully captured in rules. No amount of self-reflection produces a complete specification. The expert recognizes the pattern without being able to decompose the recognition.</p>
+
+        <p>The word "might" matters here. I'm genuinely uncertain whether the second category exists—whether there's an irreducible residue that can't, even in principle, be made explicit. Maybe what feels like irreducible intuition is just very expensive to articulate, and with enough patience and the right tools, everything could be decomposed. Maybe the "feeling" that something is right is itself analyzable into components, even if the components are numerous and interact in complex ways.</p>
+
+        <p>I don't know the answer. But the question—<em>is there genuinely irreducible tacit knowledge, or just very expensive-to-articulate tacit knowledge?</em>—shapes how I think about what AI can and can't do.</p>
+
+        <h2>Where AI Enters</h2>
+
+        <p>One thing AI systems do well is reduce the cost of making things explicit. They can prompt you through reflection. They can watch what you do and infer patterns. They can ask follow-up questions until your tacit knowledge starts to become articulate. The expensive process of turning intuition into instruction becomes dramatically cheaper.</p>
+
+        <p>What I've found, building systems that try to capture how I think, is that this changes the landscape of knowledge itself. The category of "tacit because costly to make explicit" starts shrinking. With a patient AI partner, I can articulate things I never bothered to articulate before. Patterns I was vaguely aware of become principles I can name and discuss. Preferences I acted on without examining become explicit criteria I can evaluate.</p>
+
+        <p>But—and this is the part that interests me—something still resists. Some judgments I make that I cannot, even with significant effort and a helpful AI, reduce to rules. Whether that's because the judgments are genuinely irreducible or because I haven't yet found the right way to decompose them—I can't say for certain.</p>
+
+        <h2>Back to the 247 Rules</h2>
+
+        <p>The reason more rules made the system worse is that I was trying to conceptualize something that <em>might not</em> be fully conceptualizable—or at minimum, something that would require far more nuance than a rule could capture. I was treating every judgment as explicitable tacit knowledge, assuming that if I just thought hard enough, I could turn "this feels like a task" into "if X and Y but not Z, then task."</p>
+
+        <p>Some of those judgments could be captured that way. Rule 89 about implicit versus explicit deadlines turned out to be a reliable heuristic. It was tacit only because I hadn't bothered to articulate it; once articulated, it worked as a rule.</p>
+
+        <p>But others couldn't—or at least, I couldn't capture them. The reason I struggled to classify certain items wasn't that I lacked the right rule. It was that classification depended on something I couldn't specify: the overall sense of what I was trying to accomplish that day, the texture of the item in relation to other items I'd recently seen, an intuition about future relevance that drew on patterns I couldn't decompose.</p>
+
+        <p>The system got worse because I was feeding it rules to handle judgments that couldn't be rule-handled—at least not by the rules I knew how to write. The accumulation of rules created false precision, making the system confident about cases where confidence was unwarranted.</p>
+
+        <h2>Rules vs. Principles</h2>
+
+        <p>What should you do with knowledge that resists becoming rules?</p>
+
+        <p>One answer is: keep it as guidance rather than specification.</p>
+
+        <p>In the system I've built, I distinguish between <em>rules</em> (code that must be followed every time) and <em>principles</em> (guidance that informs judgment but requires interpretation). Rules get automated—they become hooks and scripts and validators that run without me. Principles stay as prompts—instructions that the AI weighs against context rather than mechanically applies.</p>
+
+        <p>The distinction isn't about importance. Some principles are more important than any rule. The distinction is about the nature of the knowledge: Can this be specified precisely enough to automate? Or does it require the kind of judgment that—for now, at least—resists full specification?</p>
+
+        <p>Getting this wrong in either direction causes problems.</p>
+
+        <p>If you treat a principle as a rule—trying to codify something that needs interpretation—you get the 247-rule problem. Rigidity without clarity. The system follows the letter and misses the spirit because the spirit couldn't be written down.</p>
+
+        <p>If you treat a rule as a principle—leaving to interpretation something that could be precisely specified—you get inconsistency. The system sometimes does what it should, sometimes doesn't, depending on the whims of the moment. Variation where uniformity was possible.</p>
+
+        <p>The skill is knowing which is which. And that skill is, itself, hard to articulate.</p>
+
+        <h2>The Mirror</h2>
+
+        <p>The value of working with AI, when it works well, isn't that the AI follows rules better than I could enforce them myself. It's that working with the AI helps me discover which of my judgments <em>can</em> become rules and which—for now—need to remain principles. The AI is a mirror that reveals where my thinking is already clear enough to codify and where it remains irreducibly (or expensively) contextual.</p>
+
+        <p>The 247 rules weren't a waste. They were a probe. Each rule I wrote tested a hypothesis: "Is this judgment the kind of thing that can be specified?" Most of the time, yes. Sometimes, no. The rules that failed became principles. The principles that kept working became rules.</p>
+
+        <h2>What Expertise Actually Is</h2>
+
+        <p>There's a larger point here about what expertise actually is.</p>
+
+        <p>Experts know what can be taught and what must be learned. They know which parts of their skill are transferable through instruction and which parts require experience that can't be shortcut. Good teachers don't try to make everything explicit—they know that some things can only be shown, or felt, or developed through practice that no lecture can replace.</p>
+
+        <p>The same turns out to be true for AI systems. The best use of AI isn't to capture all knowledge as rules. It's to capture what <em>can</em> be captured as rules, so that the human's harder-to-articulate judgment can focus on what rules can't handle.</p>
+
+        <p>This is a partnership, not a replacement. The rules handle the rule-handleable; the human handles what remains. And part of the ongoing work is discovering, again and again, where that boundary lies—and whether the boundary is fixed or whether, with better tools, it keeps moving.</p>
+
+        <p>The system I use now has fewer rules than the one with 247. But it handles more cases well—because the rules that remain are the ones that deserve to be rules, and everything else has become guidance that the AI interprets contextually rather than mechanically applies.</p>
+
+        <p>The boundary between what can and can't be written is clearer than it was.</p>
+
+        <p>That clarity is its own kind of progress—even if I'm still uncertain where the boundary ultimately lies.</p>
+      </div>
+
+      <div class="mt-16 pt-8 border-t border-oat-300">
+        <p class="text-ink-muted text-sm">
+          This essay draws on distinctions from Hubert Dreyfus (<em>What Computers Can't Do</em>, 1972), Gareth Evans (<em>The Varieties of Reference</em>, 1982), John McDowell (<em>Mind and World</em>, 1994), and Michael Polanyi (<em>The Tacit Dimension</em>, 1966).
+        </p>
+      </div>
+    </div>
+  </article>
+</Layout>
