@@ -15,7 +15,8 @@ const projects = [
     description: 'Building personal infrastructure for thinking, creating, and acting with AI partnership. Systems that capture, classify, and process information through cognitive loops.',
     tags: ['AI Partnership', 'Personal Infrastructure', 'Knowledge Management'],
     status: 'Active Development',
-    link: null,
+    link: '/managing-interns.pdf',
+    linkText: 'View slides',
   },
   {
     title: 'Third Enlightenment Consulting',
@@ -96,7 +97,7 @@ const projects = [
 
             {project.link && (
               <a href={project.link} class="project-link mt-4">
-                Learn more
+                {project.linkText || 'Learn more'}
               </a>
             )}
           </div>
