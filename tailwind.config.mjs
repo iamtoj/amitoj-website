@@ -23,11 +23,13 @@ export default {
         },
         // Accent green - sage, natural and grounded
         sage: {
+          50: '#F4F6F2',
           100: '#E5EAE1',
           200: '#CDD7C6',
           300: '#B2BDA0',  // Primary accent
           400: '#9AAA85',
           500: '#82966A',
+          600: '#6B7D56',
         },
         // Text colors
         ink: {

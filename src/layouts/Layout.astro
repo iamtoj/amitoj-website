@@ -42,13 +42,13 @@ const { title, description = 'Amitoj Singh - Third Enlightenment consulting, wri
 
         <!-- Desktop Nav -->
         <ul class="hidden md:flex gap-8 list-none m-0 p-0">
-          <li><a href="/about" class="no-underline hover:text-ink-light">About</a></li>
-          <li><a href="/work" class="no-underline hover:text-ink-light">Work</a></li>
-          <li><a href="/writing" class="no-underline hover:text-ink-light">Writing</a></li>
-          <li><a href="/library" class="no-underline hover:text-ink-light">Library</a></li>
-          <li><a href="/yoga" class="no-underline hover:text-ink-light">Yoga</a></li>
-          <li><a href="/photography" class="no-underline hover:text-ink-light">Photography</a></li>
-          <li><a href="/contact" class="no-underline hover:text-ink-light">Contact</a></li>
+          <li><a href="/about" class="nav-link">About</a></li>
+          <li><a href="/work" class="nav-link">Work</a></li>
+          <li><a href="/writing" class="nav-link">Writing</a></li>
+          <li><a href="/library" class="nav-link">Library</a></li>
+          <li><a href="/yoga" class="nav-link">Yoga</a></li>
+          <li><a href="/photography" class="nav-link">Photography</a></li>
+          <li><a href="/contact" class="nav-link">Contact</a></li>
         </ul>
 
         <!-- Mobile Hamburger Button -->
@@ -83,14 +83,14 @@ const { title, description = 'Amitoj Singh - Third Enlightenment consulting, wri
       <slot />
     </main>
 
-    <footer class="container-zen py-16 border-t border-oat-300 mt-22">
+    <footer class="container-zen py-16 border-t border-sage-200 mt-22" style="background: linear-gradient(180deg, #F5F0E6 0%, #F4F6F2 100%);">
       <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
         <p class="text-ink-muted text-sm m-0">
           &copy; {new Date().getFullYear()} Amitoj Singh
         </p>
         <ul class="flex gap-6 list-none m-0 p-0 text-sm">
-          <li><a href="/yoga" class="text-ink-muted no-underline hover:text-ink">Yoga</a></li>
-          <li><a href="/photography" class="text-ink-muted no-underline hover:text-ink">Photography</a></li>
+          <li><a href="/yoga" class="text-ink-muted no-underline hover:text-sage-600">Yoga</a></li>
+          <li><a href="/photography" class="text-ink-muted no-underline hover:text-sage-600">Photography</a></li>
         </ul>
       </div>
     </footer>

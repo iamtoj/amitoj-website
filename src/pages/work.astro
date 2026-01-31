@@ -67,7 +67,7 @@ const projects = [
   </section>
 
   <section class="container-zen section-zen border-t border-oat-300">
-    <h2 class="text-2xl mb-8">Current Projects</h2>
+    <h2 class="text-2xl mb-8 section-header">Current Projects</h2>
 
     <div class="project-grid">
       {projects.map((project) => (
@@ -96,7 +96,7 @@ const projects = [
 
             {project.link && (
               <a href={project.link} class="project-link mt-4">
-                Learn more &rarr;
+                Learn more
               </a>
             )}
           </div>
@@ -114,9 +114,7 @@ const projects = [
         and conversations about technology and human flourishing.
       </p>
 
-      <a href="/contact" class="text-ink hover:text-ink-light no-underline">
-        Get in touch &rarr;
-      </a>
+      <a href="/contact" class="arrow-link">Get in touch</a>
     </div>
   </section>
 </Layout>
@@ -166,13 +164,26 @@ const projects = [
   }
 
   .project-link {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
     color: #2C2A25; /* ink */
     text-decoration: none;
     font-size: 0.875rem;
+    transition: color 0.2s;
   }
 
   .project-link:hover {
-    color: #4A473F; /* ink-light */
+    color: #6B7D56; /* sage-600 */
+  }
+
+  .project-link::after {
+    content: '\2192';
+    color: #82966A; /* sage-500 */
+    transition: transform 0.2s;
+  }
+
+  .project-link:hover::after {
+    transform: translateX(4px);
   }
 </style>

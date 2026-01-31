@@ -66,9 +66,70 @@
     @apply py-12 md:py-16 lg:py-20;
   }
 
-  /* Accent line - subtle horizontal rule */
+  /* Accent line - gradient sage */
   .accent-line {
-    @apply w-16 h-px bg-sage-300;
+    @apply w-20 h-[3px] rounded-sm;
+    background: linear-gradient(90deg, #82966A, #B2BDA0);
+  }
+
+  /* Nav link with animated underline */
+  .nav-link {
+    @apply relative no-underline;
+  }
+
+  .nav-link::after {
+    content: '';
+    @apply absolute bottom-[-4px] left-0 w-0 h-[1.5px] bg-sage-400 transition-all duration-300;
+  }
+
+  .nav-link:hover::after {
+    @apply w-full;
+  }
+
+  /* Arrow link with sage arrow */
+  .arrow-link {
+    @apply inline-flex items-center gap-2 no-underline text-ink transition-colors duration-200;
+  }
+
+  .arrow-link:hover {
+    @apply text-sage-600;
+  }
+
+  .arrow-link::after {
+    content: '\2192';
+    @apply text-sage-500 transition-transform duration-200;
+  }
+
+  .arrow-link:hover::after {
+    transform: translateX(4px);
+  }
+
+  /* Section header with sage accent bar */
+  .section-header {
+    @apply flex items-center gap-3;
+  }
+
+  .section-header::before {
+    content: '';
+    @apply w-[3px] h-4 bg-sage-400 rounded-sm;
+  }
+
+  /* Essay item with sage hover */
+  .essay-hover {
+    @apply px-6 -mx-6 py-5 rounded-md transition-colors duration-200;
+  }
+
+  .essay-hover:hover {
+    background-color: #F4F6F2; /* sage-50 */
+  }
+
+  .essay-hover:hover h3 {
+    @apply text-sage-600;
+  }
+
+  /* Feature box with sage left border */
+  .feature-box {
+    @apply border-l-[3px] border-sage-400 pl-6;
   }
 
   /* Card with subtle shadow */

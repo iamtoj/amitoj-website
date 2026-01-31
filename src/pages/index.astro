@@ -53,24 +53,20 @@ const featuredEssays = [
       </p>
 
       <nav class="flex gap-6">
-        <a href="/about" class="text-ink hover:text-ink-light">
-          About me &rarr;
-        </a>
-        <a href="/writing" class="text-ink hover:text-ink-light">
-          Read my writing &rarr;
-        </a>
+        <a href="/about" class="arrow-link">About me</a>
+        <a href="/writing" class="arrow-link">Read my writing</a>
       </nav>
     </div>
   </section>
 
   <section class="container-zen section-zen border-t border-oat-300">
-    <h2 class="text-2xl mb-8">Featured Essays</h2>
+    <h2 class="text-2xl mb-8 section-header">Featured Essays</h2>
 
-    <ul class="list-none m-0 p-0 space-y-6">
-      {featuredEssays.map((essay) => (
-        <li class="border-b border-oat-300 pb-6 last:border-0">
-          <a href={`/essays/${essay.slug}`} class="no-underline group">
-            <h3 class="text-xl mb-2 group-hover:text-ink-light transition-colors">
+    <ul class="list-none m-0 p-0">
+      {featuredEssays.map((essay, index) => (
+        <li class:list={["essay-hover", { "border-b border-oat-300": index < featuredEssays.length - 1 }]}>
+          <a href={`/essays/${essay.slug}`} class="no-underline block">
+            <h3 class="text-xl mb-2 transition-colors">
               {essay.title}
             </h3>
             <p class="text-ink-light">
@@ -82,24 +78,20 @@ const featuredEssays = [
     </ul>
 
     <div class="mt-8">
-      <a href="/writing" class="text-ink hover:text-ink-light">
-        View all writing &rarr;
-      </a>
+      <a href="/writing" class="arrow-link">View all writing</a>
     </div>
   </section>
 
   <section class="container-zen section-zen border-t border-oat-300">
-    <h2 class="text-2xl mb-8">Third Enlightenment</h2>
+    <h2 class="text-2xl mb-8 section-header">Third Enlightenment</h2>
 
-    <div class="max-w-2xl">
+    <div class="max-w-2xl feature-box">
       <p class="text-ink-light mb-6">
         Each great transition changed not just what we could do, but who we could become.
         We are in the Third now.
       </p>
 
-      <a href="/third-enlightenment" class="text-ink hover:text-ink-light">
-        Learn more &rarr;
-      </a>
+      <a href="/third-enlightenment" class="arrow-link">Learn more</a>
     </div>
   </section>
 </Layout>
