@@ -1,0 +1,139 @@
+---
+import Layout from '../../layouts/Layout.astro';
+
+const books = [
+  {
+    slug: 'sovereignty-of-good',
+    title: 'The Sovereignty of Good',
+    author: 'Iris Murdoch',
+    time: '4-6 hours',
+    difficulty: 'Demanding',
+    tags: ['Philosophy', 'Attention'],
+    teaser: 'Moral life is about vision, not choice. I could only choose within the world I could see.',
+  },
+  {
+    slug: 'rules',
+    title: 'Rules',
+    author: 'Lorraine Daston',
+    time: '10-14 hours',
+    difficulty: 'Moderate',
+    tags: ['Philosophy', 'Systems'],
+    teaser: 'Why frameworks fail when they meet reality. The vocabulary I was missing.',
+  },
+  {
+    slug: 'what-tech-calls-thinking',
+    title: 'What Tech Calls Thinking',
+    author: 'Adrian Daub',
+    time: '3-4 hours',
+    difficulty: 'Accessible',
+    tags: ['Culture', 'Tech'],
+    teaser: 'Names what I felt but could not articulate about borrowed wisdom in tech.',
+  },
+  {
+    slug: 'parallels-and-paradoxes',
+    title: 'Parallels and Paradoxes',
+    author: 'Edward Said & Daniel Barenboim',
+    time: '4-6 hours',
+    difficulty: 'Accessible',
+    tags: ['Dialogue', 'Music'],
+    teaser: 'Integration without reduction. Understanding does not require agreement.',
+  },
+  {
+    slug: 'breath',
+    title: 'Breath',
+    author: 'James Nestor',
+    time: '6-8 hours',
+    difficulty: 'Accessible',
+    tags: ['Embodiment', 'Health'],
+    teaser: 'Gave me language for what I already knew from practice.',
+  },
+];
+
+const allTags = ['All', 'Philosophy', 'Systems', 'Culture', 'Embodiment', 'Dialogue'];
+---
+
+<Layout title="Library | Amitoj Singh" description="Books that changed how I think. Each one earned its place through re-reading, annotation, and integration.">
+  <section class="container-zen section-zen">
+    <div class="max-w-3xl">
+      <h1 class="mb-8 text-balance">Library</h1>
+
+      <div class="accent-line mb-8"></div>
+
+      <p class="text-lg text-ink-light mb-12">
+        Books that changed how I think. Each one earned its place through re-reading, annotation, and integration into how I see the world.
+      </p>
+
+      <!-- Filter chips -->
+      <div class="flex flex-wrap gap-2 mb-12" id="filter-container">
+        {allTags.map((tag, index) => (
+          <button
+            class={`px-4 py-2 text-sm rounded-full transition-colors filter-chip ${index === 0 ? 'bg-ink text-oat-50' : 'bg-oat-200 text-ink hover:bg-oat-300'}`}
+            data-tag={tag}
+          >
+            {tag}
+          </button>
+        ))}
+      </div>
+
+      <!-- Book cards -->
+      <div class="space-y-8" id="book-list">
+        {books.map((book) => (
+          <article class="group border-b border-oat-300 pb-8" data-tags={book.tags.join(',')}>
+            <a href={`/library/${book.slug}`} class="block no-underline">
+              <div class="flex justify-between items-start gap-4">
+                <div>
+                  <h2 class="text-xl mb-1 group-hover:text-sage-600 transition-colors">
+                    {book.title}
+                  </h2>
+                  <p class="text-ink-muted mb-3">{book.author}</p>
+                  <p class="text-ink-light mb-4">{book.teaser}</p>
+                  <div class="flex flex-wrap gap-2 text-sm text-ink-muted">
+                    <span>{book.time}</span>
+                    <span class="text-oat-400">·</span>
+                    <span>{book.difficulty}</span>
+                    <span class="text-oat-400">·</span>
+                    {book.tags.map((tag, i) => (
+                      <span>
+                        {tag}{i < book.tags.length - 1 ? ', ' : ''}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+                <span class="text-ink-muted group-hover:text-sage-600 transition-colors text-xl">→</span>
+              </div>
+            </a>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<script>
+  const chips = document.querySelectorAll('.filter-chip');
+  const books = document.querySelectorAll('#book-list article');
+
+  chips.forEach(chip => {
+    chip.addEventListener('click', () => {
+      const tag = chip.getAttribute('data-tag');
+
+      // Update chip styles
+      chips.forEach(c => {
+        c.classList.remove('bg-ink', 'text-oat-50');
+        c.classList.add('bg-oat-200', 'text-ink');
+      });
+      chip.classList.remove('bg-oat-200', 'text-ink');
+      chip.classList.add('bg-ink', 'text-oat-50');
+
+      // Filter books
+      books.forEach(book => {
+        const bookTags = book.getAttribute('data-tags') || '';
+        if (tag === 'All' || bookTags.includes(tag)) {
+          book.classList.remove('hidden');
+        } else {
+          book.classList.add('hidden');
+        }
+      });
+    });
+  });
+</script>
