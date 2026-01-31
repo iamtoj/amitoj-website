@@ -128,7 +128,7 @@ const allTags = ['All', 'Philosophy', 'Systems', 'Culture', 'Embodiment', 'Dialo
       // Filter books
       books.forEach(book => {
         const bookTags = book.getAttribute('data-tags') || '';
-        if (tag === 'All' || bookTags.includes(tag)) {
+        if (tag === 'All' || (tag && bookTags.includes(tag))) {
           book.classList.remove('hidden');
         } else {
           book.classList.add('hidden');
