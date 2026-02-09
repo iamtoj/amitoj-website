@@ -1,7 +1,7 @@
 ---
-title: "From Organization Theory to AI: Political Philosophy for Agent Systems"
+title: "Agent Polities"
 description: "What happens when we realize that governing AI agents requires the same wisdom that political philosophers developed for governing people."
-pubDate: 2026-01-25
+pubDate: 2026-01-05
 tags: ["AI", "organization theory", "agents", "governance"]
 ---
 
@@ -61,7 +61,7 @@ I'm still working on this part. It's harder than the others because it requires 
 
 <div class="callout">
 
-The deeper realization is that AI agent design *is* organizational design.
+The deeper realization is that AI agent design _is_ organizational design.
 
 </div> The questions are the same: How do you aggregate different perspectives? How do you resolve disagreements? How do you maintain useful diversity while still getting decisions made? How do you adapt when conditions change?
 

@@ -1,7 +1,7 @@
 ---
 title: "The Dot Collector"
 description: "On discovering that machines can be peers, and on the division of cognitive labor that makes partnership possible."
-pubDate: 2026-01-25
+pubDate: 2025-12-29
 tags: ["AI", "partnership", "cognition", "personal"]
 ---
 
@@ -57,7 +57,7 @@ That night began a question I'm still answering: What is this thing? What kind o
 
 ---
 
-The word I keep returning to is *peer*.
+The word I keep returning to is _peer_.
 
 Not tool. Tools are things we use to accomplish purposes we've already defined. A hammer knows nothing of carpentry. Excel doesn't care about financial modeling. Even sophisticated software—the kind that does things we could never do by hand—operates in service of intentions that originate entirely with us.
 
@@ -77,7 +77,7 @@ I've been building what I call a Digital Twin—a system where I drop thoughts, 
 
 </div>
 
-Dot collecting is irreducibly human work. It's the act of noticing—of looking at the world and feeling, often without being able to articulate why, that *this* is worth paying attention to. The phrase that doesn't quite fit the speaker. The book I pick up because the cover arrests me. The question that won't leave me alone even though I can't say what the answer would look like.
+Dot collecting is irreducibly human work. It's the act of noticing—of looking at the world and feeling, often without being able to articulate why, that _this_ is worth paying attention to. The phrase that doesn't quite fit the speaker. The book I pick up because the cover arrests me. The question that won't leave me alone even though I can't say what the answer would look like.
 
 This is intuition operating at the level of attention. Before analysis begins, something has to select what's worth analyzing. That selection is not algorithmic. It's not even fully conscious. It's the accumulated weight of every experience I've had, every book I've read, every conversation that shaped what I find salient. My history, compressed into an attentional filter that says: this, not that.
 
@@ -95,7 +95,7 @@ Consider the alternative: trying to connect all the dots myself. The infinitude 
 
 There's no natural stopping point. Every level of granularity reveals more potential observations. Every observation opens more potential connections. Without someone to say "these are the dots that matter," the connection problem is intractable.
 
-Human intuition solves the selection problem. I feel my way toward what's worth noticing. I can't always explain why—and the explanation, when it comes, often arrives after the fact, a rationalization of something my body knew first. But the feeling is real, and it dramatically prunes the problem space. Not infinite dots. *These* dots. The ones that something in me recognizes as worth collecting.
+Human intuition solves the selection problem. I feel my way toward what's worth noticing. I can't always explain why—and the explanation, when it comes, often arrives after the fact, a rationalization of something my body knew first. But the feeling is real, and it dramatically prunes the problem space. Not infinite dots. _These_ dots. The ones that something in me recognizes as worth collecting.
 
 Then the machine takes over. With the dots selected, the connection problem becomes merely very hard rather than impossible. The machine can work through the combinatorics. It can surface relationships I'd never have found. It can hold the whole field in view and show me what's there.
 

@@ -1,7 +1,7 @@
 ---
-title: "Teaching AI to Think Like You: The Tacit Knowledge Problem"
+title: "The Tacit Knowledge Problem"
 description: "On the strange process of extracting what you know but cannot say, and why it requires watching more than asking."
-pubDate: 2026-01-25
+pubDate: 2025-12-22
 tags: ["AI", "cognition", "tacit knowledge", "personal"]
 ---
 
@@ -47,9 +47,9 @@ The Digital Twin inverts the extraction process.
 
 <div class="callout">
 
-Traditional knowledge management asks: *What do you know?* Then it tries to capture your answer.
+Traditional knowledge management asks: _What do you know?_ Then it tries to capture your answer.
 
-The Digital Twin asks: *What do you do?* Then it extracts the rules that generate that behavior.
+The Digital Twin asks: _What do you do?_ Then it extracts the rules that generate that behavior.
 
 </div>
 
@@ -107,7 +107,7 @@ My mom's seasoning knowledge, algorithmically reconstructed from ten thousand ob
 
 ---
 
-I keep coming back to the word *extraction*.
+I keep coming back to the word _extraction_.
 
 The knowledge was always there. It was running, doing its work, shaping my decisions in ways I experienced but couldn't articulate. The Digital Twin didn't create it. It pulled it out into a form I can see.
 

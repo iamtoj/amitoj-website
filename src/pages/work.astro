@@ -5,31 +5,31 @@ import Layout from '../layouts/Layout.astro';
 const projects = [
   {
     title: 'Research & Writing',
-    description: 'Essays and explorations on technology, contemplative practice, and human development. Investigating what it means to thrive in an age of intelligent machines.',
+    question: 'What does it mean to thrive in an age of intelligent machines?',
+    description: 'Essays and explorations on technology, contemplative practice, and human development.',
     tags: ['Essays', 'Technology', 'Contemplative Practice'],
-    status: 'Primary Focus',
     link: '/writing',
   },
   {
     title: 'Knowledge Creation Systems',
+    question: 'What if your thinking tools could learn how you think?',
     description: 'Building personal infrastructure for thinking, creating, and acting with AI partnership. Systems that capture, classify, and process information through cognitive loops.',
     tags: ['AI Partnership', 'Personal Infrastructure', 'Knowledge Management'],
-    status: 'Active Development',
     link: '/managing-interns.pdf',
     linkText: 'View slides',
   },
   {
     title: 'Third Enlightenment Consulting',
-    description: 'Helping individuals and organizations navigate the intersection of artificial intelligence and human flourishing. Strategic guidance for transformation with clarity and purpose.',
+    question: 'How should organizations navigate intelligence transformation?',
+    description: 'Strategic guidance for individuals and organizations at the intersection of artificial intelligence and human flourishing.',
     tags: ['Strategy', 'AI Integration', 'Organizational Change'],
-    status: 'Active',
     link: '/contact',
   },
   {
     title: 'Executive Coaching',
-    description: 'One-on-one work with leaders navigating complexity, building self-awareness, and aligning action with values. Drawing on contemplative practice, organizational theory, and lived experience.',
+    question: 'What would it look like to lead from clarity rather than certainty?',
+    description: 'One-on-one work with leaders navigating complexity, building self-awareness, and aligning action with values.',
     tags: ['Leadership', 'Self-Awareness', 'Values Alignment'],
-    status: 'By Referral',
     link: '/contact',
   },
 ];
@@ -74,14 +74,8 @@ const projects = [
       {projects.map((project) => (
         <article class="project-card">
           <div class="project-card-content">
-            <div class="flex items-start justify-between gap-4 mb-3">
-              <h3 class="text-xl m-0">{project.title}</h3>
-              {project.status && (
-                <span class="status-badge">
-                  {project.status}
-                </span>
-              )}
-            </div>
+            <p class="text-ink-muted text-sm italic mb-2">{project.question}</p>
+            <h3 class="text-xl m-0 mb-3">{project.title}</h3>
 
             <p class="text-ink-light mb-4">
               {project.description}
@@ -154,14 +148,6 @@ const projects = [
     display: flex;
     flex-direction: column;
     height: 100%;
-  }
-
-  .status-badge {
-    font-size: 0.75rem;
-    color: #696455; /* ink-muted */
-    background: #EBE3D4; /* oat-300 */
-    padding: 0.25rem 0.5rem;
-    white-space: nowrap;
   }
 
   .project-link {

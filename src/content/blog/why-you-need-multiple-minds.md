@@ -1,7 +1,7 @@
 ---
-title: "Why You Need Multiple Minds to Think"
+title: "Multiple Minds"
 description: "On discovering that a single perspective—even a smart one—is never enough to see what you're actually thinking."
-pubDate: 2026-01-25
+pubDate: 2025-12-15
 tags: ["AI", "thinking", "debate", "cognition"]
 ---
 
@@ -13,7 +13,7 @@ I had pages of notes. I had citations. I had what felt like a framework that fin
 
 Then I stopped writing and asked myself the question I'd been avoiding.
 
-*What's the strongest argument against this?*
+_What's the strongest argument against this?_
 
 I could generate counterarguments—I've been trained to do exactly that. But the counterarguments I generated felt like sparring partners I'd hired. They went where I expected them to go. They pushed on the points I was already worried about. They didn't surprise me.
 

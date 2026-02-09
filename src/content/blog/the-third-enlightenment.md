@@ -1,7 +1,7 @@
 ---
-title: "The Third Enlightenment: Why AI Might Humanize Work"
+title: "The Third Enlightenment"
 description: "What if the machines don't take our jobs but free us from the parts of work that were never meant for humans anyway?"
-pubDate: 2026-01-25
+pubDate: 2026-01-12
 tags: ["AI", "work", "enlightenment", "human flourishing"]
 ---
 
