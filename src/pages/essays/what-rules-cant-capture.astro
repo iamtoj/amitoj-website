@@ -2,7 +2,7 @@
 import Layout from '../../layouts/Layout.astro';
 ---
 
-<Layout title="What Rules Can't Capture | Amitoj Singh" description="The more rules I wrote, the less the system understood what I actually wanted. Some knowledge resists becoming rules—and that's where the interesting work begins.">
+<Layout title="What Rules Can't Capture | Amitoj Singh" description="Some knowledge resists becoming rules. The more I built systems that ran on rules, the clearer this became: more rules don't make a system smarter. Sometimes they make it worse.">
   <article class="container-zen section-zen">
     <div class="max-w-2xl">
       <a href="/writing" class="text-ink-muted hover:text-ink mb-8 inline-block">&larr; Back to Writing</a>
@@ -13,10 +13,10 @@ import Layout from '../../layouts/Layout.astro';
 
       <div class="bg-oat-100 p-6 mb-12 space-y-4">
         <p class="text-ink-light">
-          <span class="text-ink font-medium">The puzzle:</span> I wrote 247 rules and the system got worse. Some knowledge resists becoming rules—not because it's vague, but because it's a different kind of knowledge. The distinction between what can be specified and what requires judgment turns out to be the central design question.
+          <span class="text-ink font-medium">For people building AI systems:</span> There's a gap between what can be written down and what can't. Some tacit knowledge is tacit only because making it explicit is costly—with enough time and reflection, you could articulate it. Other tacit knowledge might genuinely resist full capture in rules. The skill is knowing which is which, and that skill is itself hard to articulate.
         </p>
         <p class="text-ink-light">
-          <span class="text-ink font-medium">The implication:</span> Treating principles as rules produces bureaucracy without clarity. Treating rules as principles produces inconsistency without meaning. The skill is knowing which is which—for individuals building AI systems and for organizations codifying practice.
+          <span class="text-ink font-medium">For organizations:</span> Getting this wrong in either direction causes problems. Treat a principle as a rule and you get rigidity without clarity—the system follows the letter and misses the spirit. Treat a rule as a principle and you get inconsistency where uniformity was possible. The best use of AI is to capture what can be captured as rules, so human judgment can focus on what rules can't handle.
         </p>
         <p class="text-ink-light text-sm pt-2 border-t border-oat-300">
           If these questions resonate, <a href="/contact" class="text-sage-700 hover:text-sage-900 underline">I'd welcome the conversation</a>.
@@ -32,13 +32,13 @@ import Layout from '../../layouts/Layout.astro';
 
         <p>And the system was getting worse.</p>
 
-        <p>Not in obvious ways. The rules were being followed. But something had shifted. I'd spend fifteen minutes classifying a piece of information that should have taken fifteen seconds, because I had to check which rules applied and whether they conflicted. The system had become a bureaucracy of my own making—each rule a small constraint that, accumulated, produced rigidity without clarity.</p>
+        <p>It wasn't obvious. The rules were being followed. But something had shifted. I'd spend fifteen minutes classifying a piece of information that should have taken fifteen seconds, because I had to check which rules applied and whether they conflicted. The system had become a bureaucracy of my own making—each rule a small constraint that, accumulated, produced rigidity without clarity.</p>
 
         <p>The more rules I wrote, the less the system understood what I actually wanted.</p>
 
         <h2>The Gap</h2>
 
-        <p>I've been thinking about the gap between what can be written down and what can't—between the rule and the judgment that resists becoming one. The more I build systems that run on rules, the more I discover the same thing: more rules don't make the system smarter. Sometimes they make it worse.</p>
+        <p>There's a gap between what can be written down and what can't — between the rule and the judgment that resists becoming one. The more I build systems that run on rules, the clearer this becomes: more rules don't make a system smarter. Sometimes they make it worse.</p>
 
         <p>There's a distinction in philosophy that helps frame what I was observing. Philosophers of mind—Hubert Dreyfus drawing on phenomenology, Gareth Evans on perception, John McDowell on experience—distinguish between <em>conceptual</em> and <em>non-conceptual</em> content. Conceptual content is what can be articulated in propositions, captured in language, structured by concepts we possess. Non-conceptual content is what we register and act on without (or before) conceptualizing it—the skilled perception of the expert, the immediate recognition that something is off.</p>
 
@@ -46,7 +46,7 @@ import Layout from '../../layouts/Layout.astro';
 
         <p>The standard framing treats this as a binary: knowledge is either explicit (articulable) or tacit (not). But I've started thinking there's a more useful distinction within the tacit category itself.</p>
 
-        <p>Some tacit knowledge is tacit only because making it explicit is <em>costly</em>. With enough time, reflection, and careful self-observation, you could probably articulate it. The knowledge is tacit because explication is expensive, not because it's impossible.</p>
+        <p>Some tacit knowledge is tacit only because making it explicit is <em>costly</em>. With enough time, reflection, and careful self-observation, you could articulate it. The knowledge is tacit because explication is expensive, rather than impossible.</p>
 
         <p>Other tacit knowledge might be tacit because it genuinely <em>cannot</em> be fully captured in rules. No amount of self-reflection produces a complete specification. The expert recognizes the pattern without being able to decompose the recognition.</p>
 
@@ -68,9 +68,9 @@ import Layout from '../../layouts/Layout.astro';
 
         <p>Some of those judgments could be captured that way. Rule 89 about implicit versus explicit deadlines turned out to be a reliable heuristic. It was tacit only because I hadn't bothered to articulate it; once articulated, it worked as a rule.</p>
 
-        <p>But others couldn't—or at least, I couldn't capture them. The reason I struggled to classify certain items wasn't that I lacked the right rule. It was that classification depended on something I couldn't specify: the overall sense of what I was trying to accomplish that day, the texture of the item in relation to other items I'd recently seen, an intuition about future relevance that drew on patterns I couldn't decompose.</p>
+        <p>But others couldn't—or at least, I couldn't capture them. The reason I struggled to classify certain items was that classification depended on something I couldn't specify: the overall sense of what I was trying to accomplish that day, the texture of the item in relation to other items I'd recently seen, an intuition about future relevance that drew on patterns I couldn't decompose.</p>
 
-        <p>The system got worse because I was feeding it rules to handle judgments that couldn't be rule-handled—at least not by the rules I knew how to write. The accumulation of rules created false precision, making the system confident about cases where confidence was unwarranted.</p>
+        <p>The system got worse because I was feeding it rules to handle judgments that couldn't be rule-handled—at least by the rules I knew how to write. The accumulation of rules created false precision, making the system confident about cases where confidence was unwarranted.</p>
 
         <h2>Rules vs. Principles</h2>
 
@@ -92,7 +92,7 @@ import Layout from '../../layouts/Layout.astro';
 
         <h2>The Mirror</h2>
 
-        <p>The value of working with AI, when it works well, isn't that the AI follows rules better than I could enforce them myself. It's that working with the AI helps me discover which of my judgments <em>can</em> become rules and which—for now—need to remain principles. The AI is a mirror that reveals where my thinking is already clear enough to codify and where it remains irreducibly (or expensively) contextual.</p>
+        <p>The value of working with AI, when it works well, is that working with the AI helps me discover which of my judgments <em>can</em> become rules and which—for now—need to remain principles. The AI is a mirror that reveals where my thinking is already clear enough to codify and where it remains irreducibly (or expensively) contextual.</p>
 
         <p>The 247 rules weren't a waste. They were a probe. Each rule I wrote tested a hypothesis: "Is this judgment the kind of thing that can be specified?" Most of the time, yes. Sometimes, no. The rules that failed became principles. The principles that kept working became rules.</p>
 
@@ -100,9 +100,9 @@ import Layout from '../../layouts/Layout.astro';
 
         <p>Experts know what can be taught and what must be learned. They know which parts of their skill are transferable through instruction and which parts require experience that can't be shortcut. Good teachers don't try to make everything explicit—they know that some things can only be shown, or felt, or developed through practice that no lecture can replace.</p>
 
-        <p>The same turns out to be true for AI systems. The best use of AI isn't to capture all knowledge as rules. It's to capture what <em>can</em> be captured as rules, so that the human's harder-to-articulate judgment can focus on what rules can't handle.</p>
+        <p>The same turns out to be true for AI systems. The best use of AI is to capture what <em>can</em> be captured as rules, so that the human's harder-to-articulate judgment can focus on what rules can't handle.</p>
 
-        <p>This is a partnership, not a replacement. The rules handle the rule-handleable; the human handles what remains. And part of the ongoing work is discovering, again and again, where that boundary lies—and whether the boundary is fixed or whether, with better tools, it keeps moving.</p>
+        <p>This is a partnership. The rules handle the rule-handleable; the human handles what remains. And part of the ongoing work is discovering, again and again, where that boundary lies—and whether the boundary is fixed or whether, with better tools, it keeps moving.</p>
 
         <p>The system I use now has fewer rules than the one with 247. But it handles more cases well—because the rules that remain are the ones that deserve to be rules, and everything else has become guidance that the AI interprets contextually rather than mechanically applies.</p>
 
