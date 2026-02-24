@@ -1,0 +1,97 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+// Featured essays to show on homepage (must match essays.astro)
+const featuredEssays = [
+  {
+    slug: 'the-right-direction',
+    title: 'The Right Direction',
+    description: 'Before asking "how do I win?", someone has to decide what game you\'re playing.',
+  },
+  {
+    slug: 'strategic-time',
+    title: 'Strategic Time',
+    description: 'Strategic choice exists in a temporal zone—fast enough to pursue meaningful goals, slow enough to learn whether they were wise.',
+  },
+  {
+    slug: 'architecture-of-commitment',
+    title: 'The Architecture of Commitment',
+    description: 'Know what to commit to and what to leave open. Lock in your values; stay flexible on methods.',
+  },
+];
+---
+
+<Layout title="Amitoj Singh">
+  <!-- Hero Photo -->
+  <section class="container-zen pt-12 pb-8">
+    <div class="max-w-3xl">
+      <img
+        src="/images/photography-optimized/DSCF0573.webp"
+        alt="Two red Adirondack chairs in an autumn garden"
+        class="w-full h-72 object-cover"
+        style="object-position: center 80%;"
+      />
+    </div>
+  </section>
+
+  <section class="container-zen section-zen pt-8">
+    <div class="max-w-2xl">
+      <h1 class="mb-8 text-balance">
+        Amitoj Singh
+      </h1>
+
+      <div class="accent-line mb-8"></div>
+
+      <p class="text-lg text-ink-light mb-6">
+        What happens when machines take over the routine and humans get to do the work that was always meant for them?
+      </p>
+
+      <p class="text-ink-light mb-8">
+        I research attention allocation and organizational direction at Harvard Business School.
+        I write about the Third Enlightenment. I teach yoga. I help organizations navigate intelligence transformation.
+      </p>
+
+      <nav class="flex gap-6">
+        <a href="/third-enlightenment" class="arrow-link">The Third Enlightenment</a>
+        <a href="/writing" class="arrow-link">Read my writing</a>
+        <a href="/about" class="arrow-link">About me</a>
+      </nav>
+    </div>
+  </section>
+
+  <section class="container-zen section-zen border-t border-oat-300">
+    <h2 class="text-2xl mb-8 section-header">Third Enlightenment</h2>
+
+    <div class="max-w-2xl feature-box">
+      <p class="text-ink-light mb-6">
+        Each great transition changed not just what we could do, but who we could become.
+        We are in the Third now.
+      </p>
+
+      <a href="/third-enlightenment" class="arrow-link">Read the framework</a>
+    </div>
+  </section>
+
+  <section class="container-zen section-zen border-t border-oat-300">
+    <h2 class="text-2xl mb-8 section-header">Featured Essays</h2>
+
+    <ul class="list-none m-0 p-0">
+      {featuredEssays.map((essay, index) => (
+        <li class:list={["essay-hover", { "border-b border-oat-300": index < featuredEssays.length - 1 }]}>
+          <a href={`/essays/${essay.slug}`} class="no-underline block">
+            <h3 class="text-xl mb-2 transition-colors">
+              {essay.title}
+            </h3>
+            <p class="text-ink-light">
+              {essay.description}
+            </p>
+          </a>
+        </li>
+      ))}
+    </ul>
+
+    <div class="mt-8">
+      <a href="/writing" class="arrow-link">View all writing</a>
+    </div>
+  </section>
+</Layout>

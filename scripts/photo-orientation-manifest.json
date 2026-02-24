@@ -1,0 +1,15 @@
+{
+  "_comment": "Manually verified correct orientations. L=landscape, P=portrait",
+  "_comment2": "If a photo displays wrong, update this manifest then run fix-photo-orientation.sh",
+  "_updated": "2026-01-23",
+  "photos": {
+    "DSCF3212": "L",
+    "DSCF3300": "L",
+    "DSCF3735": "L",
+    "DSCF3769": "L",
+    "DSCF4510": "L",
+    "DSCF4608": "L",
+    "DSCF4677": "L"
+  },
+  "_instructions": "Add entries only for photos that need rotation correction. Photos not listed are assumed correct as-is."
+}

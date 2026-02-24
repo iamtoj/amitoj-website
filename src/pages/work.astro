@@ -1,0 +1,176 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+// Project data
+const projects = [
+  {
+    title: 'Research & Writing',
+    question: 'What does it mean to thrive in an age of intelligent machines?',
+    description: 'Essays and explorations on technology, contemplative practice, and human development.',
+    tags: ['Essays', 'Technology', 'Contemplative Practice'],
+    link: '/writing',
+  },
+  {
+    title: 'Knowledge Creation Systems',
+    question: 'What if your thinking tools could learn how you think?',
+    description: 'Building personal infrastructure for thinking, creating, and acting with AI partnership. Systems that capture, classify, and process information through cognitive loops.',
+    tags: ['AI Partnership', 'Personal Infrastructure', 'Knowledge Management'],
+    link: '/managing-interns.pdf',
+    linkText: 'View slides',
+  },
+  {
+    title: 'Third Enlightenment Consulting',
+    question: 'How should organizations navigate intelligence transformation?',
+    description: 'Strategic guidance for individuals and organizations at the intersection of artificial intelligence and human flourishing.',
+    tags: ['Strategy', 'AI Integration', 'Organizational Change'],
+    link: '/contact',
+  },
+  {
+    title: 'Executive Coaching',
+    question: 'What would it look like to lead from clarity rather than certainty?',
+    description: 'One-on-one work with leaders navigating complexity, building self-awareness, and aligning action with values.',
+    tags: ['Leadership', 'Self-Awareness', 'Values Alignment'],
+    link: '/contact',
+  },
+];
+
+---
+
+<Layout title="Work | Amitoj Singh" description="Projects at the intersection of technology, strategy, and human flourishing.">
+  <!-- Hero Photo -->
+  <section class="container-zen pt-12 pb-8">
+    <div class="max-w-3xl">
+      <img
+        src="/images/photography-optimized/DSCF4877.webp"
+        alt="Red building against blue sky"
+        class="w-full h-72 object-cover"
+        style="object-position: center bottom;"
+      />
+    </div>
+  </section>
+
+  <section class="container-zen section-zen pt-8">
+    <div class="max-w-2xl">
+      <h1 class="mb-8 text-balance">Work</h1>
+
+      <div class="accent-line mb-8"></div>
+
+      <p class="text-lg text-ink-light mb-6">
+        Projects exploring how technology can serve human flourishing,
+        from personal knowledge systems to organizational transformation.
+      </p>
+
+      <p class="text-ink-muted mb-6">
+        My core focus is academic research. All projects serve my curiosity and research interests—
+        the work below grows from questions I'm genuinely trying to answer.
+      </p>
+    </div>
+  </section>
+
+  <section class="container-zen section-zen border-t border-oat-300">
+    <h2 class="text-2xl mb-8 section-header">Current Projects</h2>
+
+    <div class="project-grid">
+      {projects.map((project) => (
+        <article class="project-card">
+          <div class="project-card-content">
+            <p class="text-ink-muted text-sm italic mb-2">{project.question}</p>
+            <h3 class="text-xl m-0 mb-3">{project.title}</h3>
+
+            <p class="text-ink-light mb-4">
+              {project.description}
+            </p>
+
+            <div class="flex flex-wrap gap-2 mt-auto">
+              {project.tags.map((tag) => (
+                <span class="text-xs text-ink-muted bg-oat-100 px-2 py-1">
+                  {tag}
+                </span>
+              ))}
+            </div>
+
+            {project.link && (
+              <a href={project.link} class="project-link mt-4">
+                {project.linkText || 'Learn more'}
+              </a>
+            )}
+          </div>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <section class="container-zen section-zen border-t border-oat-300 bg-oat-100">
+    <div class="max-w-2xl">
+      <h2 class="text-2xl mb-6">Collaborate</h2>
+
+      <p class="text-ink-light mb-8">
+        Open to consulting engagements, research collaborations,
+        and conversations about technology and human flourishing.
+      </p>
+
+      <a href="/contact" class="arrow-link">Get in touch</a>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .project-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  @media (min-width: 768px) {
+    .project-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .project-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  .project-card {
+    border: 1px solid #EBE3D4; /* oat-300 */
+    background: #FAF7F0; /* oat-50 */
+    transition: border-color 0.2s ease;
+  }
+
+  .project-card:hover {
+    border-color: #B5A589; /* darker oat */
+  }
+
+  .project-card-content {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .project-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #2C2A25; /* ink */
+    text-decoration: none;
+    font-size: 0.875rem;
+    transition: color 0.2s;
+  }
+
+  .project-link:hover {
+    color: #6B7D56; /* sage-600 */
+  }
+
+  .project-link::after {
+    content: '\2192';
+    color: #82966A; /* sage-500 */
+    transition: transform 0.2s;
+  }
+
+  .project-link:hover::after {
+    transform: translateX(4px);
+  }
+</style>
