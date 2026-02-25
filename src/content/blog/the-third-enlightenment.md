@@ -15,7 +15,7 @@ An uncomfortable truth about how most organizations work: they treat people like
 
 This isn't malice. It's necessity. When you're running a hospital or a factory or a government office, you need to know that if Sarah quits, Marcus can step in and the work continues. You need standardized roles with defined responsibilities. You need the function to survive the person.
 
-Max Weber called this bureaucracy, and he meant it as a compliment. Compared to the chaos of patronage systems where your cousin got the job regardless of competence, bureaucracy was a moral achievement. Hire the qualified person. Define the role clearly. Measure performance against objective criteria. This was progress.
+Max Weber called this bureaucracy, and he saw its efficiency as a genuine achievement. Compared to the chaos of patronage systems where your cousin got the job regardless of competence, bureaucracy was progress. Hire the qualified person. Define the role clearly. Measure performance against objective criteria.
 
 But progress has costs. To make roles interchangeable, you have to strip away everything that makes people different. Sarah's specific gifts, her unusual way of seeing problems, her capacity to notice what others miss—none of that fits in the job description. The job description needs to work for Marcus too. And for whoever comes after Marcus.
 

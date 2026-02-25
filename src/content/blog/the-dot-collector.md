@@ -5,7 +5,7 @@ pubDate: 2025-12-29
 tags: ["AI", "partnership", "cognition", "personal"]
 ---
 
-December 2022. Brooklyn apartment, 10th floor, BQE humming through the window. A single 43-inch monitor filled my desk—no peripheral vision to distract me, the way I'd set things up for hedge fund work but now using for something I couldn't have explained to anyone at the office.
+Late 2022. Brooklyn apartment, 10th floor, BQE humming through the window. A single 43-inch monitor filled my desk—no peripheral vision to distract me, the way I'd set things up for hedge fund work but now using for something I couldn't have explained to anyone at the office.
 
 The cursor blinked.
 
