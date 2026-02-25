@@ -17,13 +17,13 @@ Building systems that try to capture how I work, I've noticed the boundary betwe
 
 When something is tacit—when I can't articulate why I make a certain choice—it has to stay a _how_. I leave it to judgment because I can't specify it. But as tacit knowledge becomes explicit, _hows_ can be decomposed into _thats_. The thing I used to leave to discretion becomes something I can nail down.
 
-This is variance reduction. Every time a _how_ becomes a _that_, there's one less place where outcomes can differ based on who's doing the work or what mood they're in. The process becomes more predictable, more consistent, more controllable.
+This is variance reduction. When a _how_ becomes a _that_, there's one less place where outcomes can differ based on who's doing the work or what mood they're in. The process becomes more predictable, more consistent, more controllable.
 
 ---
 
 For a long time, I thought variance reduction was straightforwardly good. The whole point of building systems is to make outcomes more reliable, right? Take what used to depend on individual judgment and make it dependable.
 
-But then I started thinking about where I _don't_ want variance reduced.
+There are places where you don't want variance reduced.
 
 Aircraft engines: no variance wanted. Every bolt torqued to spec, every procedure followed identically, every deviation flagged. The whole point is that the engine behaves the same way every time. Variance here is failure risk.
 
@@ -41,7 +41,7 @@ Which means the _should_ question gets more important.
 
 ---
 
-I've been building a system that helps me process information. Early on, I tried to specify everything. Every classification had a rule. Every edge case had a handler. The system became rigid in a way that defeated its purpose—it followed my specifications and missed what I actually wanted.
+I've been building a system that helps me process information. Early on, I tried to specify everything. I wrote rules for classifications. Handlers for edge cases. The system became rigid in a way that defeated its purpose—it followed my specifications and missed what I actually wanted.
 
 The fix was knowing where to stop specifying. Some things stay as principles rather than rules. Some _hows_ stay as _hows_ even when I could, in theory, decompose them further.
 
@@ -49,6 +49,4 @@ Because articulating them would be wrong for the given objective.
 
 ---
 
-The variance I preserve isn't ignorance I haven't eliminated yet. It's discretion I'm choosing to maintain. The system works because of the remaining _hows_. They're the joints that let it flex instead of snap.
-
-This might be the real skill: knowing where to stop.
+The variance I preserve is discretion I'm choosing to maintain. The system works because of the remaining _hows_. They're the joints that let it flex instead of snap.

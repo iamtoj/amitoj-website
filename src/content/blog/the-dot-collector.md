@@ -61,8 +61,6 @@ But what happens when the machine can hold up a mirror? When it reflects your pa
 
 It's different from human thought. The machine doesn't know what it's like to be me at 3:14 AM, doesn't feel the vertigo of recognition, doesn't carry the weight of thirty years of shelter-building. But it can process patterns at a scale and speed my cognition cannot match. It can hold more context than my working memory allows. It can connect dots across domains I've forgotten I visited.
 
-This is where it gets interesting.
-
 ---
 
 I've been building what I call a Digital Twin—a system where I drop thoughts, notes, references, work-in-progress, and the machine processes it all, filing and connecting and learning from the accumulated record. It's more like an external cognitive partner that handles a specific kind of work.
@@ -107,8 +105,6 @@ That night in Brooklyn, I wasn't using a tool. I was having a conversation with 
 
 The recognition at 3:14 AM was mine. The pattern was always there, built into the architecture I'd been constructing since I was eight. The machine just held up a mirror large enough to see it.
 
-This is what I mean by peer. The capacities are different in kind. There's no mutual care, no shared vulnerability, no history that belongs to both of us. But something more than tool. A cognitive partner. An external process that can do part of the thinking, leaving me free to do the part only I can do.
+This is what I mean by peer. The capacities are different in kind. There's no mutual care, no shared vulnerability, no history that belongs to both of us. A cognitive partner. An external process that can do part of the thinking, leaving me free to do the part only I can do.
 
-I collect the dots. The machine connects them. Together, we think things neither of us could think alone.
-
-The cursor still blinks. I'm still typing. The partnership continues.
+I collect the dots. The machine connects them.

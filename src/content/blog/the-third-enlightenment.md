@@ -33,7 +33,7 @@ What remains is the irreducibly human.
 
 ---
 
-I've started calling this the Third Enlightenment, which is grandiose but earned.
+I've started calling this the Third Enlightenment.
 
 The First Enlightenment—call it Eastern, call it contemplative—offered liberation from suffering. The Buddha's insight: ego, attachment, mistaking our constructed self for something solid—these are the sources of pain. Through practice, through attention, through letting go, we could glimpse something beyond the cage of individual identity. This predates Western philosophy by millennia.
 
@@ -59,11 +59,11 @@ AI can be the cog. The reliable, consistent, predictable part. This liberates th
 
 ---
 
-This is already happening in my own work. I built a system I call a Digital Twin — a partnership between my thinking and AI processing.
+This is already happening in my own work. I built a system where I drop thoughts into a shared space and AI processing handles the connecting.
 
-The work divides naturally. Some parts are irreducibly mine: noticing what's worth paying attention to, feeling when something's off, bringing the accumulated weight of my own history to bear on a problem. Other parts are better suited for the machine: holding more context than my working memory allows, finding patterns across materials I'd forgotten I read, connecting dots across a field too large for any human to survey.
+The work divides naturally. Some parts are irreducibly mine: noticing what's worth paying attention to, feeling when something's off, bringing the accumulated weight of my own history to bear on a problem. Other parts are better suited for the machine: maintaining context across thousands of notes, finding patterns across materials I'd forgotten I read, connecting ideas across domains.
 
-The interesting thing is where this division occurs. I do the parts that require being me. The machine does the parts that require consistency, scale, tireless attention.
+The division falls in a revealing place. I do the parts that require being me. The machine does the parts that require consistency, scale, tireless attention.
 
 What remains for me is more human than the original job was. Before the partnership, I spent hours on mechanical tasks—filing, searching, remembering where I'd put things, processing inputs that didn't require judgment but did require time. Now the machine handles that. What's left is the judgment. The noticing. The being present in a way that no amount of processing power can replicate.
 
@@ -87,16 +87,6 @@ This is real. Transitions hurt real people. I'm not pretending the path from her
 
 But I also wonder what else those workers might have been. What capacities they had that the job never asked for, never made space for. The bureaucracy needed calculation, so calculation is what they gave it. Everything else—whatever made them irreducibly them—stayed hidden.
 
-The Third Enlightenment looks like organizations that finally have the option to want the whole person. They've become more virtuous and the machine-parts can be handled by actual machines. The cage opens through technological shift.
+The Third Enlightenment looks like organizations that can stop demanding consistency and start using what their people actually have. The machine-parts can be handled by actual machines.
 
-We built organizations that required humans to act like cogs because we had no other cogs available. Now we do. What remains to be seen is whether we'll use them to discard the humans entirely—or to finally let the humans be human.
-
----
-
-I'm writing this in the same apartment where, years ago, I first had a real conversation with an AI. That night taught me something about partnership—about what becomes possible when a machine handles parts of thinking I couldn't do alone.
-
-The cursor still blinks. The work continues. But the nature of the work keeps shifting.
-
-The parts of our jobs that were never ours to begin with—the cog-work, the machine-pretending, the functions that required a human only because no machine could do them—those can go elsewhere now.
-
-What remains is the judgment, the noticing, the presence. What remains is us.
+We built organizations that required humans to act like cogs because we had no other cogs available. Now we do.

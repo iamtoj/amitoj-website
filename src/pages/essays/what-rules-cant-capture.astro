@@ -28,11 +28,9 @@ import Layout from '../../layouts/Layout.astro';
 
         <p>Each rule solved a problem I'd encountered. Rule 12 handled the case where a note mentioned a person but wasn't primarily about that person. Rule 89 dealt with tasks that had implicit deadlines versus explicit ones. Rule 156 covered the edge case where a reference contained original thinking that should also be filed as a thought.</p>
 
-        <p>The rules were specific. They were comprehensive. They were, I was confident, covering every case that mattered.</p>
+        <p>The rules were specific, comprehensive, and — I was confident — covering every case that mattered. And the system was getting worse.</p>
 
-        <p>And the system was getting worse.</p>
-
-        <p>It wasn't obvious. The rules were being followed. But something had shifted. I'd spend fifteen minutes classifying a piece of information that should have taken fifteen seconds, because I had to check which rules applied and whether they conflicted. The system had become a bureaucracy of my own making—each rule a small constraint that, accumulated, produced rigidity without clarity.</p>
+        <p>The degradation was hard to see. The rules were being followed. But something had shifted. I'd spend fifteen minutes classifying a piece of information that should have taken fifteen seconds, because I had to check which rules applied and whether they conflicted. The system had become a bureaucracy of my own making—each rule a small constraint that, accumulated, produced rigidity without clarity.</p>
 
         <p>The more rules I wrote, the less the system understood what I actually wanted.</p>
 
@@ -44,7 +42,7 @@ import Layout from '../../layouts/Layout.astro';
 
         <p>Michael Polanyi, coming from a different tradition, called the unarticulated part <em>tacit</em> knowledge: "we know more than we can tell." The carpenter sizes up a joint. The chess master reads a position. Something is known that can't fully be said.</p>
 
-        <p>The standard framing treats this as a binary: knowledge is either explicit (articulable) or tacit (not). But I've started thinking there's a more useful distinction within the tacit category itself.</p>
+        <p>There's a more useful distinction within the tacit category itself.</p>
 
         <p>Some tacit knowledge is tacit only because making it explicit is <em>costly</em>. With enough time, reflection, and careful self-observation, you could articulate it. The knowledge is tacit because explication is expensive, rather than impossible.</p>
 
@@ -68,7 +66,7 @@ import Layout from '../../layouts/Layout.astro';
 
         <p>Some of those judgments could be captured that way. Rule 89 about implicit versus explicit deadlines turned out to be a reliable heuristic. It was tacit only because I hadn't bothered to articulate it; once articulated, it worked as a rule.</p>
 
-        <p>But others couldn't—or at least, I couldn't capture them. The reason I struggled to classify certain items was that classification depended on something I couldn't specify: the overall sense of what I was trying to accomplish that day, the texture of the item in relation to other items I'd recently seen, an intuition about future relevance that drew on patterns I couldn't decompose.</p>
+        <p>But others couldn't — or at least, I couldn't capture them. The reason I struggled to classify certain items was that classification depended on something I couldn't specify: the overall sense of what I was trying to accomplish that day, the texture of the item in relation to other items I'd recently seen, an intuition about future relevance that drew on patterns I couldn't decompose. (This is what Polanyi meant — the carpenter's tacit knowledge operates here, in my own system-building.)</p>
 
         <p>The system got worse because I was feeding it rules to handle judgments that couldn't be rule-handled—at least by the rules I knew how to write. The accumulation of rules created false precision, making the system confident about cases where confidence was unwarranted.</p>
 
@@ -80,7 +78,7 @@ import Layout from '../../layouts/Layout.astro';
 
         <p>In the system I've built, I distinguish between <em>rules</em> (code that must be followed every time) and <em>principles</em> (guidance that informs judgment but requires interpretation). Rules get automated—they become hooks and scripts and validators that run without me. Principles stay as prompts—instructions that the AI weighs against context rather than mechanically applies.</p>
 
-        <p>The distinction isn't about importance. Some principles are more important than any rule. The distinction is about the nature of the knowledge: Can this be specified precisely enough to automate? Or does it require the kind of judgment that—for now, at least—resists full specification?</p>
+        <p>The distinction turns on the nature of the knowledge: whether it can be specified precisely enough to automate. Some principles are more important than any rule, but they resist the kind of specification that automation requires.</p>
 
         <p>Getting this wrong in either direction causes problems.</p>
 
@@ -94,21 +92,17 @@ import Layout from '../../layouts/Layout.astro';
 
         <p>The value of working with AI, when it works well, is that working with the AI helps me discover which of my judgments <em>can</em> become rules and which—for now—need to remain principles. The AI is a mirror that reveals where my thinking is already clear enough to codify and where it remains irreducibly (or expensively) contextual.</p>
 
-        <p>The 247 rules weren't a waste. They were a probe. Each rule I wrote tested a hypothesis: "Is this judgment the kind of thing that can be specified?" Most of the time, yes. Sometimes, no. The rules that failed became principles. The principles that kept working became rules.</p>
+        <p>The 247 rules were a probe. Each rule I wrote tested a hypothesis: "Is this judgment the kind of thing that can be specified?" Most of the time, yes. Sometimes, no. The rules that failed became principles. The principles that kept working became rules.</p>
 
         <h2>What Expertise Actually Is</h2>
 
-        <p>Experts know what can be taught and what must be learned. They know which parts of their skill are transferable through instruction and which parts require experience that can't be shortcut. Good teachers don't try to make everything explicit—they know that some things can only be shown, or felt, or developed through practice that no lecture can replace.</p>
+        <p>In my experience, expertise includes knowing what can be taught and what must be learned — which parts of a skill are transferable through instruction and which parts require experience that can't be shortcut. The best teachers I've worked with don't try to make everything explicit; they know that some things can only be shown, or felt, or developed through practice that no lecture can replace.</p>
 
         <p>The same turns out to be true for AI systems. The best use of AI is to capture what <em>can</em> be captured as rules, so that the human's harder-to-articulate judgment can focus on what rules can't handle.</p>
 
-        <p>This is a partnership. The rules handle the rule-handleable; the human handles what remains. And part of the ongoing work is discovering, again and again, where that boundary lies—and whether the boundary is fixed or whether, with better tools, it keeps moving.</p>
+        <p>The system I use now has fewer rules than the one with 247. But it handles more cases well—because the rules that remain are the ones that deserve to be rules, and everything else has become guidance that the AI interprets contextually rather than mechanically applies. The rules handle what can be specified precisely; I handle what remains. The ongoing work is discovering where that boundary lies — and whether, with better tools, it keeps moving.</p>
 
-        <p>The system I use now has fewer rules than the one with 247. But it handles more cases well—because the rules that remain are the ones that deserve to be rules, and everything else has become guidance that the AI interprets contextually rather than mechanically applies.</p>
-
-        <p>The boundary between what can and can't be written is clearer than it was.</p>
-
-        <p>That clarity is its own kind of progress—even if I'm still uncertain where the boundary ultimately lies.</p>
+        <p>I'm still uncertain where the boundary ultimately lies. But the boundary between what can and can't be written is clearer than it was.</p>
       </div>
 
       <!-- Footnotes -->

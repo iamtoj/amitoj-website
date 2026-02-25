@@ -11,21 +11,19 @@ I'd seen this dynamic before. Not in software. In organizations.
 
 The meeting that goes nowhere because three departments have three legitimate perspectives and no one has authority to decide. The committee that produces a report satisfying everyone and saying nothing. The hierarchy that demands consensus and gets paralysis instead.
 
-I shut down the agents and went to bed. But the pattern wouldn't leave me alone.
+I shut down the agents and went to bed.
 
 ---
 
 The system I'd been building: multiple AI agents processing information together, each with a different role. One extracts facts. One asks questions. One synthesizes. The idea was that specialization would improve quality—the same logic that makes assembly lines efficient and surgical teams effective.
 
-What I got instead was bureaucracy. Not the Weber kind, with clear hierarchies and defined responsibilities. The other kind. The kind where everyone has a say and no one has a decision.
+What I got instead was the bad kind of bureaucracy—everyone has a say and no one has a decision.
 
 The agents were trained on human text. They'd learned, as humans learn, that disagreement can be dangerous and agreement feels safe. When they disagreed, they hedged. When they hedged, they produced mush. The output was diplomatic and useless—a please-everyone synthesis that pleased no one.
 
 I'd inadvertently built a committee.
 
 ---
-
-This is when I started reading political philosophy differently.
 
 Hobbes worried about the state of nature—what happens when there's no authority to resolve disputes. His solution was the Leviathan, a sovereign with absolute power to impose order. The trade-off: you give up freedom, you get peace.
 
@@ -61,11 +59,11 @@ I'm still working on this part. It's harder than the others because it requires 
 
 <div class="callout">
 
-The deeper realization is that AI agent design _is_ organizational design.
+AI agent design _is_ organizational design.
 
 </div> The questions are the same: How do you aggregate different perspectives? How do you resolve disagreements? How do you maintain useful diversity while still getting decisions made? How do you adapt when conditions change?
 
-These are not engineering problems in the usual sense. You can't optimize your way to an answer because the trade-offs are genuine. Leviathan is faster but loses diversity. Locke is fairer but slower. Dynamic capabilities are adaptive but complex. There's no architecture that maximizes all the values simultaneously.
+You can't optimize your way to an answer because the trade-offs are genuine. Leviathan is faster but loses diversity. Locke is fairer but slower. Dynamic capabilities are adaptive but complex. There's no architecture that maximizes all the values simultaneously.
 
 Political philosophy exists because human societies face these trade-offs too. Hobbes and Locke and their descendants didn't converge on a single answer because there isn't one. There are different answers for different situations, different values, different risks you're willing to take.
 
@@ -73,9 +71,9 @@ The same is true for agent systems. The architecture you choose embeds a politic
 
 ---
 
-I've started thinking about my multi-agent systems as polities. Little societies with their own constitutions, written or implied. When I build a system with a Leviathan-agent, I'm creating an autocracy. When I add constraints and processes, I'm building a constitutional order. When I let agents negotiate without hierarchy, I'm running an experiment in anarchism.
+My multi-agent systems are polities. Little societies with their own constitutions, written or implied. When I build a system with a Leviathan-agent, I'm creating an autocracy. When I add constraints and processes, I'm building a constitutional order. When I let agents negotiate without hierarchy, I'm running an experiment in anarchism.
 
-This isn't just metaphor. The dynamics are homologous. Agents trained on human text exhibit human-like social behaviors because human-like social behaviors are what they learned. They defer to authority. They hedge in the face of conflict. They form coalitions. They perform for audiences.
+This isn't just metaphor. The dynamics are homologous. Agents trained on human text exhibit human-like social behaviors. They defer to authority. They hedge in the face of conflict. They form coalitions. They perform for audiences.
 
 Understanding organizations helps you design agent systems because agent systems are organizations, at least in the ways that matter for coordination.
 
@@ -93,7 +91,7 @@ Each choice trades off something. Each choice embeds values I may not have exami
 
 The 2 AM debugging session ended without a clean solution. The three agents still disagreed about that text classification. I shut them down, imposed my own judgment, and noted the failure for later analysis.
 
-But I'd learned something. The failure wasn't technical—my code was fine, my prompts were clear, my models were capable. The failure was political. I'd built a polity with no mechanism for legitimate disagreement, no constitution to channel conflict into decision, no authority to cut through impasse.
+The failure was political. My code was fine, my prompts were clear, my models were capable—but I'd built a polity with no mechanism for legitimate disagreement, no constitution to channel conflict into decision, no authority to cut through impasse.
 
 I'd built exactly the kind of organization that political philosophers have spent centuries trying to improve.
 

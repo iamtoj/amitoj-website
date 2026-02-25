@@ -21,11 +21,9 @@ I'd spent weeks building a case, and my brain had become the case. Even my attem
 
 ---
 
-This is a problem I've had for as long as I can remember.
-
 My internal reasoning engine—the one that's supposed to work through problems silently, weighing evidence, considering alternatives—runs hot but narrow. Once I'm on a track, I'm on a track. The momentum of my own thinking becomes the obstacle to better thinking.
 
-I used to solve this the obvious way: other people. Send the draft to a colleague. Call a friend who knows the domain. Wait for someone to say "but what about..." and suddenly the counterargument would crystallize. The external voice would shake something loose.
+I used to solve this through other people. Send the draft to a colleague. Call a friend who knows the domain. Wait for someone to say "but what about..." and suddenly the counterargument would crystallize. The external voice would shake something loose.
 
 But other people have schedules. They have their own problems. They read your draft three days later when you've already moved on. And often they're too polite—they don't give you the argument, they give you encouragement, which is kind but useless when what you need is friction.
 
@@ -49,9 +47,7 @@ Agent Three synthesizes. It watches the debate between One and Two and asks: wha
 
 ---
 
-The first time I ran this on my firm evolution framework, I learned something in the first exchange.
-
-Agent Two—the critic—immediately asked a question I hadn't considered: "How do we distinguish, empirically, between discovery and preference change? Both result in the firm doing something different. What observable evidence would tell us which mechanism is operating?"
+The first time I ran this on my firm evolution framework, Agent Two—the critic—immediately asked a question I hadn't considered: "How do we distinguish, empirically, between discovery and preference change? Both result in the firm doing something different. What observable evidence would tell us which mechanism is operating?"
 
 I read the question and felt the vertigo of realizing you've been fuzzy where you thought you were precise. I'd been treating discovery and preference change as conceptually distinct—and they are—but I hadn't worked out how you'd actually tell them apart in the world. The framework was internally consistent but empirically underdetermined.
 
@@ -65,15 +61,15 @@ This was genuinely useful. It didn't refute my framework; it revealed where it l
 
 What makes this work isn't that the machine is smarter than me. It isn't. The individual agents don't have better ideas than I do. But they have different positions, and the structure forces friction into existence.
 
-When you're thinking alone, you can slide past your own soft spots. You can generate counterarguments, but they're your counterarguments—shaped by the same blind spots that shaped the original argument. Even when you try to play devil's advocate in your head, you're using the same brain that built the original case. The objections you anticipate are the ones you've already prepared for. What you need is friction you didn't see coming.
+When you're thinking alone, you can slide past your own soft spots. The counterarguments you generate are shaped by the same blind spots that shaped the original argument. Even when you try to play devil's advocate in your head, you're using the same brain that built the original case. You need friction you didn't see coming.
 
-Multiple perspectives—even simulated ones—change the dynamics. The devil's advocate doesn't care about your emotional attachment to the framework. It doesn't know you spent weeks building it. It just looks for the cracks. And the synthesis agent isn't trying to be nice—it's trying to find the formulation that survives the debate. The structure creates epistemic pressure that wouldn't exist otherwise.
+Multiple perspectives—even simulated ones—change the dynamics. The devil's advocate doesn't care about your emotional attachment to the framework. It doesn't know you spent weeks building it. It just looks for the cracks. The synthesis agent isn't trying to be nice—it's trying to find the formulation that survives the debate. The structure creates friction that wouldn't exist otherwise.
 
 ---
 
-There's something almost embarrassing about this. I'm a PhD student. I've spent years training to think carefully about ideas. And here I am, outsourcing the stress-test to machines because my own cognitive architecture can't handle it?
+I'm a PhD student. I've spent years training to think carefully about ideas. And here I am, outsourcing the stress-test to machines because my own cognitive architecture can't handle it.
 
-But that's precisely the point. The architecture is the problem.
+That's precisely the point. The architecture is the problem.
 
 <div class="callout">
 
@@ -83,7 +79,7 @@ Human reasoning evolved for contexts very different from solo theoretical work. 
 
 What the multi-agent debate does is put the social context back in, artificially. I'm not conversing with humans, but I'm conversing with something that creates the structure of intellectual exchange. Claim, objection, response, synthesis. The rhythm of productive disagreement.
 
-The surprising part: it doesn't feel fake. Or rather, the fakeness doesn't matter. When Agent Two raises an objection I hadn't considered, my brain responds the same way it does when a colleague raises an objection I hadn't considered. The epistemic update happens regardless of the source. What matters is whether the objection has merit, not whether it came from carbon or silicon.
+Here's what I didn't expect: it doesn't feel fake. Or rather, the fakeness doesn't matter. When Agent Two raises an objection I hadn't considered, my brain responds the same way it does when a colleague raises an objection I hadn't considered. The epistemic update happens regardless of the source. What matters is whether the objection has merit, not whether it came from carbon or silicon.
 
 ---
 
@@ -99,8 +95,6 @@ The weeks I spent weren't wasted—the framework was a real insight—but they w
 
 ---
 
-There's a deeper point here about thinking in general.
-
 We tend to treat thought as private, interior, monological. The thinker and the thought, alone in a room. And sometimes that works. But more often than we acknowledge, thinking is dialogical. It happens in the exchange, in the friction, in the moment when someone says "but what about..." and your assumptions crack open.
 
 The question isn't whether you need other perspectives to think well. You do. The question is where those perspectives come from. Historically, the answer was: other people. Find smart friends, join seminars, send drafts to colleagues.
@@ -111,4 +105,4 @@ Simulated perspectives aren't as good as the real thing. A machine playing devil
 
 But something is often better than nothing. And the structure—the deliberate staging of disagreement—does most of the work. You don't need a genius critic. You need any critic that forces you to respond to something outside your own head.
 
-Multiple minds. Even simulated ones. Even imperfect ones. The thinking happens between them.
+The weeks I spent building my framework weren't wasted—the insight was real—but they were incomplete. The objection I needed came from a machine playing a role I'd assigned. What matters is that I responded to it the same way I would have responded to a colleague.

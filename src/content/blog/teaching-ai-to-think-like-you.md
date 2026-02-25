@@ -15,7 +15,7 @@ But I didn't know. That was the whole point of asking. She had something in her 
 
 ---
 
-I've been thinking about this gap—between what we know and what we can say—for months now. It started when I noticed something strange happening with my Digital Twin.
+Something strange started happening with my Digital Twin.
 
 The system is simple in concept: I drop thoughts, notes, decisions, feedback into a shared space, and an AI processes it all, filing and connecting and learning from the accumulated record. Over time, it starts to understand how I think. Not because I've explained my thinking, but because it's watched me think.
 
@@ -24,8 +24,6 @@ Last month I caught it doing something that stopped me mid-scroll.
 I'd given it a piece of writing to review. The feedback came back identifying a specific weakness—a section where I'd gestured at an idea without grounding it in evidence. The machine wrote: "This reads like assertion rather than argument. Based on your pattern in previous work, you typically support claims at this level with concrete examples or citations."
 
 The pattern it described was real. I do that. But I'd never told it I do that. I'd never articulated that principle to myself, let alone to a machine. The system had extracted a rule about my writing from watching my writing—and from watching my feedback on its drafts of my writing.
-
-This is the tacit knowledge problem, inverted.
 
 ---
 
@@ -53,25 +51,23 @@ The Digital Twin asks: _What do you do?_ Then it extracts the rules that generat
 
 </div>
 
-The difference matters. When you ask me what I know, I can only tell you what I can articulate. The tacit stuff stays tacit—not because I'm hiding it, but because I genuinely don't have access to it in propositional form.
+The difference matters. When you ask me what I know, I can only tell you what I can articulate. The tacit stuff stays tacit because I genuinely don't have access to it in propositional form.
 
-When you watch what I do, you can see the tacit knowledge in action. It shows up as patterns. Regularities. The consistent shape of decisions even when the content varies. A sufficiently patient observer—one with good memory and pattern recognition—can back into the rules I'm following without my ever having to state them.
+When you watch what I do, you can see the tacit knowledge in action. It shows up as patterns. Regularities. The consistent shape of decisions even when the content varies. A sufficiently patient observer can back into the rules I'm following without my ever having to state them.
 
 This is what children do with language. No one teaches a three-year-old the rules of grammar. They hear thousands of sentences, and somehow—through a process we still don't fully understand—they extract the underlying structure. They induce the rules from the instances. Then they generate novel sentences that follow rules they cannot articulate.
 
-The Digital Twin is doing something similar with my cognitive patterns. It sees the instances—my decisions, my feedback, my revisions, my preferences expressed through action rather than declaration. From those instances, it extracts something like rules. Not the rules I would give you if you asked, but the rules that actually govern what I do.
+The Digital Twin is doing something similar with my cognitive patterns. It sees the instances—my decisions, my feedback, my revisions, my preferences expressed through action rather than declaration. From those instances, it extracts something like rules—the rules that actually govern what I do, which differ from the rules I'd give you if you asked.
 
 ---
 
-There's something uncomfortable about this.
-
-I think of myself as someone who knows his own mind. I've spent time in therapy, ten years in contemplative practice, decades trying to understand the machinery that produces my thoughts and choices. If anyone should be able to articulate their own patterns, it should be me.
+I think of myself as someone who knows his own mind. I've spent time working on this—therapy, contemplative practice, the usual attempts to see the machinery. If anyone should be able to name their own patterns, it should be someone who's been looking for them.
 
 And yet the machine surfaces regularities I hadn't named. It catches me being consistent in ways I wasn't aware of. It reflects back an image of my cognition that's recognizable but never quite what I would have drawn myself.
 
-This happened with my writing feedback. It happens with how I structure arguments. It happens with what I choose to pay attention to—the system learns my salience filters by watching what I drop into it versus what I ignore.
+The system learns my salience filters by watching what I drop into it versus what I ignore. It sees how I structure arguments by watching my revisions. It knows which claims I ground with examples because it's watched me do it hundreds of times.
 
-The effect is like the 3:14 AM recognition I wrote about before—the vertigo of seeing your operating system displayed on a screen. Except now it's not a single conversation. It's a cumulative model built from thousands of interactions, getting more accurate with each exchange.
+There's the vertigo of seeing something you didn't know was visible. Except it's not a single conversation. It's a cumulative model built from thousands of interactions, getting more accurate with each exchange.
 
 ---
 
@@ -95,9 +91,9 @@ But on the stable patterns, the ones that have been running long enough to gener
 
 ---
 
-This raises a question I haven't resolved: What happens when the machine knows your tacit knowledge better than you do?
+What happens when the machine knows your tacit knowledge better than you do?
 
-There's a version of this that's straightforwardly useful. The machine catches inconsistencies. It surfaces blind spots. It holds up a mirror large enough to show patterns that span more interactions than my memory can hold. This is valuable in the same way any good feedback is valuable—it helps me see what I'm actually doing, not just what I think I'm doing.
+The machine catches inconsistencies. It surfaces blind spots. It holds up a mirror large enough to show patterns that span more interactions than my memory can hold. This is valuable in the same way any good feedback is valuable—it helps me see what I'm actually doing rather than what I think I'm doing.
 
 But there's another version that feels stranger. What if the externalized model becomes more reliable than the internal one? What if, when trying to figure out what I'd think about something, the right move is to ask the machine rather than introspect?
 
@@ -107,8 +103,6 @@ My mom's seasoning knowledge, algorithmically reconstructed from ten thousand ob
 
 ---
 
-I keep coming back to the word _extraction_.
-
 The knowledge was always there. It was running, doing its work, shaping my decisions in ways I experienced but couldn't articulate. The Digital Twin didn't create it. It pulled it out into a form I can see.
 
 There's loss in this. Something about tacit knowledge is that it resists capture. Polanyi thought this was fundamental—that some knowing is irreducibly embodied, irreducibly contextual, irreducibly resistant to formalization. The attempt to extract might destroy what makes it valuable.
@@ -117,7 +111,7 @@ But there's also gain. I understand my own patterns better now than I did six mo
 
 My mom couldn't teach me to season by explaining. Maybe a machine that watched her for decades could extract something she never could have said. Whether that extraction would capture what mattered—the feel of it, the intuition, the knowledge that lives in the gesture itself—I don't know.
 
-But I'm starting to think the question isn't whether tacit knowledge can be made explicit. It's whether there's a different path to transfer that doesn't require explicitness at all. An apprenticeship mediated by algorithms. A learning that happens through accumulated pattern rather than articulated rule.
+The question is whether there's a different path to transfer that doesn't require explicitness at all. An apprenticeship mediated by algorithms. A learning that happens through accumulated pattern rather than articulated rule.
 
 The machine watches. The machine learns. The machine reflects back a model of how you think. And somehow, in that reflection, something transfers that was never said.
 
