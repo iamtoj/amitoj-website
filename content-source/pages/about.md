@@ -4,7 +4,7 @@ type: page
 date: 2026-02-23
 ---
 
-I build things that help people think better. I spent fifteen years in institutional capital — sovereign wealth, private equity, venture capital. Built an institutional investment fund where I was partner; I still serve as senior advisor. Now I'm a PhD student at Harvard Business School, researching how organizations allocate attention and find direction.
+I build things that help people think better. Fifteen years in advisory and investing — entrepreneur and institutional investor across private equity, venture capital, and hedge fund. Now I'm a PhD student at Harvard Business School, researching how organizations allocate attention and find direction.
 
 The thread connecting these isn't obvious until you look: how do we make better decisions when the world changes faster than our frameworks? How do we use intelligence — human and artificial — to extend our capacity to see what matters rather than just process more information faster?
 
@@ -14,7 +14,7 @@ The combination makes sense to me. Yoga is a laboratory for the same questions I
 
 ## What I Do
 
-My research examines how organizations allocate attention and find strategic direction. Three papers so far: one on "gilded shelter" (when resources hide decay), one on how organizations determine the right direction when the path isn't clear, and one on what happens before search — how declaring what matters shapes what becomes findable.
+My research examines how organizations allocate attention and find strategic direction — how resources can hide decay, how organizations determine the right direction when the path isn't clear, and what happens before search when declaring what matters shapes what becomes findable.
 
 The advising work focuses on intelligence transformation. Not digital transformation (we did that). Not AI adoption (that's too narrow). The question is: what happens when any organization can access cognitive capacity that used to be scarce and expensive?
 
@@ -40,7 +40,7 @@ You pay only if you got value. This works because I'm not optimizing session cou
 
 ## Background
 
-Wharton and M&T undergrad — management and computer science. Then GIC (Singapore's sovereign wealth fund), private equity, venture capital. Built the fund, learned how professional investors think: the frameworks, the blind spots, the ways capital shapes what gets attention and what doesn't.
+Wharton and M&T undergrad — management and computer science. Entrepreneur and institutional investor across private equity, venture capital, and hedge fund. Learned how professional investors think: the frameworks, the blind spots, the ways capital shapes what gets attention and what doesn't.
 
 Harvard Business PhD student now, but I still teach yoga three mornings a week at the HBS gym. The newsletter explores questions that don't fit neatly into "tech" or "wellness" categories. What does self-knowledge look like when AI can analyze us better than we can analyze ourselves? What is creativity when machines can generate on demand? What is wisdom when knowledge is infinite and free?
 
