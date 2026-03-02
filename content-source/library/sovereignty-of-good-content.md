@@ -5,9 +5,9 @@
 
 ## WHY I RECOMMEND THIS
 
-I first encountered Murdoch when I was deep in systems thinking, trying to understand how complex organizations change. The usual frameworks offered levers to pull, feedback loops to adjust, interventions to design. Murdoch offered something stranger: the idea that I could only choose within the world I could see.
+The usual frameworks for organizational change offer levers to pull, feedback loops to adjust, interventions to design. Murdoch offers something stranger: the idea that you can only choose within the world you can see.
 
-This reframed everything. The problem was never weak willpower or poor decision-making. The problem was vision itself, shaped by what she calls "the fat relentless ego" distorting reality into something more comfortable. I kept returning to her central example: a mother-in-law who changes how she sees her daughter-in-law through patient attention, though nothing outward changes. The transformation is entirely interior. And it counts.
+What becomes visible once you accept this is that moral failure is perceptual before it is behavioral. The problem is not weak willpower or poor decision-making. The problem is vision itself, shaped by what she calls "the fat relentless ego" distorting reality into something more comfortable. Her central example carries the argument: M, the mother-in-law, learns to see D, her daughter-in-law, differently through patient attention — nothing outward changes, the transformation is entirely interior, and it counts as moral work.
 
 For anyone working at the intersection of Eastern and Western thought, Murdoch provides philosophical scaffolding for what contemplative traditions have always known. Attention is the work. The gap between frameworks and lived experience, between what we know and how we see, closes only through sustained inner effort.
 
@@ -36,14 +36,14 @@ Love redefined as ontological breakthrough, not sentiment.
 Fantasy is the ego's self-serving distortion. Attention is the ongoing struggle against it.
 
 **"The exercise of our freedom is a small piecemeal business that goes on all the time and not a grandiose leaping about unimpeded at important moments."**
-Freedom as daily attention, not dramatic decision.
+Murdoch's point: freedom as daily attention, not dramatic decision.
 
 ---
 
 ## READ THIS IF...
 
 - You've sensed that the problem with your choices is not weakness of will but narrowness of vision
-- You want philosophical rigor applied to attention, contemplation, and inner work, without requiring religious commitment
+- You sense that attention is a moral act, and want to understand why
 - You are interested in how Eastern practices (attention, ego-reduction) map onto Western ethical frameworks
 
 ---

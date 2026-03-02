@@ -15,9 +15,9 @@ But I didn't know. That was the whole point of asking. She had something in her 
 
 ---
 
-Something strange started happening with my Digital Twin.
+Something strange started happening with my Digital Twin — the system I described in The Dot Collector, where I drop thoughts and notes into a shared space and the machine files, connects, and learns from the accumulated record.
 
-The system is simple in concept: I drop thoughts, notes, decisions, feedback into a shared space, and an AI processes it all, filing and connecting and learning from the accumulated record. Over time, it starts to understand how I think. Not because I've explained my thinking, but because it's watched me think.
+It's watched me think. The understanding comes from observation, not explanation.
 
 Last month I caught it doing something that stopped me mid-scroll.
 
@@ -35,7 +35,7 @@ This applies to more than physical skills. It applies to judgment. Taste. Intuit
 
 A sommelier knows when a wine is good. Ask her how she knows and she'll gesture at descriptors—tannins, finish, terroir—but the descriptors are post-hoc. The knowing comes first. The words come later, inadequate approximations of something the body understands.
 
-The traditional approach to capturing knowledge is documentation. Write it down. Create manuals, procedures, best practices. This works for explicit knowledge—the kind you can articulate. It fails completely for tacit knowledge, because tacit knowledge is precisely what cannot be articulated.
+The traditional approach to capturing knowledge is documentation. Write it down. Create manuals, procedures, best practices. This works for explicit knowledge—the kind you can articulate. It fails completely for tacit knowledge, because tacit knowledge is what cannot be articulated.
 
 My mom couldn't write down how much salt. The sommelier can't produce a formula. I couldn't have told you that I support mid-level claims with examples rather than assertions. The knowledge existed, but it existed as pattern, not proposition.
 
@@ -67,7 +67,7 @@ And yet the machine surfaces regularities I hadn't named. It catches me being co
 
 The system learns my salience filters by watching what I drop into it versus what I ignore. It sees how I structure arguments by watching my revisions. It knows which claims I ground with examples because it's watched me do it hundreds of times.
 
-There's the vertigo of seeing something you didn't know was visible. Except it's not a single conversation. It's a cumulative model built from thousands of interactions, getting more accurate with each exchange.
+There's the disorientation of seeing something you didn't know was visible. A cumulative model built from thousands of interactions, getting more accurate with each exchange.
 
 ---
 
@@ -77,7 +77,7 @@ Socialization is tacit-to-tacit: apprenticeship, osmosis, learning by being near
 
 Externalization is tacit-to-explicit: articulating what you know, converting embodied skill into communicable form. This is the hardest step—the one where most knowledge management efforts fail.
 
-The Digital Twin offers a different path. Instead of trying to externalize directly—asking the expert to articulate their expertise—it accumulates observations and induces the patterns computationally. It's not Externalization. It's more like Socialization, except the apprentice has perfect memory and superhuman pattern recognition.
+The Digital Twin offers a different path. Instead of trying to externalize directly—asking the expert to articulate their expertise—it accumulates observations and induces the patterns computationally. The process is closer to Socialization than Externalization — learning through proximity rather than through deliberate articulation — except the apprentice has perfect memory and superhuman pattern recognition.
 
 The machine learns from proximity to my cognition. It doesn't ask me to explain. It watches. And from watching, it builds a model that captures things I couldn't have told it directly.
 
@@ -107,7 +107,7 @@ The knowledge was always there. It was running, doing its work, shaping my decis
 
 There's loss in this. Something about tacit knowledge is that it resists capture. Polanyi thought this was fundamental—that some knowing is irreducibly embodied, irreducibly contextual, irreducibly resistant to formalization. The attempt to extract might destroy what makes it valuable.
 
-But there's also gain. I understand my own patterns better now than I did six months ago. Not because I've achieved some insight through meditation or therapy, but because a machine has been watching me carefully and telling me what it sees. The mirror shows things the direct gaze misses.
+But there's also gain. I understand my own patterns better now than I did six months ago. A machine has been watching me carefully — building a model of patterns I never articulated because I didn't know they were there. The mirror shows things the direct gaze misses.
 
 My mom couldn't teach me to season by explaining. Maybe a machine that watched her for decades could extract something she never could have said. Whether that extraction would capture what mattered—the feel of it, the intuition, the knowledge that lives in the gesture itself—I don't know.
 

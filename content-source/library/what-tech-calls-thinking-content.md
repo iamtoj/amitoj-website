@@ -7,7 +7,7 @@
 
 I spent years in tech and finance before landing at HBS, and one pattern kept bothering me: the borrowed wisdom. Executives citing philosophers they'd clearly never read. "Disruption" invoked like scripture to justify what was often just regulatory arbitrage. Genius narratives that erased the thousands of people who actually built the product.
 
-Daub names what I'd felt but couldn't articulate. He traces each Silicon Valley buzzword back to its philosophical source and shows what got lost in translation. Girard's complex theology becomes "people copy each other." Schumpeter's pessimism about capitalism becomes "disruption is good." Beckett's existential despair becomes VC pitch fodder.
+Daub names the rhetorical move: how tech borrows philosophical language to make commercial decisions sound inevitable. He traces each Silicon Valley buzzword back to its philosophical source and shows what got lost in translation. Girard's complex theology becomes "people copy each other." Schumpeter's pessimism about capitalism becomes "disruption is good." Beckett's existential despair becomes VC pitch fodder.
 
 The book isn't anti-technology. It's anti-bullshit. And the distinction matters.
 

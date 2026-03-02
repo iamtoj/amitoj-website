@@ -17,15 +17,15 @@ The Second Enlightenment — the Western turn — split mind from world, subject
 
 What I'm calling the Third Enlightenment is using Second Enlightenment tools with First Enlightenment awareness. That is, not choosing between ancient wisdom and modern capability, but holding both. Participating in the world as it actually is, with full awareness, using all the tools available, holding outcomes loosely. The mode this enables is learning: acting while remaining open to revision, staying curious about whether the thing you're optimizing still matters. The shadow: using "learning" as an excuse for non-commitment, perpetual experimentation that never builds anything, mistaking motion for progress.
 
-This isn't passive. It's the hardest thing there is. Maintaining what the Sikh tradition calls *Chardi Kala* — agentic hope, a rising spirit even when circumstances are difficult. Choosing to find the water beautiful even as it soaks you.
+This is active work — the hardest kind. Maintaining what the Sikh tradition calls *Chardi Kala* — agentic hope, a rising spirit even when circumstances are difficult. Choosing to find the water beautiful even as it soaks you.
 
 ---
 
-The Third Enlightenment isn't primarily intellectual. The body often arrives before the mind can articulate.
+The Third Enlightenment is not primarily intellectual. The body often arrives before the mind can articulate.
 
 "Don't try to open. Just stop closing."
 
-A yoga instructor said this during camel pose — spine arching backward, heart exposed to the ceiling. The words landed somewhere below the brain. In the sternum, maybe. In the place where I'd been gripping without knowing I was gripping.
+A yoga instructor said this during camel pose — spine arching backward, heart exposed to the ceiling. The words landed somewhere below the brain. In the sternum. In the place where I'd been gripping without knowing I was gripping.
 
 *Try to open* feels like straining, like effort, like the Western imperative to achieve and improve. *Stop closing* feels like releasing what was already clenched. The pose didn't change. But I did.
 
@@ -39,7 +39,7 @@ We built machines that think. Or something like thinking. The Second Enlightenme
 
 This creates a problem for people who identified with being "the smart one" — the engineer, the analyst, the person who optimized their way to success. If intelligence can be automated, what's left?
 
-The answer isn't to reject the machines. It's to use them for something older: understanding ourselves, clarifying what actually matters, extending our capacity without replacing our judgment. AI doesn't teach us anything new. It reflects what we already knew — or didn't know we were assuming. The question is whether we have the awareness to see what it shows us. Whether we can stay awake while using tools that make it easier to sleepwalk.
+The machines can be used for something older than efficiency. Understanding ourselves, clarifying what actually matters, extending our capacity without replacing our judgment. The kind of attention that computation was never built to replicate. Awareness first, capability second — and the order matters. AI reflects what we already knew — patterns we couldn't see because we were inside them. The question is whether we have the awareness to see what it shows us. Whether we can stay awake while using tools that make it easier to sleepwalk.
 
 ---
 
@@ -47,24 +47,14 @@ Organizations face the same choice individuals do. They can double down on Secon
 
 The fastest thing you can measure is rarely the thing that matters most. Transaction speed, quarterly earnings, engagement metrics — these operate at one temporal frequency. Purpose, strategy, culture — these operate at another. Confusing the two is how organizations lose their way. The metrics become the mission. What gets measured gets managed, and what gets managed comes to define what the organization thinks it's for — even when no one intended that outcome.
 
-Intelligence transformation isn't adopting AI. It's learning to use AI while staying connected to what you're actually trying to do. The means should serve the ends. The tools should serve the purpose. That sounds obvious until you notice how often it's reversed — how often the existence of a powerful tool becomes the reason to use it, independent of whether it serves anything you actually care about.
+Intelligence transformation means using AI while staying connected to what you're actually trying to do. The means should serve the ends. The tools should serve the purpose. That sounds straightforward until you notice how often it's reversed — how often the existence of a powerful tool becomes the reason to use it, independent of whether it serves anything you actually care about.
 
 ---
 
 What does it mean to use Second Enlightenment tools with First Enlightenment awareness? I'm not confident anyone knows yet. The traditions that cultivated awareness didn't have these tools. The traditions that built these tools didn't cultivate awareness. We're figuring it out in real time — individually and organizationally.
 
-But the question isn't "acceptance or agency." The question is: can you act with full commitment while holding your premises lightly? Can you build something without mistaking the building for the purpose? Can you optimize without losing track of what optimization is for?
+The question is whether you can act with full commitment while holding your premises lightly. Can you build something without mistaking the building for the purpose? Can you optimize without losing track of what optimization is for?
 
-There's a natural limit to how much self-awareness you can have before it displaces the commitments it's supposed to serve. Watching yourself watching. Noticing yourself noticing. The recursion that the body already knows to avoid — because the body just acts, then feels, then understands. Never the reverse.
+There's a natural limit to how much self-awareness you can have before it displaces the commitments it's supposed to serve. Watching yourself watching. Noticing yourself noticing. The body already knows to avoid this — it acts, then feels, then understands. Never the reverse.
 
-Maybe the Third Enlightenment is just learning to act like that again. With the tools. With the awareness. Without the paralysis.
-
----
-
-> "We ought to recognise here the speculative spirit of our language, which transcends the 'either-or' of mere understanding." — Hegel
-
-> "Virtue is the attempt to pierce the veil of selfish consciousness and join the world as it really is." — Iris Murdoch
-
-> "Blessedness is nothing else but the contentment of spirit, which arises from the intuitive knowledge of God..." — Spinoza, *Ethics* IV
-
-> "But all things excellent are as difficult as they are rare." — Spinoza, *Ethics* V
+That may be the practice. The tools change. The attention doesn't.

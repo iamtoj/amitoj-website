@@ -5,11 +5,11 @@
 
 ## WHY I RECOMMEND THIS
 
-I keep returning to a question in my research: why do frameworks fail when they meet reality? Strategy papers, organizational designs, AI governance proposals - they look complete on paper, then crumble against cases their authors never imagined.
+A question runs through organizational design: why do frameworks fail at the edges? Strategy papers, organizational designs, AI governance proposals — they look complete on paper, then crumble against cases their authors never imagined.
 
-Daston gave me the vocabulary I was missing. She distinguishes *thick rules* (loaded with caveats, examples, room for judgment) from *thin rules* (mechanical, context-free, aspiring to cover everything). The insight is historical: we used to know that rules couldn't anticipate every situation. Discretion wasn't a bug - it was the feature. Somewhere in the twentieth century, we convinced ourselves that the ideal rule was an algorithm, executable without thought.
+Daston's vocabulary — thin rules versus thick rules — names the spectrum. Thick rules are loaded with caveats, examples, room for judgment. Thin rules are mechanical, context-free, aspiring to cover everything. The insight is historical: we used to know that rules couldn't anticipate every situation. Discretion wasn't a bug — it was the feature. Somewhere in the twentieth century, we convinced ourselves that the ideal rule was an algorithm, executable without thought.
 
-This book changed how I think about building systems. Not all domains deserve thin rules. Some require humans who can recognize when the rule doesn't fit.
+The distinction reshapes how you design systems: which domains deserve thin rules and which demand thick ones. Not all domains deserve thin rules. Some require humans who can recognize when the rule doesn't fit.
 
 ---
 

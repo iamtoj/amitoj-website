@@ -27,7 +27,7 @@ I'd inadvertently built a committee.
 
 Hobbes worried about the state of nature—what happens when there's no authority to resolve disputes. His solution was the Leviathan, a sovereign with absolute power to impose order. The trade-off: you give up freedom, you get peace.
 
-In multi-agent terms, this is the architecture where one model has final authority. The other agents can advise, critique, propose—but one model decides. It's not collaborative in the warm sense. It's efficient. When the agents start arguing about classification, the Leviathan-agent says "it's a task" and the discussion ends.
+In multi-agent terms, this is the architecture where one model has final authority. The other agents can advise, critique, propose—but one model decides. The collaboration is efficient, not warm. When the agents start arguing about classification, the Leviathan-agent says "it's a task" and the discussion ends.
 
 I tested this. It worked better than the committee. Faster, cleaner outputs. But something else emerged: the subordinate agents started performing for the decision-maker. They'd craft their suggestions to align with what they predicted the Leviathan would approve. The diversity of perspective I'd wanted—the reason for having multiple agents at all—collapsed into a chorus.
 
@@ -37,7 +37,7 @@ Hobbes solved coordination at the cost of genuine disagreement. My agents had do
 
 Locke offered a different arrangement. The sovereign isn't absolute—they operate under a social contract. Citizens consent to authority, but the authority is bounded. There are rights that can't be overridden, processes that must be followed, constraints that check power even at the top.
 
-Translated to agents: the decision-maker has authority, but the rules are written down. The classification model can't override the fact-extraction model on matters of fact. The synthesizer can't ignore the critic's objections—it has to address them, even if it ultimately rejects them. Consent isn't enthusiastic agreement; it's the legitimacy that comes from following the agreed-upon process.
+Translated to agents: the decision-maker has authority, but the rules are written down. The classification model can't override the fact-extraction model on matters of fact. The synthesizer can't ignore the critic's objections—it has to address them, even if it ultimately rejects them. Consent means legitimacy — the kind that comes from following the agreed-upon process, not enthusiastic endorsement.
 
 I rebuilt the system this way. The Leviathan remained, but now with written constraints. If the critic raised an objection, it had to be logged. If two agents disagreed on a fact, the system would flag it rather than let the decision-maker quietly overrule. The agents still deferred to authority, but authority had to show its work.
 
@@ -49,7 +49,7 @@ The problem with both architectures is that they assume stable situations. Hobbe
 
 But what about environments that keep changing? What about the situation where the rules that worked yesterday don't fit what's happening today?
 
-This is where Teece comes in—not a political philosopher but a strategy theorist who thought about how organizations survive in dynamic environments. His answer: dynamic capabilities. Not just doing things right (operational efficiency) but doing the right things (sensing, seizing, transforming). The organization that can't adapt dies, no matter how well it executes its current strategy.
+This is where Teece comes in—not a political philosopher but a strategy theorist who thought about how organizations survive in dynamic environments. His answer: dynamic capabilities. Doing the right things — sensing, seizing, transforming — rather than just doing things right. The organization that can't adapt dies, no matter how well it executes its current strategy.
 
 For agent systems, this means the architecture itself needs to be adaptive. The Leviathan model works until it doesn't. The Lockean constraints work until the world shifts and the constraints become obstacles. The system needs to be able to sense when its own structure is failing and reorganize.
 
@@ -67,7 +67,7 @@ You can't optimize your way to an answer because the trade-offs are genuine. Lev
 
 Political philosophy exists because human societies face these trade-offs too. Hobbes and Locke and their descendants didn't converge on a single answer because there isn't one. There are different answers for different situations, different values, different risks you're willing to take.
 
-The same is true for agent systems. The architecture you choose embeds a political philosophy, whether you acknowledge it or not. The question isn't whether to have politics—it's which politics.
+The same is true for agent systems. The architecture you choose embeds a political philosophy, whether you acknowledge it or not. Every multi-agent system has politics. The design choice is which politics.
 
 ---
 
@@ -95,6 +95,6 @@ The failure was political. My code was fine, my prompts were clear, my models we
 
 I'd built exactly the kind of organization that political philosophers have spent centuries trying to improve.
 
-The next morning, I started reading Hobbes again. Not because he had the right answer, but because he'd asked the right question: What do you do when there are multiple legitimate perspectives and someone needs to decide?
+The next morning, I started reading Hobbes again. He'd asked the right question: What do you do when there are multiple legitimate perspectives and someone needs to decide? That turned out to matter more than having the right answer.
 
 The question doesn't change just because the perspectives belong to machines.

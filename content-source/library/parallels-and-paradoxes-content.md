@@ -9,9 +9,9 @@ A Palestinian literary critic and an Israeli conductor walk into a hotel lobby i
 
 Said and Barenboim should have been enemies. Instead, they made music together, founded an orchestra of young Arab and Israeli musicians, and spent a decade in conversation. This book captures those conversations.
 
-What draws me back is their insistence that understanding does not require agreement. They model something I keep returning to: integration without reduction. You can hold multiple identities without collapsing them into mush. You can listen deeply to someone whose politics you oppose and still walk away richer for it. Barenboim calls it "the art of transition"—maintaining the full force of extremes while creating movement between them.
+Their insistence: understanding does not require agreement. Said and Barenboim disagree about nearly everything and keep talking. The conversation models integration without reduction — holding incompatible positions in productive tension without softening either one. You can listen deeply to someone whose politics you oppose and still walk away richer for it. Barenboim calls it "the art of transition"—maintaining the full force of extremes while creating movement between them.
 
-For anyone who has felt like an outsider bridging worlds that refuse to speak to each other, this book is proof it can be done.
+For anyone who has felt like an outsider bridging worlds that refuse to speak to each other, the conversation is evidence that it can be done — two people, opposed on fundamentals, building something neither could build alone.
 
 ---
 

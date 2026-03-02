@@ -15,7 +15,7 @@ Executive coaching with a different model. Research and writing on the Third Enl
 
 ```yaml
 - title: Third Enlightenment Consulting
-  description: Intelligence transformation for organizations. What if any company had access to a thousand brilliant interns? Building the architecture that makes that real — not tools, but workflows that amplify human judgment.
+  description: Intelligence transformation for organizations. What if any company had access to a thousand brilliant interns? Building the architecture that makes that real — workflows that amplify human judgment, the architecture that makes intelligence transformation operational.
   tags: [Intelligence Transformation, Strategy, Knowledge Systems]
   status: Active
   link: /contact

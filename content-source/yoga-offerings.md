@@ -60,8 +60,8 @@ Yoga and mindfulness for teams navigating transformation.]
 ## third-enlightenment-connection
 
 Contemplative practice is not separate from technological transformation.
-The First Enlightenment brought scientific reason. The Second brought digital connection.
-The Third integrates these with the wisdom traditions that yoga represents.
+The First Enlightenment was about awareness — Eastern traditions discovering that consciousness itself is the ground, that seeing clearly requires stopping the separation between observer and observed. The Second Enlightenment was about agency — Descartes, science, modernity, the capacity to master reality through understanding.
+The Third integrates these: using Second Enlightenment tools with First Enlightenment awareness. That is what yoga trains. That is what this moment requires.
 
 [Placeholder: How yoga practice informs AI-age work. The role of embodiment
 in an increasingly digital world. Why contemplative technologies matter now.]

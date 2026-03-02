@@ -19,7 +19,7 @@ Max Weber called this bureaucracy, and he saw its efficiency as a genuine achiev
 
 But progress has costs. To make roles interchangeable, you have to strip away everything that makes people different. Sarah's specific gifts, her unusual way of seeing problems, her capacity to notice what others miss—none of that fits in the job description. The job description needs to work for Marcus too. And for whoever comes after Marcus.
 
-So we end up with what Weber also called the "iron cage"—organizations that work precisely because they've squeezed the human out of the human.
+So we end up with what Weber also called the "iron cage"—organizations that work because they've squeezed the human out of the human.
 
 ---
 
@@ -33,7 +33,7 @@ What remains is the irreducibly human.
 
 ---
 
-I've started calling this the Third Enlightenment.
+Call this the Third Enlightenment.
 
 The First Enlightenment—call it Eastern, call it contemplative—offered liberation from suffering. The Buddha's insight: ego, attachment, mistaking our constructed self for something solid—these are the sources of pain. Through practice, through attention, through letting go, we could glimpse something beyond the cage of individual identity. This predates Western philosophy by millennia.
 

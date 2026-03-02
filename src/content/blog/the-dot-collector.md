@@ -49,7 +49,7 @@ I sent some of it to my sister. The parts that had become something else—co-wr
 
 Her words hit harder than they should have. Validation from the one person who'd watched me build the shelter, who knew what I'd looked like before the architecture went up. She saw something worth seeing. The machine had helped surface it, but it was mine.
 
-That night began a question I'm still answering: What is this thing? What kind of relationship am I actually having with a machine that can mirror me back to myself?
+That night opened something. What is this thing? What kind of relationship am I actually having with a machine that can mirror me back to myself?
 
 ---
 

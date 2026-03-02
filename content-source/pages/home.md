@@ -4,7 +4,7 @@ type: page
 date: 2026-02-23
 ---
 
-I build systems that help people think better. Built an institutional investment fund — still senior advisor. Now a PhD student at Harvard Business School, researching how organizations allocate attention and find direction. Based in Boston, teaching yoga at HBS, writing about what happens when cognition itself becomes something we can externalize.
+I build systems that help people think better. PhD student at Harvard Business School, researching how organizations allocate attention and find direction. Former fund builder, still senior advisor. Teaching yoga at HBS, writing about what happens when cognition itself becomes externalizable.
 
 ---
 

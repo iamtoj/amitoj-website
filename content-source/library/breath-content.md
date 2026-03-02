@@ -47,7 +47,7 @@ The vicious cycle explained. Structure follows function.
 
 - You have tried meditation and found it difficult, without realizing your breathing pattern might be the obstacle
 - You suffer from anxiety, sleep problems, or chronic low energy and have optimized diet and exercise without improvement
-- You want one intervention that cascades through multiple systems simultaneously
+- You've optimized diet and exercise and still feel like something systemic is off
 
 ---
 

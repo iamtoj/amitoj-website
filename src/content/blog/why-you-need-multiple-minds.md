@@ -33,7 +33,7 @@ So I started experimenting with simulating it.
 
 ---
 
-The idea came from my Digital Twin setup—this system I've built where I drop thoughts and notes and the machine helps process them. I'd already discovered that talking to AI could surface patterns in my own thinking. What I hadn't tried was getting the AI to argue with itself.
+The idea came from my Digital Twin setup — the system I described in The Dot Collector. I'd already discovered that talking to AI could surface patterns in my own thinking. What I hadn't tried was getting the AI to argue with itself.
 
 The setup looks like this.
 
@@ -49,7 +49,7 @@ Agent Three synthesizes. It watches the debate between One and Two and asks: wha
 
 The first time I ran this on my firm evolution framework, Agent Two—the critic—immediately asked a question I hadn't considered: "How do we distinguish, empirically, between discovery and preference change? Both result in the firm doing something different. What observable evidence would tell us which mechanism is operating?"
 
-I read the question and felt the vertigo of realizing you've been fuzzy where you thought you were precise. I'd been treating discovery and preference change as conceptually distinct—and they are—but I hadn't worked out how you'd actually tell them apart in the world. The framework was internally consistent but empirically underdetermined.
+I read the question and felt the jolt of realizing you've been fuzzy where you thought you were precise. I'd been treating discovery and preference change as conceptually distinct—and they are—but I hadn't worked out how you'd actually tell them apart in the world. The framework was internally consistent but empirically underdetermined.
 
 Agent One (representing my thinking) tried to respond. It offered some possibilities—timing of change relative to information arrival, behavioral consistency before and after—but the response felt weak even coming from my own advocate. I could feel the framework wobbling.
 
@@ -63,13 +63,13 @@ What makes this work isn't that the machine is smarter than me. It isn't. The in
 
 When you're thinking alone, you can slide past your own soft spots. The counterarguments you generate are shaped by the same blind spots that shaped the original argument. Even when you try to play devil's advocate in your head, you're using the same brain that built the original case. You need friction you didn't see coming.
 
-Multiple perspectives—even simulated ones—change the dynamics. The devil's advocate doesn't care about your emotional attachment to the framework. It doesn't know you spent weeks building it. It just looks for the cracks. The synthesis agent isn't trying to be nice—it's trying to find the formulation that survives the debate. The structure creates friction that wouldn't exist otherwise.
+Multiple perspectives—even simulated ones—change the dynamics. The devil's advocate doesn't care about your emotional attachment to the framework. It doesn't know you spent weeks building it. It just looks for the cracks. The synthesis agent has one job: find the formulation that survives the debate. The structure creates friction that wouldn't exist otherwise.
 
 ---
 
 I'm a PhD student. I've spent years training to think carefully about ideas. And here I am, outsourcing the stress-test to machines because my own cognitive architecture can't handle it.
 
-That's precisely the point. The architecture is the problem.
+That's the point. The architecture is the problem.
 
 <div class="callout">
 
@@ -83,7 +83,7 @@ Here's what I didn't expect: it doesn't feel fake. Or rather, the fakeness doesn
 
 ---
 
-I've started using this for most of my theoretical work now.
+I use this for most of my theoretical work now.
 
 The workflow looks like this: I write something, usually in a rush, following whatever thread is hot. Then, when the first draft is done and I'm sure it's brilliant, I run it through the debate. Three perspectives. Genuine friction. The output isn't a verdict—the machine doesn't tell me if my idea is good—but it shows me where the pressure points are. Where the argument needs reinforcement. Where I've been assuming something I shouldn't assume.
 
@@ -97,7 +97,7 @@ The weeks I spent weren't wasted—the framework was a real insight—but they w
 
 We tend to treat thought as private, interior, monological. The thinker and the thought, alone in a room. And sometimes that works. But more often than we acknowledge, thinking is dialogical. It happens in the exchange, in the friction, in the moment when someone says "but what about..." and your assumptions crack open.
 
-The question isn't whether you need other perspectives to think well. You do. The question is where those perspectives come from. Historically, the answer was: other people. Find smart friends, join seminars, send drafts to colleagues.
+You need other perspectives to think well. The question is where they come from — and whether the source matters as much as the structure of the disagreement. Historically, the answer was: other people. Find smart friends, join seminars, send drafts to colleagues.
 
 But other people are scarce. Their time is finite. They're not available at 2 AM when you're stuck on a problem.
 
