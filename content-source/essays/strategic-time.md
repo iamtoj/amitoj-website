@@ -19,13 +19,13 @@ Something strange happens when coordination mechanisms operate faster than the r
 
 Stock prices are supposed to track firm value — they become prices about prices. University rankings are supposed to track educational quality — they become prestige signals divorced from learning outcomes. KPIs are supposed to track performance — they become targets divorced from purpose. Call this market degeneration: the temporal horizon collapses toward zero, and "value" becomes whatever the coordination mechanism says it is at any given instant. There's no time for validation because every signal is just another input to the next price.
 
-The mechanism here is temporal: the measurement cycle runs faster than the thing being measured can meaningfully change. You end up with proliferating noise rather than improving signal — a market that coordinates with increasing precision on objectives that become progressively less tethered to anything outside the coordination mechanism itself.
+The mechanism here is temporal: the measurement cycle runs faster than the thing being measured can meaningfully change. You end up with proliferating noise — a market that coordinates with increasing precision on objectives that become progressively less tethered to anything outside the coordination mechanism itself.
 
 ## The Second Failure Mode: Survival Degeneration
 
 The opposite failure is equally destructive. When survival pressure dominates, the only question that matters is "are we still here?" Evaluative content collapses to binary existence. The organization makes decisions that destroy its reason for existing in order to preserve its existence.
 
-Organizations in survival mode cut the capabilities that differentiate them, abandon the commitments that defined them, sacrifice the stakeholders who built them — all in service of continuing to be. The shell persists while the substance disappears. This isn't irrationality; it's the natural endpoint when the temporal horizon extends indefinitely without intermediate validation. Survival becomes the objective because all other objectives have validation horizons too long to matter.
+Organizations in survival mode cut the capabilities that differentiate them, abandon the commitments that defined them, sacrifice the stakeholders who built them — all in service of continuing to be. The shell persists while the substance disappears. The behavior follows logically from a temporal horizon that extends indefinitely without intermediate validation. Survival becomes the objective because all other objectives have validation horizons too long to matter.
 
 I'm not confident the two failure modes are symmetrical. Market degeneration happens when measurement outpaces reality; survival degeneration happens when measurement stops entirely because nothing validates except continued existence. But both collapse the strategic zone from opposite directions.
 
@@ -35,7 +35,7 @@ Between these failure modes lies the strategic zone. Here, the temporal horizon 
 
 The zone isn't natural. It's institutionally constructed. Which raises the question: what protects it?
 
-Legitimacy operates as a temporal buffer. Organizations survive by conforming to institutionalized expectations even when technical efficiency is ambiguous. This conformity protects organizations from immediate selection pressure. The protection serves a purpose: it allows strategic commitments to mature on their natural timescale rather than being compressed into market cycles or extended into pure survival.
+Legitimacy operates as a temporal buffer. Organizations survive by conforming to institutionalized expectations even when technical efficiency is ambiguous. This conformity protects organizations from immediate selection pressure. The protection serves a purpose: it allows strategic commitments to mature on their natural timescale.
 
 Weak institutions push toward survival degeneration — there's no buffer, so organizations optimize for bare persistence. Hyperliquid markets create risk of market degeneration — signals update too fast, and organizations need deliberate temporal architecture to protect slow-validating commitments. Strong institutions do both: they buffer survival pressure and resist signal proliferation. I think this is one reason that, contra the standard efficiency argument, strong institutional environments tend to produce more genuine strategic differentiation than weakly institutionalized ones.
 
@@ -43,7 +43,7 @@ Weak institutions push toward survival degeneration — there's no buffer, so or
 
 This framing suggests firms exist to create temporal coherence — to bridge the mismatch between market-speed coordination and slow-validating strategic commitments. Consider what a firm can do that a market can't: commit to a research program that won't yield returns for a decade, invest in employee development that builds capabilities over careers, promise customers product support for equipment with fifteen-year lifecycles.
 
-Markets struggle with these commitments because market signals update faster than validation can occur. A stock price that drops when quarterly earnings miss expectations penalizes commitments whose payoff horizon exceeds a quarter, even when those commitments are wise. The firm creates the temporal space where such commitments can exist — but only if it has governance architecture that resists both degenerations simultaneously. I find this the most underappreciated part of the theory of the firm: the firm's primary function is temporal, not informational.
+Markets struggle with these commitments because market signals update faster than validation can occur. A stock price that drops when quarterly earnings miss expectations penalizes commitments whose payoff horizon exceeds a quarter, even when those commitments are wise. The firm creates the temporal space where such commitments can exist — but only if it has governance architecture that resists both degenerations simultaneously. I find this the most underappreciated part of the theory of the firm: the firm's primary function is temporal.
 
 ## Purpose as Temporal Anchor
 

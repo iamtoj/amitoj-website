@@ -27,23 +27,23 @@ This matters because it reveals something about the relationship between coordin
 
 Take carbon pricing. We can now measure greenhouse gas emissions with remarkable precision. The measurement problem is largely solved. You might think this means we can design a market mechanism to allocate emissions efficiently and let prices do the work.
 
-But designing that mechanism requires answering questions no measurement can adjudicate. Should emissions rights be allocated on a per-capita basis, giving equal atmospheric rights to each person on earth? Should historical emissions count, acknowledging that industrialized nations filled most of the atmosphere's carbon capacity during their development? Should developing nations receive greater present-day allowances as compensation for foreclosed growth paths?
+Designing that mechanism requires value commitments that measurement alone cannot generate. Should emissions rights be allocated on a per-capita basis, giving equal atmospheric rights to each person on earth? Should historical emissions count, acknowledging that industrialized nations filled most of the atmosphere's carbon capacity during their development? Should developing nations receive greater present-day allowances as compensation for foreclosed growth paths?
 
-I don't think these are questions about what the facts are. They're questions about how competing values should be balanced when they conflict — questions about what matters. The price mechanism depends on prior settlement of these questions. Better measurement exposes the need for that settlement; it can't provide it. More precision reveals the choice rather than making it.
+These are questions about how competing values should be balanced when they conflict — questions about what matters. The price mechanism operates downstream of these commitments. Better measurement sharpens the value questions that need settling. Each increment of precision makes the underlying choice more visible, and more urgent.
 
 ---
 
-As our ability to measure things improves, it doesn't resolve value questions. It multiplies them.
+As our ability to measure things improves, value questions multiply.
 
 When measurement was expensive, organizations bundled together two different kinds of problems. "Follow protocol" compressed "we can't verify outcomes" with "we haven't settled which outcomes matter." The first is an information problem; the second is a values problem. They look similar in practice because both produce the same organizational response: defer to procedure rather than assess results directly.
 
-As measurement improves, this bundle fractures. The information problem becomes tractable. We can now measure hospital outcomes, educational achievement, environmental impact, organizational performance — all with unprecedented precision. That precision doesn't settle which measurements matter. We can measure patient mortality rates, infection rates, satisfaction scores, cost efficiency, staff wellbeing. Measuring them all with perfect precision doesn't tell us how to weight them when they conflict. If anything, I find that greater measurement precision tends to sharpen these disagreements rather than resolve them — the facts become undeniable, and the argument shifts entirely to what the facts are supposed to justify.
+As measurement improves, this bundle fractures. The information problem becomes tractable. We can now measure hospital outcomes, educational achievement, environmental impact, organizational performance — all with unprecedented precision. That precision doesn't settle which measurements matter. We can measure patient mortality rates, infection rates, satisfaction scores, cost efficiency, staff wellbeing. Measuring them all with perfect precision doesn't tell us how to weight them when they conflict. I find that greater measurement precision sharpens these disagreements. The facts become undeniable, and the argument shifts entirely to what the facts are supposed to justify.
 
-Epistemic progress — learning more about the facts — doesn't produce evaluative progress. Confirming that something is the case doesn't settle whether it matters or how much it matters relative to other things that are also the case. In many situations, epistemic progress does the opposite: each resolved factual question branches into multiple value questions. Confirming that climate change is real opens questions about historical responsibility, generational equity, development rights, species preservation. The problem space expands where the fact space contracts.
+Epistemic progress and evaluative progress operate on different axes. Confirming that something is the case leaves open whether it matters and how much it matters relative to other things that are also the case. Each resolved factual question tends to branch into multiple value questions. Confirming that climate change is real opens questions about historical responsibility, generational equity, development rights, species preservation. The problem space expands where the fact space contracts.
 
 ---
 
-There's a further complication. Coordination mechanisms don't just aggregate preferences — they shape them.
+There's a further complication. Coordination mechanisms shape the preferences they aggregate.
 
 When university rankings become visible, institutions optimize for the dimensions those rankings make salient: faculty-student ratios, citation counts, graduation rates. They do this because visibility in rankings confers legitimacy, whether or not these dimensions capture educational quality. The metrics become targets. As institutions orient toward ranked dimensions, the rankings increasingly reflect optimization behavior rather than underlying educational value. What strikes me as the genuinely difficult feature of this dynamic is that no one is acting irrationally — each institution is responding sensibly to the incentive structure in front of it. The distortion is structural, not motivational.
 
@@ -53,13 +53,13 @@ What becomes measurable becomes salient; what becomes salient becomes legitimate
 
 ---
 
-The implication follows: allowing coordination mechanisms to operate without explicit governance of objectives doesn't avoid the question of which objectives matter. It answers that question by default — through the constitutive power of whatever becomes visible and measurable.
+The implication follows: allowing coordination mechanisms to operate without explicit governance of objectives answers the question of which objectives matter by default — through the constitutive power of whatever becomes visible and measurable.
 
 If you don't settle what you're optimizing for, the optimization process will settle it for you based on what's easy to see, what's easy to count, what produces signals that can be aggregated. That outcome systematically favors dimensions that can be compressed into metrics over dimensions that resist compression: short-term over long-term, individual over collective, measurable over meaningful.
 
-This is why I don't think the question of objectives is a preliminary matter to be handled before the "real" work of coordination begins. It's the central strategic question. Performance presupposes objectives: "How well?" requires prior answer to "Toward what?"
+The question of objectives runs through the entire coordination process. It's the central strategic question. Performance presupposes objectives: "How well?" requires prior answer to "Toward what?"
 
-By settlement I don't mean permanent resolution. I mean the processes — political, negotiated, authoritative, conventional — that produce commitment even where disagreement persists. Settlement is active: someone, or some institution, commits to treating certain values as binding for purposes of coordination. The answer isn't waiting to be found in the world. It must be created through commitment.
+Settlement here means the processes — political, negotiated, authoritative, conventional — that produce commitment even where disagreement persists. Settlement is active: someone, or some institution, commits to treating certain values as binding for purposes of coordination. The answer must be created through commitment.
 
 ---
 
