@@ -45,7 +45,7 @@ The machines can be used for something older than efficiency. Understanding ours
 
 Organizations face the same choice individuals do. They can double down on Second Enlightenment approaches — more metrics, more optimization, more control. Or they can hold the paradox: using intelligence tools while remaining awake to what the tools can't measure.
 
-The fastest thing you can measure is rarely the thing that matters most. Transaction speed, quarterly earnings, engagement metrics — these operate at one temporal frequency. Purpose, strategy, culture — these operate at another. Confusing the two is how organizations lose their way. The metrics become the mission. What gets measured gets managed, and what gets managed comes to define what the organization thinks it's for — even when no one intended that outcome.
+The fastest thing you can measure is rarely the thing that matters most. Transaction speed, quarterly earnings, engagement metrics — these operate at one temporal frequency. Purpose, strategy, culture — these operate at another. Confusing the two is how organizations lose their way — what I call in *The Right Direction* the constitutive loop — the tools we build to track progress start defining what progress means. It's the Second Enlightenment shadow operating at organizational scale.
 
 Intelligence transformation means using AI while staying connected to what you're actually trying to do. The means should serve the ends. The tools should serve the purpose. That sounds straightforward until you notice how often it's reversed — how often the existence of a powerful tool becomes the reason to use it, independent of whether it serves anything you actually care about.
 

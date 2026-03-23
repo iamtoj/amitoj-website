@@ -33,15 +33,9 @@ What remains is the irreducibly human.
 
 ---
 
-Call this the Third Enlightenment.
+Call this the Third Enlightenment — the synthesis I describe in *Third Enlightenment*, where Eastern awareness meets Western agency. What does that synthesis look like in organizational life?
 
-The First Enlightenment—call it Eastern, call it contemplative—offered liberation from suffering. The Buddha's insight: ego, attachment, mistaking our constructed self for something solid—these are the sources of pain. Through practice, through attention, through letting go, we could glimpse something beyond the cage of individual identity. This predates Western philosophy by millennia.
-
-The Second Enlightenment—call it Western, call it scientific—gave us a framework for understanding the natural world through reason. Starting with the Renaissance, accelerating through the scientific revolution: we could measure, experiment, build theories, test them. This was liberation from superstition, from the arbitrary authority of tradition. Descartes said "I think, therefore am," and the split between mind and world became productive. The universe ran on laws we could discover.
-
-Both Enlightenments had shadows. Eastern detachment could become passivity, withdrawal, quietism. Western rationality gave us bureaucracy—the machine-logic applied to human organization. Each had something the other needed.
-
-The Third Enlightenment might be their synthesis. The efficiency gains of machine-thinking redirected toward human flourishing. The dehumanizing parts of work—the parts where we had to pretend to be machines because no actual machines could do it—handled by machines.
+The efficiency gains of machine-thinking redirected toward human flourishing. The dehumanizing parts of work — the parts where we had to pretend to be machines because no actual machines could do it — handled by actual machines.
 
 ---
 
@@ -55,7 +49,7 @@ But what if consistency stopped being a human job?
 
 The work itself continues. The consistency becomes a machine's job. The showing-up-the-same-way-every-day. The mechanical reliability that organizations need but humans were never designed to provide.
 
-AI can be the cog. The reliable, consistent, predictable part. This liberates the human to be fully human—to bring judgment instead of procedure, to notice instead of process, to connect instead of compute.
+AI can be the cog. The reliable, consistent, predictable part. This liberates the human to be fully human—to bring judgment instead of procedure, to notice instead of process. To do the kind of connecting that was never mechanical in the first place — the part the bureaucracy couldn't afford to value.
 
 ---
 

@@ -16,17 +16,17 @@ The combination makes sense to me. Yoga is a laboratory for the same questions I
 
 My research examines how organizations allocate attention and find strategic direction — how resources can hide decay, how organizations determine the right direction when the path isn't clear, and what happens before search when declaring what matters shapes what becomes findable.
 
-The advising work focuses on intelligence transformation. Intelligence transformation. How organizations decide what their cognitive tools should be pointed at — and who holds that decision when the tools start suggesting answers on their own. The question underneath: what happens when any organization can access cognitive capacity that used to be scarce and expensive?
+The advising work focuses on intelligence transformation: how organizations decide what their cognitive tools should be pointed at — and who holds that decision when the tools start suggesting answers on their own. The question underneath: what happens when any organization can access cognitive capacity that used to be scarce and expensive?
 
 Nearly fifteen years advising and investing in startups and public companies taught me where organizations break — usually at the junction between what they measure and what they're actually for. The opportunity now is making those patterns accessible to organizations that could never afford the talent to execute them before.
 
 Three problems I help with:
 
-Intelligence architecture — how to structure AI capabilities so they amplify judgment rather than replace it. The prior question: what are we optimizing for, and who decided? Every strategy assumes an answer. Few organizations examine the assumption. Then: what should machines do, what should humans do, and how do we design the handoffs so we get better decisions rather than just faster ones?
+Intelligence architecture — structuring AI capabilities so they amplify judgment rather than replace it. The prior question, which most organizations skip: what are we optimizing for, and who decided?
 
-Strategic clarity in uncertainty — when your industry changes faster than your planning cycles, you need frameworks that accommodate unknowns rather than pretend they don't exist. This is where my research on attention allocation meets the practical work of helping executives see their situation more accurately.
+Strategic clarity in uncertainty — frameworks that accommodate unknowns rather than pretend they don't exist. Most planning processes assume more stability than actually exists. The work is helping executives see their situation more accurately before deciding what to do about it.
 
-Knowledge systems — building infrastructure that lets organizations capture, process, and act on what they know. The same systems I build for institutional investors, adapted for the questions your organization actually faces.
+Knowledge systems — infrastructure that lets organizations capture, process, and act on what they know. I built these for institutional investors. The principles transfer; the specific questions don't.
 
 I work with founders, executives, and investors — people who need to make high-stakes decisions with incomplete information and can't afford to pretend the ground is more stable than it is.
 
@@ -42,6 +42,6 @@ You pay only if you got value. This works because I'm not optimizing session cou
 
 Wharton and M&T undergrad — management and computer science. Entrepreneur and institutional investor across private equity, venture capital, and hedge fund. Learned how professional investors think: the frameworks, the blind spots, the ways capital shapes what gets attention and what doesn't.
 
-Harvard Business PhD student now, but I still teach yoga three mornings a week at the HBS gym. The newsletter explores questions that don't fit neatly into "tech" or "wellness" categories. What does self-knowledge look like when AI can analyze us better than we can analyze ourselves? What is creativity when machines can generate on demand? Wisdom may be the hardest case — knowledge is infinite and free, and the question of what deserves attention has no algorithmic answer.
+Harvard Business PhD student now, but I still teach yoga three mornings a week at the HBS gym. The newsletter explores what happens when knowledge becomes infinite and free — when the scarce resource shifts from information to the judgment about what deserves attention.
 
 The questions connect. The First Enlightenment externalized memory through writing and print. The Second externalized computation through digital systems. The Third externalizes cognition itself through artificial intelligence. Each transition expanded what was possible — and reshaped who we needed to become to use it. We're in the Third now. Whether we navigate it wisely is an open question.

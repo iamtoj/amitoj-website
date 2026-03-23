@@ -104,5 +104,3 @@ But other people are scarce. Their time is finite. They're not available at 2 AM
 Simulated perspectives aren't as good as the real thing. A machine playing devil's advocate doesn't have the accumulated knowledge of a human expert who's spent thirty years in your field. The objections it raises are patterns from training data, not insights born of deep expertise.
 
 But something is often better than nothing. And the structure—the deliberate staging of disagreement—does most of the work. You don't need a genius critic. You need any critic that forces you to respond to something outside your own head.
-
-The weeks I spent building my framework weren't wasted—the insight was real—but they were incomplete. The objection I needed came from a machine playing a role I'd assigned. What matters is that I responded to it the same way I would have responded to a colleague.
