@@ -1,0 +1,35 @@
+---
+import type { ResolvedContinuation } from '../lib/content';
+import EditorialLabel from './EditorialLabel.astro';
+
+interface Props {
+  paths: ResolvedContinuation[];
+  heading?: string;
+}
+
+const {
+  paths,
+  heading = 'Continue through the work',
+} = Astro.props;
+---
+
+<section class="mt-8" aria-labelledby="related-paths-heading" data-related-paths>
+  <h2 id="related-paths-heading" class="text-ink-muted text-sm mb-4 font-normal">{heading}</h2>
+  <div class="grid gap-3">
+    {paths.map((path) => (
+      <a
+        href={path.path}
+        class="group block no-underline border-t border-oat-300 pt-4"
+        data-related-path={`${path.ref.kind}:${path.ref.slug}`}
+      >
+        <EditorialLabel form={path.form} />
+        <span class="block text-lg text-ink group-hover:text-sage-700 transition-colors mt-1">
+          {path.title}
+        </span>
+        <span class="block text-sm text-ink-light mt-1" data-related-connection="true">
+          {path.connection ?? path.context}
+        </span>
+      </a>
+    ))}
+  </div>
+</section>

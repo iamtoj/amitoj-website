@@ -1,0 +1,307 @@
+<form
+  id="contact-form"
+  class="contact-form space-y-6"
+  action="https://formspree.io/f/mlgjdrwp"
+  method="POST"
+  aria-busy="false"
+>
+  <div>
+    <label for="category" class="block text-sm mb-2">What brings you here?</label>
+    <select
+      id="category"
+      name="category"
+      required
+      aria-describedby="category-error"
+      aria-invalid="false"
+      class="contact-control"
+    >
+      <option value="">Choose one</option>
+      <option value="response">A response to something here</option>
+      <option value="research">Research or organizational work</option>
+      <option value="coaching">Coaching</option>
+      <option value="yoga">Yoga</option>
+      <option value="photography">Photography</option>
+      <option value="other">Something else</option>
+    </select>
+    <p id="category-error" class="form-error" data-field-error="category"></p>
+  </div>
+
+  <div>
+    <label for="name" class="block text-sm mb-2">Name</label>
+    <input
+      type="text"
+      id="name"
+      name="name"
+      required
+      maxlength="100"
+      autocomplete="name"
+      aria-describedby="name-error"
+      aria-invalid="false"
+      class="contact-control"
+    />
+    <p id="name-error" class="form-error" data-field-error="name"></p>
+  </div>
+
+  <div>
+    <label for="email" class="block text-sm mb-2">Email</label>
+    <input
+      type="email"
+      id="email"
+      name="email"
+      required
+      maxlength="254"
+      autocomplete="email"
+      inputmode="email"
+      aria-describedby="email-error"
+      aria-invalid="false"
+      class="contact-control"
+    />
+    <p id="email-error" class="form-error" data-field-error="email"></p>
+  </div>
+
+  <div>
+    <label for="message" class="block text-sm mb-2">Message</label>
+    <textarea
+      id="message"
+      name="message"
+      required
+      maxlength="5000"
+      rows="7"
+      aria-describedby="message-error"
+      aria-invalid="false"
+      class="contact-control resize-y"
+    ></textarea>
+    <p id="message-error" class="form-error" data-field-error="message"></p>
+  </div>
+
+  <input type="hidden" name="source" value="amitoj.co/contact" />
+
+  <div class="form-honeypot" aria-hidden="true">
+    <label for="_gotcha">Leave this field empty</label>
+    <input type="text" id="_gotcha" name="_gotcha" tabindex="-1" autocomplete="off" />
+  </div>
+
+  <button
+    type="submit"
+    class="contact-submit px-6 py-3 bg-sage-300 text-ink hover:bg-sage-400 transition-colors cursor-pointer disabled:bg-oat-300 disabled:text-ink disabled:cursor-not-allowed"
+    data-submit-button
+  >
+    Send message
+  </button>
+</form>
+
+<p
+  id="contact-status"
+  class="contact-status text-sm text-ink-light mt-5"
+  role="status"
+  aria-live="polite"
+  aria-atomic="true"
+></p>
+
+<p class="text-sm text-ink-muted mt-6">
+  Formspree processes this form so the message can reach me. Please do not include sensitive information.
+  <a href="https://formspree.io/legal/privacy-policy/">Formspree privacy policy</a>.
+</p>
+
+<script>
+  type FieldName = 'category' | 'name' | 'email' | 'message';
+  type Field = HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement;
+
+  const form = document.querySelector<HTMLFormElement>('#contact-form');
+  const status = document.querySelector<HTMLElement>('#contact-status');
+  const button = form?.querySelector<HTMLButtonElement>('[data-submit-button]');
+
+  if (form && status && button) {
+    const fields = {
+      category: form.querySelector<HTMLSelectElement>('#category')!,
+      name: form.querySelector<HTMLInputElement>('#name')!,
+      email: form.querySelector<HTMLInputElement>('#email')!,
+      message: form.querySelector<HTMLTextAreaElement>('#message')!,
+    } satisfies Record<FieldName, Field>;
+    const errors = Object.fromEntries(
+      (Object.keys(fields) as FieldName[]).map((name) => [
+        name,
+        form.querySelector<HTMLElement>(`[data-field-error="${name}"]`),
+      ]),
+    ) as Record<FieldName, HTMLElement>;
+    const providerMessages: Record<FieldName, string> = {
+      category: 'Check what brings you here and try again.',
+      name: 'Check your name and try again.',
+      email: 'Check your email address and try again.',
+      message: 'Check your message and try again.',
+    };
+    const fieldNames = Object.keys(fields) as FieldName[];
+    const allowedAbout = new Set(['coaching', 'yoga', 'photography', 'research']);
+    const about = new URLSearchParams(window.location.search).get('about');
+    let submitting = false;
+
+    form.noValidate = true;
+    if (about && allowedAbout.has(about)) fields.category.value = about;
+
+    function setError(name: FieldName, message: string) {
+      errors[name].textContent = message;
+      fields[name].setAttribute('aria-invalid', message ? 'true' : 'false');
+    }
+
+    function errorFor(name: FieldName) {
+      const field = fields[name];
+      if (name === 'category' && field.validity.valueMissing) return 'Choose what brings you here.';
+      if (name === 'name') {
+        if (field.validity.valueMissing || !field.value.trim()) return 'Enter your name.';
+        if (field.value.length > fields.name.maxLength) return 'Keep your name to 100 characters or fewer.';
+      }
+      if (name === 'email') {
+        if (field.validity.valueMissing) return 'Enter your email address.';
+        if (field.value.length > fields.email.maxLength) return 'Keep your email address to 254 characters or fewer.';
+        if (field.validity.typeMismatch) return 'Enter an email address in the form name@example.com.';
+      }
+      if (name === 'message') {
+        if (field.validity.valueMissing || !field.value.trim()) return 'Enter a message.';
+        if (field.value.length > fields.message.maxLength) return 'Keep your message to 5000 characters or fewer.';
+      }
+      return '';
+    }
+
+    function validate() {
+      let firstInvalid: Field | undefined;
+      for (const name of fieldNames) {
+        const message = errorFor(name);
+        setError(name, message);
+        if (message && !firstInvalid) firstInvalid = fields[name];
+      }
+      if (firstInvalid) {
+        firstInvalid.focus();
+        return false;
+      }
+      return true;
+    }
+
+    for (const name of fieldNames) {
+      const clearWhenValid = () => {
+        if (!errorFor(name)) setError(name, '');
+      };
+      fields[name].addEventListener('input', clearWhenValid);
+      fields[name].addEventListener('change', clearWhenValid);
+    }
+
+    form.addEventListener('submit', async (event) => {
+      event.preventDefault();
+      if (submitting) return;
+      if (!validate()) return;
+
+      submitting = true;
+      const originalButtonText = button.textContent ?? 'Send message';
+      const buttonHadFocus = document.activeElement === button;
+      const controller = new AbortController();
+      let timedOut = false;
+      const timeout = window.setTimeout(() => {
+        timedOut = true;
+        controller.abort();
+      }, 15_000);
+      const submission = new FormData(form);
+      const submittedValues = Object.fromEntries(
+        fieldNames.map((name) => [name, fields[name].value]),
+      ) as Record<FieldName, string>;
+      const honeypot = form.querySelector<HTMLInputElement>('#_gotcha');
+      const submittedHoneypot = honeypot?.value ?? '';
+
+      form.setAttribute('aria-busy', 'true');
+      button.disabled = true;
+      button.textContent = 'Sending…';
+      status.textContent = 'Sending your message…';
+
+      try {
+        const response = await fetch(form.action, {
+          method: 'POST',
+          body: submission,
+          headers: { Accept: 'application/json' },
+          signal: controller.signal,
+        });
+
+        if (response.ok) {
+          for (const name of fieldNames) {
+            if (fields[name].value === submittedValues[name]) fields[name].value = '';
+          }
+          if (honeypot?.value === submittedHoneypot) honeypot.value = '';
+          for (const name of fieldNames) setError(name, '');
+          status.textContent = 'Your message was sent.';
+        } else {
+          if (response.status === 400 || response.status === 422) {
+            try {
+              const payload = await response.json();
+              if (payload && typeof payload === 'object' && Array.isArray(payload.errors)) {
+                for (const error of payload.errors) {
+                  const field = error && typeof error === 'object' ? error.field : undefined;
+                  if (typeof field === 'string' && fieldNames.includes(field as FieldName)) {
+                    const fieldName = field as FieldName;
+                    if (fields[fieldName].value === submittedValues[fieldName]) {
+                      setError(fieldName, providerMessages[fieldName]);
+                    }
+                  }
+                }
+              }
+            } catch {
+              // Provider response bodies are optional and never rendered.
+            }
+          }
+          status.textContent = response.status === 429
+            ? 'Too many messages were submitted at once. Wait a moment, then try again.'
+            : 'Your message was not sent. Your words are still here; try again.';
+        }
+      } catch {
+        status.textContent = timedOut
+          ? 'Delivery could not be confirmed. Your words are still here; sending again may create a duplicate.'
+          : 'Your message was not sent. Your words are still here; try again.';
+      } finally {
+        const focusStayedWithSubmission = buttonHadFocus
+          && (document.activeElement === button || document.activeElement === document.body);
+        window.clearTimeout(timeout);
+        submitting = false;
+        form.setAttribute('aria-busy', 'false');
+        button.disabled = false;
+        button.textContent = originalButtonText;
+        if (focusStayedWithSubmission) button.focus({ preventScroll: true });
+      }
+    });
+  }
+</script>
+
+<style>
+  .contact-control {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    background: #EBE3D6;
+    border: 1px solid #DED6C8;
+    color: #2D2A26;
+    transition: border-color 0.2s ease;
+  }
+
+  .contact-control:focus {
+    border-color: #82966A;
+  }
+
+  .contact-control[aria-invalid="true"] {
+    border-color: #8A3F35;
+  }
+
+  .form-error {
+    min-height: 1.5rem;
+    margin-top: 0.35rem;
+    color: #7A352D;
+    font-size: 0.875rem;
+  }
+
+  .contact-status {
+    min-height: 1.5rem;
+  }
+
+  .form-honeypot {
+    position: absolute;
+    left: -10000px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    white-space: nowrap;
+    clip-path: inset(50%);
+  }
+</style>

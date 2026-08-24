@@ -1,43 +1,20 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import { getCollection } from 'astro:content';
+import EditorialLabel from '../components/EditorialLabel.astro';
+import InquiryTrail from '../components/InquiryTrail.astro';
+import { getEditorialNetwork, getPublishedEssays, getPublishedNotes } from '../lib/content';
 
-// Get all blog posts, sorted by date
-const posts = (await getCollection('blog'))
-  .filter(post => !post.data.draft)
-  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
-
-// Essays (pinned)
-const essays = [
-  {
-    slug: 'what-rules-cant-capture',
-    title: "What Rules Can't Capture",
-    description: 'The more rules I wrote, the less the system understood what I actually wanted. Some knowledge resists becoming rules  -  and that\'s where the interesting work begins.',
-    pubDate: 'January 2026',
-    type: 'essay',
-  },
-  {
-    slug: 'the-right-direction',
-    title: 'The Right Direction',
-    description: 'Markets coordinate brilliantly within frameworks they cannot generate. Price signals tell you how to win  -  they can\'t tell you whether it\'s the right game.',
-    pubDate: 'January 2026',
-    type: 'essay',
-  },
-  {
-    slug: 'strategic-time',
-    title: 'Strategic Time',
-    description: 'Strategic choice lives in a narrow temporal zone between market degeneration and survival pressure. The mismatch between three clocks is where strategy happens.',
-    pubDate: 'January 2026',
-    type: 'essay',
-  },
-  {
-    slug: 'architecture-of-commitment',
-    title: 'The Architecture of Commitment',
-    description: 'As measurement improves, execution becomes tractable. What remains contested is what the organization should be pursuing in the first place.',
-    pubDate: 'January 2026',
-    type: 'essay',
-  },
-];
+const network = await getEditorialNetwork();
+const essays = await getPublishedEssays();
+const posts = await getPublishedNotes();
+const essayCards = essays.map((entry) => ({
+  entry,
+  target: network.resolve({ kind: 'essay', slug: entry.data.slug }),
+}));
+const noteCards = posts.map((entry) => ({
+  entry,
+  target: network.resolve({ kind: 'note', slug: entry.data.slug }),
+}));
 ---
 
 <Layout title="Writing | Amitoj Singh" description="Essays and notes on organizations, strategy, intelligence, and human flourishing.">
@@ -65,23 +42,37 @@ const essays = [
     </div>
   </section>
 
+  <section class="container-zen section-zen border-t border-oat-300" data-inquiry-trails>
+    <div class="max-w-3xl">
+      <h2 class="text-sm text-ink-muted uppercase tracking-wider mb-4">Inquiry trails</h2>
+      <p class="text-ink-light mb-10">
+        Three questions, each followed across essays, notes, and reading.
+      </p>
+
+      <div class="grid gap-12">
+        {network.trails.map((trail) => <InquiryTrail trail={trail} />)}
+      </div>
+    </div>
+  </section>
+
   <!-- Essays (Pinned) -->
   <section class="container-zen section-zen border-t border-oat-300">
     <div class="max-w-3xl">
       <h2 class="text-sm text-ink-muted uppercase tracking-wider mb-8">Essays</h2>
 
       <div class="space-y-8">
-        {essays.map((essay) => (
-          <article class="group">
-            <a href={`/essays/${essay.slug}`} class="block no-underline">
+        {essayCards.map(({ entry: essay, target }) => (
+          <article class="group" data-writing-essay={essay.data.slug}>
+            <a href={target.path} class="block no-underline">
               <div class="flex justify-between items-start gap-4">
                 <div>
+                  <EditorialLabel form={target.form} />
                   <h3 class="text-xl mb-2 group-hover:text-sage-600 transition-colors">
-                    {essay.title}
+                    {essay.data.title}
                   </h3>
-                  <p class="text-ink-light">{essay.description}</p>
+                  <p class="text-ink-light">{essay.data.summary}</p>
                 </div>
-                <span class="text-ink-muted text-sm whitespace-nowrap">{essay.pubDate}</span>
+                <span class="text-ink-muted text-sm whitespace-nowrap">{essay.data.cardPublishedLabel}</span>
               </div>
             </a>
           </article>
@@ -97,11 +88,12 @@ const essays = [
         <h2 class="text-sm text-ink-muted uppercase tracking-wider mb-8">Notes</h2>
 
         <div class="space-y-8">
-          {posts.map((post) => (
-            <article class="group">
-              <a href={`/blog/${post.slug}`} class="block no-underline">
+          {noteCards.map(({ entry: post, target }) => (
+            <article class="group" data-writing-note={post.data.slug}>
+              <a href={target.path} class="block no-underline">
                 <div class="flex justify-between items-start gap-4">
                   <div>
+                    <EditorialLabel form={target.form} />
                     <h3 class="text-xl mb-2 group-hover:text-sage-600 transition-colors">
                       {post.data.title}
                     </h3>
@@ -115,9 +107,10 @@ const essays = [
                     )}
                   </div>
                   <span class="text-ink-muted text-sm whitespace-nowrap">
-                    {post.data.pubDate.toLocaleDateString('en-US', {
+                    {post.data.pubDate!.toLocaleDateString('en-US', {
                       year: 'numeric',
                       month: 'long',
+                      timeZone: 'UTC',
                     })}
                   </span>
                 </div>

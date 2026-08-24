@@ -23,9 +23,11 @@ const screenshotsDir = join(__dirname, '..', 'mobile-screenshots');
 const pages = [
   '/',
   '/about',
-  '/work',
+  '/research',
+  '/practices',
+  '/coaching',
   '/yoga',
-  '/essays',
+  '/writing',
   '/photography',
   '/contact',
 ];

@@ -1,114 +1,172 @@
 ---
 import Analytics from '@vercel/analytics/astro';
+import BaseHead, { type Props as BaseHeadProps } from '../components/BaseHead.astro';
+import SiteNavigation from '../components/SiteNavigation.astro';
 
-interface Props {
-  title: string;
-  description?: string;
-}
+interface Props extends BaseHeadProps {}
 
-const { title, description = 'Amitoj Singh - Third Enlightenment consulting, writing, yoga, and photography.' } = Astro.props;
+const head = Astro.props;
 ---
 
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content={description} />
-    <meta name="generator" content={Astro.generator} />
-
-    <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-
-    <!-- Open Graph -->
-    <meta property="og:title" content={title} />
-    <meta property="og:description" content={description} />
-    <meta property="og:type" content="website" />
-
-    <title>{title}</title>
-
-    <Analytics />
+    <BaseHead {...head} />
   </head>
   <body>
-    <a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-oat-100 px-4 py-2">
+    <a href="#main-content" class="skip-link sr-only focus:not-sr-only">
       Skip to content
     </a>
 
     <header class="container-zen py-8 md:py-12">
-      <nav class="flex items-center justify-between">
+      <div class="flex items-center justify-between gap-6">
         <a href="/" class="text-xl no-underline hover:text-ink-light">
           Amitoj Singh
         </a>
 
-        <!-- Desktop Nav -->
-        <ul class="hidden md:flex gap-8 list-none m-0 p-0">
-          <li><a href="/about" class="nav-link">About</a></li>
-          <li><a href="/third-enlightenment" class="nav-link">Third Enlightenment</a></li>
-          <li><a href="/writing" class="nav-link">Writing</a></li>
-          <li><a href="/library" class="nav-link">Library</a></li>
-          <li><a href="/yoga" class="nav-link">Yoga</a></li>
-          <li><a href="/photography" class="nav-link">Photography</a></li>
-          <li><a href="/contact" class="nav-link">Contact</a></li>
-        </ul>
+        <SiteNavigation placement="desktop" currentPath={Astro.url.pathname} />
 
-        <!-- Mobile Hamburger Button -->
         <button
           id="mobile-menu-button"
           class="md:hidden p-2 -mr-2"
-          aria-label="Toggle menu"
+          type="button"
+          aria-label="Open site navigation"
           aria-expanded="false"
+          aria-controls="mobile-site-navigation"
         >
-          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path id="menu-icon" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-            <path id="close-icon" class="hidden" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path data-menu-icon stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            <path data-close-icon class="hidden" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
           </svg>
         </button>
-      </nav>
-
-      <!-- Mobile Nav Menu -->
-      <div id="mobile-menu" class="hidden md:hidden mt-6 pb-4 border-t border-oat-300 pt-6">
-        <ul class="flex flex-col gap-4 list-none m-0 p-0">
-          <li><a href="/about" class="no-underline hover:text-ink-light block py-1">About</a></li>
-          <li><a href="/third-enlightenment" class="no-underline hover:text-ink-light block py-1">Third Enlightenment</a></li>
-          <li><a href="/writing" class="no-underline hover:text-ink-light block py-1">Writing</a></li>
-          <li><a href="/library" class="no-underline hover:text-ink-light block py-1">Library</a></li>
-          <li><a href="/yoga" class="no-underline hover:text-ink-light block py-1">Yoga</a></li>
-          <li><a href="/photography" class="no-underline hover:text-ink-light block py-1">Photography</a></li>
-          <li><a href="/contact" class="no-underline hover:text-ink-light block py-1">Contact</a></li>
-        </ul>
       </div>
+
+      <SiteNavigation
+        id="mobile-site-navigation"
+        placement="mobile"
+        currentPath={Astro.url.pathname}
+        hidden
+      />
     </header>
 
-    <main id="main">
+    <main id="main-content" tabindex="-1">
       <slot />
     </main>
 
     <footer class="container-zen py-16 border-t border-sage-200 mt-22" style="background: linear-gradient(180deg, #F5F0E6 0%, #F4F6F2 100%);">
       <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
-        <p class="text-ink-muted text-sm m-0">
+        <p class="text-ink-muted text-sm m-0 flex-shrink-0">
           &copy; {new Date().getFullYear()} Amitoj Singh
         </p>
-        <ul class="flex gap-6 list-none m-0 p-0 text-sm">
-          <li><a href="/yoga" class="text-ink-muted no-underline hover:text-sage-600">Yoga</a></li>
-          <li><a href="/photography" class="text-ink-muted no-underline hover:text-sage-600">Photography</a></li>
-        </ul>
+        <SiteNavigation placement="footer" currentPath={Astro.url.pathname} />
       </div>
     </footer>
 
     <script>
-      const button = document.getElementById('mobile-menu-button');
-      const menu = document.getElementById('mobile-menu');
-      const menuIcon = document.getElementById('menu-icon');
-      const closeIcon = document.getElementById('close-icon');
+      const button = document.querySelector<HTMLButtonElement>('#mobile-menu-button');
+      const panel = document.querySelector<HTMLElement>('#mobile-site-navigation');
+      const menuIcon = document.querySelector<SVGPathElement>('[data-menu-icon]');
+      const closeIcon = document.querySelector<SVGPathElement>('[data-close-icon]');
+      const skipLink = document.querySelector<HTMLAnchorElement>('.skip-link');
+      const main = document.querySelector<HTMLElement>('#main-content');
+      const desktopNavigation = document.querySelector<HTMLElement>('nav[aria-label="Primary navigation"]');
+      let lastFocusedMobileHref: string | null = null;
+      let lastFocusRegion: 'trigger' | 'mobile' | 'desktop' | 'other' = 'other';
 
+      const setNavigationOpen = (
+        open: boolean,
+        { restoreFocus = false, focusTarget = null }: { restoreFocus?: boolean; focusTarget?: HTMLElement | null } = {},
+      ) => {
+        if (!button || !panel) return;
+        const focusedInsidePanel = document.activeElement instanceof HTMLElement
+          && panel.contains(document.activeElement);
+        button.setAttribute('aria-expanded', String(open));
+        button.setAttribute('aria-label', open ? 'Close site navigation' : 'Open site navigation');
+        panel.hidden = !open;
+        menuIcon?.classList.toggle('hidden', open);
+        closeIcon?.classList.toggle('hidden', !open);
+        const nextFocus = focusTarget ?? (restoreFocus || focusedInsidePanel ? button : null);
+        if (!open && nextFocus) requestAnimationFrame(() => nextFocus.focus());
+      };
+
+      setNavigationOpen(false);
       button?.addEventListener('click', () => {
-        const isExpanded = button.getAttribute('aria-expanded') === 'true';
-        button.setAttribute('aria-expanded', (!isExpanded).toString());
-        menu?.classList.toggle('hidden');
-        menuIcon?.classList.toggle('hidden');
-        closeIcon?.classList.toggle('hidden');
+        setNavigationOpen(button.getAttribute('aria-expanded') !== 'true');
+      });
+      document.addEventListener('focusin', (event) => {
+        const target = event.target;
+        if (!(target instanceof Element)) return;
+        if (target === button) {
+          lastFocusRegion = 'trigger';
+        } else if (panel?.contains(target)) {
+          lastFocusRegion = 'mobile';
+          const link = target.closest<HTMLAnchorElement>('a[href]');
+          if (link) lastFocusedMobileHref = link.getAttribute('href');
+        } else if (desktopNavigation?.contains(target)) {
+          lastFocusRegion = 'desktop';
+        } else {
+          lastFocusRegion = 'other';
+        }
+      });
+      panel?.addEventListener('click', (event) => {
+        const link = (event.target as Element).closest('a[href]');
+        if (
+          link
+          && event instanceof MouseEvent
+          && event.button === 0
+          && !event.defaultPrevented
+          && !event.altKey
+          && !event.ctrlKey
+          && !event.metaKey
+          && !event.shiftKey
+        ) {
+          setNavigationOpen(false);
+        }
+      });
+      document.addEventListener('keydown', (event) => {
+        if (event.key === 'Escape' && button?.getAttribute('aria-expanded') === 'true') {
+          setNavigationOpen(false, { restoreFocus: true });
+        }
+      });
+
+      const breakpoint = window.matchMedia('(min-width: 768px)');
+      breakpoint.addEventListener('change', (event) => {
+        const active = document.activeElement;
+        const wasOpen = button?.getAttribute('aria-expanded') === 'true';
+        let focusTarget: HTMLElement | null = null;
+
+        if (event.matches && desktopNavigation) {
+          if (active === button || lastFocusRegion === 'trigger') {
+            focusTarget = desktopNavigation.querySelector<HTMLElement>('[aria-current="page"]')
+              ?? desktopNavigation.querySelector<HTMLElement>('a[href]');
+          } else {
+            const mobileHref = active instanceof HTMLAnchorElement && panel?.contains(active)
+              ? active.getAttribute('href')
+              : wasOpen && lastFocusRegion === 'mobile'
+                ? lastFocusedMobileHref
+                : null;
+            if (mobileHref) {
+              focusTarget = [...desktopNavigation.querySelectorAll<HTMLAnchorElement>('a[href]')]
+                .find((link) => link.getAttribute('href') === mobileHref) ?? null;
+            }
+          }
+        } else if (
+          !event.matches
+          && ((active instanceof HTMLElement && desktopNavigation?.contains(active)) || lastFocusRegion === 'desktop')
+        ) {
+          focusTarget = button;
+        }
+
+        setNavigationOpen(false, { focusTarget });
+      });
+      window.addEventListener('pageshow', () => setNavigationOpen(false));
+      window.addEventListener('popstate', () => setNavigationOpen(false));
+
+      skipLink?.addEventListener('click', () => {
+        requestAnimationFrame(() => main?.focus());
       });
     </script>
+    <Analytics />
   </body>
 </html>
 

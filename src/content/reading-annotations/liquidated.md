@@ -1,0 +1,101 @@
+---
+slug: "liquidated"
+publicationStatus: "published"
+title: "Liquidated: An Ethnography of Wall Street"
+pageTitle: "Liquidated | Library | Amitoj Singh"
+description: "Karen Ho's ethnography reveals how Wall Street culture creates economic crises through the very practices it claims are natural."
+author: "Karen Ho"
+cardTitle: "Liquidated"
+cardAuthor: "Karen Ho"
+cardReadingTime: "8-12 hours"
+cardDifficulty: "Moderate"
+cardTags: ["Economics","Culture"]
+teaser: "A recruiting event at a business school where the pitch sounded like an initiation rite. The investment bankers described 100-hour weeks, constant job insecurity."
+detailReadingTime: "8-12 hours"
+detailDifficulty: "Moderate"
+detailTags: ["Economics","Culture","Systems"]
+sortOrder: 10
+continuations: [{"target":{"kind":"essay","slug":"strategic-time"}}]
+---
+
+<section class="mb-12">
+<h2 class="text-sm text-ink-muted uppercase tracking-wider mb-4">Why I Recommend This</h2>
+<div class="prose prose-lg">
+<p>I watched a recruiter pitch investment banking to MBAs. The appeal was the suffering—100-hour weeks as proof you're serious, layoffs as professional baptism, deals structured so you collect fees now and someone else handles the wreckage later. Then he described how they advise Fortune 500 companies to run the same way. Ho got herself hired to watch this up close.</p>
+<p>Her anthropological training showed her what economists miss: markets are performed into being. Wall Street's culture—liquidity as virtue, precarity as normal, short-term extraction as rational—gets exported to every company they restructure. The book documents how this happens, deal by deal, pitch deck by pitch deck. Once you see it, you can't unsee it.</p>
+</div>
+</section>
+
+<!-- THE BOOK -->
+<section class="mb-12">
+<h2 class="text-sm text-ink-muted uppercase tracking-wider mb-4">The Book</h2>
+<div class="prose prose-lg">
+<p>Ho argues that Wall Street doesn't just respond to markets—it actively constructs them through culture. Financial collapses are typically explained as inevitable results of market cycles, but her ethnographic investigation reveals how instability gets produced through the everyday practices and ideologies of investment bankers. Their approaches to financial markets and corporate America are inseparable from the structures and strategies of their own workplaces.</p>
+<p>The culture of liquidity, smartness, and job insecurity that defines Wall Street gets projected onto the entire economy. Their stated mission is shareholder value, but their compensation schemes and workplace norms project Wall Street's culture of precarity onto every corporation they touch.</p>
+</div>
+</section>
+
+<!-- PASSAGES -->
+<section class="mb-12">
+<h2 class="text-sm text-ink-muted uppercase tracking-wider mb-4">Passages That Stayed With Me</h2>
+<div class="space-y-6">
+<blockquote class="border-l-2 border-sage-400 pl-6">
+<p class="text-lg italic mb-2">"What was so arresting about Wall Street's approach to corporate downsizing was its celebratory tone, its rejoicing in the very fact of corporate restructuring."</p>
+<p class="text-sm text-ink-muted">Layoffs as victory, destruction as value creation.</p>
+</blockquote>
+<blockquote class="border-l-2 border-sage-400 pl-6">
+<p class="text-lg italic mb-2">"It wasn't until after my whole group 'got dismantled' that I gleaned insight into Wall Street's 'culture of liquidity.' The job insecurity and precarity, as manifested in the revolving door of Wall Street, was endemic to how they understood the workplace."</p>
+<p class="text-sm text-ink-muted">She got laid off mid-research and realized it was data.</p>
+</blockquote>
+<blockquote class="border-l-2 border-sage-400 pl-6">
+<p class="text-lg italic mb-2">"Bankers operated under the mentality of 'I'll be gone, You'll be gone,' or IBGYBG."</p>
+<p class="text-sm text-ink-muted">They have an acronym for not caring about consequences.</p>
+</blockquote>
+<blockquote class="border-l-2 border-sage-400 pl-6">
+<p class="text-lg italic mb-2">"Based on this culture of liquidity and compensation practices tied to profligate deal-making, Wall Street investment bankers reshape corporate America in their own image."</p>
+<p class="text-sm text-ink-muted">This is the sentence the whole book unpacks.</p>
+</blockquote>
+<blockquote class="border-l-2 border-sage-400 pl-6">
+<p class="text-lg italic mb-2">"Investment bankers strove to make the most out of the present, and in doing so created a 'bubble culture of expediency,' devoid of long-term strategic thinking."</p>
+<p class="text-sm text-ink-muted">When compensation is tied to deals closed, not outcomes produced.</p>
+</blockquote>
+</div>
+</section>
+
+<!-- READ THIS IF -->
+<section class="mb-12">
+<h2 class="text-sm text-ink-muted uppercase tracking-wider mb-4">Read This If...</h2>
+<ul class="space-y-3 text-ink-light">
+<li class="flex gap-3">
+<span class="text-sage-600">&bull;</span>
+<span>You've wondered why corporations celebrate layoffs while claiming record profits—Ho shows the cultural logic that makes downsizing a virtue, a sign of strength</span>
+</li>
+<li class="flex gap-3">
+<span class="text-sage-600">&bull;</span>
+<span>You work in or study organizations being told to "run like a business"—this reveals what that actually means and where the ideology comes from</span>
+</li>
+<li class="flex gap-3">
+<span class="text-sage-600">&bull;</span>
+<span>You want to understand how elite education pipelines produce careers and entire worldviews that reshape the economy</span>
+</li>
+<li class="flex gap-3">
+<span class="text-sage-600">&bull;</span>
+<span>You're curious how anthropological methods can illuminate what economists take for granted—markets as performed into being, not naturally occurring</span>
+</li>
+</ul>
+</section>
+
+<!-- SKIP THIS IF -->
+<section class="mb-12">
+<h2 class="text-sm text-ink-muted uppercase tracking-wider mb-4">Skip This If...</h2>
+<ul class="space-y-3 text-ink-light">
+<li class="flex gap-3">
+<span class="text-oat-400">&bull;</span>
+<span>You want policy prescriptions or alternative economic models—Ho's diagnosis is thorough, but she doesn't extensively develop solutions</span>
+</li>
+<li class="flex gap-3">
+<span class="text-oat-400">&bull;</span>
+<span>You prefer economic analysis to cultural anthropology—this is ethnography, thick with fieldwork and quotations from bankers, not regression analysis</span>
+</li>
+</ul>
+</section>

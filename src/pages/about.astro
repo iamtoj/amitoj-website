@@ -1,115 +1,61 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import { siteFacts } from '../data/site-facts';
 ---
 
-<Layout title="About | Amitoj Singh" description="Amitoj Singh researches how organizations allocate attention and find direction. Harvard Business PhD student.">
+<Layout
+  title="About | Amitoj Singh"
+  description={`Amitoj Singh's background and inquiry into ${siteFacts.researchFocus}.`}
+>
   <section class="container-zen section-zen">
-    <div class="max-w-2xl">
+    <div class="max-w-3xl">
       <h1 class="mb-8 text-balance">About</h1>
+      <div class="accent-line mb-10"></div>
 
-      <div class="accent-line mb-8"></div>
+      <div class="grid md:grid-cols-[14rem_minmax(0,1fr)] gap-8 md:gap-12 items-start">
+        <img
+          src="/images/profile.jpeg"
+          alt="Amitoj Singh smiling while seated beside the water, with a city skyline behind him"
+          class="w-56 h-72 object-cover object-top"
+          width="768"
+          height="1024"
+        />
 
-      <div class="flex flex-col md:flex-row gap-8 mb-8 md:items-stretch">
-        <div class="flex-shrink-0">
-          <img
-            src="/images/profile.jpeg"
-            alt="Amitoj Singh"
-            class="w-56 h-64 object-cover object-top"
-          />
-        </div>
-        <div class="md:max-w-xs flex items-center">
-          <p class="text-lg text-ink-light">
-            Fifteen years in advisory and investing — entrepreneur and institutional investor across private equity, venture capital, and hedge fund. Now a PhD student at Harvard Business School, researching how organizations allocate attention and find direction.
+        <div>
+          <p class="text-lg text-ink-light mb-6">
+            I came to these questions through {siteFacts.professionalHistory}.
+          </p>
+          <p class="text-ink-light mb-6">
+            My undergraduate work through {siteFacts.education}. I have practiced yoga for {siteFacts.yogaPractice}.
+          </p>
+          <p class="text-ink-light">
+            The thread begins before measurement: people and organizations still have to decide what matters. I am interested in how they preserve that judgment as more cognition becomes delegable.
           </p>
         </div>
       </div>
+    </div>
+  </section>
 
+  <section class="container-zen section-zen border-t border-oat-300">
+    <div class="max-w-2xl">
+      <h2 class="text-2xl mb-6 section-header">The inquiry</h2>
       <p class="text-ink-light mb-6">
-        The common question across all of it: how do we use intelligence — human and artificial — to extend our capacity to see what matters rather than just process more information faster?
+        Research asks how organizations decide what deserves attention and which direction to hold. Yoga and photography train attention more directly. Writing is where I make the resulting claims public enough to test.
       </p>
-
       <p class="text-ink-light">
-        I write about this. I teach yoga at the Harvard Business School gym. I advise organizations navigating what I call intelligence transformation — the fundamental restructuring of how companies think now that cognition itself can be externalized.
-      </p>
-
-      <p class="text-ink-light mt-6">
-        Yoga is a laboratory for the same questions I study academically: How do you pay attention? How do you stay present when things get uncomfortable? How do you distinguish what you can control from what you cannot? Strategy work asks the same questions at organizational scale.
+        The forms differ. The recurring problem is the same: seeing what matters before acting, then acting without handing away the judgment that gives action direction.
       </p>
     </div>
   </section>
 
   <section class="container-zen section-zen border-t border-oat-300">
-    <h2 class="text-2xl mb-8 section-header">Third Enlightenment</h2>
-
     <div class="max-w-2xl">
-      <p class="text-ink-light mb-6">
-        The framework is spelled out on <a href="/third-enlightenment" class="text-sage-700 hover:text-sage-900 underline">the Third Enlightenment page</a>. The short version: awareness (First), agency (Second), and now the integration of both (Third).
-      </p>
-
-      <a href="/third-enlightenment" class="arrow-link">Read the full framework</a>
-    </div>
-  </section>
-
-  <section class="container-zen section-zen border-t border-oat-300">
-    <h2 class="text-2xl mb-8 section-header">What I Do</h2>
-
-    <div class="max-w-2xl">
-      <p class="text-ink-light mb-6">
-        My research examines how organizations allocate attention and find strategic direction — how resources can hide decay, how organizations determine the right direction when the path isn't clear, and what happens before search when declaring what matters shapes what becomes findable.
-      </p>
-
-      <p class="text-ink-light mb-6">
-        The advising work focuses on intelligence transformation. The question is: what happens when any organization can access cognitive capacity that used to be scarce and expensive? Call it intelligence transformation — the structural shift in how companies think when cognition itself can be externalized.
-      </p>
-
-      <p class="text-ink-light mb-6">
-        I'm working on three problems: how intelligence should be structured inside organizations so it amplifies judgment rather than replacing it; how executives can find strategic clarity when their industry changes faster than their planning cycles; and how organizations can build systems that capture what they know.
-      </p>
-
-      <div class="flex flex-col sm:flex-row gap-4">
-        <a href="/work" class="arrow-link">See current work</a>
-        <a href="/principles" class="arrow-link">How I think</a>
+      <h2 class="text-2xl mb-6 section-header">Continue</h2>
+      <div class="flex flex-col sm:flex-row gap-4 sm:gap-6">
+        <a href="/research" class="arrow-link">Research</a>
+        <a href="/principles" class="arrow-link">Principles</a>
+        <a href="/third-enlightenment" class="arrow-link">Third Enlightenment</a>
       </div>
-    </div>
-  </section>
-
-  <section class="container-zen section-zen border-t border-oat-300">
-    <h2 class="text-2xl mb-8 section-header">Executive Coaching</h2>
-
-    <div class="max-w-2xl">
-      <p class="text-ink-light mb-6">
-        I also do executive coaching. One conversation to see if we're a fit. If we are, twelve sessions spread across your lifetime — the first six to eight do the primary work; the remaining sessions are banked for transitions, crises, or questions that need outside perspective.
-      </p>
-    </div>
-  </section>
-
-  <section class="container-zen section-zen border-t border-oat-300">
-    <h2 class="text-2xl mb-8 section-header">Background</h2>
-
-    <div class="max-w-2xl">
-      <p class="text-ink-light mb-6">
-        Wharton and M&T undergrad — management and computer science. Entrepreneur and institutional investor across private equity, venture capital, and hedge fund. Learned how professional investors think: the frameworks, the blind spots, the ways capital shapes what gets attention and what doesn't.
-      </p>
-
-      <p class="text-ink-light mb-6">
-        Harvard Business PhD student now, but I still teach yoga three mornings a week at the HBS gym. The newsletter explores questions that don't fit neatly into "tech" or "wellness" categories. What does self-knowledge look like when AI can analyze us better than we can analyze ourselves?
-      </p>
-
-      <p class="text-ink-light">
-        The questions connect. We're in the Third Enlightenment now — writing and print let us externalize memory, digital systems let us externalize computation, and artificial intelligence lets us externalize cognition itself.
-      </p>
-    </div>
-  </section>
-
-  <section class="container-zen section-zen border-t border-oat-300 bg-oat-100">
-    <div class="max-w-2xl">
-      <h2 class="text-2xl mb-6">Let's Connect</h2>
-
-      <p class="text-ink-light mb-8">
-        If something here resonated, I'd like to hear about it.
-      </p>
-
-      <a href="/contact" class="arrow-link">Get in touch</a>
     </div>
   </section>
 </Layout>

@@ -2,23 +2,45 @@
   "name": "amitoj-co",
   "type": "module",
   "version": "0.0.1",
+  "engines": {
+    "node": "24.x"
+  },
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro check && astro build",
+    "check": "astro check",
+    "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "mobile-preview": "node scripts/mobile-preview.mjs"
+    "mobile-preview": "node scripts/mobile-preview.mjs",
+    "verify:baseline": "node scripts/verify-baseline.mjs",
+    "verify:checkpoint": "node scripts/verify-baseline.mjs --checkpoint",
+    "verify:migration": "node scripts/verify-baseline.mjs --migration-checkpoint",
+    "verify:content": "node --test tests/content-integrity.test.mjs",
+    "verify:metadata": "node --test tests/metadata.test.mjs tests/navigation.test.mjs",
+    "verify:photography": "node --test tests/photography-contract.test.mjs",
+    "verify:dist": "node scripts/verify-site.mjs",
+    "verify:release-harness": "node --test tests/playwright-target.test.mjs tests/verify-site.test.mjs",
+    "test:baseline": "playwright test tests/baseline.spec.ts",
+    "test:editorial-network": "playwright test tests/editorial-network.spec.ts",
+    "test:site-shell": "playwright test tests/site-shell.spec.ts",
+    "test:e2e": "playwright test tests/baseline.spec.ts tests/contact-form.spec.ts tests/editorial-network.spec.ts tests/identity-research.spec.ts tests/practices.spec.ts tests/site-shell.spec.ts tests/site.spec.ts",
+    "test:a11y": "playwright test tests/accessibility.spec.ts",
+    "test:browser": "npm run test:e2e && npm run test:a11y"
   },
   "dependencies": {
-    "@astrojs/check": "^0.9.0",
-    "@astrojs/tailwind": "^5.1.0",
+    "@astrojs/check": "0.9.10",
+    "@astrojs/rss": "4.0.19",
+    "@astrojs/sitemap": "3.7.3",
+    "@tailwindcss/vite": "4.3.3",
     "@vercel/analytics": "^1.6.1",
-    "astro": "^4.16.0",
-    "tailwindcss": "^3.4.0",
-    "typescript": "^5.6.0"
+    "astro": "7.2.4",
+    "tailwindcss": "4.3.3",
+    "typescript": "5.9.3"
   },
   "devDependencies": {
-    "@types/node": "^25.0.10"
+    "@axe-core/playwright": "4.13.0",
+    "@playwright/test": "1.62.1",
+    "@types/node": "^24.0.0"
   }
 }

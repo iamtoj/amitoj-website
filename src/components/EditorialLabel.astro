@@ -1,0 +1,16 @@
+---
+import type { EditorialForm } from '../data/editorial-network';
+
+interface Props {
+  form: EditorialForm;
+}
+
+const { form } = Astro.props;
+---
+
+<span
+  class="inline-flex text-xs text-ink-light uppercase tracking-[0.14em]"
+  data-editorial-form={form}
+>
+  {form}
+</span>

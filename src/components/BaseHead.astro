@@ -1,0 +1,66 @@
+---
+export interface Props {
+  title: string;
+  description: string;
+  kind?: 'website' | 'article';
+  canonicalPath?: string;
+  publishedAt?: Date | string;
+  updatedAt?: Date | string;
+  tags?: readonly string[];
+  noindex?: boolean;
+}
+
+const {
+  title,
+  description,
+  kind = 'website',
+  canonicalPath = Astro.url.pathname,
+  publishedAt,
+  updatedAt,
+  tags = [],
+  noindex = false,
+} = Astro.props;
+
+if (!Astro.site) throw new Error('BaseHead requires the production site origin in astro.config.mjs');
+
+const pathFromInput = new URL(canonicalPath, Astro.site).pathname;
+const normalizedPath = pathFromInput === '/' ? '/' : pathFromInput.replace(/\/+$/, '') || '/';
+const canonicalUrl = new URL(normalizedPath, Astro.site).toString();
+const imageUrl = new URL('/images/profile.jpeg', Astro.site).toString();
+const imageAlt = 'Amitoj Singh smiling while seated beside the water, with a city skyline behind him.';
+const rssUrl = new URL('/rss.xml', Astro.site).toString();
+const sitemapUrl = new URL('/sitemap-index.xml', Astro.site).toString();
+const isoDate = (value: Date | string) => (value instanceof Date ? value : new Date(value)).toISOString();
+---
+
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>{title}</title>
+<meta name="description" content={description} />
+<meta name="robots" content={noindex ? 'noindex, nofollow' : 'index, follow'} />
+<meta name="author" content="Amitoj Singh" />
+<meta name="generator" content={Astro.generator} />
+
+<link rel="canonical" href={canonicalUrl} />
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="alternate" type="application/rss+xml" title="Amitoj Singh — Writing" href={rssUrl} />
+<link rel="sitemap" href={sitemapUrl} />
+
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:type" content={kind} />
+<meta property="og:url" content={canonicalUrl} />
+<meta property="og:image" content={imageUrl} />
+<meta property="og:image:width" content="768" />
+<meta property="og:image:height" content="1024" />
+<meta property="og:image:alt" content={imageAlt} />
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={imageUrl} />
+<meta name="twitter:image:alt" content={imageAlt} />
+
+{kind === 'article' && publishedAt && <meta property="article:published_time" content={isoDate(publishedAt)} />}
+{kind === 'article' && updatedAt && <meta property="article:modified_time" content={isoDate(updatedAt)} />}
+{kind === 'article' && tags.map((tag) => <meta property="article:tag" content={tag} />)}

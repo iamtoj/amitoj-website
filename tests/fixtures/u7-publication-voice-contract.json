@@ -1,0 +1,1619 @@
+{
+  "schemaVersion": 1,
+  "intent": "U7 records reviewed publication, voice, and factual changes without rewriting the immutable U1 source, U2 migration, or U3 network evidence.",
+  "review": "Whole-site writeastoj, voice-match, Altitude Check, factual, and publication audit on 2026-08-23–24.",
+  "frozenFixtureSha256": {
+    "sourceBaseline": "d07aef7dcb59f2bec8fc858dc976a60eaa8e63c1c5d608e32ac2f145e6317f8f",
+    "publicBaseline": "3a911e38741928c7f9e05cd320068590594a5345bf62b7cf6068c55c5a16f342",
+    "migrationBaseline": "e3c5b9cc12452acc4b592b6b5e7d7f34676980ff06943a9ce6bf2698dadff90b",
+    "networkContract": "01dde71f07495e934f26eccbf628b8890c1c0dafcea0bbcf108737623ef3cc54",
+    "renderedBodyContract": "7121935963c97c437ec6f252c399d50bcd22adf4fc389392a65fd786898269b5"
+  },
+  "currentPublication": {
+    "publishedEssays": 4,
+    "publishedNotes": 5,
+    "draftNotes": [
+      "the-third-enlightenment"
+    ],
+    "publishedAnnotations": 38,
+    "publicEditorialDetails": 47
+  },
+  "retiredNoncanonicalSources": [
+    "content-source/photography-captions.md",
+    "content-source/work-projects.md",
+    "content-source/yoga-offerings.md"
+  ],
+  "publicationTransitions": [
+    {
+      "key": "note:the-third-enlightenment",
+      "from": "published",
+      "to": "draft",
+      "canonicalSource": "src/content/notes/the-third-enlightenment.md",
+      "removedContinuation": "static:third-enlightenment",
+      "redirect": {
+        "source": "/blog/the-third-enlightenment",
+        "destination": "/third-enlightenment",
+        "permanent": true
+      },
+      "reason": "The old Note states an obsolete version of the framework; the canonical working-theory page now owns the public explanation."
+    }
+  ],
+  "draftReviews": [
+    {
+      "key": "essay:where-you-are",
+      "verdict": "remain-draft",
+      "metadata": {
+        "slug": "where-you-are",
+        "publicationStatus": "draft",
+        "title": "Where You Are",
+        "sortOrder": 999,
+        "continuations": []
+      },
+      "bodySha256": "34eef0d2271e13ca1830d5b0950e0da357561db963e9350c51f2baddfdbe000a",
+      "publicReferences": 0,
+      "reason": "U7 does not approve publication; the U2 draft remains byte-identical and excluded from routes, indexes, feeds, and relations."
+    }
+  ],
+  "removedMetadataFields": [
+    {
+      "key": "essay:architecture-of-commitment",
+      "field": "cta",
+      "removed": {
+        "text": "If your organization is grappling with these questions, I'd welcome the conversation.",
+        "href": "/contact",
+        "label": "Continue the conversation →"
+      },
+      "reason": "Essay conclusions must not become outreach codas."
+    },
+    {
+      "key": "essay:strategic-time",
+      "field": "cta",
+      "removed": {
+        "text": "Organizations face pressure from both directions—fast-cycle markets and survival anxiety. If these temporal dynamics are live in your organization, I'd welcome the conversation.",
+        "href": "/contact",
+        "label": "Continue the conversation →"
+      },
+      "reason": "Essay conclusions must not become outreach codas."
+    },
+    {
+      "key": "essay:the-right-direction",
+      "field": "cta",
+      "removed": {
+        "text": "I work with leadership teams on the prior question: what game should we be playing? If that question resonates, I'd welcome the conversation.",
+        "href": "/contact",
+        "label": "Continue the conversation →"
+      },
+      "reason": "Essay conclusions must not become outreach codas."
+    },
+    {
+      "key": "essay:what-rules-cant-capture",
+      "field": "cta",
+      "removed": {
+        "text": "The boundary between what can be specified and what must remain judgment is one of the central questions in building intelligent systems. If you're working on similar questions, I'd welcome the conversation.",
+        "href": "/contact",
+        "label": "Continue the conversation →"
+      },
+      "reason": "Essay conclusions must not become outreach codas."
+    }
+  ],
+  "metadataRevisions": [
+    {
+      "key": "essay:architecture-of-commitment",
+      "field": "description",
+      "removed": "Commit too firmly to a course of action and you can't adapt when circumstances change; remain too open and you never build the momentum that commitment provides. The architecture determines which commitments to lock in and which to leave open.",
+      "replacement": "Commit too firmly to a course of action and you can't adapt when circumstances change; remain too open and you never build the momentum that commitment provides. The architectural question is which commitments to lock in and which to leave open.",
+      "renderedRoutes": [
+        "/essays/architecture-of-commitment"
+      ],
+      "reason": "U7 bounds the public description claim for essay:architecture-of-commitment."
+    },
+    {
+      "key": "essay:strategic-time",
+      "field": "description",
+      "removed": "Strategic choice exists in a narrow temporal zone: fast enough that decisions can be revisited, slow enough that evidence can accumulate. Collapse it from either direction and strategy disappears.",
+      "replacement": "Strategy needs time: enough to revisit a decision, and enough for its consequences to become visible.",
+      "renderedRoutes": [
+        "/essays/strategic-time"
+      ],
+      "reason": "U7 bounds the public description claim for essay:strategic-time."
+    },
+    {
+      "key": "essay:strategic-time",
+      "field": "summary",
+      "removed": "Strategic choice lives in a narrow temporal zone between market degeneration and survival pressure. The mismatch between three clocks is where strategy happens.",
+      "replacement": "Strategic choice may depend on a temporal middle between fast-cycle measurement and survival pressure.",
+      "renderedRoutes": [
+        "/essays/strategic-time",
+        "/library/liquidated",
+        "/library/one-hundred-years-of-solitude",
+        "/library/why-greatness-cannot-be-planned",
+        "/research",
+        "/writing"
+      ],
+      "reason": "U7 bounds the public summary claim for essay:strategic-time."
+    },
+    {
+      "key": "essay:strategic-time",
+      "field": "homeFeature",
+      "removed": {
+        "sortOrder": 2,
+        "summary": "Strategic choice lives in a narrow temporal zone between market degeneration and survival pressure. The mismatch between three clocks is where strategy happens."
+      },
+      "replacement": {
+        "sortOrder": 2,
+        "summary": "Strategic choice may depend on a temporal middle between fast-cycle measurement and survival pressure."
+      },
+      "renderedRoutes": [
+        "/"
+      ],
+      "reason": "U7 bounds the public homeFeature claim for essay:strategic-time."
+    },
+    {
+      "key": "note:from-org-theory-to-ai",
+      "field": "description",
+      "removed": "What happens when we realize that governing AI agents requires the same wisdom that political philosophers developed for governing people.",
+      "replacement": "A limited political analogy for making authority, disagreement, and override rules visible in multi-agent systems.",
+      "renderedRoutes": [
+        "/blog/from-org-theory-to-ai",
+        "/blog/why-you-need-multiple-minds",
+        "/library/governing-the-commons",
+        "/library/what-tech-calls-thinking",
+        "/research",
+        "/writing"
+      ],
+      "reason": "U7 bounds the public description claim for note:from-org-theory-to-ai."
+    },
+    {
+      "key": "note:teaching-ai-to-think-like-you",
+      "field": "description",
+      "removed": "On the strange process of extracting what you know but cannot say, and why it requires watching more than asking.",
+      "replacement": "On using recorded decisions to propose patterns, and the limits of treating those patterns as tacit knowledge.",
+      "renderedRoutes": [
+        "/blog/teaching-ai-to-think-like-you",
+        "/writing"
+      ],
+      "reason": "U7 bounds the public description claim for note:teaching-ai-to-think-like-you."
+    },
+    {
+      "key": "note:the-dot-collector",
+      "field": "description",
+      "removed": "On discovering that machines can be peers, and on the division of cognitive labor that makes partnership possible.",
+      "replacement": "On recognizing a pattern in a model response, and the limits of calling that exchange a cognitive partnership.",
+      "renderedRoutes": [
+        "/blog/the-dot-collector",
+        "/research",
+        "/writing"
+      ],
+      "reason": "U7 bounds the public description claim for note:the-dot-collector."
+    },
+    {
+      "key": "note:why-you-need-multiple-minds",
+      "field": "description",
+      "removed": "On discovering that a single perspective—even a smart one—is never enough to see what you're actually thinking.",
+      "replacement": "On using a staged critic to expose an objection, and why simulated perspectives do not replace colleagues.",
+      "renderedRoutes": [
+        "/blog/the-dot-collector",
+        "/blog/why-you-need-multiple-minds",
+        "/library/how-not-to-be-wrong",
+        "/library/parallels-and-paradoxes",
+        "/library/the-beginning-of-infinity",
+        "/library/the-structure-of-scientific-revolutions",
+        "/writing"
+      ],
+      "reason": "U7 bounds the public description claim for note:why-you-need-multiple-minds."
+    },
+    {
+      "key": "annotation:a-story-waiting-to-pierce-you",
+      "field": "description",
+      "removed": "Peter Kingsley reveals that Western philosophy originated through deliberate transmission of Central Asian shamanic wisdom to ancient Greece.",
+      "replacement": "Peter Kingsley argues that Western philosophy carried an initiatory inheritance that its later rational self-description obscured.",
+      "renderedRoutes": [
+        "/library/a-story-waiting-to-pierce-you"
+      ],
+      "reason": "U7 bounds the public description claim for annotation:a-story-waiting-to-pierce-you."
+    },
+    {
+      "key": "annotation:breath",
+      "field": "description",
+      "removed": "James Nestor on how modern humans breathe wrong, and what ancient traditions knew about it.",
+      "replacement": "James Nestor’s popular account of slower nasal breathing, and the limits of treating it as clinical guidance.",
+      "renderedRoutes": [
+        "/library/breath"
+      ],
+      "reason": "U7 bounds the public description claim for annotation:breath."
+    },
+    {
+      "key": "annotation:breath",
+      "field": "teaser",
+      "removed": "Nestor explains how nasal and slower breathing affect nervous-system regulation.",
+      "replacement": "Nestor assembles historical practices and physiological studies on slower nasal breathing; this annotation treats the book as inquiry, not clinical guidance.",
+      "renderedRoutes": [
+        "/library",
+        "/library/breath"
+      ],
+      "reason": "U7 bounds the public teaser claim for annotation:breath."
+    },
+    {
+      "key": "annotation:confessions-of-a-born-again-pagan",
+      "field": "teaser",
+      "removed": "A student saying \"I'm not religious, but I'm not not-religious either.\" Kronman maps the philosophical territory that gap occupies.",
+      "replacement": "Kronman maps the territory between institutional faith and a wholly disenchanted account of the world.",
+      "renderedRoutes": [
+        "/library",
+        "/library/confessions-of-a-born-again-pagan"
+      ],
+      "reason": "U7 bounds the public teaser claim for annotation:confessions-of-a-born-again-pagan."
+    },
+    {
+      "key": "annotation:finite-and-infinite-games",
+      "field": "teaser",
+      "removed": "Watching a boardroom where both sides claimed victory yet both lost something essential. The distinction named what was happening.",
+      "replacement": "A contract can settle terms and still damage the relationship needed to carry them. Carse gives that tension a name.",
+      "renderedRoutes": [
+        "/library",
+        "/library/finite-and-infinite-games",
+        "/writing"
+      ],
+      "reason": "U7 bounds the public teaser claim for annotation:finite-and-infinite-games."
+    },
+    {
+      "key": "annotation:governing-the-commons",
+      "field": "description",
+      "removed": "Elinor Ostrom's Nobel Prize-winning work demonstrates that communities can manage shared resources without external control—and offers design principles for institutions that work.",
+      "replacement": "Elinor Ostrom’s cases of communities managing shared resources, and the design questions those cases make inspectable.",
+      "renderedRoutes": [
+        "/library/governing-the-commons"
+      ],
+      "reason": "U7 bounds the public description claim for annotation:governing-the-commons."
+    },
+    {
+      "key": "annotation:into-the-cool",
+      "field": "description",
+      "removed": "Eric D. Schneider and Dorion Sagan on how the second law of thermodynamics drives life, complexity, and evolution.",
+      "replacement": "Eric D. Schneider and Dorion Sagan’s thermodynamic account of biological complexity.",
+      "renderedRoutes": [
+        "/library/into-the-cool"
+      ],
+      "reason": "U7 bounds the public description claim for annotation:into-the-cool."
+    },
+    {
+      "key": "annotation:mans-search-for-meaning",
+      "field": "description",
+      "removed": "Viktor Frankl's profound insight: meaning can be found even in the most brutal circumstances, and this search for meaning is our primary human drive.",
+      "replacement": "Viktor Frankl’s account of meaning under suffering and the therapeutic propositions he later developed as logotherapy.",
+      "renderedRoutes": [
+        "/library/mans-search-for-meaning"
+      ],
+      "reason": "U7 bounds the public description claim for annotation:mans-search-for-meaning."
+    },
+    {
+      "key": "annotation:mans-search-for-meaning",
+      "field": "teaser",
+      "removed": "A student asked what to do when the work stops meaning anything. Frankl wrote from the one place where that question couldn't be avoided.",
+      "replacement": "Frankl asks how meaning can remain available under suffering without claiming that meaning explains who survives.",
+      "renderedRoutes": [
+        "/library",
+        "/library/mans-search-for-meaning"
+      ],
+      "reason": "U7 bounds the public teaser claim for annotation:mans-search-for-meaning."
+    },
+    {
+      "key": "annotation:notes-on-complexity",
+      "field": "description",
+      "removed": "Neil Theise shows how complexity theory reveals the universe as a seamless, self-organizing whole—and why consciousness might be fundamental.",
+      "replacement": "Neil Theise on self-organization, emergence, and his separate argument that consciousness may be fundamental.",
+      "renderedRoutes": [
+        "/library/notes-on-complexity"
+      ],
+      "reason": "U7 bounds the public description claim for annotation:notes-on-complexity."
+    },
+    {
+      "key": "annotation:radical-wholeness",
+      "field": "description",
+      "removed": "Philip Shepherd on why Western culture systematically trained us to live in our heads, and what pelvic intelligence can teach us about being whole.",
+      "replacement": "Philip Shepherd’s argument that Western culture privileges head-centered attention, and his practice of pelvic intelligence.",
+      "renderedRoutes": [
+        "/library/radical-wholeness"
+      ],
+      "reason": "U7 bounds the public description claim for annotation:radical-wholeness."
+    },
+    {
+      "key": "annotation:radical-wholeness",
+      "field": "teaser",
+      "removed": "A moment in yoga when a student stops thinking about the body and starts thinking from it. Shepherd explains why that distinction is a Copernican revolution.",
+      "replacement": "In tree pose, balance can shift from conscious correction to embodied adjustment. Shepherd treats that shift as a challenge to the head’s rule.",
+      "renderedRoutes": [
+        "/library",
+        "/library/radical-wholeness",
+        "/library/the-spell-of-the-sensuous"
+      ],
+      "reason": "U7 bounds the public teaser claim for annotation:radical-wholeness."
+    },
+    {
+      "key": "annotation:seeing-like-a-state",
+      "field": "teaser",
+      "removed": "A beautifully designed restructuring that looked perfect on the whiteboard and fell apart within months. Scott explains why legibility projects destroy the knowledge they can't see.",
+      "replacement": "Scott asks what a clean administrative map erases: local knowledge, informal coordination, and adaptation.",
+      "renderedRoutes": [
+        "/library",
+        "/library/seeing-like-a-state",
+        "/writing"
+      ],
+      "reason": "U7 bounds the public teaser claim for annotation:seeing-like-a-state."
+    },
+    {
+      "key": "annotation:the-great-transformation",
+      "field": "teaser",
+      "removed": "Watching platform companies label worker protections as \"friction to be optimized away.\" Polanyi saw this pattern a century ago.",
+      "replacement": "Polanyi’s history asks what returns as “friction” when labor is treated as a commodity.",
+      "renderedRoutes": [
+        "/library",
+        "/library/the-great-transformation"
+      ],
+      "reason": "U7 bounds the public teaser claim for annotation:the-great-transformation."
+    },
+    {
+      "key": "annotation:the-listening-book",
+      "field": "teaser",
+      "removed": "A room full of executives falling silent. The silence where something becomes audible that was always there.",
+      "replacement": "Mathieu asks what becomes audible when visual attention loosens its grip.",
+      "renderedRoutes": [
+        "/library",
+        "/library/the-artists-way",
+        "/library/the-listening-book"
+      ],
+      "reason": "U7 bounds the public teaser claim for annotation:the-listening-book."
+    },
+    {
+      "key": "annotation:the-matter-with-things",
+      "field": "teaser",
+      "removed": "A review where every number was green. The project was dying. McGilchrist explains why this keeps happening.",
+      "replacement": "A dashboard can stay green while the work underneath it fails. McGilchrist offers one account of what formal attention leaves out.",
+      "renderedRoutes": [
+        "/library",
+        "/library/the-matter-with-things",
+        "/library/zen-and-the-art-of-motorcycle-maintenance",
+        "/writing"
+      ],
+      "reason": "U7 bounds the public teaser claim for annotation:the-matter-with-things."
+    },
+    {
+      "key": "annotation:the-origin-of-consciousness",
+      "field": "teaser",
+      "removed": "Reading the Iliad carefully, something is missing. The characters don't deliberate. Jaynes took that observation seriously and built a theory from it.",
+      "replacement": "Jaynes reads the Iliad as containing little reflective deliberation and builds a theory of consciousness from that contested observation.",
+      "renderedRoutes": [
+        "/library",
+        "/library/the-origin-of-consciousness"
+      ],
+      "reason": "U7 bounds the public teaser claim for annotation:the-origin-of-consciousness."
+    },
+    {
+      "key": "annotation:the-prophet",
+      "field": "description",
+      "removed": "Kahlil Gibran's timeless wisdom on love, work, freedom, and the integration of opposites.",
+      "replacement": "Kahlil Gibran’s prose poems on love, work, freedom, and holding apparent opposites together.",
+      "renderedRoutes": [
+        "/library/the-prophet"
+      ],
+      "reason": "U7 bounds the public description claim for annotation:the-prophet."
+    },
+    {
+      "key": "annotation:the-prophet",
+      "field": "teaser",
+      "removed": "Someone giving this book at twenty. Understanding it at forty. The images didn't change; the capacity to receive them did.",
+      "replacement": "Images that once felt merely beautiful now name tensions I recognize: intimacy without fusion, work without guaranteed outcomes.",
+      "renderedRoutes": [
+        "/library",
+        "/library/mans-search-for-meaning",
+        "/library/the-prophet"
+      ],
+      "reason": "U7 bounds the public teaser claim for annotation:the-prophet."
+    },
+    {
+      "key": "annotation:the-stairway-to-heaven",
+      "field": "description",
+      "removed": "Tara Springett maps nine stages of consciousness development from unawareness to enlightenment, showing why different people need different kinds of help.",
+      "replacement": "Tara Springett’s developmental map, and the caution required before applying stage models to other people.",
+      "renderedRoutes": [
+        "/library/the-stairway-to-heaven"
+      ],
+      "reason": "U7 bounds the public description claim for annotation:the-stairway-to-heaven."
+    },
+    {
+      "key": "annotation:the-stairway-to-heaven",
+      "field": "teaser",
+      "removed": "Two students tried the same meditation technique. One had a breakthrough. The other had a breakdown. Springett's developmental framework explains why.",
+      "replacement": "A developmental map can make different responses to practice easier to discuss. It can also become a hierarchy mistaken for diagnosis.",
+      "renderedRoutes": [
+        "/library",
+        "/library/the-stairway-to-heaven"
+      ],
+      "reason": "U7 bounds the public teaser claim for annotation:the-stairway-to-heaven."
+    },
+    {
+      "key": "annotation:thinking-in-systems",
+      "field": "teaser",
+      "removed": "An organization that doubled its quality controls and watched defect rates go up. The intervention caused the problem. Meadows explains why.",
+      "replacement": "An organization added quality gates and defect rates rose. Meadows offers a way to investigate the sequence without pretending it settles the cause.",
+      "renderedRoutes": [
+        "/library",
+        "/library/thinking-in-systems"
+      ],
+      "reason": "U7 bounds the public teaser claim for annotation:thinking-in-systems."
+    },
+    {
+      "key": "annotation:what-tech-calls-thinking",
+      "field": "description",
+      "removed": "Adrian Daub on Silicon Valley's recycled philosophy dressed in hoodies.",
+      "replacement": "Adrian Daub on the older intellectual histories behind Silicon Valley’s claims of novelty.",
+      "renderedRoutes": [
+        "/library/what-tech-calls-thinking"
+      ],
+      "reason": "U7 bounds the public description claim for annotation:what-tech-calls-thinking."
+    },
+    {
+      "key": "annotation:why-greatness-cannot-be-planned",
+      "field": "description",
+      "removed": "Stanley and Lehman's computational proof that objectives block discovery, validated through AI experiments.",
+      "replacement": "Stanley and Lehman on novelty search, and the limits of extending its experimental results into a general theory of discovery.",
+      "renderedRoutes": [
+        "/library/why-greatness-cannot-be-planned"
+      ],
+      "reason": "U7 bounds the public description claim for annotation:why-greatness-cannot-be-planned."
+    },
+    {
+      "key": "annotation:why-greatness-cannot-be-planned",
+      "field": "teaser",
+      "removed": "The best product feature ever shipped wasn't on any roadmap. Stanley and Lehman proved computationally why this keeps happening.",
+      "replacement": "Novelty search outperformed objective-driven search in particular experiments. What follows beyond those domains remains an open question.",
+      "renderedRoutes": [
+        "/library",
+        "/library/the-alchemist",
+        "/library/why-greatness-cannot-be-planned"
+      ],
+      "reason": "U7 bounds the public teaser claim for annotation:why-greatness-cannot-be-planned."
+    }
+  ],
+  "addedConnections": [
+    {
+      "key": "annotation:the-embodied-mind->static:third-enlightenment",
+      "connection": "embodied attention complicates any account of delegable cognition"
+    },
+    {
+      "key": "annotation:the-passion-of-the-western-mind->static:third-enlightenment",
+      "connection": "Tarnas’s participatory knowing as one precursor to the working theory"
+    }
+  ],
+  "revisedConnections": [
+    {
+      "key": "annotation:radical-wholeness->annotation:breath",
+      "removed": "how breathing changes nervous-system regulation",
+      "connection": "breathing as an embodied practice to examine cautiously",
+      "reason": "The earlier bridge repeated a medical mechanism the bounded Breath annotation no longer endorses."
+    }
+  ],
+  "bodyRevisions": [
+    {
+      "key": "essay:architecture-of-commitment",
+      "route": "/essays/architecture-of-commitment",
+      "from": {
+        "source": {
+          "kind": "ordered-semantic-atoms",
+          "sha256": "df3dce194393520f5926df8b8b7083ed6ed495a3b34d0b47fe23146d780a690e",
+          "atomCount": 30
+        },
+        "rendered": {
+          "orderedSemanticSha256": "cdd32cb662a39af58a1fbb541a29aeab7f557803d68b32ab34760cfa315f92e4",
+          "semanticAtomCount": 30,
+          "normalizedTextLength": 10340
+        }
+      },
+      "to": {
+        "source": {
+          "kind": "ordered-semantic-atoms",
+          "sha256": "108336e024c57313939e5e3db27bc66b5b68869e926f104e667e643dcb2ee0ee",
+          "atomCount": 30
+        },
+        "rendered": {
+          "orderedSemanticSha256": "7134c24ec023b305b9e27baad42af9c1623551b4a9204239b2b321cc7618f508",
+          "semanticAtomCount": 30,
+          "normalizedTextLength": 6893
+        }
+      },
+      "reason": "U7 reviewed and bounded the public body for essay:architecture-of-commitment."
+    },
+    {
+      "key": "essay:strategic-time",
+      "route": "/essays/strategic-time",
+      "from": {
+        "source": {
+          "kind": "ordered-semantic-atoms",
+          "sha256": "7752bce0bb1a31acdf53f770aadb1a7e5f6059207e8b31dfec57092a030e4a45",
+          "atomCount": 29
+        },
+        "rendered": {
+          "orderedSemanticSha256": "4096d3eb095c89493c9fe52de0889077b7979d6f3e8bfcc19b279e181f5901b3",
+          "semanticAtomCount": 29,
+          "normalizedTextLength": 10035
+        }
+      },
+      "to": {
+        "source": {
+          "kind": "ordered-semantic-atoms",
+          "sha256": "5c880eaf9e5c367f2fc80f5cb2fc0d4030ebc5f2fbdf1c5d86acac55e0e7da8f",
+          "atomCount": 29
+        },
+        "rendered": {
+          "orderedSemanticSha256": "6f9bdcb6321e951a56af7d35fa718889bb46cea11a167f9cb34e29318ff7fab7",
+          "semanticAtomCount": 29,
+          "normalizedTextLength": 6998
+        }
+      },
+      "reason": "U7 reviewed and bounded the public body for essay:strategic-time."
+    },
+    {
+      "key": "essay:the-right-direction",
+      "route": "/essays/the-right-direction",
+      "from": {
+        "source": {
+          "kind": "ordered-semantic-atoms",
+          "sha256": "b5be8b728ccacb1d90bd87d7ac2ba8b295a9ddb6e976653d7fbd896676a7bd34",
+          "atomCount": 33
+        },
+        "rendered": {
+          "orderedSemanticSha256": "15e0cf373976f7bc53429fa7170d9fcded2e16e5556d7f3097b8eef26fd0e04f",
+          "semanticAtomCount": 33,
+          "normalizedTextLength": 9470
+        }
+      },
+      "to": {
+        "source": {
+          "kind": "ordered-semantic-atoms",
+          "sha256": "53b2c89ff0abccfa404817a2a11dc197d7db1da5bd6a70684dac95ed759cd1f7",
+          "atomCount": 30
+        },
+        "rendered": {
+          "orderedSemanticSha256": "90174a76c1fcda1ccf1b7e53b4d7e83e9f86c1255f06a84aa8e17123f30b0ac5",
+          "semanticAtomCount": 30,
+          "normalizedTextLength": 7530
+        }
+      },
+      "reason": "U7 reviewed and bounded the public body for essay:the-right-direction."
+    },
+    {
+      "key": "essay:what-rules-cant-capture",
+      "route": "/essays/what-rules-cant-capture",
+      "from": {
+        "source": {
+          "kind": "ordered-semantic-atoms",
+          "sha256": "fff620ac6e74e60082e204240480a8bd0aa2e2e24c38edbaddd9b58f6c6a46cd",
+          "atomCount": 48
+        },
+        "rendered": {
+          "orderedSemanticSha256": "c6c9bd3c6133c92ab78d3527ae731743b1fccf5cb6085e27a9ac03090b9dfb41",
+          "semanticAtomCount": 48,
+          "normalizedTextLength": 10452
+        }
+      },
+      "to": {
+        "source": {
+          "kind": "ordered-semantic-atoms",
+          "sha256": "0790935a6fcb33d92be7644551ffe0ba2e3414d5a31f2a8c0135672122804719",
+          "atomCount": 43
+        },
+        "rendered": {
+          "orderedSemanticSha256": "4db9ef16f595003028ab00be773b9dae3cbd498fccefe93a102cfb45a064899c",
+          "semanticAtomCount": 43,
+          "normalizedTextLength": 8911
+        }
+      },
+      "reason": "U7 reviewed and bounded the public body for essay:what-rules-cant-capture."
+    },
+    {
+      "key": "note:from-org-theory-to-ai",
+      "route": "/blog/from-org-theory-to-ai",
+      "from": {
+        "source": {
+          "kind": "raw-note-body",
+          "sha256": "796146db4a403687fab3e270dce64c72f2dbe2b293fb542a2c82eb94583dce5a"
+        },
+        "rendered": {
+          "orderedSemanticSha256": "16991ba63ac0cbd6e6342644b1a454d91c58ae6d58108677c948bf9d54679de3",
+          "semanticAtomCount": 45,
+          "normalizedTextLength": 8428
+        }
+      },
+      "to": {
+        "source": {
+          "kind": "raw-note-body",
+          "sha256": "956dde985a47c3a2aab7f094c1cc1358983cc3ac0b6618c7d6e21d78dfbd5273"
+        },
+        "rendered": {
+          "orderedSemanticSha256": "e6a3ff1292e46dc6ca927fab6ab8cd8f45bf9415c32c0165a20f4ec10d3fe6bf",
+          "semanticAtomCount": 34,
+          "normalizedTextLength": 5627
+        }
+      },
+      "reason": "U7 reviewed and bounded the public body for note:from-org-theory-to-ai."
+    },
+    {
+      "key": "note:teaching-ai-to-think-like-you",
+      "route": "/blog/teaching-ai-to-think-like-you",
+      "from": {
+        "source": {
+          "kind": "raw-note-body",
+          "sha256": "782612d94751c7ada79f6fcc80998d292995e19f5e18e6f8b43969d77b22b069"
+        },
+        "rendered": {
+          "orderedSemanticSha256": "5161f22fb6b7790a74c2b958c2383fbad0c5daa38702982a11013a2b6c058f77",
+          "semanticAtomCount": 54,
+          "normalizedTextLength": 9859
+        }
+      },
+      "to": {
+        "source": {
+          "kind": "raw-note-body",
+          "sha256": "9e4e8889eb23d4d7c6e4923c8a364c1ccdd44abe006d7ee5a3d1cedc9ca85215"
+        },
+        "rendered": {
+          "orderedSemanticSha256": "445cf75a18bb537f097673467e050b76d7732543b8f1b0a10bf6bbb8f1e8fccc",
+          "semanticAtomCount": 22,
+          "normalizedTextLength": 3458
+        }
+      },
+      "reason": "U7 reviewed and bounded the public body for note:teaching-ai-to-think-like-you."
+    },
+    {
+      "key": "note:the-dot-collector",
+      "route": "/blog/the-dot-collector",
+      "from": {
+        "source": {
+          "kind": "raw-note-body",
+          "sha256": "79c296856bd9f3182d3ba144542a32b1e33e60ff62ce83554373605965bbd032"
+        },
+        "rendered": {
+          "orderedSemanticSha256": "ef08bb645028df690ff8c630057a29ac3a385b8b8fc6e7643fee508ee9484441",
+          "semanticAtomCount": 52,
+          "normalizedTextLength": 10044
+        }
+      },
+      "to": {
+        "source": {
+          "kind": "raw-note-body",
+          "sha256": "83eb72d58b00c9adc0c832076365675719b9606969cb457e970efafa9164e7c6"
+        },
+        "rendered": {
+          "orderedSemanticSha256": "f033e77fc8ad6d894c75fdd3c37f5618a7111d0a2f25f72b9ce54c75006af91b",
+          "semanticAtomCount": 34,
+          "normalizedTextLength": 5707
+        }
+      },
+      "reason": "U7 reviewed and bounded the public body for note:the-dot-collector."
+    },
+    {
+      "key": "note:where-you-want-variance",
+      "route": "/blog/where-you-want-variance",
+      "from": {
+        "source": {
+          "kind": "raw-note-body",
+          "sha256": "155de7de3b013a2596bf3a3a6f8c83426bcd66b9c907c975f00e59af71a2dafe"
+        },
+        "rendered": {
+          "orderedSemanticSha256": "9b5dca4ff9904ff023b89d4016a5799661a4be36419f01e8d8310377187fe252",
+          "semanticAtomCount": 23,
+          "normalizedTextLength": 3321
+        }
+      },
+      "to": {
+        "source": {
+          "kind": "raw-note-body",
+          "sha256": "9b7aeb15745b0dc7a8dd59b9b05a2de4b8d7a5767160bccb9f07186e9a9461fe"
+        },
+        "rendered": {
+          "orderedSemanticSha256": "1f238bc48dfc45277a9835fad22aeb0524fae753aab2d895fe24a636450689af",
+          "semanticAtomCount": 23,
+          "normalizedTextLength": 3330
+        }
+      },
+      "reason": "U7 reviewed and bounded the public body for note:where-you-want-variance."
+    },
+    {
+      "key": "note:why-you-need-multiple-minds",
+      "route": "/blog/why-you-need-multiple-minds",
+      "from": {
+        "source": {
+          "kind": "raw-note-body",
+          "sha256": "4148f2d562a0aa7ae569f7c68d773f6d2cf124ab526c36c585eeb62d3ce69de5"
+        },
+        "rendered": {
+          "orderedSemanticSha256": "e89a6c8a9833ebf64131fa511c38e6a0cd4ece8319d2684da14539d907e37a1f",
+          "semanticAtomCount": 48,
+          "normalizedTextLength": 9532
+        }
+      },
+      "to": {
+        "source": {
+          "kind": "raw-note-body",
+          "sha256": "3840e97ed45c4996a547c5dd24a0780d0ffc821a301c0e1728777039b81b0633"
+        },
+        "rendered": {
+          "orderedSemanticSha256": "5fa17d3f144340701a7ab3d0c25f4e5bcc4ddb74d8f323fec288aec02e513587",
+          "semanticAtomCount": 35,
+          "normalizedTextLength": 5973
+        }
+      },
+      "reason": "U7 reviewed and bounded the public body for note:why-you-need-multiple-minds."
+    },
+    {
+      "key": "annotation:a-story-waiting-to-pierce-you",
+      "route": "/library/a-story-waiting-to-pierce-you",
+      "from": {
+        "source": {
+          "kind": "ordered-semantic-atoms",
+          "sha256": "b97e161931beaeedd65ed8d2117c7278d75b4d60a548998a4f1d5ad3c6665613",
+          "atomCount": 32
+        },
+        "rendered": {
+          "orderedSemanticSha256": "5eacb432124b72b74facfa4397672f044b77155cfadc11346c5d1c9bd1555157",
+          "semanticAtomCount": 32,
+          "normalizedTextLength": 4109
+        }
+      },
+      "to": {
+        "source": {
+          "kind": "ordered-semantic-atoms",
+          "sha256": "cbd95ff4df57c822c0ccbf984c027dc0a3ad1f3069420905a933aec0b96dd8d9",
+          "atomCount": 32
+        },
+        "rendered": {
+          "orderedSemanticSha256": "62db340569fbf71a4ed88b49b718c269b809fb4a8928fd75dac4050863e1a9f7",
+          "semanticAtomCount": 32,
+          "normalizedTextLength": 3928
+        }
+      },
+      "reason": "U7 reviewed and bounded the public body for annotation:a-story-waiting-to-pierce-you."
+    },
+    {
+      "key": "annotation:breath",
+      "route": "/library/breath",
+      "from": {
+        "source": {
+          "kind": "ordered-semantic-atoms",
+          "sha256": "9193a9ea9cb7c3749fc893844d1129258a43e54466de77beb9f6f48586665463",
+          "atomCount": 26
+        },
+        "rendered": {
+          "orderedSemanticSha256": "29f75a51dfec5ab3c23a78c4caec19d7379d95a69d42b60cb19202c7c9b28167",
+          "semanticAtomCount": 26,
+          "normalizedTextLength": 2672
+        }
+      },
+      "to": {
+        "source": {
+          "kind": "ordered-semantic-atoms",
+          "sha256": "c5fa7383441150f448d6711734a80b8047f5b133491861dbd00b778d91608e9b",
+          "atomCount": 11
+        },
+        "rendered": {
+          "orderedSemanticSha256": "256f4eb93cdd5541d7d7305c97ac156f83dbadc1762486aa350e4a4993ae6997",
+          "semanticAtomCount": 11,
+          "normalizedTextLength": 1250
+        }
+      },
+      "reason": "U7 reviewed and bounded the public body for annotation:breath."
+    },
+    {
+      "key": "annotation:confessions-of-a-born-again-pagan",
+      "route": "/library/confessions-of-a-born-again-pagan",
+      "from": {
+        "source": {
+          "kind": "ordered-semantic-atoms",
+          "sha256": "cf8086277fdbbd7d580fe9eeb4c07e9b175d0246c2325546b2806a46947b69f3",
+          "atomCount": 31
+        },
+        "rendered": {
+          "orderedSemanticSha256": "fd22e8f5126aa1be6951d5651a814900fcaa76943b4418b6bdfdf7c870b38f2b",
+          "semanticAtomCount": 31,
+          "normalizedTextLength": 3425
+        }
+      },
+      "to": {
+        "source": {
+          "kind": "ordered-semantic-atoms",
+          "sha256": "ceaf6cc8524415331ffc47dce011b82a9527a253ced97982b926ccc832c766ac",
+          "atomCount": 31
+        },
+        "rendered": {
+          "orderedSemanticSha256": "c5d37092d94ebfa5fb2161cc9dee45ce538bde135b0d4e485e465ca3a799c0e5",
+          "semanticAtomCount": 31,
+          "normalizedTextLength": 3382
+        }
+      },
+      "reason": "U7 reviewed and bounded the public body for annotation:confessions-of-a-born-again-pagan."
+    },
+    {
+      "key": "annotation:finite-and-infinite-games",
+      "route": "/library/finite-and-infinite-games",
+      "from": {
+        "source": {
+          "kind": "ordered-semantic-atoms",
+          "sha256": "3beaa68ae51054f905bc7950f87bb2fc80a29f1d254a1e1b4320723aa036b988",
+          "atomCount": 34
+        },
+        "rendered": {
+          "orderedSemanticSha256": "a4920472a35a5fd1c5517a9236d5f49b3013481cec4e71942d85e0a1e03859c4",
+          "semanticAtomCount": 34,
+          "normalizedTextLength": 3740
+        }
+      },
+      "to": {
+        "source": {
+          "kind": "ordered-semantic-atoms",
+          "sha256": "cf7fa82f9cbf2280b811008679cd1da91e87b7a8e2015023322a0c77ef7f3aa7",
+          "atomCount": 34
+        },
+        "rendered": {
+          "orderedSemanticSha256": "a70271d9a6fc41e21a81c9bdc195aa2b2fb98fec0e004ec2fca2f0b1b39423d6",
+          "semanticAtomCount": 34,
+          "normalizedTextLength": 3506
+        }
+      },
+      "reason": "U7 reviewed and bounded the public body for annotation:finite-and-infinite-games."
+    },
+    {
+      "key": "annotation:governing-the-commons",
+      "route": "/library/governing-the-commons",
+      "from": {
+        "source": {
+          "kind": "ordered-semantic-atoms",
+          "sha256": "bfed9f8772f0d17ae0e77cd65f3239bbcdb31603fe1f78dd48c8f934755ecac1",
+          "atomCount": 32
+        },
+        "rendered": {
+          "orderedSemanticSha256": "5df257ce9aaa0577ccdc6d66e56de9ab3cb479997edb383bd8698282cab2cae4",
+          "semanticAtomCount": 32,
+          "normalizedTextLength": 5017
+        }
+      },
+      "to": {
+        "source": {
+          "kind": "ordered-semantic-atoms",
+          "sha256": "2b64d1235079e406d7433e97809d04966c7fe3f5bc996e0d553ff7508b4db458",
+          "atomCount": 32
+        },
+        "rendered": {
+          "orderedSemanticSha256": "a79b94a42510d424d974ea17bf691594c7f6cfa2225b9445a94e80073b26d7fb",
+          "semanticAtomCount": 32,
+          "normalizedTextLength": 4769
+        }
+      },
+      "reason": "U7 reviewed and bounded the public body for annotation:governing-the-commons."
+    },
+    {
+      "key": "annotation:how-not-to-be-wrong",
+      "route": "/library/how-not-to-be-wrong",
+      "from": {
+        "source": {
+          "kind": "ordered-semantic-atoms",
+          "sha256": "77c6df6f1a567c674c5a8bf752e98671e86c1c73958187d1b213a0741438ba14",
+          "atomCount": 31
+        },
+        "rendered": {
+          "orderedSemanticSha256": "a7d27b7c799fb0712119e24958cb750af15278504f3125a61412643412a733f8",
+          "semanticAtomCount": 31,
+          "normalizedTextLength": 3955
+        }
+      },
+      "to": {
+        "source": {
+          "kind": "ordered-semantic-atoms",
+          "sha256": "9bb6b2ccd2abd109b595c5b03fdd36c3e29e9961ec42f9d9acdcd1fd4e97ff09",
+          "atomCount": 31
+        },
+        "rendered": {
+          "orderedSemanticSha256": "255964df3ec3bbd8c7fb14bb44679a98b333e04b813330ce286aa614007554c4",
+          "semanticAtomCount": 31,
+          "normalizedTextLength": 3836
+        }
+      },
+      "reason": "U7 reviewed and bounded the public body for annotation:how-not-to-be-wrong."
+    },
+    {
+      "key": "annotation:into-the-cool",
+      "route": "/library/into-the-cool",
+      "from": {
+        "source": {
+          "kind": "ordered-semantic-atoms",
+          "sha256": "a60f7dfeb9b107d2850180dff342bf2eb7ab35b76290755383293c5e29a6aabd",
+          "atomCount": 29
+        },
+        "rendered": {
+          "orderedSemanticSha256": "e7fe7c3a2f0d7568cc56cc44250b3545190ab4017a536f20ea120057b0ae3d7e",
+          "semanticAtomCount": 29,
+          "normalizedTextLength": 2614
+        }
+      },
+      "to": {
+        "source": {
+          "kind": "ordered-semantic-atoms",
+          "sha256": "f23466bdde76798b4ad2c73611b0c7fe7b3a9b0a6d2b92aec3640fd22f4f9cb8",
+          "atomCount": 29
+        },
+        "rendered": {
+          "orderedSemanticSha256": "70938dbccf9aad37c94d48fa06cd84ceb087021a7b4d2b9785fb4b3146286550",
+          "semanticAtomCount": 29,
+          "normalizedTextLength": 2426
+        }
+      },
+      "reason": "U7 reviewed and bounded the public body for annotation:into-the-cool."
+    },
+    {
+      "key": "annotation:mans-search-for-meaning",
+      "route": "/library/mans-search-for-meaning",
+      "from": {
+        "source": {
+          "kind": "ordered-semantic-atoms",
+          "sha256": "e88f55a326d86db394cd63cf97db96f79c4dacd9dd6fb3059f332f97723f4434",
+          "atomCount": 31
+        },
+        "rendered": {
+          "orderedSemanticSha256": "c51ca0711645245451b27a715fb6e05ed9e32ec29072a4e37324725057bf2978",
+          "semanticAtomCount": 31,
+          "normalizedTextLength": 3717
+        }
+      },
+      "to": {
+        "source": {
+          "kind": "ordered-semantic-atoms",
+          "sha256": "760fdc73240a23af5736680eef77281c0c82e7a410d8ab98437c300062fc3fe5",
+          "atomCount": 31
+        },
+        "rendered": {
+          "orderedSemanticSha256": "fa5d2200229d1fd241eed3a49b4b5fa36250d14c1907f92b275fd2b38dab2d35",
+          "semanticAtomCount": 31,
+          "normalizedTextLength": 3342
+        }
+      },
+      "reason": "U7 reviewed and bounded the public body for annotation:mans-search-for-meaning."
+    },
+    {
+      "key": "annotation:notes-on-complexity",
+      "route": "/library/notes-on-complexity",
+      "from": {
+        "source": {
+          "kind": "ordered-semantic-atoms",
+          "sha256": "b73de0e00294a75a8feec59248ceea795ae1dd3302b24c3f5432a708bb789b6b",
+          "atomCount": 32
+        },
+        "rendered": {
+          "orderedSemanticSha256": "aec8af95ee6729605307d35a04c17e2b3a99e6167c85542d0941b3fd2d32d27e",
+          "semanticAtomCount": 32,
+          "normalizedTextLength": 3889
+        }
+      },
+      "to": {
+        "source": {
+          "kind": "ordered-semantic-atoms",
+          "sha256": "483f6f94ab6ca4ec6dab3390197039c55e9a415c678062c9d34d4184cab4a539",
+          "atomCount": 32
+        },
+        "rendered": {
+          "orderedSemanticSha256": "96d96a249e9a7dd1c1da87fe91bab1534e4e6ef33aaeeda60c63bea6bc5b7e7b",
+          "semanticAtomCount": 32,
+          "normalizedTextLength": 3565
+        }
+      },
+      "reason": "U7 reviewed and bounded the public body for annotation:notes-on-complexity."
+    },
+    {
+      "key": "annotation:parallels-and-paradoxes",
+      "route": "/library/parallels-and-paradoxes",
+      "from": {
+        "source": {
+          "kind": "ordered-semantic-atoms",
+          "sha256": "3f73809ce73e5304da0c2879ca458fb6118bc32e45b941c65ef064afaa4dc8d5",
+          "atomCount": 26
+        },
+        "rendered": {
+          "orderedSemanticSha256": "f788bfc21976b1bfe951104591f13390de5d0eca50d34fb183627b64dd9b306b",
+          "semanticAtomCount": 26,
+          "normalizedTextLength": 2521
+        }
+      },
+      "to": {
+        "source": {
+          "kind": "ordered-semantic-atoms",
+          "sha256": "a0dc51aa1e73c85f2d35773fd7edc346dc58b9933c3d5801cdb9be90d9a288ec",
+          "atomCount": 26
+        },
+        "rendered": {
+          "orderedSemanticSha256": "88dbc3a9b96a7e78dc96fa36ecc2be77534119cec7bf4dbee7a34a8b1b61d15f",
+          "semanticAtomCount": 26,
+          "normalizedTextLength": 2443
+        }
+      },
+      "reason": "U7 reviewed and bounded the public body for annotation:parallels-and-paradoxes."
+    },
+    {
+      "key": "annotation:philosophy-and-the-mirror-of-nature",
+      "route": "/library/philosophy-and-the-mirror-of-nature",
+      "from": {
+        "source": {
+          "kind": "ordered-semantic-atoms",
+          "sha256": "7e2fb7d8974252d95cc8e38f6cd61bcd05db0eb583a915ff8eeda4926dbc3a5c",
+          "atomCount": 32
+        },
+        "rendered": {
+          "orderedSemanticSha256": "af749d6cee93bdd1983805f97efa7ff4898bc2234e0844d85870a005062dd2fb",
+          "semanticAtomCount": 32,
+          "normalizedTextLength": 4181
+        }
+      },
+      "to": {
+        "source": {
+          "kind": "ordered-semantic-atoms",
+          "sha256": "39d71a80c039ed684afa9202966d1c6a4266653519f1ada2a13444fe86415ca3",
+          "atomCount": 32
+        },
+        "rendered": {
+          "orderedSemanticSha256": "99c15e08277faa1b6aaf1d60f73186a5e9763a9c65e737a89c800ae6d2fdb47c",
+          "semanticAtomCount": 32,
+          "normalizedTextLength": 3931
+        }
+      },
+      "reason": "U7 reviewed and bounded the public body for annotation:philosophy-and-the-mirror-of-nature."
+    },
+    {
+      "key": "annotation:radical-wholeness",
+      "route": "/library/radical-wholeness",
+      "from": {
+        "source": {
+          "kind": "ordered-semantic-atoms",
+          "sha256": "0c93dfca56179a22bc4a42cd9c2f6e81e464b0a3bc903bf6a2ded71c66869e23",
+          "atomCount": 29
+        },
+        "rendered": {
+          "orderedSemanticSha256": "e6fe6274c771bb5d402dd71e50e7db82dcd61a1ef7ec6360daae64bed9f0b632",
+          "semanticAtomCount": 29,
+          "normalizedTextLength": 2935
+        }
+      },
+      "to": {
+        "source": {
+          "kind": "ordered-semantic-atoms",
+          "sha256": "0d6a6ea369fef79e08a6199aaf507d24ffb3e5bce765931f088030730accd487",
+          "atomCount": 29
+        },
+        "rendered": {
+          "orderedSemanticSha256": "3abbe3afde0866195ba5973d6bcfae71066155054caf1d05a5230a5229681588",
+          "semanticAtomCount": 29,
+          "normalizedTextLength": 2862
+        }
+      },
+      "reason": "U7 reviewed and bounded the public body for annotation:radical-wholeness."
+    },
+    {
+      "key": "annotation:seeing-like-a-state",
+      "route": "/library/seeing-like-a-state",
+      "from": {
+        "source": {
+          "kind": "ordered-semantic-atoms",
+          "sha256": "8b7147fae49fb46a731c63e55eb8280ba7f2a2f0bee1d57eb719e77f4958dc04",
+          "atomCount": 30
+        },
+        "rendered": {
+          "orderedSemanticSha256": "a4e082cb87dbf52b5dc27dbf70e9b64068ccc13165fe3329b120944a30df955f",
+          "semanticAtomCount": 30,
+          "normalizedTextLength": 4000
+        }
+      },
+      "to": {
+        "source": {
+          "kind": "ordered-semantic-atoms",
+          "sha256": "7958da17de55a34a82934714e6c7a1cb41e301c8b8e563c0cd0be970f5ed9611",
+          "atomCount": 30
+        },
+        "rendered": {
+          "orderedSemanticSha256": "830eea4656dd00dc62b3e7f63188d4a1eba90c58eec2cef337a9e3b120b5d4cc",
+          "semanticAtomCount": 30,
+          "normalizedTextLength": 3709
+        }
+      },
+      "reason": "U7 reviewed and bounded the public body for annotation:seeing-like-a-state."
+    },
+    {
+      "key": "annotation:sovereignty-of-good",
+      "route": "/library/sovereignty-of-good",
+      "from": {
+        "source": {
+          "kind": "ordered-semantic-atoms",
+          "sha256": "e4178b0ab097ddc91f1a4acfda59a40b5335542070afa0b333656483dbc503a2",
+          "atomCount": 26
+        },
+        "rendered": {
+          "orderedSemanticSha256": "2684c775315e905bf25edc14687120165e7c93a193586b9a4cc7dd1594a1ca36",
+          "semanticAtomCount": 26,
+          "normalizedTextLength": 2398
+        }
+      },
+      "to": {
+        "source": {
+          "kind": "ordered-semantic-atoms",
+          "sha256": "3efcbde927294b83fab087ea84f8b8e78c8dc6aa17378472037803fcacfc27b6",
+          "atomCount": 26
+        },
+        "rendered": {
+          "orderedSemanticSha256": "f1aaea0d9dd4ae6483f0afb4ec8ab27144b18eca2adbe7e14ae79053a0b6082b",
+          "semanticAtomCount": 26,
+          "normalizedTextLength": 2381
+        }
+      },
+      "reason": "U7 reviewed and bounded the public body for annotation:sovereignty-of-good."
+    },
+    {
+      "key": "annotation:the-alchemist",
+      "route": "/library/the-alchemist",
+      "from": {
+        "source": {
+          "kind": "ordered-semantic-atoms",
+          "sha256": "e42210c3d09d5349a3b7c5242b152af2fe7ebc80e5ca2fb5453c2961e2f6833d",
+          "atomCount": 29
+        },
+        "rendered": {
+          "orderedSemanticSha256": "7ef9d8c4c52feddb786e7bb6eb25c988eabd017c7bb4b02ec6f5f50fb76078c9",
+          "semanticAtomCount": 29,
+          "normalizedTextLength": 2750
+        }
+      },
+      "to": {
+        "source": {
+          "kind": "ordered-semantic-atoms",
+          "sha256": "9e167819e1b57a38dc5af172df46681c3449eea209f884799eb9e015ba5aad9e",
+          "atomCount": 29
+        },
+        "rendered": {
+          "orderedSemanticSha256": "c7d5f06ea324c5f36fef9a94f2e532458cd7c6b30c7afdae5867d288042ee4a6",
+          "semanticAtomCount": 29,
+          "normalizedTextLength": 2478
+        }
+      },
+      "reason": "U7 reviewed and bounded the public body for annotation:the-alchemist."
+    },
+    {
+      "key": "annotation:the-artists-way",
+      "route": "/library/the-artists-way",
+      "from": {
+        "source": {
+          "kind": "ordered-semantic-atoms",
+          "sha256": "345c9e198702213268629dece51b5ab9eaa4ac1a59c2752319100f177b5af7d3",
+          "atomCount": 31
+        },
+        "rendered": {
+          "orderedSemanticSha256": "7e7904cb5ff66afdd595a3957c6999966260fc5a58ea35402e9baea1129daf8e",
+          "semanticAtomCount": 31,
+          "normalizedTextLength": 3253
+        }
+      },
+      "to": {
+        "source": {
+          "kind": "ordered-semantic-atoms",
+          "sha256": "4536287c1be96df5563dbb9b43c2d266f3eacd2191c6a3a178935575c302cf65",
+          "atomCount": 31
+        },
+        "rendered": {
+          "orderedSemanticSha256": "dfd6b8004145ed270d0477b4ef7ce136804ffc6d15328358e854966e44ee913b",
+          "semanticAtomCount": 31,
+          "normalizedTextLength": 3042
+        }
+      },
+      "reason": "U7 reviewed and bounded the public body for annotation:the-artists-way."
+    },
+    {
+      "key": "annotation:the-book-of-not-knowing",
+      "route": "/library/the-book-of-not-knowing",
+      "from": {
+        "source": {
+          "kind": "ordered-semantic-atoms",
+          "sha256": "0a314cf8de786a6bde560914a77f0242f607055484df4503a364526d44b0eac3",
+          "atomCount": 31
+        },
+        "rendered": {
+          "orderedSemanticSha256": "9bcb014a23cd90a1d31827da18e30b63cf612df71362bea19b1d1d5e5bf9d786",
+          "semanticAtomCount": 31,
+          "normalizedTextLength": 3025
+        }
+      },
+      "to": {
+        "source": {
+          "kind": "ordered-semantic-atoms",
+          "sha256": "aec55c39469ffb2474a2d045709c26bdaffd1cc0d3f4b3c0020568a6923b34fe",
+          "atomCount": 28
+        },
+        "rendered": {
+          "orderedSemanticSha256": "91be53795789d326f0e0d4412ca267f4d6fe6507b11fa838d99b6e4b71305d60",
+          "semanticAtomCount": 28,
+          "normalizedTextLength": 2990
+        }
+      },
+      "reason": "U7 reviewed and bounded the public body for annotation:the-book-of-not-knowing."
+    },
+    {
+      "key": "annotation:the-embodied-mind",
+      "route": "/library/the-embodied-mind",
+      "from": {
+        "source": {
+          "kind": "ordered-semantic-atoms",
+          "sha256": "5e58fb739e5ec6f8c091e8fd340980a39777b9ff4aaa5f1d350f407138d5d73d",
+          "atomCount": 29
+        },
+        "rendered": {
+          "orderedSemanticSha256": "369004ed330debadeddd8d789d44f6d40a9474b70caab78c0e916f985e3c2545",
+          "semanticAtomCount": 29,
+          "normalizedTextLength": 3097
+        }
+      },
+      "to": {
+        "source": {
+          "kind": "ordered-semantic-atoms",
+          "sha256": "c46ab6bbe0df2ef2731bf9e4f38e6d627617036fdf013648175ab9c3ac1b4bee",
+          "atomCount": 29
+        },
+        "rendered": {
+          "orderedSemanticSha256": "0dcc5c53950d9d683b1b0fdc5fb4b4004569d719019311e94c8484e619157f90",
+          "semanticAtomCount": 29,
+          "normalizedTextLength": 2905
+        }
+      },
+      "reason": "U7 reviewed and bounded the public body for annotation:the-embodied-mind."
+    },
+    {
+      "key": "annotation:the-great-transformation",
+      "route": "/library/the-great-transformation",
+      "from": {
+        "source": {
+          "kind": "ordered-semantic-atoms",
+          "sha256": "23a328f10f3133a307878f8f7f9d06498e9bedb0fcf257a9b6d4e54d64d01ddb",
+          "atomCount": 31
+        },
+        "rendered": {
+          "orderedSemanticSha256": "542b522dcf6ba9220d6dc63eca1a414e0bc193aaeae307d92195f04a4205b213",
+          "semanticAtomCount": 31,
+          "normalizedTextLength": 4355
+        }
+      },
+      "to": {
+        "source": {
+          "kind": "ordered-semantic-atoms",
+          "sha256": "68881ae08fb10081350a8b4c40fe74a5ed9323fb2de7aab052b118264db9a5b7",
+          "atomCount": 31
+        },
+        "rendered": {
+          "orderedSemanticSha256": "9afec8d20f54758fc90d6db09be27647b661338cc52c59c8ab4b6cf1f5799312",
+          "semanticAtomCount": 31,
+          "normalizedTextLength": 3978
+        }
+      },
+      "reason": "U7 reviewed and bounded the public body for annotation:the-great-transformation."
+    },
+    {
+      "key": "annotation:the-listening-book",
+      "route": "/library/the-listening-book",
+      "from": {
+        "source": {
+          "kind": "ordered-semantic-atoms",
+          "sha256": "0a54dc81deea3c053469d11ee7d751d4a7847c9dc476692f6cb58b210ae97790",
+          "atomCount": 30
+        },
+        "rendered": {
+          "orderedSemanticSha256": "34959b5c274986975ac06d74bcc36c2ec0cd5fab844ad7c40ec7a033a70ab2cb",
+          "semanticAtomCount": 30,
+          "normalizedTextLength": 3246
+        }
+      },
+      "to": {
+        "source": {
+          "kind": "ordered-semantic-atoms",
+          "sha256": "a139f88a85e812481e915e8a408ce327c5c8891db48baa654ad0bf01b876551f",
+          "atomCount": 30
+        },
+        "rendered": {
+          "orderedSemanticSha256": "a4ffe74fa15015648d88c6d917716da20df8b8ab25809e40169c39641819a627",
+          "semanticAtomCount": 30,
+          "normalizedTextLength": 2956
+        }
+      },
+      "reason": "U7 reviewed and bounded the public body for annotation:the-listening-book."
+    },
+    {
+      "key": "annotation:the-matter-with-things",
+      "route": "/library/the-matter-with-things",
+      "from": {
+        "source": {
+          "kind": "ordered-semantic-atoms",
+          "sha256": "78fbaaaaddcfc3b6a97bf35b1087d471bf2be656916db10fe2fa7e4bc2c55c93",
+          "atomCount": 31
+        },
+        "rendered": {
+          "orderedSemanticSha256": "a02eee9ecb86fb098bc60e32a7bc5d150c11cb6d0541945cd223a8887725675d",
+          "semanticAtomCount": 31,
+          "normalizedTextLength": 3984
+        }
+      },
+      "to": {
+        "source": {
+          "kind": "ordered-semantic-atoms",
+          "sha256": "ad6e6c5c0871417a4cc4878d683168dfec45a5235d024faee83ce53791ee518a",
+          "atomCount": 31
+        },
+        "rendered": {
+          "orderedSemanticSha256": "fd8673ec55f9fea5a2c1d9be2b7333adfe2221e37322ec2b1c381c451068659a",
+          "semanticAtomCount": 31,
+          "normalizedTextLength": 3708
+        }
+      },
+      "reason": "U7 reviewed and bounded the public body for annotation:the-matter-with-things."
+    },
+    {
+      "key": "annotation:the-origin-of-consciousness",
+      "route": "/library/the-origin-of-consciousness",
+      "from": {
+        "source": {
+          "kind": "ordered-semantic-atoms",
+          "sha256": "cedbdc993ca4eef5246140a09fc77664c105097a5c4a3fbc657ea48e0f676fad",
+          "atomCount": 32
+        },
+        "rendered": {
+          "orderedSemanticSha256": "d96c0cee27d01c47163b9fc4ad9a42245762a3cc6e019d2917231c23151531ab",
+          "semanticAtomCount": 32,
+          "normalizedTextLength": 4479
+        }
+      },
+      "to": {
+        "source": {
+          "kind": "ordered-semantic-atoms",
+          "sha256": "bd5a34e40a4d842af14ddf58c48e31d7749ad2bb69e6c5ad8a420be99b729473",
+          "atomCount": 32
+        },
+        "rendered": {
+          "orderedSemanticSha256": "aeefc1bcfe772ca119951d6e783c75c6b83aaacff0dce2aaeca07192dbe8095f",
+          "semanticAtomCount": 32,
+          "normalizedTextLength": 4297
+        }
+      },
+      "reason": "U7 reviewed and bounded the public body for annotation:the-origin-of-consciousness."
+    },
+    {
+      "key": "annotation:the-passion-of-the-western-mind",
+      "route": "/library/the-passion-of-the-western-mind",
+      "from": {
+        "source": {
+          "kind": "ordered-semantic-atoms",
+          "sha256": "2f50297f6054659a856accd3351ebe8168577340fbb9e38a129f42ecaf310523",
+          "atomCount": 32
+        },
+        "rendered": {
+          "orderedSemanticSha256": "2ac642520d1bcf01127898f282bf11c478712be3f64eadf8196aaec84c274d06",
+          "semanticAtomCount": 32,
+          "normalizedTextLength": 4349
+        }
+      },
+      "to": {
+        "source": {
+          "kind": "ordered-semantic-atoms",
+          "sha256": "f400633c59bedb46821cf3834544baa470c7b43a64717589bdefe0ec8d259e47",
+          "atomCount": 32
+        },
+        "rendered": {
+          "orderedSemanticSha256": "ef235546111d208bcf6eea1a8161f7f4f8f0d7041a59f3f0b3765ca67aed40b4",
+          "semanticAtomCount": 32,
+          "normalizedTextLength": 4272
+        }
+      },
+      "reason": "U7 reviewed and bounded the public body for annotation:the-passion-of-the-western-mind."
+    },
+    {
+      "key": "annotation:the-prophet",
+      "route": "/library/the-prophet",
+      "from": {
+        "source": {
+          "kind": "ordered-semantic-atoms",
+          "sha256": "17798202e81546487c062f770093e0e2884d936b0fbffe2f5a7b1418f2709047",
+          "atomCount": 30
+        },
+        "rendered": {
+          "orderedSemanticSha256": "1495dcd75fde497d702c2d31792ef5ae0d44d7a147fd096f3ec579070ebbf943",
+          "semanticAtomCount": 30,
+          "normalizedTextLength": 2861
+        }
+      },
+      "to": {
+        "source": {
+          "kind": "ordered-semantic-atoms",
+          "sha256": "6004222262f111460d640c2a12cd033deabddbf2899fb28b1d81e685831d9f5c",
+          "atomCount": 30
+        },
+        "rendered": {
+          "orderedSemanticSha256": "1ddbf7908732d3cd9290a9f885e5e73f341c3c3f5f4e512b665539bcb53c8c69",
+          "semanticAtomCount": 30,
+          "normalizedTextLength": 2651
+        }
+      },
+      "reason": "U7 reviewed and bounded the public body for annotation:the-prophet."
+    },
+    {
+      "key": "annotation:the-self-organizing-universe",
+      "route": "/library/the-self-organizing-universe",
+      "from": {
+        "source": {
+          "kind": "ordered-semantic-atoms",
+          "sha256": "d4d21915c6c43038d36e6a4f1fb501ba8a284384c9714252554699620e97d127",
+          "atomCount": 32
+        },
+        "rendered": {
+          "orderedSemanticSha256": "bb058d56a79d3bf2f270e365eddf26e05e4003bf0de00d47b45bf58712e43653",
+          "semanticAtomCount": 32,
+          "normalizedTextLength": 4956
+        }
+      },
+      "to": {
+        "source": {
+          "kind": "ordered-semantic-atoms",
+          "sha256": "446e54b36d13d3c0614d81fa6d2eeefff990d169be6e72456cd2e10198d3ae45",
+          "atomCount": 32
+        },
+        "rendered": {
+          "orderedSemanticSha256": "21d91417760f2f292468a8de2e0cc56922442e460534620707061190959ba02d",
+          "semanticAtomCount": 32,
+          "normalizedTextLength": 4792
+        }
+      },
+      "reason": "U7 reviewed and bounded the public body for annotation:the-self-organizing-universe."
+    },
+    {
+      "key": "annotation:the-spell-of-the-sensuous",
+      "route": "/library/the-spell-of-the-sensuous",
+      "from": {
+        "source": {
+          "kind": "ordered-semantic-atoms",
+          "sha256": "29f0349a4116c56ee151b83a567b13aa0acf90296b4ddc61c2a1b41aada52eb9",
+          "atomCount": 32
+        },
+        "rendered": {
+          "orderedSemanticSha256": "a46b068a54110c0ce94cb43573840d851a9e29e47612f5803c02097b02a6e1e2",
+          "semanticAtomCount": 32,
+          "normalizedTextLength": 4157
+        }
+      },
+      "to": {
+        "source": {
+          "kind": "ordered-semantic-atoms",
+          "sha256": "6f754080e215a2133ef1e0ac027f99841d2426c46e07299db3242c343e07649d",
+          "atomCount": 32
+        },
+        "rendered": {
+          "orderedSemanticSha256": "0f60f8929a2ae4227186a507d85e8c46c8e7993f079d65c0495e12d4e48d9fbf",
+          "semanticAtomCount": 32,
+          "normalizedTextLength": 3928
+        }
+      },
+      "reason": "U7 reviewed and bounded the public body for annotation:the-spell-of-the-sensuous."
+    },
+    {
+      "key": "annotation:the-stairway-to-heaven",
+      "route": "/library/the-stairway-to-heaven",
+      "from": {
+        "source": {
+          "kind": "ordered-semantic-atoms",
+          "sha256": "8a650ddf6d97f58098718e46e3331c500b84f31b1e489580690fdf6496c0215b",
+          "atomCount": 31
+        },
+        "rendered": {
+          "orderedSemanticSha256": "336ebf71bdad993498cc171f660ba3212fa8d1f68b1432a28fd2ce0b1b7a530f",
+          "semanticAtomCount": 31,
+          "normalizedTextLength": 3608
+        }
+      },
+      "to": {
+        "source": {
+          "kind": "ordered-semantic-atoms",
+          "sha256": "e11d8ca9e6e3da487a1a22179fc0bc139769067a2fd38e9520b5f43be8e89075",
+          "atomCount": 14
+        },
+        "rendered": {
+          "orderedSemanticSha256": "bef5dfea7c181af72224b1194e47ef044c7b253acfaf6f547ac1cad40f184da0",
+          "semanticAtomCount": 14,
+          "normalizedTextLength": 1687
+        }
+      },
+      "reason": "U7 reviewed and bounded the public body for annotation:the-stairway-to-heaven."
+    },
+    {
+      "key": "annotation:thinking-in-systems",
+      "route": "/library/thinking-in-systems",
+      "from": {
+        "source": {
+          "kind": "ordered-semantic-atoms",
+          "sha256": "c3095bf7256421c1df3f2e093e4c1e5973d6adfb0db417a776761ca5ce2514b1",
+          "atomCount": 30
+        },
+        "rendered": {
+          "orderedSemanticSha256": "7acbff24057d888137070492ab4b3b5ab4bc03d355a4671b1ebcba177cf5195e",
+          "semanticAtomCount": 30,
+          "normalizedTextLength": 3577
+        }
+      },
+      "to": {
+        "source": {
+          "kind": "ordered-semantic-atoms",
+          "sha256": "c864ce593fde5a44e8dc5daac8ca3bd5cdf2b362154e20ca913a2c30d9b869a0",
+          "atomCount": 30
+        },
+        "rendered": {
+          "orderedSemanticSha256": "dbaeb55689936afd19a8c29bccca3f01e1ae0cd7459687f16301ca889ec875ab",
+          "semanticAtomCount": 30,
+          "normalizedTextLength": 3425
+        }
+      },
+      "reason": "U7 reviewed and bounded the public body for annotation:thinking-in-systems."
+    },
+    {
+      "key": "annotation:what-tech-calls-thinking",
+      "route": "/library/what-tech-calls-thinking",
+      "from": {
+        "source": {
+          "kind": "ordered-semantic-atoms",
+          "sha256": "b304a094992fb7e1a77afd116ab9f23719b9f80bdbd0fc891872adf37248d9f7",
+          "atomCount": 26
+        },
+        "rendered": {
+          "orderedSemanticSha256": "75355187c6c0ca0f9323d83a2ee5c5e39f1d4894b094427a44347baa3e7697c5",
+          "semanticAtomCount": 26,
+          "normalizedTextLength": 2454
+        }
+      },
+      "to": {
+        "source": {
+          "kind": "ordered-semantic-atoms",
+          "sha256": "7acdb021b0e2819e3571ca9f074a2c654cab3e3878bf61c3ddd4fbd3f45be03f",
+          "atomCount": 26
+        },
+        "rendered": {
+          "orderedSemanticSha256": "7c41d0bd7c113c05361fcef0e06b8b97915a5642340edc950d61de446f39c43b",
+          "semanticAtomCount": 26,
+          "normalizedTextLength": 2258
+        }
+      },
+      "reason": "U7 reviewed and bounded the public body for annotation:what-tech-calls-thinking."
+    },
+    {
+      "key": "annotation:why-greatness-cannot-be-planned",
+      "route": "/library/why-greatness-cannot-be-planned",
+      "from": {
+        "source": {
+          "kind": "ordered-semantic-atoms",
+          "sha256": "96f80dff20648fd6e05a6c72e24e28aa94e149a808ef48c5a387d1860250799e",
+          "atomCount": 31
+        },
+        "rendered": {
+          "orderedSemanticSha256": "90637eeb766bef0ee9e2e448a4be7ba7d69ce9e238731a3989463c3a87f0f679",
+          "semanticAtomCount": 31,
+          "normalizedTextLength": 4375
+        }
+      },
+      "to": {
+        "source": {
+          "kind": "ordered-semantic-atoms",
+          "sha256": "7bdbda0471dd6210f4a524ddeb84acb9ab77e69e699bfb43ce17fa644c25b8ec",
+          "atomCount": 30
+        },
+        "rendered": {
+          "orderedSemanticSha256": "5f96763751adccd4470376ef64f874b3140d06ca6b9451bdc779d174eb44712d",
+          "semanticAtomCount": 30,
+          "normalizedTextLength": 3611
+        }
+      },
+      "reason": "U7 reviewed and bounded the public body for annotation:why-greatness-cannot-be-planned."
+    }
+  ]
+}
