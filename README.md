@@ -159,6 +159,11 @@ Setting `PLAYWRIGHT_BASE_URL` disables the local server. The harness accepts onl
 `*.vercel.app` HTTPS URLs and denies any external browser `POST` that is not handled by an
 explicit page-level mock. The contact tests never send a live inquiry; the no-JavaScript
 serialization contract runs in both Chromium and WebKit against an intercepted response.
+If Vercel protects the Preview, obtain a temporary Vercel share link and pass it only through
+`PLAYWRIGHT_VERCEL_SHARE_URL` alongside the root-level `PLAYWRIGHT_BASE_URL`. The harness
+requires an exact same-origin `?_vercel_share=...` URL, establishes its cookie once per browser
+worker, disables Playwright traces, screenshots, and video for that run, and never stores the
+link in source or test output.
 The URL shape check does not prove immutability: release evidence must separately bind the URL
 to the deployment ID, candidate commit, lockfile, configuration, and runtime revision.
 

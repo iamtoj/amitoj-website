@@ -1,5 +1,8 @@
 import { defineConfig, devices } from '@playwright/test';
-import { resolvePlaywrightTarget } from './scripts/lib/playwright-target.mjs';
+import {
+  resolvePlaywrightTarget,
+  traceModeForTarget,
+} from './scripts/lib/playwright-target.mjs';
 
 const target = resolvePlaywrightTarget();
 
@@ -11,7 +14,9 @@ export default defineConfig({
   reporter: process.env.CI ? 'github' : 'list',
   use: {
     baseURL: target.baseURL,
-    trace: 'retain-on-failure',
+    screenshot: 'off',
+    trace: traceModeForTarget(target),
+    video: 'off',
   },
   projects: [
     { name: 'desktop-chromium', use: { ...devices['Desktop Chrome'] } },

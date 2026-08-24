@@ -104,6 +104,12 @@ Release artifacts and committed reports must not include recipient addresses, su
 bodies, visitor data, provider identifiers, access tokens, cookies, deployment-protection
 credentials, or sensitive raw headers.
 
+Temporary Vercel share links used to inspect protected Previews are supplied through
+`PLAYWRIGHT_VERCEL_SHARE_URL`, validated against the configured deployment origin, exchanged
+for an in-memory browser cookie, and never written to repository files or release evidence.
+Protected-Preview runs disable traces, screenshots, and video so failure artifacts cannot
+retain that cookie.
+
 ## Dependency and release checks
 
 The lockfile is authoritative. CI uses Node 24 and `npm ci`, then runs type/build, historical

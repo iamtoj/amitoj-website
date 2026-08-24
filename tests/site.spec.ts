@@ -2,6 +2,7 @@ import { readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import {
   assertNavigationConfined,
+  isExpectedPreviewConsoleError,
   resolvePlaywrightTarget,
 } from '../scripts/lib/playwright-target.mjs';
 import { releaseRouteContract } from '../scripts/lib/release-route-contract.mjs';
@@ -38,14 +39,24 @@ test('every generated route renders its canonical, images, and scripts without b
   const pageErrors: string[] = [];
   let currentRoute = '/';
   page.on('console', (message) => {
-    if (message.type() === 'error') consoleErrors.push(`${currentRoute}: ${message.text()}`);
+    if (message.type() !== 'error') return;
+    const location = message.location();
+    if (isExpectedPreviewConsoleError({
+      isRemoteVercelHost: Boolean(remoteVercelHost),
+      locationURL: location.url,
+      message: message.text(),
+      route: currentRoute,
+      siteBaseURL: browserTarget.baseURL,
+    })) return;
+    consoleErrors.push(`${currentRoute}: ${message.text()}`);
   });
   page.on('pageerror', (error) => pageErrors.push(`${currentRoute}: ${error.message}`));
 
   for (const route of routes) {
     currentRoute = route;
     const response = await page.goto(route, { waitUntil: 'load' });
-    expect(response?.status(), route).toBe(200);
+    const expectedStatus = route === '/404' && remoteVercelHost ? 404 : 200;
+    expect(response?.status(), route).toBe(expectedStatus);
     await expect(page.locator('link[rel="canonical"]'), `${route} canonical`).toHaveAttribute('href', canonicalFor(route));
     await expect(page.locator('meta[property="og:url"]'), `${route} Open Graph URL`).toHaveAttribute('content', canonicalFor(route));
     const html = await page.content();
