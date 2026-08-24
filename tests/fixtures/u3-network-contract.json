@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 1,
+  "intent": "U3 replaces flat editorial archives with typed, resolvable paths while preserving the U2 bodies and canonical metadata.",
+  "trails": [
+    {
+      "id": "rules-and-judgment",
+      "question": "What should become a rule—and what should remain judgment?",
+      "objects": [
+        "essay:what-rules-cant-capture",
+        "note:teaching-ai-to-think-like-you",
+        "note:where-you-want-variance",
+        "annotation:rules",
+        "annotation:seeing-like-a-state"
+      ]
+    },
+    {
+      "id": "direction-and-commitment",
+      "question": "How do organizations choose—and hold—a direction when metrics cannot settle it?",
+      "objects": [
+        "essay:the-right-direction",
+        "annotation:sovereignty-of-good",
+        "essay:strategic-time",
+        "essay:architecture-of-commitment",
+        "annotation:finite-and-infinite-games",
+        "note:from-org-theory-to-ai"
+      ]
+    },
+    {
+      "id": "delegable-cognition",
+      "question": "When cognition becomes delegable, what still requires a person?",
+      "objects": [
+        "note:the-dot-collector",
+        "essay:what-rules-cant-capture",
+        "annotation:the-matter-with-things",
+        "annotation:the-embodied-mind",
+        "static:third-enlightenment"
+      ]
+    }
+  ],
+  "addedContinuations": {
+    "note:from-org-theory-to-ai": "annotation:governing-the-commons",
+    "note:teaching-ai-to-think-like-you": "essay:what-rules-cant-capture",
+    "note:the-dot-collector": "note:why-you-need-multiple-minds",
+    "note:the-third-enlightenment": "static:third-enlightenment",
+    "note:where-you-want-variance": "essay:what-rules-cant-capture",
+    "note:why-you-need-multiple-minds": "note:from-org-theory-to-ai",
+    "annotation:a-story-waiting-to-pierce-you": "annotation:the-passion-of-the-western-mind",
+    "annotation:confessions-of-a-born-again-pagan": "annotation:the-passion-of-the-western-mind",
+    "annotation:finite-and-infinite-games": "essay:the-right-direction",
+    "annotation:governing-the-commons": "note:from-org-theory-to-ai",
+    "annotation:how-not-to-be-wrong": "note:why-you-need-multiple-minds",
+    "annotation:liquidated": "essay:strategic-time",
+    "annotation:mans-search-for-meaning": "annotation:the-prophet",
+    "annotation:notes-on-complexity": "annotation:the-embodied-mind",
+    "annotation:one-hundred-years-of-solitude": "essay:strategic-time",
+    "annotation:parallels-and-paradoxes": "note:why-you-need-multiple-minds",
+    "annotation:philosophy-and-the-mirror-of-nature": "annotation:the-embodied-mind",
+    "annotation:seeing-like-a-state": "essay:what-rules-cant-capture",
+    "annotation:the-alchemist": "annotation:why-greatness-cannot-be-planned",
+    "annotation:the-artists-way": "annotation:the-listening-book",
+    "annotation:the-book-of-not-knowing": "annotation:the-embodied-mind",
+    "annotation:the-embodied-mind": "static:third-enlightenment",
+    "annotation:the-forge-and-the-crucible": "annotation:a-story-waiting-to-pierce-you",
+    "annotation:the-great-transformation": "essay:the-right-direction",
+    "annotation:the-listening-book": "annotation:sovereignty-of-good",
+    "annotation:the-origin-of-consciousness": "annotation:notes-on-complexity",
+    "annotation:the-passion-of-the-western-mind": "static:third-enlightenment",
+    "annotation:the-self-organizing-universe": "annotation:notes-on-complexity",
+    "annotation:the-spell-of-the-sensuous": "annotation:radical-wholeness",
+    "annotation:the-stairway-to-heaven": "annotation:the-embodied-mind",
+    "annotation:the-structure-of-scientific-revolutions": "note:why-you-need-multiple-minds",
+    "annotation:what-tech-calls-thinking": "note:from-org-theory-to-ai",
+    "annotation:why-greatness-cannot-be-planned": "essay:strategic-time",
+    "annotation:zen-and-the-art-of-motorcycle-maintenance": "annotation:the-matter-with-things"
+  },
+  "replacedContinuations": {
+    "annotation:the-beginning-of-infinity": {
+      "removedPath": "/research",
+      "target": "note:why-you-need-multiple-minds"
+    }
+  },
+  "revisedConnections": {
+    "essay:strategic-time->essay:architecture-of-commitment": {
+      "removed": "what T-Mobile's transformation reveals about holding purpose",
+      "connection": "how governance holds purpose while methods adapt",
+      "reason": "The target essay contains no T-Mobile case; its argument distinguishes stable purpose from adaptive methods."
+    },
+    "essay:what-rules-cant-capture->annotation:rules": {
+      "removed": "Wittgenstein on the limits of rule-following",
+      "connection": "Daston on why judgment remains necessary at the edges",
+      "reason": "The target annotation is about Lorraine Daston and contains no Wittgenstein attribution."
+    },
+    "annotation:rules->essay:what-rules-cant-capture": {
+      "removed": "where Wittgenstein's insight meets system design",
+      "connection": "what happens when more rules make a system worse",
+      "reason": "Neither source nor target contains a Wittgenstein attribution; the replacement comes from the target essay's stated problem."
+    },
+    "annotation:radical-wholeness->annotation:breath": {
+      "removed": "how breathing connects voluntary and involuntary systems",
+      "connection": "how breathing changes nervous-system regulation",
+      "reason": "The target annotation supports nervous-system regulation but does not make a voluntary/involuntary distinction."
+    },
+    "annotation:into-the-cool->static:third-enlightenment": {
+      "removed": "physics grounding meaning without reductionism",
+      "connection": "direction arising from physics rather than external design",
+      "reason": "The source supports direction arising from physics, not a claim that physics grounds meaning."
+    },
+    "annotation:the-beginning-of-infinity->static:third-enlightenment": {
+      "removed": "extending the tradition of criticism",
+      "connection": "from testing explanations to holding premises lightly",
+      "reason": "The two targets support testing explanations and holding premises lightly, but no intellectual genealogy between them."
+    },
+    "annotation:thinking-in-systems->static:third-enlightenment": {
+      "removed": "systems thinking as foundational worldview",
+      "connection": "holding models lightly while acting within systems",
+      "reason": "The source and target support models held lightly and committed action, not a foundational lineage claim."
+    }
+  },
+  "metadataRevisions": [
+    {
+      "key": "essay:what-rules-cant-capture",
+      "field": "summary",
+      "removed": "The more rules I wrote, the less the system understood what I actually wanted. Some knowledge resists becoming rules  -  and that's where the interesting work begins.",
+      "replacement": "The more rules I wrote, the less the system understood what I actually wanted. Some knowledge resists becoming rules—and that's where the interesting work begins.",
+      "reason": "Normalize a malformed source separator without changing the words.",
+      "renderedRoutes": ["/writing", "/essays/what-rules-cant-capture"]
+    },
+    {
+      "key": "essay:the-right-direction",
+      "field": "summary",
+      "removed": "Markets coordinate brilliantly within frameworks they cannot generate. Price signals tell you how to win  -  they can't tell you whether it's the right game.",
+      "replacement": "Markets coordinate brilliantly within frameworks they cannot generate. Price signals tell you how to win—they can't tell you whether it's the right game.",
+      "reason": "Normalize a malformed source separator without changing the words.",
+      "renderedRoutes": ["/writing", "/essays/the-right-direction"]
+    },
+    {
+      "key": "essay:the-right-direction",
+      "field": "homeFeature.summary",
+      "removed": "Markets coordinate brilliantly within frameworks they cannot generate. Price signals tell you how to win the game  -  they can't tell you whether it's the right game.",
+      "replacement": "Markets coordinate brilliantly within frameworks they cannot generate. Price signals tell you how to win the game—they can't tell you whether it's the right game.",
+      "reason": "Normalize a malformed source separator without changing the words.",
+      "renderedRoutes": ["/"]
+    },
+    {
+      "key": "annotation:the-matter-with-things",
+      "field": "teaser",
+      "removed": "A dashboard with 47 metrics, every number green. The organization was dying. McGilchrist explains why this keeps happening.",
+      "replacement": "A review where every number was green. The project was dying. McGilchrist explains why this keeps happening.",
+      "reason": "Match the annotation's actual scene, which names no metric count and describes a project rather than an organization.",
+      "renderedRoutes": ["/writing", "/library", "/library/the-matter-with-things"]
+    },
+    {
+      "key": "annotation:breath",
+      "field": "teaser",
+      "removed": "Nestor documents what mouth-taping, nasal breathing, and exhale holds do to the nervous system — mechanisms behind the effects.",
+      "replacement": "Nestor explains how nasal and slower breathing affect nervous-system regulation.",
+      "reason": "The body supports nasal and slower breathing and nervous-system regulation, but not mouth-taping or exhale-hold mechanisms.",
+      "renderedRoutes": ["/library", "/library/breath"]
+    },
+    {
+      "key": "annotation:the-passion-of-the-western-mind",
+      "field": "teaser",
+      "removed": "Trace any Western idea back far enough and it leads to the same fork — Plato or Aristotle. Tarnas held both threads simultaneously.",
+      "replacement": "The Western ideas I traced led to the same fork—Plato or Aristotle. Tarnas held both threads simultaneously.",
+      "reason": "Keep the teaser within the body's bounded first-person claim rather than generalizing to any Western idea.",
+      "renderedRoutes": ["/library", "/library/the-passion-of-the-western-mind", "/library/a-story-waiting-to-pierce-you", "/library/confessions-of-a-born-again-pagan"]
+    }
+  ]
+}

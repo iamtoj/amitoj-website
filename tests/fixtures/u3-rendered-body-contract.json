@@ -1,0 +1,390 @@
+{
+  "schemaVersion": 1,
+  "authority": "Known-good U3 rendering of the frozen U2 canonical bodies; only each data-editorial-body region is fingerprinted.",
+  "entries": [
+    {
+      "kind": "essay",
+      "slug": "architecture-of-commitment",
+      "route": "/essays/architecture-of-commitment",
+      "orderedSemanticSha256": "cdd32cb662a39af58a1fbb541a29aeab7f557803d68b32ab34760cfa315f92e4",
+      "semanticAtomCount": 30,
+      "normalizedTextLength": 10340
+    },
+    {
+      "kind": "essay",
+      "slug": "strategic-time",
+      "route": "/essays/strategic-time",
+      "orderedSemanticSha256": "4096d3eb095c89493c9fe52de0889077b7979d6f3e8bfcc19b279e181f5901b3",
+      "semanticAtomCount": 29,
+      "normalizedTextLength": 10035
+    },
+    {
+      "kind": "essay",
+      "slug": "the-right-direction",
+      "route": "/essays/the-right-direction",
+      "orderedSemanticSha256": "15e0cf373976f7bc53429fa7170d9fcded2e16e5556d7f3097b8eef26fd0e04f",
+      "semanticAtomCount": 33,
+      "normalizedTextLength": 9470
+    },
+    {
+      "kind": "essay",
+      "slug": "what-rules-cant-capture",
+      "route": "/essays/what-rules-cant-capture",
+      "orderedSemanticSha256": "c6c9bd3c6133c92ab78d3527ae731743b1fccf5cb6085e27a9ac03090b9dfb41",
+      "semanticAtomCount": 48,
+      "normalizedTextLength": 10452
+    },
+    {
+      "kind": "note",
+      "slug": "from-org-theory-to-ai",
+      "route": "/blog/from-org-theory-to-ai",
+      "orderedSemanticSha256": "16991ba63ac0cbd6e6342644b1a454d91c58ae6d58108677c948bf9d54679de3",
+      "semanticAtomCount": 45,
+      "normalizedTextLength": 8428
+    },
+    {
+      "kind": "note",
+      "slug": "teaching-ai-to-think-like-you",
+      "route": "/blog/teaching-ai-to-think-like-you",
+      "orderedSemanticSha256": "5161f22fb6b7790a74c2b958c2383fbad0c5daa38702982a11013a2b6c058f77",
+      "semanticAtomCount": 54,
+      "normalizedTextLength": 9859
+    },
+    {
+      "kind": "note",
+      "slug": "the-dot-collector",
+      "route": "/blog/the-dot-collector",
+      "orderedSemanticSha256": "ef08bb645028df690ff8c630057a29ac3a385b8b8fc6e7643fee508ee9484441",
+      "semanticAtomCount": 52,
+      "normalizedTextLength": 10044
+    },
+    {
+      "kind": "note",
+      "slug": "the-third-enlightenment",
+      "route": "/blog/the-third-enlightenment",
+      "orderedSemanticSha256": "e53f992ba0213c6cdf47f33cf674ab5ecaddb62ede6f840a0dc5a810db30d3aa",
+      "semanticAtomCount": 40,
+      "normalizedTextLength": 7068
+    },
+    {
+      "kind": "note",
+      "slug": "where-you-want-variance",
+      "route": "/blog/where-you-want-variance",
+      "orderedSemanticSha256": "9b5dca4ff9904ff023b89d4016a5799661a4be36419f01e8d8310377187fe252",
+      "semanticAtomCount": 23,
+      "normalizedTextLength": 3321
+    },
+    {
+      "kind": "note",
+      "slug": "why-you-need-multiple-minds",
+      "route": "/blog/why-you-need-multiple-minds",
+      "orderedSemanticSha256": "e89a6c8a9833ebf64131fa511c38e6a0cd4ece8319d2684da14539d907e37a1f",
+      "semanticAtomCount": 48,
+      "normalizedTextLength": 9532
+    },
+    {
+      "kind": "annotation",
+      "slug": "a-story-waiting-to-pierce-you",
+      "route": "/library/a-story-waiting-to-pierce-you",
+      "orderedSemanticSha256": "5eacb432124b72b74facfa4397672f044b77155cfadc11346c5d1c9bd1555157",
+      "semanticAtomCount": 32,
+      "normalizedTextLength": 4109
+    },
+    {
+      "kind": "annotation",
+      "slug": "breath",
+      "route": "/library/breath",
+      "orderedSemanticSha256": "29f75a51dfec5ab3c23a78c4caec19d7379d95a69d42b60cb19202c7c9b28167",
+      "semanticAtomCount": 26,
+      "normalizedTextLength": 2672
+    },
+    {
+      "kind": "annotation",
+      "slug": "confessions-of-a-born-again-pagan",
+      "route": "/library/confessions-of-a-born-again-pagan",
+      "orderedSemanticSha256": "fd22e8f5126aa1be6951d5651a814900fcaa76943b4418b6bdfdf7c870b38f2b",
+      "semanticAtomCount": 31,
+      "normalizedTextLength": 3425
+    },
+    {
+      "kind": "annotation",
+      "slug": "finite-and-infinite-games",
+      "route": "/library/finite-and-infinite-games",
+      "orderedSemanticSha256": "a4920472a35a5fd1c5517a9236d5f49b3013481cec4e71942d85e0a1e03859c4",
+      "semanticAtomCount": 34,
+      "normalizedTextLength": 3740
+    },
+    {
+      "kind": "annotation",
+      "slug": "governing-the-commons",
+      "route": "/library/governing-the-commons",
+      "orderedSemanticSha256": "5df257ce9aaa0577ccdc6d66e56de9ab3cb479997edb383bd8698282cab2cae4",
+      "semanticAtomCount": 32,
+      "normalizedTextLength": 5017
+    },
+    {
+      "kind": "annotation",
+      "slug": "how-not-to-be-wrong",
+      "route": "/library/how-not-to-be-wrong",
+      "orderedSemanticSha256": "a7d27b7c799fb0712119e24958cb750af15278504f3125a61412643412a733f8",
+      "semanticAtomCount": 31,
+      "normalizedTextLength": 3955
+    },
+    {
+      "kind": "annotation",
+      "slug": "into-the-cool",
+      "route": "/library/into-the-cool",
+      "orderedSemanticSha256": "e7fe7c3a2f0d7568cc56cc44250b3545190ab4017a536f20ea120057b0ae3d7e",
+      "semanticAtomCount": 29,
+      "normalizedTextLength": 2614
+    },
+    {
+      "kind": "annotation",
+      "slug": "liquidated",
+      "route": "/library/liquidated",
+      "orderedSemanticSha256": "0db64c19512a6b2346163b029ffa1a1513184142f2b14ff70de454ef4c7e63a2",
+      "semanticAtomCount": 30,
+      "normalizedTextLength": 3550
+    },
+    {
+      "kind": "annotation",
+      "slug": "mans-search-for-meaning",
+      "route": "/library/mans-search-for-meaning",
+      "orderedSemanticSha256": "c51ca0711645245451b27a715fb6e05ed9e32ec29072a4e37324725057bf2978",
+      "semanticAtomCount": 31,
+      "normalizedTextLength": 3717
+    },
+    {
+      "kind": "annotation",
+      "slug": "notes-on-complexity",
+      "route": "/library/notes-on-complexity",
+      "orderedSemanticSha256": "aec8af95ee6729605307d35a04c17e2b3a99e6167c85542d0941b3fd2d32d27e",
+      "semanticAtomCount": 32,
+      "normalizedTextLength": 3889
+    },
+    {
+      "kind": "annotation",
+      "slug": "one-hundred-years-of-solitude",
+      "route": "/library/one-hundred-years-of-solitude",
+      "orderedSemanticSha256": "4fafbc65f9a156244dbfcf70c48c8fcc4b670353cbd4ec8563c52b71c4441f2c",
+      "semanticAtomCount": 31,
+      "normalizedTextLength": 3247
+    },
+    {
+      "kind": "annotation",
+      "slug": "parallels-and-paradoxes",
+      "route": "/library/parallels-and-paradoxes",
+      "orderedSemanticSha256": "f788bfc21976b1bfe951104591f13390de5d0eca50d34fb183627b64dd9b306b",
+      "semanticAtomCount": 26,
+      "normalizedTextLength": 2521
+    },
+    {
+      "kind": "annotation",
+      "slug": "philosophy-and-the-mirror-of-nature",
+      "route": "/library/philosophy-and-the-mirror-of-nature",
+      "orderedSemanticSha256": "af749d6cee93bdd1983805f97efa7ff4898bc2234e0844d85870a005062dd2fb",
+      "semanticAtomCount": 32,
+      "normalizedTextLength": 4181
+    },
+    {
+      "kind": "annotation",
+      "slug": "radical-wholeness",
+      "route": "/library/radical-wholeness",
+      "orderedSemanticSha256": "e6fe6274c771bb5d402dd71e50e7db82dcd61a1ef7ec6360daae64bed9f0b632",
+      "semanticAtomCount": 29,
+      "normalizedTextLength": 2935
+    },
+    {
+      "kind": "annotation",
+      "slug": "rules",
+      "route": "/library/rules",
+      "orderedSemanticSha256": "abb65de61f62ce4d077ff0bf37c83775cd3f6e90e973e80c3f43c94b0488bf88",
+      "semanticAtomCount": 26,
+      "normalizedTextLength": 2544
+    },
+    {
+      "kind": "annotation",
+      "slug": "seeing-like-a-state",
+      "route": "/library/seeing-like-a-state",
+      "orderedSemanticSha256": "a4e082cb87dbf52b5dc27dbf70e9b64068ccc13165fe3329b120944a30df955f",
+      "semanticAtomCount": 30,
+      "normalizedTextLength": 4000
+    },
+    {
+      "kind": "annotation",
+      "slug": "sovereignty-of-good",
+      "route": "/library/sovereignty-of-good",
+      "orderedSemanticSha256": "2684c775315e905bf25edc14687120165e7c93a193586b9a4cc7dd1594a1ca36",
+      "semanticAtomCount": 26,
+      "normalizedTextLength": 2398
+    },
+    {
+      "kind": "annotation",
+      "slug": "the-alchemist",
+      "route": "/library/the-alchemist",
+      "orderedSemanticSha256": "7ef9d8c4c52feddb786e7bb6eb25c988eabd017c7bb4b02ec6f5f50fb76078c9",
+      "semanticAtomCount": 29,
+      "normalizedTextLength": 2750
+    },
+    {
+      "kind": "annotation",
+      "slug": "the-artists-way",
+      "route": "/library/the-artists-way",
+      "orderedSemanticSha256": "7e7904cb5ff66afdd595a3957c6999966260fc5a58ea35402e9baea1129daf8e",
+      "semanticAtomCount": 31,
+      "normalizedTextLength": 3253
+    },
+    {
+      "kind": "annotation",
+      "slug": "the-beginning-of-infinity",
+      "route": "/library/the-beginning-of-infinity",
+      "orderedSemanticSha256": "88ff145b774afa89a5f58b0ea1905517eca0489ab59726d2c886cab532c3428f",
+      "semanticAtomCount": 31,
+      "normalizedTextLength": 3422
+    },
+    {
+      "kind": "annotation",
+      "slug": "the-book-of-not-knowing",
+      "route": "/library/the-book-of-not-knowing",
+      "orderedSemanticSha256": "9bcb014a23cd90a1d31827da18e30b63cf612df71362bea19b1d1d5e5bf9d786",
+      "semanticAtomCount": 31,
+      "normalizedTextLength": 3025
+    },
+    {
+      "kind": "annotation",
+      "slug": "the-embodied-mind",
+      "route": "/library/the-embodied-mind",
+      "orderedSemanticSha256": "369004ed330debadeddd8d789d44f6d40a9474b70caab78c0e916f985e3c2545",
+      "semanticAtomCount": 29,
+      "normalizedTextLength": 3097
+    },
+    {
+      "kind": "annotation",
+      "slug": "the-forge-and-the-crucible",
+      "route": "/library/the-forge-and-the-crucible",
+      "orderedSemanticSha256": "9d50008eadf7ab3ec39263cfe8b18cc534962f1e5727194ce3ad4103d70c17b5",
+      "semanticAtomCount": 32,
+      "normalizedTextLength": 2949
+    },
+    {
+      "kind": "annotation",
+      "slug": "the-great-transformation",
+      "route": "/library/the-great-transformation",
+      "orderedSemanticSha256": "542b522dcf6ba9220d6dc63eca1a414e0bc193aaeae307d92195f04a4205b213",
+      "semanticAtomCount": 31,
+      "normalizedTextLength": 4355
+    },
+    {
+      "kind": "annotation",
+      "slug": "the-lessons-of-history",
+      "route": "/library/the-lessons-of-history",
+      "orderedSemanticSha256": "7449297593b472d0c2feffc5697fe42126473ec340b105754abb55457f6bb79a",
+      "semanticAtomCount": 29,
+      "normalizedTextLength": 3233
+    },
+    {
+      "kind": "annotation",
+      "slug": "the-listening-book",
+      "route": "/library/the-listening-book",
+      "orderedSemanticSha256": "34959b5c274986975ac06d74bcc36c2ec0cd5fab844ad7c40ec7a033a70ab2cb",
+      "semanticAtomCount": 30,
+      "normalizedTextLength": 3246
+    },
+    {
+      "kind": "annotation",
+      "slug": "the-matter-with-things",
+      "route": "/library/the-matter-with-things",
+      "orderedSemanticSha256": "a02eee9ecb86fb098bc60e32a7bc5d150c11cb6d0541945cd223a8887725675d",
+      "semanticAtomCount": 31,
+      "normalizedTextLength": 3984
+    },
+    {
+      "kind": "annotation",
+      "slug": "the-origin-of-consciousness",
+      "route": "/library/the-origin-of-consciousness",
+      "orderedSemanticSha256": "d96c0cee27d01c47163b9fc4ad9a42245762a3cc6e019d2917231c23151531ab",
+      "semanticAtomCount": 32,
+      "normalizedTextLength": 4479
+    },
+    {
+      "kind": "annotation",
+      "slug": "the-passion-of-the-western-mind",
+      "route": "/library/the-passion-of-the-western-mind",
+      "orderedSemanticSha256": "2ac642520d1bcf01127898f282bf11c478712be3f64eadf8196aaec84c274d06",
+      "semanticAtomCount": 32,
+      "normalizedTextLength": 4349
+    },
+    {
+      "kind": "annotation",
+      "slug": "the-prophet",
+      "route": "/library/the-prophet",
+      "orderedSemanticSha256": "1495dcd75fde497d702c2d31792ef5ae0d44d7a147fd096f3ec579070ebbf943",
+      "semanticAtomCount": 30,
+      "normalizedTextLength": 2861
+    },
+    {
+      "kind": "annotation",
+      "slug": "the-self-organizing-universe",
+      "route": "/library/the-self-organizing-universe",
+      "orderedSemanticSha256": "bb058d56a79d3bf2f270e365eddf26e05e4003bf0de00d47b45bf58712e43653",
+      "semanticAtomCount": 32,
+      "normalizedTextLength": 4956
+    },
+    {
+      "kind": "annotation",
+      "slug": "the-spell-of-the-sensuous",
+      "route": "/library/the-spell-of-the-sensuous",
+      "orderedSemanticSha256": "a46b068a54110c0ce94cb43573840d851a9e29e47612f5803c02097b02a6e1e2",
+      "semanticAtomCount": 32,
+      "normalizedTextLength": 4157
+    },
+    {
+      "kind": "annotation",
+      "slug": "the-stairway-to-heaven",
+      "route": "/library/the-stairway-to-heaven",
+      "orderedSemanticSha256": "336ebf71bdad993498cc171f660ba3212fa8d1f68b1432a28fd2ce0b1b7a530f",
+      "semanticAtomCount": 31,
+      "normalizedTextLength": 3608
+    },
+    {
+      "kind": "annotation",
+      "slug": "the-structure-of-scientific-revolutions",
+      "route": "/library/the-structure-of-scientific-revolutions",
+      "orderedSemanticSha256": "55ac897cbfd2d3c5f8a43f9e8db847fde3f912c78e68dd265fc087b62b234bb8",
+      "semanticAtomCount": 32,
+      "normalizedTextLength": 3966
+    },
+    {
+      "kind": "annotation",
+      "slug": "thinking-in-systems",
+      "route": "/library/thinking-in-systems",
+      "orderedSemanticSha256": "7acbff24057d888137070492ab4b3b5ab4bc03d355a4671b1ebcba177cf5195e",
+      "semanticAtomCount": 30,
+      "normalizedTextLength": 3577
+    },
+    {
+      "kind": "annotation",
+      "slug": "what-tech-calls-thinking",
+      "route": "/library/what-tech-calls-thinking",
+      "orderedSemanticSha256": "75355187c6c0ca0f9323d83a2ee5c5e39f1d4894b094427a44347baa3e7697c5",
+      "semanticAtomCount": 26,
+      "normalizedTextLength": 2454
+    },
+    {
+      "kind": "annotation",
+      "slug": "why-greatness-cannot-be-planned",
+      "route": "/library/why-greatness-cannot-be-planned",
+      "orderedSemanticSha256": "90637eeb766bef0ee9e2e448a4be7ba7d69ce9e238731a3989463c3a87f0f679",
+      "semanticAtomCount": 31,
+      "normalizedTextLength": 4375
+    },
+    {
+      "kind": "annotation",
+      "slug": "zen-and-the-art-of-motorcycle-maintenance",
+      "route": "/library/zen-and-the-art-of-motorcycle-maintenance",
+      "orderedSemanticSha256": "fb328cfe276da0efb412383f4e32ac6f0042d36ebcb0110792dfba76c90eeac7",
+      "semanticAtomCount": 35,
+      "normalizedTextLength": 4298
+    }
+  ]
+}

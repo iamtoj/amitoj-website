@@ -35,7 +35,7 @@ export default {
         ink: {
           DEFAULT: '#2D2A26',  // Deep warm charcoal for body text
           light: '#5A5651',     // Secondary text
-          muted: '#8A857E',     // Tertiary/caption text
+          muted: '#6B6761',     // Tertiary/caption text with accessible contrast
         },
       },
       fontFamily: {

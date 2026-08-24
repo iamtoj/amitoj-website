@@ -1,0 +1,113 @@
+---
+slug: "the-structure-of-scientific-revolutions"
+publicationStatus: "published"
+title: "The Structure of Scientific Revolutions"
+pageTitle: "The Structure of Scientific Revolutions | Library | Amitoj Singh"
+description: "Thomas Kuhn's revolutionary account of how science actually progresses through paradigm shifts."
+author: "Thomas Kuhn"
+cardTitle: "The Structure of Scientific Revolutions"
+cardAuthor: "Thomas Kuhn"
+cardReadingTime: "6-8 hours"
+cardDifficulty: "Moderate"
+cardTags: ["Philosophy","History"]
+teaser: "Two colleagues looking at identical data and seeing different problems entirely. Same spreadsheet, different worlds. Kuhn explained how this happens."
+detailReadingTime: "6-8 hours"
+detailDifficulty: "Moderate"
+detailTags: ["Philosophy","Science","History"]
+sortOrder: 11
+continuations: [{"target":{"kind":"note","slug":"why-you-need-multiple-minds"}}]
+---
+
+<section class="mb-12">
+<h2 class="text-sm text-ink-muted uppercase tracking-wider mb-4">Why I Recommend This</h2>
+<div class="prose prose-lg">
+<p>I watched two colleagues look at identical data and see different problems entirely. One saw resource allocation failure, the other incentive misalignment. Same spreadsheet, different worlds.</p>
+<p>Kuhn maps how this happens. Paradigms shape perception itself—we literally see different phenomena when working within different frameworks. The book traces how crises unfold: anomalies accumulate, ad hoc fixes proliferate, competing schools fragment consensus. The structure becomes visible once you see it—in climate science debates, AI ethics controversies, organizational theory conflicts. The question becomes: what framework makes this phenomenon visible at all?</p>
+</div>
+</section>
+
+<!-- THE BOOK -->
+<section class="mb-12">
+<h2 class="text-sm text-ink-muted uppercase tracking-wider mb-4">The Book</h2>
+<div class="prose prose-lg">
+<p>Kuhn argues that science progresses through revolutionary transformations of entire conceptual frameworks. What we call "normal science" is puzzle-solving within an established paradigm—an accepted set of methods, problems, and standards. Scientists assume the paradigm is correct and work to extend its application. But anomalies accumulate. Some puzzles resist solution. Eventually, confidence in the paradigm erodes, crisis develops, and a new framework emerges that is incommensurable with the old. The shift from Newtonian physics to Einstein's relativity meant seeing a different world.</p>
+<p>The book's deepest contribution is showing that paradigms are inescapable. We cannot do science from a neutral vantage point. Every observation is theory-laden; every question presupposes a framework. Kuhn compared paradigm shifts to gestalt switches—you see either the duck or the rabbit, never both simultaneously. Scientists working in different paradigms work in fundamentally different conceptual universes. This doesn't mean science is irrational, but it does mean rationality itself operates within frameworks.</p>
+</div>
+</section>
+
+<!-- PASSAGES -->
+<section class="mb-12">
+<h2 class="text-sm text-ink-muted uppercase tracking-wider mb-4">Passages That Stayed With Me</h2>
+<div class="space-y-6">
+<blockquote class="border-l-2 border-sage-400 pl-6">
+<p class="text-lg italic mb-2">"Normal science, the activity in which most scientists inevitably spend almost all their time, is predicated on the assumption that the scientific community knows what the world is like."</p>
+<p class="text-sm text-ink-muted">Why innovation is rare—we work from assumptions we don't question.</p>
+</blockquote>
+
+<blockquote class="border-l-2 border-sage-400 pl-6">
+<p class="text-lg italic mb-2">"What a man sees depends both upon what he looks at and also upon what his previous visual-conceptual experience has taught him to see."</p>
+<p class="text-sm text-ink-muted">Frameworks shape perception itself, not just interpretation.</p>
+</blockquote>
+
+<blockquote class="border-l-2 border-sage-400 pl-6">
+<p class="text-lg italic mb-2">"The decision to reject one paradigm is always simultaneously the decision to accept another, and the judgment leading to that decision involves the comparison of both paradigms with nature and with each other."</p>
+<p class="text-sm text-ink-muted">Why bad models persist—they're better than no model at all.</p>
+</blockquote>
+
+<blockquote class="border-l-2 border-sage-400 pl-6">
+<p class="text-lg italic mb-2">"Successive transition from one paradigm to another via revolution is the usual developmental pattern of mature science."</p>
+<p class="text-sm text-ink-muted">Progress through rupture.</p>
+</blockquote>
+
+<blockquote class="border-l-2 border-sage-400 pl-6">
+<p class="text-lg italic mb-2">"We may... have to relinquish the notion, explicit or implicit, that changes of paradigm carry scientists and those who learn from them closer and closer to the truth."</p>
+<p class="text-sm text-ink-muted">Science solves different problems in different environments—but progress might not mean approaching ultimate reality.</p>
+</blockquote>
+</div>
+</section>
+
+<!-- READ THIS IF -->
+<section class="mb-12">
+<h2 class="text-sm text-ink-muted uppercase tracking-wider mb-4">Read This If...</h2>
+<ul class="space-y-3 text-ink-light">
+<li class="flex gap-3">
+<span class="text-sage-600">&bull;</span>
+<span>You notice frameworks failing but lack vocabulary for why they persist despite evidence</span>
+</li>
+<li class="flex gap-3">
+<span class="text-sage-600">&bull;</span>
+<span>You work across disciplines and watch people literally talk past each other from different conceptual worlds</span>
+</li>
+<li class="flex gap-3">
+<span class="text-sage-600">&bull;</span>
+<span>You want to understand how intellectual revolutions actually happen—what triggers them, how they unfold, why they meet resistance</span>
+</li>
+<li class="flex gap-3">
+<span class="text-sage-600">&bull;</span>
+<span>You suspect we're living through paradigm crises in multiple domains (climate, AI, democracy, economics) and want tools to recognize the pattern</span>
+</li>
+<li class="flex gap-3">
+<span class="text-sage-600">&bull;</span>
+<span>You're drawn to meta-level questions about how we know what we know and what makes knowledge possible in the first place</span>
+</li>
+</ul>
+</section>
+
+<!-- SKIP THIS IF -->
+<section class="mb-12">
+<h2 class="text-sm text-ink-muted uppercase tracking-wider mb-4">Skip This If...</h2>
+<ul class="space-y-3 text-ink-light">
+<li class="flex gap-3">
+<span class="text-oat-400">&bull;</span>
+<span>You want a clear prescription for how to do science—Kuhn describes what scientists do, not what they should do</span>
+</li>
+<li class="flex gap-3">
+<span class="text-oat-400">&bull;</span>
+<span>You need detailed case studies—the historical examples illustrate principles without comprehensive depth</span>
+</li>
+<li class="flex gap-3">
+<span class="text-oat-400">&bull;</span>
+<span>You're uncomfortable with ambiguity—Kuhn's concept of paradigm is deliberately flexible and resists precise definition</span>
+</li>
+</ul>
+</section>

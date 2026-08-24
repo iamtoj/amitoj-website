@@ -1,91 +1,254 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import { practiceClaims, siteFacts, theoryClaims } from '../data/site-facts';
+import { getPublishedEssays } from '../lib/content';
 
-// Featured essays to show on homepage (must match essays.astro)
-const featuredEssays = [
-  {
-    slug: 'the-right-direction',
-    title: 'The Right Direction',
-    description: 'Markets coordinate brilliantly within frameworks they cannot generate. Price signals tell you how to win the game  -  they can\'t tell you whether it\'s the right game.',
-  },
-  {
-    slug: 'strategic-time',
-    title: 'Strategic Time',
-    description: 'Strategic choice lives in a narrow temporal zone between market degeneration and survival pressure. The mismatch between three clocks is where strategy happens.',
-  },
-  {
-    slug: 'architecture-of-commitment',
-    title: 'The Architecture of Commitment',
-    description: 'As measurement improves, execution becomes tractable. What remains contested is what the organization should be pursuing in the first place.',
-  },
-];
+const featuredEssays = (await getPublishedEssays())
+  .filter((essay) => essay.data.homeFeature)
+  .sort((left, right) => left.data.homeFeature!.sortOrder - right.data.homeFeature!.sortOrder);
 ---
 
-<Layout title="Amitoj Singh">
-  <!-- Hero Photo -->
-  <section class="container-zen pt-12 pb-8">
-    <div class="max-w-3xl">
+<Layout
+  title="Amitoj Singh | Research, writing, and practices of attention"
+  description={`Amitoj Singh researches ${siteFacts.researchFocus}.`}
+>
+  <section class="home-hero container-zen" data-home-hero>
+    <div class="home-hero-grid" data-home-hero-grid>
+      <div class="home-hero-copy" data-home-hero-copy>
+        <h1 class="mb-4 text-balance">Amitoj Singh</h1>
+        <div class="accent-line mb-5"></div>
+
+        <p class="text-lg text-ink-light mb-4">
+          I research {siteFacts.researchFocus}. The work moves between organizational judgment and embodied attention.
+        </p>
+
+        <p class="text-ink-muted mb-5">
+          Before this work, I spent {siteFacts.professionalHistory}.
+        </p>
+
+        <nav aria-label="Begin with" class="flex flex-wrap gap-x-6 gap-y-2">
+          <a href="/research" class="arrow-link">Research</a>
+          <a href="/writing" class="arrow-link">Writing</a>
+        </nav>
+      </div>
+
       <img
-        src="/images/photography-optimized/DSCF0573.webp"
-        alt="Two red Adirondack chairs in an autumn garden"
-        class="w-full h-72 object-cover"
-        style="object-position: center 80%;"
+        src="/images/profile.jpeg"
+        alt="Amitoj Singh smiling while seated beside the water, with a city skyline behind him"
+        class="home-portrait"
+        width="768"
+        height="1024"
       />
     </div>
   </section>
 
-  <section class="container-zen section-zen pt-8">
+  <section class="container-zen section-zen border-t border-oat-300" data-public-questions>
+    <div class="max-w-3xl">
+      <h2 class="text-2xl mb-4 section-header">Questions in public</h2>
+
+      <div class="border-y border-oat-300">
+        <a href="/research" class="question-row no-underline">
+          <span class="text-sm text-ink-muted">Research</span>
+          <span class="text-lg">How do organizations notice what matters and find direction when measurement cannot settle either question?</span>
+        </a>
+        <a href="/research#organizational-work" class="question-row no-underline border-t border-oat-300">
+          <span class="text-sm text-ink-muted">Organizational work</span>
+          <span class="text-lg">What judgment should remain human as cognition becomes delegable?</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="container-zen section-zen border-t border-oat-300" data-practice-map>
+    <div class="max-w-3xl">
+      <h2 class="text-2xl mb-4 section-header">Practices</h2>
+      <p class="text-ink-light mb-8">The same inquiry takes different forms at the scale of a person and an organization.</p>
+
+      <div class="practice-map-grid" role="group" aria-label="Practices of awareness and agency">
+        <a href={practiceClaims.router.yoga.href} class="practice-path no-underline" data-practice-path>
+          <span class="text-sm text-ink-muted">{practiceClaims.router.yoga.label}</span>
+          <h3 class="text-xl">{practiceClaims.router.yoga.title}</h3>
+          <p class="text-ink-light">{practiceClaims.router.yoga.summary}</p>
+        </a>
+        <a href={practiceClaims.router.research.href} class="practice-path no-underline" data-practice-path>
+          <span class="text-sm text-ink-muted">{practiceClaims.router.research.label}</span>
+          <h3 class="text-xl">{practiceClaims.router.research.title}</h3>
+          <p class="text-ink-light">{practiceClaims.router.research.summary}</p>
+        </a>
+        <a href={practiceClaims.router.coaching.href} class="practice-path no-underline" data-practice-path>
+          <span class="text-sm text-ink-muted">{practiceClaims.router.coaching.label}</span>
+          <h3 class="text-xl">{practiceClaims.router.coaching.title}</h3>
+          <p class="text-ink-light">{practiceClaims.router.coaching.summary}</p>
+        </a>
+        <a href={practiceClaims.router.organizational.href} class="practice-path no-underline" data-practice-path>
+          <span class="text-sm text-ink-muted">{practiceClaims.router.organizational.label}</span>
+          <h3 class="text-xl">{practiceClaims.router.organizational.title}</h3>
+          <p class="text-ink-light">{practiceClaims.router.organizational.summary}</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="container-zen section-zen border-t border-oat-300" data-photography-path>
     <div class="max-w-2xl">
-      <h1 class="mb-8 text-balance">
-        Amitoj Singh
-      </h1>
-
-      <div class="accent-line mb-8"></div>
-
-      <p class="text-ink-light mb-4">
-        Entrepreneur and institutional investor across private equity, venture capital, and hedge fund. Now a PhD student at Harvard Business School, researching how organizations allocate attention and find direction. Based in Boston, teaching yoga at HBS, writing about what happens when cognition itself becomes externalizable.
-      </p>
-
-      <nav class="flex gap-6">
-        <a href="/third-enlightenment" class="arrow-link">The Third Enlightenment</a>
-        <a href="/writing" class="arrow-link">Read my writing</a>
-        <a href="/about" class="arrow-link">About me</a>
-      </nav>
+      <h2 class="text-2xl mb-3">Photography</h2>
+      <p class="text-ink-light mb-5">A camera offers another way to practice attention.</p>
+      <div class="flex flex-wrap gap-x-6 gap-y-2">
+        <a href="/photography" class="arrow-link">View the contact sheet</a>
+        <a href="/practices" class="arrow-link">All practices</a>
+      </div>
     </div>
   </section>
 
-  <section class="container-zen section-zen border-t border-oat-300">
-    <h2 class="text-2xl mb-8 section-header">Third Enlightenment</h2>
-
+  <section class="container-zen section-zen border-t border-oat-300" data-working-theory>
     <div class="max-w-2xl feature-box">
+      <p class="text-sm text-ink-muted uppercase tracking-wider mb-3">Working theory</p>
+      <h2 class="text-2xl mb-4">Third Enlightenment</h2>
       <p class="text-ink-light mb-6">
-        Writing and print let us externalize memory. Digital systems let us externalize computation. Now artificial intelligence lets us externalize cognition itself.
+        {theoryClaims.homeEvidence}
       </p>
-
-      <a href="/third-enlightenment" class="arrow-link">Read the framework</a>
+      <a href="/third-enlightenment" class="arrow-link">Read the working theory</a>
     </div>
   </section>
 
-  <section class="container-zen section-zen border-t border-oat-300">
-    <h2 class="text-2xl mb-8 section-header">Featured Essays</h2>
+  <section class="container-zen section-zen border-t border-oat-300" data-recent-essays>
+    <div class="max-w-3xl">
+      <h2 class="text-2xl mb-8 section-header">Recent Essays</h2>
 
-    <ul class="list-none m-0 p-0">
-      {featuredEssays.map((essay, index) => (
-        <li class:list={["essay-hover", { "border-b border-oat-300": index < featuredEssays.length - 1 }]}>
-          <a href={`/essays/${essay.slug}`} class="no-underline block">
-            <h3 class="text-xl mb-2 transition-colors">
-              {essay.title}
-            </h3>
-            <p class="text-ink-light">
-              {essay.description}
-            </p>
-          </a>
-        </li>
-      ))}
-    </ul>
+      <div class="divide-y divide-oat-300">
+        {featuredEssays.map((essay) => (
+          <article class="py-6 first:pt-0 last:pb-0">
+            <a href={`/essays/${essay.data.slug}`} class="group block no-underline">
+              <h3 class="text-xl mb-2 group-hover:text-sage-600 transition-colors">{essay.data.title}</h3>
+              <p class="text-ink-light">{essay.data.homeFeature!.summary}</p>
+            </a>
+          </article>
+        ))}
+      </div>
 
-    <div class="mt-8">
-      <a href="/writing" class="arrow-link">View all writing</a>
+      <div class="mt-8">
+        <a href="/writing" class="arrow-link">All writing</a>
+      </div>
     </div>
   </section>
 </Layout>
+
+<style>
+  .home-hero {
+    padding-top: 1.5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .home-hero-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.25rem;
+    align-items: center;
+    max-width: 56rem;
+  }
+
+  .home-hero-copy {
+    max-width: 39rem;
+  }
+
+  .home-portrait {
+    display: block;
+    width: 100%;
+    height: 8.5rem;
+    object-fit: cover;
+    object-position: center 16%;
+  }
+
+  .question-row {
+    display: grid;
+    grid-template-columns: minmax(8rem, 0.35fr) minmax(0, 1fr);
+    gap: 1.5rem;
+    padding: 1.5rem 0;
+    align-items: baseline;
+  }
+
+  .question-row:hover span:last-child {
+    color: #6B7D56;
+  }
+
+  .practice-map-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    border-top: 1px solid #DED6C8;
+  }
+
+  .practice-path {
+    display: grid;
+    gap: 0.35rem;
+    padding: 1.5rem 0;
+    border-bottom: 1px solid #DED6C8;
+  }
+
+  .practice-path:hover h3 {
+    color: #6B7D56;
+  }
+
+  @media (min-width: 768px) {
+    .home-hero {
+      padding-top: 2rem;
+      padding-bottom: 4rem;
+    }
+
+    .home-hero-grid {
+      grid-template-columns: minmax(0, 1.45fr) minmax(15rem, 0.75fr);
+      gap: 4rem;
+    }
+
+    .home-portrait {
+      height: 25rem;
+      object-position: center top;
+    }
+
+    .practice-map-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .practice-path:nth-child(odd) {
+      padding-right: 2rem;
+      border-right: 1px solid #DED6C8;
+    }
+
+    .practice-path:nth-child(even) {
+      padding-left: 2rem;
+    }
+  }
+
+  @media (max-width: 540px) {
+    .home-hero {
+      padding-top: 1rem;
+      padding-bottom: 1.5rem;
+    }
+
+    .home-hero-grid {
+      gap: 0.75rem;
+    }
+
+    .home-hero-copy h1 {
+      font-size: 2.25rem;
+      line-height: 1.1;
+      margin-bottom: 0.75rem;
+    }
+
+    .home-hero-copy > p:first-of-type {
+      font-size: 1.125rem;
+      line-height: 1.5;
+      margin-bottom: 0.75rem;
+    }
+
+    .home-hero-copy > p:nth-of-type(2) {
+      font-size: 1rem;
+      line-height: 1.5;
+      margin-bottom: 1rem;
+    }
+
+    .question-row {
+      grid-template-columns: minmax(0, 1fr);
+      gap: 0.35rem;
+    }
+  }
+</style>

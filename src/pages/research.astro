@@ -1,0 +1,137 @@
+---
+import EditorialLabel from '../components/EditorialLabel.astro';
+import Layout from '../layouts/Layout.astro';
+import { practiceClaims, siteFacts } from '../data/site-facts';
+import { getEditorialNetwork, getPublishedEssays, getPublishedNotes } from '../lib/content';
+
+const network = await getEditorialNetwork();
+const essayRecords = (await getPublishedEssays()).map((entry) => ({
+  entry,
+  target: network.resolve({ kind: 'essay', slug: entry.data.slug }),
+}));
+
+const selectedNoteSlugs = [
+  'where-you-want-variance',
+  'from-org-theory-to-ai',
+  'the-dot-collector',
+] as const;
+const notesBySlug = new Map((await getPublishedNotes()).map((entry) => [entry.data.slug, entry]));
+const noteRecords = selectedNoteSlugs.map((slug) => {
+  const entry = notesBySlug.get(slug);
+  if (!entry) throw new Error(`Research requires published Note: ${slug}`);
+  return {
+    entry,
+    target: network.resolve({ kind: 'note', slug }),
+  };
+});
+---
+
+<Layout
+  title="Research | Amitoj Singh"
+  description="Questions and public work on organizational attention, direction, judgment, and delegable cognition."
+>
+  <section class="container-zen pt-8 pb-10 md:pt-12 md:pb-14">
+    <div class="max-w-3xl">
+      <img
+        src="/images/photography-optimized/DSCF4877.webp"
+        alt="A red building set against a clear blue sky"
+        class="w-full h-56 md:h-72 object-cover object-bottom mb-10"
+        width="1600"
+        height="1067"
+      />
+
+      <h1 class="mb-8 text-balance">Research</h1>
+      <div class="accent-line mb-8"></div>
+      <p class="text-lg text-ink-light">
+        {practiceClaims.researchMethod}
+      </p>
+    </div>
+  </section>
+
+  <section class="container-zen section-zen border-t border-oat-300">
+    <div class="max-w-3xl">
+      <h2 class="text-2xl mb-8 section-header">Questions</h2>
+      <ol class="list-none m-0 p-0 border-y border-oat-300">
+        <li class="research-question">How can resources hide decay?</li>
+        <li class="research-question border-t border-oat-300">How do organizations determine the right direction when the path is not clear?</li>
+        <li class="research-question border-t border-oat-300">What happens before search, when declaring what matters shapes what becomes findable?</li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="container-zen section-zen border-t border-oat-300" data-research-essays>
+    <div class="max-w-3xl">
+      <h2 class="text-2xl mb-4 section-header">Public arguments</h2>
+      <p class="text-ink-light mb-10">The Essays develop the questions at length.</p>
+
+      <div class="divide-y divide-oat-300">
+        {essayRecords.map(({ entry, target }) => (
+          <article class="py-6 first:pt-0 last:pb-0">
+            <a href={target.path} class="group block no-underline">
+              <EditorialLabel form={target.form} />
+              <h3 class="text-xl mb-2 group-hover:text-sage-600 transition-colors">{entry.data.title}</h3>
+              <p class="text-ink-light">{entry.data.summary}</p>
+            </a>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="container-zen section-zen border-t border-oat-300" data-research-notes>
+    <div class="max-w-3xl">
+      <h2 class="text-2xl mb-4 section-header">Notes and working material</h2>
+      <p class="text-ink-light mb-10">Shorter observations keep the inquiry close to systems being built and used.</p>
+
+      <div class="divide-y divide-oat-300">
+        {noteRecords.map(({ entry, target }) => (
+          <article class="py-5 first:pt-0" data-research-note>
+            <a href={target.path} class="group block no-underline">
+              <EditorialLabel form={target.form} />
+              <h3 class="text-xl mb-2 group-hover:text-sage-600 transition-colors">{entry.data.title}</h3>
+              <p class="text-ink-light">{entry.data.description}</p>
+            </a>
+          </article>
+        ))}
+
+        <article class="py-5 last:pb-0">
+          <p class="text-sm text-ink-muted mb-2">Working material</p>
+          <h3 class="text-xl mb-2">Managing Interns</h3>
+          <a href="/managing-interns.pdf" class="arrow-link">Slides · 27 pages</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="container-zen section-zen border-t border-oat-300">
+    <div class="max-w-2xl">
+      <h2 class="text-2xl mb-6 section-header">An investing lens</h2>
+      <p class="text-ink-light">
+        I also bring an investing lens to these questions. I spent {siteFacts.professionalHistory}.
+      </p>
+    </div>
+  </section>
+
+  <section id="organizational-work" class="container-zen section-zen border-t border-oat-300 scroll-mt-8">
+    <div class="max-w-3xl">
+      <h2 class="text-2xl mb-6 section-header">Organizational work</h2>
+      <p class="text-lg text-ink-light mb-10">{practiceClaims.organizationalMethod}</p>
+
+      <div class="feature-box mt-10">
+        <p class="text-sm text-ink-muted uppercase tracking-wider mb-3">Threshold</p>
+        <p class="text-ink-light">
+          The difficult question must sit upstream of automation. If the objective is already settled and the remaining work is implementation, this is a different problem.
+        </p>
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .research-question {
+    padding: 1.25rem 0;
+    font-size: 1.125rem;
+    line-height: 1.6;
+  }
+
+</style>

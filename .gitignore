@@ -4,6 +4,10 @@ node_modules/
 # Build output
 dist/
 .astro/
+.worktrees/
+test-results/
+playwright-report/
+.vercel/
 
 # Environment variables
 .env

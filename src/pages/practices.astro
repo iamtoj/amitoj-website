@@ -1,0 +1,65 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { practiceClaims } from '../data/site-facts';
+
+const practices = [
+  practiceClaims.router.research,
+  practiceClaims.router.yoga,
+  practiceClaims.router.coaching,
+  practiceClaims.router.organizational,
+] as const;
+---
+
+<Layout
+  title="Practices | Amitoj Singh"
+  description="Research, organizational work, yoga, coaching, and photography as practices of attention and agency."
+>
+  <section class="container-zen section-zen">
+    <div class="max-w-3xl">
+      <h1 class="mb-6 text-balance">Practices</h1>
+      <div class="accent-line mb-8"></div>
+      <p class="text-lg text-ink-light">
+        These practices share a question, not a method: what becomes visible when attention slows, and what must a person or organization still decide?
+      </p>
+    </div>
+  </section>
+
+  <section class="container-zen section-zen border-t border-oat-300">
+    <div class="max-w-3xl border-y border-oat-300">
+      {practices.map((practice, index) => (
+        <article class:list={['practice-row', index > 0 && 'border-t border-oat-300']} data-practice-row>
+          <p class="text-sm text-ink-muted">{practice.label}</p>
+          <div>
+            <h2 class="text-2xl mb-2"><a href={practice.href} class="arrow-link">{practice.title}</a></h2>
+            <p class="text-ink-light">{practice.summary}</p>
+          </div>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <section class="container-zen section-zen border-t border-oat-300" data-seeing-practice>
+    <div class="max-w-2xl">
+      <p class="text-sm text-ink-muted mb-3">Another practice of seeing</p>
+      <h2 class="text-2xl mb-3"><a href="/photography" class="arrow-link">Photography</a></h2>
+      <p class="text-ink-light">Seeing as a form of attention.</p>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .practice-row {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.75rem;
+    padding: 1.75rem 0;
+  }
+
+  @media (min-width: 640px) {
+    .practice-row {
+      grid-template-columns: minmax(10rem, 0.35fr) minmax(0, 1fr);
+      gap: 2rem;
+      align-items: baseline;
+    }
+  }
+</style>

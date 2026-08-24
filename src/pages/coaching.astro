@@ -1,0 +1,33 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { practiceClaims } from '../data/site-facts';
+---
+
+<Layout
+  title="Coaching | Amitoj Singh"
+  description="A practice of seeing a situation clearly, locating the choice that remains, and taking responsibility for it."
+>
+  <section class="container-zen section-zen">
+    <div class="max-w-2xl">
+      <p class="text-sm text-ink-muted mb-3">{practiceClaims.router.coaching.label}</p>
+      <h1 class="mb-6 text-balance">Coaching</h1>
+      <div class="accent-line mb-8"></div>
+      <p class="text-xl text-ink-light">What remains yours to decide after the explanation is stripped away?</p>
+    </div>
+  </section>
+
+  <section class="container-zen section-zen border-t border-oat-300">
+    <div class="max-w-2xl">
+      <h2 class="text-2xl mb-8 section-header">Method</h2>
+      <p class="text-ink-light">{practiceClaims.coachingMethod}</p>
+    </div>
+  </section>
+
+  <section class="container-zen section-zen border-t border-oat-300">
+    <div class="max-w-2xl">
+      <h2 class="text-2xl mb-6 section-header">Boundary</h2>
+      <p class="text-ink-light">Coaching cannot outsource judgment. Advice may clarify a decision, but the person living with it still has to decide what matters and accept responsibility for the choice.</p>
+    </div>
+  </section>
+
+</Layout>

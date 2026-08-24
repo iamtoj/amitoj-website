@@ -1,0 +1,30 @@
+---
+import type { ResolvedInquiryTrail } from '../lib/content';
+import EditorialLabel from './EditorialLabel.astro';
+
+interface Props {
+  trail: ResolvedInquiryTrail;
+}
+
+const { trail } = Astro.props;
+---
+
+<article class="border-t border-oat-300 pt-7" data-inquiry-trail={trail.id}>
+  <h3 class="text-2xl mb-5 max-w-2xl">{trail.question}</h3>
+  <ol class="grid gap-4">
+    {trail.objects.map((object, index) => (
+      <li class="grid grid-cols-[2rem_1fr] gap-3 items-start">
+        <span class="text-sm text-ink-muted pt-1" aria-hidden="true">
+          {String(index + 1).padStart(2, '0')}
+        </span>
+        <a href={object.path} class="group block no-underline" data-trail-object={`${object.ref.kind}:${object.ref.slug}`}>
+          <EditorialLabel form={object.form} />
+          <span class="block text-lg text-ink group-hover:text-sage-700 transition-colors mt-1">
+            {object.title}
+          </span>
+          <span class="block text-sm text-ink-light mt-1">{object.context}</span>
+        </a>
+      </li>
+    ))}
+  </ol>
+</article>

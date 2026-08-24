@@ -1,0 +1,98 @@
+---
+slug: "radical-wholeness"
+publicationStatus: "published"
+title: "Radical Wholeness"
+pageTitle: "Radical Wholeness | Library | Amitoj Singh"
+description: "Philip Shepherd’s argument that Western culture privileges head-centered attention, and his practice of pelvic intelligence."
+author: "Philip Shepherd"
+cardTitle: "Radical Wholeness"
+cardAuthor: "Philip Shepherd"
+cardReadingTime: "12-16 hours"
+cardDifficulty: "Demanding"
+cardTags: ["Embodiment","Philosophy","Consciousness"]
+teaser: "In tree pose, balance can shift from conscious correction to embodied adjustment. Shepherd treats that shift as a challenge to the head’s rule."
+detailReadingTime: "12-16 hours"
+detailDifficulty: "Demanding"
+detailTags: ["Embodiment","Philosophy","Consciousness"]
+sortOrder: 18
+continuationLabel: "Related"
+continuations: [{"target":{"kind":"annotation","slug":"breath"},"connection":"breathing as an embodied practice to examine cautiously"},{"target":{"kind":"static","slug":"yoga"},"connection":"contemplative practice as embodied inquiry"}]
+---
+
+<section class="mb-12">
+<h2 class="text-sm text-ink-muted uppercase tracking-wider mb-4">Why I Recommend This</h2>
+<div class="prose prose-lg">
+<p>In my own tree pose, there are moments when I stop consciously correcting balance and adjustment happens before I can describe it. Breath and attention change with it. That experience does not establish “pelvic intelligence”; it is the observation I bring to Shepherd’s account.</p>
+<p>Shepherd calls for challenging the head’s rule and returning intelligence to the pelvic bowl. His account of a Neolithic shift gave me language for the distinction, but I treat that history as his interpretation, not a settled account of how consciousness moved. The narrower distinction I retain is between observing the body and attending through it.</p>
+</div>
+</section>
+
+<!-- THE BOOK -->
+<section class="mb-12">
+<h2 class="text-sm text-ink-muted uppercase tracking-wider mb-4">The Book</h2>
+<div class="prose prose-lg">
+<p>Shepherd argues that the primary wound in Western culture is the separation between thinking and being. We've been trained to live in our heads, using abstract thought to control a body we treat as separate. This schism underlies our anxiety epidemics, ecological crises, and fundamental disconnection from reality itself.</p>
+<p>The solution requires nothing less than a Copernican revolution in consciousness: challenging the rule of the head and returning to the hub of being in the pelvic bowl. Shepherd synthesizes neuroscience, anthropology, physics, and myth to show both how we got here and what embodied wholeness actually means. Wholeness is already the nature of reality. The work is learning to stop obscuring our sensitivity to it.</p>
+</div>
+</section>
+
+<!-- PASSAGES -->
+<section class="mb-12">
+<h2 class="text-sm text-ink-muted uppercase tracking-wider mb-4">Passages That Stayed With Me</h2>
+<div class="space-y-6">
+<blockquote class="border-l-2 border-sage-400 pl-6">
+<p class="text-lg italic mb-2">"What the body most deeply understands is that it belongs to the world."</p>
+<p class="text-sm text-ink-muted">Belonging precedes the decision to separate.</p>
+</blockquote>
+<blockquote class="border-l-2 border-sage-400 pl-6">
+<p class="text-lg italic mb-2">"The genius in the head is a genius of analysis, and we're trying to patch together our lives into wholeness with a tool whose specialty is breaking things into pieces."</p>
+<p class="text-sm text-ink-muted">Why thinking harder doesn't fix it.</p>
+</blockquote>
+<blockquote class="border-l-2 border-sage-400 pl-6">
+<p class="text-lg italic mb-2">"To listen to the body is to remain divided by it, which is not the same as embodiment."</p>
+<p class="text-sm text-ink-muted">Listening maintains the observer-observed split. Embodiment dissolves it.</p>
+</blockquote>
+<blockquote class="border-l-2 border-sage-400 pl-6">
+<p class="text-lg italic mb-2">"Wholeness cannot be achieved. You're already whole, how can you escape it? There's nothing but wholeness."</p>
+<p class="text-sm text-ink-muted">You can't get to where you already are.</p>
+</blockquote>
+<blockquote class="border-l-2 border-sage-400 pl-6">
+<p class="text-lg italic mb-2">"As the inner tyranny collapses, outer tyrannies lose their pull—whether they are corporate, political or social."</p>
+<p class="text-sm text-ink-muted">Internal structure shapes what external power can grip.</p>
+</blockquote>
+</div>
+</section>
+
+<!-- READ THIS IF -->
+<section class="mb-12">
+<h2 class="text-sm text-ink-muted uppercase tracking-wider mb-4">Read This If...</h2>
+<ul class="space-y-3 text-ink-light">
+<li class="flex gap-3">
+<span class="text-sage-600">•</span>
+<span>You sense that embodiment teachings still keep you observing from the head, and you want something more radical</span>
+</li>
+<li class="flex gap-3">
+<span class="text-sage-600">•</span>
+<span>You're interested in how agricultural revolution transformed human consciousness from belly-centered to head-centered</span>
+</li>
+<li class="flex gap-3">
+<span class="text-sage-600">•</span>
+<span>You work with frameworks that fail when they meet reality and suspect the problem is in how knowledge gets abstracted from lived experience</span>
+</li>
+</ul>
+</section>
+
+<!-- SKIP THIS IF -->
+<section class="mb-12">
+<h2 class="text-sm text-ink-muted uppercase tracking-wider mb-4">Skip This If...</h2>
+<ul class="space-y-3 text-ink-light">
+<li class="flex gap-3">
+<span class="text-oat-400">•</span>
+<span>You find neuroscience-meets-anthropology-meets-physics syntheses too broad to trust</span>
+</li>
+<li class="flex gap-3">
+<span class="text-oat-400">•</span>
+<span>You prefer books that introduce concepts linearly over ones that reference the pelvic bowl throughout before explaining it in depth</span>
+</li>
+</ul>
+</section>
