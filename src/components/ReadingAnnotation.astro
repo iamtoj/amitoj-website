@@ -1,0 +1,63 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import Layout from '../layouts/Layout.astro';
+import { resolveEditorialView } from '../lib/content';
+import EditorialLabel from './EditorialLabel.astro';
+import RelatedPaths from './RelatedPaths.astro';
+
+interface Props {
+  entry: CollectionEntry<'readingAnnotations'>;
+}
+
+const { entry } = Astro.props;
+const { data } = entry;
+const view = await resolveEditorialView(
+  { kind: 'annotation', slug: data.slug },
+  data.continuations,
+);
+---
+
+<Layout
+  title={data.pageTitle!}
+  description={data.description!}
+  kind="article"
+  canonicalPath={`/library/${data.slug}`}
+>
+  <article class="container-zen section-zen">
+    <div class="max-w-2xl">
+      <a href="/library" class="text-ink-muted hover:text-ink mb-8 block w-fit">&larr; Back to Library</a>
+
+      <EditorialLabel form={view.current.form} />
+      <h1 class="mb-2 text-balance">{data.title}</h1>
+      <p class="text-xl text-ink-muted mb-6">{data.author}</p>
+
+      <p class="text-lg text-ink-light mb-6" data-editorial-context>{view.current.context}</p>
+
+      <div class="flex flex-wrap gap-2 text-sm text-ink-muted mb-8">
+        <span>{data.detailReadingTime}</span>
+        <span class="text-oat-400">&middot;</span>
+        <span>{data.detailDifficulty}</span>
+        <span class="text-oat-400">&middot;</span>
+        <span>{data.detailTags!.join(', ')}</span>
+      </div>
+
+      <div class="accent-line mb-8"></div>
+
+      <div data-editorial-body>
+        <slot />
+      </div>
+
+      <div class="pt-8 border-t border-oat-300">
+        <RelatedPaths paths={view.continuations} heading={data.continuationLabel} />
+        <a href="/library" class="text-sage-700 hover:text-sage-900 font-medium">&larr; Back to Library</a>
+      </div>
+    </div>
+  </article>
+</Layout>
+
+<style is:global>
+  .prose p {
+    margin-bottom: 1.25rem;
+    line-height: 1.8;
+  }
+</style>

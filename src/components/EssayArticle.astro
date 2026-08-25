@@ -1,0 +1,47 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import Layout from '../layouts/Layout.astro';
+import { resolveEditorialView } from '../lib/content';
+import EditorialLabel from './EditorialLabel.astro';
+import RelatedPaths from './RelatedPaths.astro';
+
+interface Props {
+  entry: CollectionEntry<'essays'>;
+}
+
+const { entry } = Astro.props;
+const { data } = entry;
+const view = await resolveEditorialView(
+  { kind: 'essay', slug: data.slug },
+  data.continuations,
+);
+---
+
+<Layout
+  title={`${data.title} | Amitoj Singh`}
+  description={data.description!}
+  kind="article"
+  canonicalPath={`/essays/${data.slug}`}
+>
+  <article class="container-zen section-zen">
+    <div class="max-w-2xl">
+      <a href="/writing" class="text-ink-muted hover:text-ink mb-8 block w-fit">&larr; Back to Writing</a>
+
+      <EditorialLabel form={view.current.form} />
+      <h1 class="mb-8 text-balance">{data.title}</h1>
+
+      <div class="accent-line mb-8"></div>
+
+      <p class="text-lg text-ink-light mb-10" data-editorial-context>{view.current.context}</p>
+
+      <div data-editorial-body>
+        <slot />
+      </div>
+
+      <div class="mt-8 pt-8 border-t border-oat-300">
+        <p class="text-ink-muted text-sm mb-6">Published {data.publishedLabel}</p>
+        <RelatedPaths paths={view.continuations} heading="Related reading" />
+      </div>
+    </div>
+  </article>
+</Layout>

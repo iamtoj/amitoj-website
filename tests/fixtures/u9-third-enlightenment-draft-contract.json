@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "intent": "U9 records a private rewrite of the retired Third Enlightenment Note without changing its draft status or rewriting the immutable U1-U3 and U7 evidence.",
+  "review": "Source-bounded writeastoj and voice-match review of the retired draft on 2026-08-24.",
+  "frozenFixtureSha256": {
+    "sourceBaseline": "d07aef7dcb59f2bec8fc858dc976a60eaa8e63c1c5d608e32ac2f145e6317f8f",
+    "publicBaseline": "3a911e38741928c7f9e05cd320068590594a5345bf62b7cf6068c55c5a16f342",
+    "migrationBaseline": "e3c5b9cc12452acc4b592b6b5e7d7f34676980ff06943a9ce6bf2698dadff90b",
+    "networkContract": "01dde71f07495e934f26eccbf628b8890c1c0dafcea0bbcf108737623ef3cc54",
+    "renderedBodyContract": "7121935963c97c437ec6f252c399d50bcd22adf4fc389392a65fd786898269b5",
+    "u7Contract": "a94650b0ed65f0d752f8c703db1874738582f855e3b1effdb9653d90da0da1ce"
+  },
+  "draftRevision": {
+    "key": "note:the-third-enlightenment",
+    "canonicalSource": "src/content/notes/the-third-enlightenment.md",
+    "from": {
+      "metadata": {
+        "slug": "the-third-enlightenment",
+        "publicationStatus": "draft",
+        "title": "The Third Enlightenment",
+        "description": "What if the machines don't take our jobs but free us from the parts of work that were never meant for humans anyway?",
+        "pubDate": "2026-01-12",
+        "tags": [
+          "AI",
+          "work",
+          "enlightenment",
+          "human flourishing"
+        ],
+        "sortOrder": 2,
+        "continuations": []
+      },
+      "body": {
+        "kind": "raw-note-body",
+        "sha256": "952def5f73b9074d965f213219174aafa444e2ac6f3e1125b821bf4bf5e32d49"
+      }
+    },
+    "to": {
+      "metadata": {
+        "slug": "the-third-enlightenment",
+        "publicationStatus": "draft",
+        "title": "The Cost of a Connection",
+        "description": "When a system can retrieve and propose, the difficult question is who remains responsible for revising the objective.",
+        "tags": [
+          "AI",
+          "judgment",
+          "attention",
+          "delegation"
+        ],
+        "sortOrder": 999,
+        "continuations": []
+      },
+      "body": {
+        "kind": "raw-note-body",
+        "sha256": "8721d51709554e8284db0980e645ea55d5e092858701c446b8daa9785689123a"
+      }
+    },
+    "changedMetadataFields": [
+      "description",
+      "pubDate",
+      "sortOrder",
+      "tags",
+      "title"
+    ],
+    "verdict": "remain-draft",
+    "publicReferences": 0,
+    "route": null,
+    "redirect": {
+      "source": "/blog/the-third-enlightenment",
+      "destination": "/third-enlightenment",
+      "permanent": true
+    },
+    "reason": "The old essentialist division between machine work and a permanent human remainder was replaced with a bounded inquiry into where judgment and responsibility move under delegation. The rewrite is not approved for publication."
+  }
+}

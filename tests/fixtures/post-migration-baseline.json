@@ -1,0 +1,2256 @@
+{
+  "schemaVersion": 1,
+  "sourceBaselineCommit": "5bddfbc4f829a186939b5aa97caab4680acfea21",
+  "u1CheckpointCommit": "97f510eac211ef77e099add1d87482e50acea579",
+  "authority": {
+    "essays": "The four rendered Astro detail pages at the U1 checkpoint.",
+    "notes": "The six U1 Note Markdown bodies, byte-for-byte after frontmatter.",
+    "readingAnnotations": "The 38 rendered Astro detail pages at the U1 checkpoint.",
+    "draft": "The reviewed Where You Are candidate preserved as the canonical draft src/content/essays/where-you-are.md."
+  },
+  "migrationExceptions": [],
+  "preservedKnownIssues": [],
+  "essays": [
+    {
+      "slug": "architecture-of-commitment",
+      "route": "/essays/architecture-of-commitment",
+      "publicationStatus": "published",
+      "sortOrder": 4,
+      "metadata": {
+        "slug": "architecture-of-commitment",
+        "publicationStatus": "published",
+        "title": "The Architecture of Commitment",
+        "description": "Commit too firmly to a course of action and you can't adapt when circumstances change; remain too open and you never build the momentum that commitment provides. The architecture determines which commitments to lock in and which to leave open.",
+        "summary": "As measurement improves, execution becomes tractable. What remains contested is what the organization should be pursuing in the first place.",
+        "publishedLabel": "January 2026",
+        "cardPublishedLabel": "January 2026",
+        "homeFeature": {
+          "sortOrder": 3,
+          "summary": "As measurement improves, execution becomes tractable. What remains contested is what the organization should be pursuing in the first place."
+        },
+        "sortOrder": 4,
+        "cta": {
+          "text": "If your organization is grappling with these questions, I'd welcome the conversation.",
+          "href": "/contact",
+          "label": "Continue the conversation →"
+        },
+        "continuations": [
+          {
+            "href": "/essays/the-right-direction",
+            "label": "The Right Direction — choosing what game to play before optimizing play →"
+          },
+          {
+            "href": "/essays/strategic-time",
+            "label": "Strategic Time — protecting the temporal zone where commitment becomes possible →"
+          }
+        ]
+      },
+      "semanticAtomsSha256": "df3dce194393520f5926df8b8b7083ed6ed495a3b34d0b47fe23146d780a690e",
+      "semanticAtomCount": 30,
+      "semanticAtomCounts": {
+        "h2": 5,
+        "p": 25
+      },
+      "sourceBodySha256": "b98a90d0e704f7f0af9ee9772e90eddce24565e016c0c0e7faaf95c21eac68c3"
+    },
+    {
+      "slug": "strategic-time",
+      "route": "/essays/strategic-time",
+      "publicationStatus": "published",
+      "sortOrder": 3,
+      "metadata": {
+        "slug": "strategic-time",
+        "publicationStatus": "published",
+        "title": "Strategic Time",
+        "description": "Strategic choice exists in a narrow temporal zone: fast enough that decisions can be revisited, slow enough that evidence can accumulate. Collapse it from either direction and strategy disappears.",
+        "summary": "Strategic choice lives in a narrow temporal zone between market degeneration and survival pressure. The mismatch between three clocks is where strategy happens.",
+        "publishedLabel": "January 2026",
+        "cardPublishedLabel": "January 2026",
+        "homeFeature": {
+          "sortOrder": 2,
+          "summary": "Strategic choice lives in a narrow temporal zone between market degeneration and survival pressure. The mismatch between three clocks is where strategy happens."
+        },
+        "sortOrder": 3,
+        "cta": {
+          "text": "Organizations face pressure from both directions—fast-cycle markets and survival anxiety. If these temporal dynamics are live in your organization, I'd welcome the conversation.",
+          "href": "/contact",
+          "label": "Continue the conversation →"
+        },
+        "continuations": [
+          {
+            "href": "/essays/the-right-direction",
+            "label": "The Right Direction — before asking how fast, decide which way →"
+          },
+          {
+            "href": "/essays/architecture-of-commitment",
+            "label": "The Architecture of Commitment — what T-Mobile's transformation reveals about holding purpose →"
+          }
+        ]
+      },
+      "semanticAtomsSha256": "7752bce0bb1a31acdf53f770aadb1a7e5f6059207e8b31dfec57092a030e4a45",
+      "semanticAtomCount": 29,
+      "semanticAtomCounts": {
+        "h2": 6,
+        "p": 23
+      },
+      "sourceBodySha256": "70be5c270675dbaec0d7022d5c2b2a7258e4f1a52bcf2ff090d8d52fc74b03ec"
+    },
+    {
+      "slug": "the-right-direction",
+      "route": "/essays/the-right-direction",
+      "publicationStatus": "published",
+      "sortOrder": 2,
+      "metadata": {
+        "slug": "the-right-direction",
+        "publicationStatus": "published",
+        "title": "The Right Direction",
+        "description": "Price signals tell you how to win the game; they can't tell you whether it's the right game. Markets coordinate brilliantly within frameworks they cannot generate.",
+        "summary": "Markets coordinate brilliantly within frameworks they cannot generate. Price signals tell you how to win  -  they can't tell you whether it's the right game.",
+        "publishedLabel": "January 2026",
+        "cardPublishedLabel": "January 2026",
+        "homeFeature": {
+          "sortOrder": 1,
+          "summary": "Markets coordinate brilliantly within frameworks they cannot generate. Price signals tell you how to win the game  -  they can't tell you whether it's the right game."
+        },
+        "sortOrder": 2,
+        "cta": {
+          "text": "I work with leadership teams on the prior question: what game should we be playing? If that question resonates, I'd welcome the conversation.",
+          "href": "/contact",
+          "label": "Continue the conversation →"
+        },
+        "continuations": [
+          {
+            "href": "/essays/strategic-time",
+            "label": "Strategic Time — the temporal zone where strategic choice operates →"
+          },
+          {
+            "href": "/essays/architecture-of-commitment",
+            "label": "The Architecture of Commitment — once you know the direction, what do you lock in? →"
+          }
+        ]
+      },
+      "semanticAtomsSha256": "b5be8b728ccacb1d90bd87d7ac2ba8b295a9ddb6e976653d7fbd896676a7bd34",
+      "semanticAtomCount": 33,
+      "semanticAtomCounts": {
+        "hr": 6,
+        "p": 27
+      },
+      "sourceBodySha256": "41614705846397bcbc56fd2ccff6dd844780b07c56f4433ce6023821cdc01520"
+    },
+    {
+      "slug": "what-rules-cant-capture",
+      "route": "/essays/what-rules-cant-capture",
+      "publicationStatus": "published",
+      "sortOrder": 1,
+      "metadata": {
+        "slug": "what-rules-cant-capture",
+        "publicationStatus": "published",
+        "title": "What Rules Can't Capture",
+        "description": "Some knowledge resists becoming rules. The more I built systems that ran on rules, the clearer this became: more rules don't make a system smarter. Sometimes they make it worse.",
+        "summary": "The more rules I wrote, the less the system understood what I actually wanted. Some knowledge resists becoming rules  -  and that's where the interesting work begins.",
+        "publishedLabel": "January 2026",
+        "cardPublishedLabel": "January 2026",
+        "sortOrder": 1,
+        "cta": {
+          "text": "The boundary between what can be specified and what must remain judgment is one of the central questions in building intelligent systems. If you're working on similar questions, I'd welcome the conversation.",
+          "href": "/contact",
+          "label": "Continue the conversation →"
+        },
+        "continuations": [
+          {
+            "href": "/essays/architecture-of-commitment",
+            "label": "The Architecture of Commitment — knowing what to lock in and what to leave open →"
+          },
+          {
+            "href": "/library/rules",
+            "label": "Library: Rules — Wittgenstein on the limits of rule-following →"
+          }
+        ]
+      },
+      "semanticAtomsSha256": "fff620ac6e74e60082e204240480a8bd0aa2e2e24c38edbaddd9b58f6c6a46cd",
+      "semanticAtomCount": 48,
+      "semanticAtomCounts": {
+        "a": 1,
+        "h2": 6,
+        "h3": 1,
+        "li": 3,
+        "p": 37
+      },
+      "sourceBodySha256": "4832d7748d0df62e7dd9de5aa00d1a5b24c9c401f129877940a2cfe4ff4166ac"
+    }
+  ],
+  "notes": [
+    {
+      "slug": "from-org-theory-to-ai",
+      "route": "/blog/from-org-theory-to-ai",
+      "publicationStatus": "published",
+      "sortOrder": 3,
+      "metadata": {
+        "slug": "from-org-theory-to-ai",
+        "publicationStatus": "published",
+        "title": "Agent Polities",
+        "description": "What happens when we realize that governing AI agents requires the same wisdom that political philosophers developed for governing people.",
+        "pubDate": "2026-01-05",
+        "tags": [
+          "AI",
+          "organization theory",
+          "agents",
+          "governance"
+        ],
+        "sortOrder": 3,
+        "continuations": []
+      },
+      "bodySha256": "796146db4a403687fab3e270dce64c72f2dbe2b293fb542a2c82eb94583dce5a",
+      "rawNoteBodySha256": "796146db4a403687fab3e270dce64c72f2dbe2b293fb542a2c82eb94583dce5a"
+    },
+    {
+      "slug": "teaching-ai-to-think-like-you",
+      "route": "/blog/teaching-ai-to-think-like-you",
+      "publicationStatus": "published",
+      "sortOrder": 5,
+      "metadata": {
+        "slug": "teaching-ai-to-think-like-you",
+        "publicationStatus": "published",
+        "title": "The Tacit Knowledge Problem",
+        "description": "On the strange process of extracting what you know but cannot say, and why it requires watching more than asking.",
+        "pubDate": "2025-12-22",
+        "tags": [
+          "AI",
+          "cognition",
+          "tacit knowledge",
+          "personal"
+        ],
+        "sortOrder": 5,
+        "continuations": []
+      },
+      "bodySha256": "782612d94751c7ada79f6fcc80998d292995e19f5e18e6f8b43969d77b22b069",
+      "rawNoteBodySha256": "782612d94751c7ada79f6fcc80998d292995e19f5e18e6f8b43969d77b22b069"
+    },
+    {
+      "slug": "the-dot-collector",
+      "route": "/blog/the-dot-collector",
+      "publicationStatus": "published",
+      "sortOrder": 4,
+      "metadata": {
+        "slug": "the-dot-collector",
+        "publicationStatus": "published",
+        "title": "The Dot Collector",
+        "description": "On discovering that machines can be peers, and on the division of cognitive labor that makes partnership possible.",
+        "pubDate": "2025-12-29",
+        "tags": [
+          "AI",
+          "partnership",
+          "cognition",
+          "personal"
+        ],
+        "sortOrder": 4,
+        "continuations": []
+      },
+      "bodySha256": "79c296856bd9f3182d3ba144542a32b1e33e60ff62ce83554373605965bbd032",
+      "rawNoteBodySha256": "79c296856bd9f3182d3ba144542a32b1e33e60ff62ce83554373605965bbd032"
+    },
+    {
+      "slug": "the-third-enlightenment",
+      "route": "/blog/the-third-enlightenment",
+      "publicationStatus": "published",
+      "sortOrder": 2,
+      "metadata": {
+        "slug": "the-third-enlightenment",
+        "publicationStatus": "published",
+        "title": "The Third Enlightenment",
+        "description": "What if the machines don't take our jobs but free us from the parts of work that were never meant for humans anyway?",
+        "pubDate": "2026-01-12",
+        "tags": [
+          "AI",
+          "work",
+          "enlightenment",
+          "human flourishing"
+        ],
+        "sortOrder": 2,
+        "continuations": []
+      },
+      "bodySha256": "952def5f73b9074d965f213219174aafa444e2ac6f3e1125b821bf4bf5e32d49",
+      "rawNoteBodySha256": "952def5f73b9074d965f213219174aafa444e2ac6f3e1125b821bf4bf5e32d49"
+    },
+    {
+      "slug": "where-you-want-variance",
+      "route": "/blog/where-you-want-variance",
+      "publicationStatus": "published",
+      "sortOrder": 1,
+      "metadata": {
+        "slug": "where-you-want-variance",
+        "publicationStatus": "published",
+        "title": "Where You Want Variance",
+        "description": "As we get better at specifying things, the question shifts from 'can we reduce variance?' to 'should we?'",
+        "pubDate": "2026-01-19",
+        "tags": [
+          "AI",
+          "systems",
+          "expertise",
+          "design"
+        ],
+        "sortOrder": 1,
+        "continuations": []
+      },
+      "bodySha256": "155de7de3b013a2596bf3a3a6f8c83426bcd66b9c907c975f00e59af71a2dafe",
+      "rawNoteBodySha256": "155de7de3b013a2596bf3a3a6f8c83426bcd66b9c907c975f00e59af71a2dafe"
+    },
+    {
+      "slug": "why-you-need-multiple-minds",
+      "route": "/blog/why-you-need-multiple-minds",
+      "publicationStatus": "published",
+      "sortOrder": 6,
+      "metadata": {
+        "slug": "why-you-need-multiple-minds",
+        "publicationStatus": "published",
+        "title": "Multiple Minds",
+        "description": "On discovering that a single perspective—even a smart one—is never enough to see what you're actually thinking.",
+        "pubDate": "2025-12-15",
+        "tags": [
+          "AI",
+          "thinking",
+          "debate",
+          "cognition"
+        ],
+        "sortOrder": 6,
+        "continuations": []
+      },
+      "bodySha256": "4148f2d562a0aa7ae569f7c68d773f6d2cf124ab526c36c585eeb62d3ce69de5",
+      "rawNoteBodySha256": "4148f2d562a0aa7ae569f7c68d773f6d2cf124ab526c36c585eeb62d3ce69de5"
+    }
+  ],
+  "readingAnnotations": [
+    {
+      "slug": "a-story-waiting-to-pierce-you",
+      "route": "/library/a-story-waiting-to-pierce-you",
+      "publicationStatus": "published",
+      "sortOrder": 35,
+      "metadata": {
+        "slug": "a-story-waiting-to-pierce-you",
+        "publicationStatus": "published",
+        "title": "A Story Waiting to Pierce You",
+        "pageTitle": "A Story Waiting to Pierce You | Library | Amitoj Singh",
+        "description": "Peter Kingsley reveals that Western philosophy originated through deliberate transmission of Central Asian shamanic wisdom to ancient Greece.",
+        "author": "Peter Kingsley",
+        "cardTitle": "A Story Waiting to Pierce You",
+        "cardAuthor": "Peter Kingsley",
+        "cardReadingTime": "8-12 hours",
+        "cardDifficulty": "Demanding",
+        "cardTags": [
+          "Philosophy",
+          "History",
+          "Spirituality"
+        ],
+        "teaser": "We teach Parmenides as the birth of logic. Kingsley argues we got the story exactly wrong.",
+        "detailReadingTime": "8-12 hours",
+        "detailDifficulty": "Demanding",
+        "detailTags": [
+          "Philosophy",
+          "Spirituality",
+          "History"
+        ],
+        "sortOrder": 35,
+        "continuations": []
+      },
+      "semanticAtomsSha256": "b97e161931beaeedd65ed8d2117c7278d75b4d60a548998a4f1d5ad3c6665613",
+      "semanticAtomCount": 32,
+      "semanticAtomCounts": {
+        "blockquote": 5,
+        "h2": 5,
+        "li": 8,
+        "p": 14
+      },
+      "requiredHeadings": [
+        "Why I Recommend This",
+        "The Book",
+        "Passages That Stayed With Me",
+        "Read This If...",
+        "Skip This If..."
+      ],
+      "sourceBodySha256": "9a1aee2bb7feea21cb3a235eaa765493a3afd07b2672af91c35840ca2abd4705"
+    },
+    {
+      "slug": "breath",
+      "route": "/library/breath",
+      "publicationStatus": "published",
+      "sortOrder": 20,
+      "metadata": {
+        "slug": "breath",
+        "publicationStatus": "published",
+        "title": "Breath",
+        "pageTitle": "Breath | Library | Amitoj Singh",
+        "description": "James Nestor on how modern humans breathe wrong, and what ancient traditions knew about it.",
+        "author": "James Nestor",
+        "cardTitle": "Breath",
+        "cardAuthor": "James Nestor",
+        "cardReadingTime": "6-8 hours",
+        "cardDifficulty": "Accessible",
+        "cardTags": [
+          "Embodiment",
+          "Health"
+        ],
+        "teaser": "Nestor documents what mouth-taping, nasal breathing, and exhale holds do to the nervous system — mechanisms behind the effects.",
+        "detailReadingTime": "6-8 hours",
+        "detailDifficulty": "Accessible",
+        "detailTags": [
+          "Embodiment",
+          "Health",
+          "Breathwork"
+        ],
+        "sortOrder": 20,
+        "continuationLabel": "Related",
+        "continuations": [
+          {
+            "href": "/yoga",
+            "label": "Yoga — contemplative practice as embodied inquiry →"
+          },
+          {
+            "href": "/third-enlightenment",
+            "label": "The Third Enlightenment — why the body matters in an algorithmic age →"
+          }
+        ]
+      },
+      "semanticAtomsSha256": "9193a9ea9cb7c3749fc893844d1129258a43e54466de77beb9f6f48586665463",
+      "semanticAtomCount": 26,
+      "semanticAtomCounts": {
+        "blockquote": 4,
+        "h2": 5,
+        "li": 5,
+        "p": 12
+      },
+      "requiredHeadings": [
+        "Why I Recommend This",
+        "The Book",
+        "Passages That Stayed With Me",
+        "Read This If...",
+        "Skip This If..."
+      ],
+      "sourceBodySha256": "021c457cb9d63ba9a1753eaafcab5c0877ab1c8f199c2478c9a965ab95984989"
+    },
+    {
+      "slug": "confessions-of-a-born-again-pagan",
+      "route": "/library/confessions-of-a-born-again-pagan",
+      "publicationStatus": "published",
+      "sortOrder": 27,
+      "metadata": {
+        "slug": "confessions-of-a-born-again-pagan",
+        "publicationStatus": "published",
+        "title": "Confessions of a Born-Again Pagan",
+        "pageTitle": "Confessions of a Born-Again Pagan | Library | Amitoj Singh",
+        "description": "Anthony Kronman on finding God in the world itself.",
+        "author": "Anthony T. Kronman",
+        "cardTitle": "Confessions of a Born-Again Pagan",
+        "cardAuthor": "Anthony T. Kronman",
+        "cardReadingTime": "20-25 hours",
+        "cardDifficulty": "Demanding",
+        "cardTags": [
+          "Philosophy",
+          "Spirituality"
+        ],
+        "teaser": "A student saying \"I'm not religious, but I'm not not-religious either.\" Kronman maps the philosophical territory that gap occupies.",
+        "detailReadingTime": "20-25 hours",
+        "detailDifficulty": "Demanding",
+        "detailTags": [
+          "Philosophy",
+          "Spirituality",
+          "Theology"
+        ],
+        "sortOrder": 27,
+        "continuations": []
+      },
+      "semanticAtomsSha256": "cf8086277fdbbd7d580fe9eeb4c07e9b175d0246c2325546b2806a46947b69f3",
+      "semanticAtomCount": 31,
+      "semanticAtomCounts": {
+        "blockquote": 5,
+        "h2": 5,
+        "li": 7,
+        "p": 14
+      },
+      "requiredHeadings": [
+        "Why I Recommend This",
+        "The Book",
+        "Passages That Stayed With Me",
+        "Read This If...",
+        "Skip This If..."
+      ],
+      "sourceBodySha256": "ffa74183c0998c78b08aa0e7c9860cff2daafb8579556fc1929c2f6f49cabd7b"
+    },
+    {
+      "slug": "finite-and-infinite-games",
+      "route": "/library/finite-and-infinite-games",
+      "publicationStatus": "published",
+      "sortOrder": 6,
+      "metadata": {
+        "slug": "finite-and-infinite-games",
+        "publicationStatus": "published",
+        "title": "Finite and Infinite Games",
+        "pageTitle": "Finite and Infinite Games | Library | Amitoj Singh",
+        "description": "James Carse's philosophical distinction between playing to win and playing to continue—a framework for approaching life, work, and relationship as infinite games.",
+        "author": "James P. Carse",
+        "cardTitle": "Finite and Infinite Games",
+        "cardAuthor": "James P. Carse",
+        "cardReadingTime": "5-7 hours",
+        "cardDifficulty": "Accessible",
+        "cardTags": [
+          "Philosophy",
+          "Systems",
+          "Spirituality"
+        ],
+        "teaser": "Watching a boardroom where both sides claimed victory yet both lost something essential. The distinction named what was happening.",
+        "detailReadingTime": "5-7 hours",
+        "detailDifficulty": "Accessible",
+        "detailTags": [
+          "Philosophy",
+          "Systems",
+          "Spirituality"
+        ],
+        "sortOrder": 6,
+        "continuations": []
+      },
+      "semanticAtomsSha256": "3beaa68ae51054f905bc7950f87bb2fc80a29f1d254a1e1b4320723aa036b988",
+      "semanticAtomCount": 34,
+      "semanticAtomCounts": {
+        "blockquote": 6,
+        "h2": 5,
+        "li": 7,
+        "p": 16
+      },
+      "requiredHeadings": [
+        "Why I Recommend This",
+        "The Book",
+        "Passages That Stayed With Me",
+        "Read This If...",
+        "Skip This If..."
+      ],
+      "sourceBodySha256": "6bf3ef592a9de592b3299a893980c1d569c531fd7a4d54ec58a6b976ea5eee2b"
+    },
+    {
+      "slug": "governing-the-commons",
+      "route": "/library/governing-the-commons",
+      "publicationStatus": "published",
+      "sortOrder": 8,
+      "metadata": {
+        "slug": "governing-the-commons",
+        "publicationStatus": "published",
+        "title": "Governing the Commons",
+        "pageTitle": "Governing the Commons | Library | Amitoj Singh",
+        "description": "Elinor Ostrom's Nobel Prize-winning work demonstrates that communities can manage shared resources without external control—and offers design principles for institutions that work.",
+        "author": "Elinor Ostrom",
+        "cardTitle": "Governing the Commons",
+        "cardAuthor": "Elinor Ostrom",
+        "cardReadingTime": "8-12 hours",
+        "cardDifficulty": "Moderate",
+        "cardTags": [
+          "Systems",
+          "Economics"
+        ],
+        "teaser": "A fishing ground that thrived for decades without central authority. The community had developed rules about who could fish where.",
+        "detailReadingTime": "8-12 hours",
+        "detailDifficulty": "Moderate",
+        "detailTags": [
+          "Systems",
+          "Economics",
+          "Philosophy"
+        ],
+        "sortOrder": 8,
+        "continuations": []
+      },
+      "semanticAtomsSha256": "bfed9f8772f0d17ae0e77cd65f3239bbcdb31603fe1f78dd48c8f934755ecac1",
+      "semanticAtomCount": 32,
+      "semanticAtomCounts": {
+        "blockquote": 5,
+        "h2": 5,
+        "li": 8,
+        "p": 14
+      },
+      "requiredHeadings": [
+        "Why I Recommend This",
+        "The Book",
+        "Passages That Stayed With Me",
+        "Read This If...",
+        "Skip This If..."
+      ],
+      "sourceBodySha256": "faf8f05888b8f1a9dcb4e6e86eceba95f88ccf6c27036ead439478e605f945c8"
+    },
+    {
+      "slug": "how-not-to-be-wrong",
+      "route": "/library/how-not-to-be-wrong",
+      "publicationStatus": "published",
+      "sortOrder": 15,
+      "metadata": {
+        "slug": "how-not-to-be-wrong",
+        "publicationStatus": "published",
+        "title": "How Not to Be Wrong: The Power of Mathematical Thinking",
+        "pageTitle": "How Not to Be Wrong | Library | Amitoj Singh",
+        "description": "Jordan Ellenberg on mathematics as extended common sense—a science of not being wrong hammered out by centuries of hard work.",
+        "author": "Jordan Ellenberg",
+        "cardTitle": "How Not to Be Wrong",
+        "cardAuthor": "Jordan Ellenberg",
+        "cardReadingTime": "8-12 hours",
+        "cardDifficulty": "Accessible",
+        "cardTags": [
+          "Systems",
+          "Philosophy"
+        ],
+        "teaser": "The bullet holes on returning WWII bombers clustered in the fuselage and wings. Abraham Wald said: armor the engines.",
+        "detailReadingTime": "8-12 hours",
+        "detailDifficulty": "Accessible",
+        "detailTags": [
+          "Mathematics",
+          "Philosophy",
+          "Systems"
+        ],
+        "sortOrder": 15,
+        "continuations": []
+      },
+      "semanticAtomsSha256": "77c6df6f1a567c674c5a8bf752e98671e86c1c73958187d1b213a0741438ba14",
+      "semanticAtomCount": 31,
+      "semanticAtomCounts": {
+        "blockquote": 5,
+        "h2": 5,
+        "li": 7,
+        "p": 14
+      },
+      "requiredHeadings": [
+        "Why I Recommend This",
+        "The Book",
+        "Passages That Stayed With Me",
+        "Read This If...",
+        "Skip This If..."
+      ],
+      "sourceBodySha256": "9c5c1d79e625d660cd5000ddc442adb9464d57d5d4e96b6175ee5b4d2d802c1e"
+    },
+    {
+      "slug": "into-the-cool",
+      "route": "/library/into-the-cool",
+      "publicationStatus": "published",
+      "sortOrder": 37,
+      "metadata": {
+        "slug": "into-the-cool",
+        "publicationStatus": "published",
+        "title": "Into the Cool",
+        "pageTitle": "Into the Cool | Library | Amitoj Singh",
+        "description": "Eric D. Schneider and Dorion Sagan on how the second law of thermodynamics drives life, complexity, and evolution.",
+        "author": "Eric D. Schneider and Dorion Sagan",
+        "cardTitle": "Into the Cool",
+        "cardAuthor": "Eric D. Schneider & Dorion Sagan",
+        "cardReadingTime": "14-18 hours",
+        "cardDifficulty": "Demanding",
+        "cardTags": [
+          "Systems",
+          "Philosophy"
+        ],
+        "teaser": "A puzzle about evolution's arrow — why maximum complexity increases over time. Schneider and Sagan locate the answer in thermodynamics.",
+        "detailReadingTime": "14-18 hours",
+        "detailDifficulty": "Demanding",
+        "detailTags": [
+          "Systems",
+          "Science",
+          "Philosophy"
+        ],
+        "sortOrder": 37,
+        "continuationLabel": "Related",
+        "continuations": [
+          {
+            "href": "/third-enlightenment",
+            "label": "The Third Enlightenment — physics grounding meaning without reductionism →"
+          }
+        ]
+      },
+      "semanticAtomsSha256": "a60f7dfeb9b107d2850180dff342bf2eb7ab35b76290755383293c5e29a6aabd",
+      "semanticAtomCount": 29,
+      "semanticAtomCounts": {
+        "blockquote": 5,
+        "h2": 5,
+        "li": 5,
+        "p": 14
+      },
+      "requiredHeadings": [
+        "Why I Recommend This",
+        "The Book",
+        "Passages That Stayed With Me",
+        "Read This If...",
+        "Skip This If..."
+      ],
+      "sourceBodySha256": "d424467331cbbfdd2742eedaa936d5778c763e6c350b02fbe253fb4b09a5bab3"
+    },
+    {
+      "slug": "liquidated",
+      "route": "/library/liquidated",
+      "publicationStatus": "published",
+      "sortOrder": 10,
+      "metadata": {
+        "slug": "liquidated",
+        "publicationStatus": "published",
+        "title": "Liquidated: An Ethnography of Wall Street",
+        "pageTitle": "Liquidated | Library | Amitoj Singh",
+        "description": "Karen Ho's ethnography reveals how Wall Street culture creates economic crises through the very practices it claims are natural.",
+        "author": "Karen Ho",
+        "cardTitle": "Liquidated",
+        "cardAuthor": "Karen Ho",
+        "cardReadingTime": "8-12 hours",
+        "cardDifficulty": "Moderate",
+        "cardTags": [
+          "Economics",
+          "Culture"
+        ],
+        "teaser": "A recruiting event at a business school where the pitch sounded like an initiation rite. The investment bankers described 100-hour weeks, constant job insecurity.",
+        "detailReadingTime": "8-12 hours",
+        "detailDifficulty": "Moderate",
+        "detailTags": [
+          "Economics",
+          "Culture",
+          "Systems"
+        ],
+        "sortOrder": 10,
+        "continuations": []
+      },
+      "semanticAtomsSha256": "3615b8cdacbe5c79ec7301a93f082723d6e897fcadc7152b912a92fffe6bc4ea",
+      "semanticAtomCount": 30,
+      "semanticAtomCounts": {
+        "blockquote": 5,
+        "h2": 5,
+        "li": 6,
+        "p": 14
+      },
+      "requiredHeadings": [
+        "Why I Recommend This",
+        "The Book",
+        "Passages That Stayed With Me",
+        "Read This If...",
+        "Skip This If..."
+      ],
+      "sourceBodySha256": "f9a940666be32a12e07e81ae317affbcc910501db5db38ae812ffeb57b3f55ca"
+    },
+    {
+      "slug": "mans-search-for-meaning",
+      "route": "/library/mans-search-for-meaning",
+      "publicationStatus": "published",
+      "sortOrder": 24,
+      "metadata": {
+        "slug": "mans-search-for-meaning",
+        "publicationStatus": "published",
+        "title": "Man's Search for Meaning",
+        "pageTitle": "Man's Search for Meaning | Library | Amitoj Singh",
+        "description": "Viktor Frankl's profound insight: meaning can be found even in the most brutal circumstances, and this search for meaning is our primary human drive.",
+        "author": "Viktor Frankl",
+        "cardTitle": "Man's Search for Meaning",
+        "cardAuthor": "Viktor Frankl",
+        "cardReadingTime": "4-6 hours",
+        "cardDifficulty": "Accessible",
+        "cardTags": [
+          "Philosophy",
+          "Spirituality"
+        ],
+        "teaser": "A student asked what to do when the work stops meaning anything. Frankl wrote from the one place where that question couldn't be avoided.",
+        "detailReadingTime": "4-6 hours",
+        "detailDifficulty": "Accessible",
+        "detailTags": [
+          "Philosophy",
+          "Psychology",
+          "Spirituality"
+        ],
+        "sortOrder": 24,
+        "continuations": []
+      },
+      "semanticAtomsSha256": "e88f55a326d86db394cd63cf97db96f79c4dacd9dd6fb3059f332f97723f4434",
+      "semanticAtomCount": 31,
+      "semanticAtomCounts": {
+        "blockquote": 5,
+        "h2": 5,
+        "li": 7,
+        "p": 14
+      },
+      "requiredHeadings": [
+        "Why I Recommend This",
+        "The Book",
+        "Passages That Stayed With Me",
+        "Read This If...",
+        "Skip This If..."
+      ],
+      "sourceBodySha256": "b1d497eefc30601062a55c41d096196458c2cc240364686b3406d8ea9cff4fc2"
+    },
+    {
+      "slug": "notes-on-complexity",
+      "route": "/library/notes-on-complexity",
+      "publicationStatus": "published",
+      "sortOrder": 23,
+      "metadata": {
+        "slug": "notes-on-complexity",
+        "publicationStatus": "published",
+        "title": "Notes on Complexity",
+        "pageTitle": "Notes on Complexity | Library | Amitoj Singh",
+        "description": "Neil Theise shows how complexity theory reveals the universe as a seamless, self-organizing whole—and why consciousness might be fundamental.",
+        "author": "Neil Theise",
+        "cardTitle": "Notes on Complexity",
+        "cardAuthor": "Neil Theise",
+        "cardReadingTime": "6-8 hours",
+        "cardDifficulty": "Accessible",
+        "cardTags": [
+          "Systems",
+          "Consciousness"
+        ],
+        "teaser": "A pathologist who meditates — the rarity signals how wide the gap between empirical rigor and contemplative insight has become.",
+        "detailReadingTime": "6-8 hours",
+        "detailDifficulty": "Accessible",
+        "detailTags": [
+          "Systems",
+          "Consciousness",
+          "Science"
+        ],
+        "sortOrder": 23,
+        "continuations": []
+      },
+      "semanticAtomsSha256": "b73de0e00294a75a8feec59248ceea795ae1dd3302b24c3f5432a708bb789b6b",
+      "semanticAtomCount": 32,
+      "semanticAtomCounts": {
+        "blockquote": 5,
+        "h2": 5,
+        "li": 8,
+        "p": 14
+      },
+      "requiredHeadings": [
+        "Why I Recommend This",
+        "The Book",
+        "Passages That Stayed With Me",
+        "Read This If...",
+        "Skip This If..."
+      ],
+      "sourceBodySha256": "0d1dfbdddde75519d859e739d7206b756443bce76cd977847f0897029b5ac8a7"
+    },
+    {
+      "slug": "one-hundred-years-of-solitude",
+      "route": "/library/one-hundred-years-of-solitude",
+      "publicationStatus": "published",
+      "sortOrder": 33,
+      "metadata": {
+        "slug": "one-hundred-years-of-solitude",
+        "publicationStatus": "published",
+        "title": "One Hundred Years of Solitude",
+        "pageTitle": "One Hundred Years of Solitude | Library | Amitoj Singh",
+        "description": "Gabriel García Márquez on cycles of history, the solitude of power, and the magic within the real.",
+        "author": "Gabriel García Márquez",
+        "cardTitle": "One Hundred Years of Solitude",
+        "cardAuthor": "Gabriel García Márquez",
+        "cardReadingTime": "12-16 hours",
+        "cardDifficulty": "Moderate",
+        "cardTags": [
+          "Culture",
+          "History"
+        ],
+        "teaser": "Three generations of a family business making the same strategic error — each convinced they were the first to face the problem.",
+        "detailReadingTime": "12-16 hours",
+        "detailDifficulty": "Moderate",
+        "detailTags": [
+          "History",
+          "Culture",
+          "Philosophy"
+        ],
+        "sortOrder": 33,
+        "continuations": []
+      },
+      "semanticAtomsSha256": "9e9b20fdca99bf53eafeeb41d465629c35afe0adadb7d922e2634b083e33a315",
+      "semanticAtomCount": 31,
+      "semanticAtomCounts": {
+        "blockquote": 5,
+        "h2": 5,
+        "li": 7,
+        "p": 14
+      },
+      "requiredHeadings": [
+        "Why I Recommend This",
+        "The Book",
+        "Passages That Stayed With Me",
+        "Read This If...",
+        "Skip This If..."
+      ],
+      "sourceBodySha256": "9e09f3ee19c3aed94fde53f46309698946d6e905e5adefc9a46409835bb28e2b"
+    },
+    {
+      "slug": "parallels-and-paradoxes",
+      "route": "/library/parallels-and-paradoxes",
+      "publicationStatus": "published",
+      "sortOrder": 31,
+      "metadata": {
+        "slug": "parallels-and-paradoxes",
+        "publicationStatus": "published",
+        "title": "Parallels and Paradoxes",
+        "pageTitle": "Parallels and Paradoxes | Library | Amitoj Singh",
+        "description": "Edward Said and Daniel Barenboim on dialogue across difference through shared practice.",
+        "author": "Edward Said & Daniel Barenboim",
+        "cardTitle": "Parallels and Paradoxes",
+        "cardAuthor": "Edward Said & Daniel Barenboim",
+        "cardReadingTime": "4-6 hours",
+        "cardDifficulty": "Accessible",
+        "cardTags": [
+          "Culture",
+          "Creativity"
+        ],
+        "teaser": "Integration without reduction. Understanding does not require agreement.",
+        "detailReadingTime": "4-6 hours",
+        "detailDifficulty": "Accessible",
+        "detailTags": [
+          "Dialogue",
+          "Music",
+          "Integration"
+        ],
+        "sortOrder": 31,
+        "continuations": []
+      },
+      "semanticAtomsSha256": "3f73809ce73e5304da0c2879ca458fb6118bc32e45b941c65ef064afaa4dc8d5",
+      "semanticAtomCount": 26,
+      "semanticAtomCounts": {
+        "blockquote": 4,
+        "h2": 5,
+        "li": 5,
+        "p": 12
+      },
+      "requiredHeadings": [
+        "Why I Recommend This",
+        "The Book",
+        "Passages That Stayed With Me",
+        "Read This If...",
+        "Skip This If..."
+      ],
+      "sourceBodySha256": "ddc8124aeb7b07200c5a45607074b30082c1f5d7969ec73972812ab9fbabe63d"
+    },
+    {
+      "slug": "philosophy-and-the-mirror-of-nature",
+      "route": "/library/philosophy-and-the-mirror-of-nature",
+      "publicationStatus": "published",
+      "sortOrder": 13,
+      "metadata": {
+        "slug": "philosophy-and-the-mirror-of-nature",
+        "publicationStatus": "published",
+        "title": "Philosophy and the Mirror of Nature",
+        "pageTitle": "Philosophy and the Mirror of Nature | Library | Amitoj Singh",
+        "description": "Richard Rorty's dismantling of representational thinking and the quest for philosophical foundations.",
+        "author": "Richard Rorty",
+        "cardTitle": "Philosophy and the Mirror of Nature",
+        "cardAuthor": "Richard Rorty",
+        "cardReadingTime": "12-18 hours",
+        "cardDifficulty": "Demanding",
+        "cardTags": [
+          "Philosophy",
+          "Consciousness"
+        ],
+        "teaser": "Every model built assumes a world sitting there waiting to be accurately described. Rorty asked: what if that assumption is the problem?",
+        "detailReadingTime": "12-18 hours",
+        "detailDifficulty": "Demanding",
+        "detailTags": [
+          "Philosophy",
+          "Systems",
+          "Consciousness"
+        ],
+        "sortOrder": 13,
+        "continuations": []
+      },
+      "semanticAtomsSha256": "7e2fb7d8974252d95cc8e38f6cd61bcd05db0eb583a915ff8eeda4926dbc3a5c",
+      "semanticAtomCount": 32,
+      "semanticAtomCounts": {
+        "blockquote": 5,
+        "h2": 5,
+        "li": 8,
+        "p": 14
+      },
+      "requiredHeadings": [
+        "Why I Recommend This",
+        "The Book",
+        "Passages That Stayed With Me",
+        "Read This If...",
+        "Skip This If..."
+      ],
+      "sourceBodySha256": "2af206ead618ef00531167dc29bd2c4c54a49cfc96a2521d7557c7cd585b600d"
+    },
+    {
+      "slug": "radical-wholeness",
+      "route": "/library/radical-wholeness",
+      "publicationStatus": "published",
+      "sortOrder": 18,
+      "metadata": {
+        "slug": "radical-wholeness",
+        "publicationStatus": "published",
+        "title": "Radical Wholeness",
+        "pageTitle": "Radical Wholeness | Library | Amitoj Singh",
+        "description": "Philip Shepherd on why Western culture systematically trained us to live in our heads, and what pelvic intelligence can teach us about being whole.",
+        "author": "Philip Shepherd",
+        "cardTitle": "Radical Wholeness",
+        "cardAuthor": "Philip Shepherd",
+        "cardReadingTime": "12-16 hours",
+        "cardDifficulty": "Demanding",
+        "cardTags": [
+          "Embodiment",
+          "Philosophy",
+          "Consciousness"
+        ],
+        "teaser": "A moment in yoga when a student stops thinking about the body and starts thinking from it. Shepherd explains why that distinction is a Copernican revolution.",
+        "detailReadingTime": "12-16 hours",
+        "detailDifficulty": "Demanding",
+        "detailTags": [
+          "Embodiment",
+          "Philosophy",
+          "Consciousness"
+        ],
+        "sortOrder": 18,
+        "continuationLabel": "Related",
+        "continuations": [
+          {
+            "href": "/library/breath",
+            "label": "Breath — how breathing connects voluntary and involuntary systems →"
+          },
+          {
+            "href": "/yoga",
+            "label": "Yoga — contemplative practice as embodied inquiry →"
+          }
+        ]
+      },
+      "semanticAtomsSha256": "0c93dfca56179a22bc4a42cd9c2f6e81e464b0a3bc903bf6a2ded71c66869e23",
+      "semanticAtomCount": 29,
+      "semanticAtomCounts": {
+        "blockquote": 5,
+        "h2": 5,
+        "li": 5,
+        "p": 14
+      },
+      "requiredHeadings": [
+        "Why I Recommend This",
+        "The Book",
+        "Passages That Stayed With Me",
+        "Read This If...",
+        "Skip This If..."
+      ],
+      "sourceBodySha256": "52eec9c952b2b874fadf19274bc04fd2d08387dddc76813efb48b289381e9930"
+    },
+    {
+      "slug": "rules",
+      "route": "/library/rules",
+      "publicationStatus": "published",
+      "sortOrder": 5,
+      "metadata": {
+        "slug": "rules",
+        "publicationStatus": "published",
+        "title": "Rules",
+        "pageTitle": "Rules | Library | Amitoj Singh",
+        "description": "Lorraine Daston on why frameworks fail when they meet reality.",
+        "author": "Lorraine Daston",
+        "cardTitle": "Rules",
+        "cardAuthor": "Lorraine Daston",
+        "cardReadingTime": "10-14 hours",
+        "cardDifficulty": "Moderate",
+        "cardTags": [
+          "Philosophy",
+          "Systems"
+        ],
+        "teaser": "Why frameworks fail when they meet reality. The vocabulary I was missing.",
+        "detailReadingTime": "10-14 hours",
+        "detailDifficulty": "Moderate",
+        "detailTags": [
+          "Philosophy",
+          "Systems",
+          "AI Governance"
+        ],
+        "sortOrder": 5,
+        "continuationLabel": "Related essay",
+        "continuations": [
+          {
+            "href": "/essays/what-rules-cant-capture",
+            "label": "What Rules Can't Capture — where Wittgenstein's insight meets system design →"
+          }
+        ]
+      },
+      "semanticAtomsSha256": "61087820b4f6a1661b1a42d2729c0129fce9ca0ca660bdb42d8ffc92e8dcb350",
+      "semanticAtomCount": 26,
+      "semanticAtomCounts": {
+        "blockquote": 4,
+        "h2": 5,
+        "li": 5,
+        "p": 12
+      },
+      "requiredHeadings": [
+        "Why I Recommend This",
+        "The Book",
+        "Passages That Stayed With Me",
+        "Read This If...",
+        "Skip This If..."
+      ],
+      "sourceBodySha256": "27fc96755c582e7dfc6e0e07f573967c1f917a3d4f0df70657ae8936919f6cd9"
+    },
+    {
+      "slug": "seeing-like-a-state",
+      "route": "/library/seeing-like-a-state",
+      "publicationStatus": "published",
+      "sortOrder": 4,
+      "metadata": {
+        "slug": "seeing-like-a-state",
+        "publicationStatus": "published",
+        "title": "Seeing Like a State",
+        "pageTitle": "Seeing Like a State | Library | Amitoj Singh",
+        "description": "James C. Scott on how states simplify societies and why grand schemes fail.",
+        "author": "James C. Scott",
+        "cardTitle": "Seeing Like a State",
+        "cardAuthor": "James C. Scott",
+        "cardReadingTime": "10-14 hours",
+        "cardDifficulty": "Moderate",
+        "cardTags": [
+          "Systems",
+          "History"
+        ],
+        "teaser": "A beautifully designed restructuring that looked perfect on the whiteboard and fell apart within months. Scott explains why legibility projects destroy the knowledge they can't see.",
+        "detailReadingTime": "10-14 hours",
+        "detailDifficulty": "Moderate",
+        "detailTags": [
+          "Political Science",
+          "Systems",
+          "History"
+        ],
+        "sortOrder": 4,
+        "continuations": []
+      },
+      "semanticAtomsSha256": "8b7147fae49fb46a731c63e55eb8280ba7f2a2f0bee1d57eb719e77f4958dc04",
+      "semanticAtomCount": 30,
+      "semanticAtomCounts": {
+        "blockquote": 5,
+        "h2": 5,
+        "li": 6,
+        "p": 14
+      },
+      "requiredHeadings": [
+        "Why I Recommend This",
+        "The Book",
+        "Passages That Stayed With Me",
+        "Read This If...",
+        "Skip This If..."
+      ],
+      "sourceBodySha256": "77a262ef7d1738ffc92238a543140cfd86863aa87449037aadeb9b6c1cad1f32"
+    },
+    {
+      "slug": "sovereignty-of-good",
+      "route": "/library/sovereignty-of-good",
+      "publicationStatus": "published",
+      "sortOrder": 1,
+      "metadata": {
+        "slug": "sovereignty-of-good",
+        "publicationStatus": "published",
+        "title": "The Sovereignty of Good",
+        "pageTitle": "The Sovereignty of Good | Library | Amitoj Singh",
+        "description": "Iris Murdoch on why moral life is about vision, not choice.",
+        "author": "Iris Murdoch",
+        "cardTitle": "The Sovereignty of Good",
+        "cardAuthor": "Iris Murdoch",
+        "cardReadingTime": "4-6 hours",
+        "cardDifficulty": "Demanding",
+        "cardTags": [
+          "Philosophy",
+          "Consciousness"
+        ],
+        "teaser": "Moral life is about vision, not choice. I could only choose within the world I could see.",
+        "detailReadingTime": "4-6 hours",
+        "detailDifficulty": "Demanding",
+        "detailTags": [
+          "Philosophy",
+          "Attention",
+          "Platonism"
+        ],
+        "sortOrder": 1,
+        "continuationLabel": "Related essay",
+        "continuations": [
+          {
+            "href": "/essays/the-right-direction",
+            "label": "The Right Direction — Murdoch's attention as the foundation for choosing well →"
+          }
+        ]
+      },
+      "semanticAtomsSha256": "e4178b0ab097ddc91f1a4acfda59a40b5335542070afa0b333656483dbc503a2",
+      "semanticAtomCount": 26,
+      "semanticAtomCounts": {
+        "blockquote": 4,
+        "h2": 5,
+        "li": 5,
+        "p": 12
+      },
+      "requiredHeadings": [
+        "Why I Recommend This",
+        "The Book",
+        "Passages That Stayed With Me",
+        "Read This If...",
+        "Skip This If..."
+      ],
+      "sourceBodySha256": "bba945b98730114f78a953389d56011dceccbaa7775e6674abf1530b9132a086"
+    },
+    {
+      "slug": "the-alchemist",
+      "route": "/library/the-alchemist",
+      "publicationStatus": "published",
+      "sortOrder": 26,
+      "metadata": {
+        "slug": "the-alchemist",
+        "publicationStatus": "published",
+        "title": "The Alchemist",
+        "pageTitle": "The Alchemist | Library | Amitoj Singh",
+        "description": "Paulo Coelho on Personal Legends, the Soul of the World, and the treasure you seek being where you started.",
+        "author": "Paulo Coelho",
+        "cardTitle": "The Alchemist",
+        "cardAuthor": "Paulo Coelho",
+        "cardReadingTime": "3-5 hours",
+        "cardDifficulty": "Accessible",
+        "cardTags": [
+          "Spirituality",
+          "Philosophy"
+        ],
+        "teaser": "A shepherd who dreams of treasure. By the book's end, the journey has created capacity to recognize what was already there.",
+        "detailReadingTime": "3-5 hours",
+        "detailDifficulty": "Accessible",
+        "detailTags": [
+          "Spirituality",
+          "Philosophy",
+          "Journey"
+        ],
+        "sortOrder": 26,
+        "continuations": []
+      },
+      "semanticAtomsSha256": "e42210c3d09d5349a3b7c5242b152af2fe7ebc80e5ca2fb5453c2961e2f6833d",
+      "semanticAtomCount": 29,
+      "semanticAtomCounts": {
+        "blockquote": 5,
+        "h2": 5,
+        "li": 5,
+        "p": 14
+      },
+      "requiredHeadings": [
+        "Why I Recommend This",
+        "The Book",
+        "Passages That Stayed With Me",
+        "Read This If...",
+        "Skip This If..."
+      ],
+      "sourceBodySha256": "4821e5e2ec8d9a7a2dc9c6f07a538ef1b6e594f71e9501aa7e3fb685d9c23f4e"
+    },
+    {
+      "slug": "the-artists-way",
+      "route": "/library/the-artists-way",
+      "publicationStatus": "published",
+      "sortOrder": 29,
+      "metadata": {
+        "slug": "the-artists-way",
+        "publicationStatus": "published",
+        "title": "The Artist's Way",
+        "pageTitle": "The Artist's Way | Library | Amitoj Singh",
+        "description": "Julia Cameron's twelve-week program for recovering creativity through spiritual practice—by removing the obstacles that block what's already there.",
+        "author": "Julia Cameron",
+        "cardTitle": "The Artist's Way",
+        "cardAuthor": "Julia Cameron",
+        "cardReadingTime": "6-8 hours",
+        "cardDifficulty": "Accessible",
+        "cardTags": [
+          "Creativity",
+          "Spirituality"
+        ],
+        "teaser": "The first morning writing three pages of longhand before coffee — nothing happened. The thirtieth morning, something shifted.",
+        "detailReadingTime": "6-8 hours",
+        "detailDifficulty": "Accessible",
+        "detailTags": [
+          "Creativity",
+          "Spirituality",
+          "Psychology"
+        ],
+        "sortOrder": 29,
+        "continuations": []
+      },
+      "semanticAtomsSha256": "345c9e198702213268629dece51b5ab9eaa4ac1a59c2752319100f177b5af7d3",
+      "semanticAtomCount": 31,
+      "semanticAtomCounts": {
+        "blockquote": 5,
+        "h2": 5,
+        "li": 7,
+        "p": 14
+      },
+      "requiredHeadings": [
+        "Why I Recommend This",
+        "The Book",
+        "Passages That Stayed With Me",
+        "Read This If...",
+        "Skip This If..."
+      ],
+      "sourceBodySha256": "59f006e27f7275e7b58e63cfd03f9224915c7ed30d26bac9be410745afb5ddef"
+    },
+    {
+      "slug": "the-beginning-of-infinity",
+      "route": "/library/the-beginning-of-infinity",
+      "publicationStatus": "published",
+      "sortOrder": 12,
+      "metadata": {
+        "slug": "the-beginning-of-infinity",
+        "publicationStatus": "published",
+        "title": "The Beginning of Infinity",
+        "pageTitle": "The Beginning of Infinity | Library | Amitoj Singh",
+        "description": "David Deutsch on why explanatory knowledge is infinite and problems are soluble.",
+        "author": "David Deutsch",
+        "cardTitle": "The Beginning of Infinity",
+        "cardAuthor": "David Deutsch",
+        "cardReadingTime": "12-16 hours",
+        "cardDifficulty": "Demanding",
+        "cardTags": [
+          "Philosophy",
+          "Systems"
+        ],
+        "teaser": "Evaluating a consultant's proposal and realizing the framework fit every possible situation equally well — which meant it explained nothing.",
+        "detailReadingTime": "12-16 hours",
+        "detailDifficulty": "Demanding",
+        "detailTags": [
+          "Philosophy",
+          "Science",
+          "Systems"
+        ],
+        "sortOrder": 12,
+        "continuationLabel": "Related",
+        "continuations": [
+          {
+            "href": "/third-enlightenment",
+            "label": "The Third Enlightenment — extending the tradition of criticism →"
+          },
+          {
+            "href": "/research",
+            "label": "Research — applying explanatory frameworks to organizational systems →"
+          }
+        ]
+      },
+      "semanticAtomsSha256": "4322afa042d13158f52050e850fe80e6540fc65e71fad2a24270377b044e55e9",
+      "semanticAtomCount": 31,
+      "semanticAtomCounts": {
+        "blockquote": 5,
+        "h2": 5,
+        "li": 7,
+        "p": 14
+      },
+      "requiredHeadings": [
+        "Why I Recommend This",
+        "The Book",
+        "Passages That Stayed With Me",
+        "Read This If...",
+        "Skip This If..."
+      ],
+      "sourceBodySha256": "26f56c0d633c2c45dcc30fd81c6c32e2d377b8fb50be5178eb0efd131d826394"
+    },
+    {
+      "slug": "the-book-of-not-knowing",
+      "route": "/library/the-book-of-not-knowing",
+      "publicationStatus": "published",
+      "sortOrder": 21,
+      "metadata": {
+        "slug": "the-book-of-not-knowing",
+        "publicationStatus": "published",
+        "title": "The Book of Not Knowing",
+        "pageTitle": "The Book of Not Knowing | Library | Amitoj Singh",
+        "description": "Peter Ralston on how true awareness arises from not-knowing.",
+        "author": "Peter Ralston",
+        "cardTitle": "The Book of Not Knowing",
+        "cardAuthor": "Peter Ralston",
+        "cardReadingTime": "16-20 hours",
+        "cardDifficulty": "Demanding",
+        "cardTags": [
+          "Consciousness",
+          "Embodiment"
+        ],
+        "teaser": "Martial arts and ontology shouldn't share a bookshelf. When survival depends on accurate perception, philosophical pretense collapses fast.",
+        "detailReadingTime": "16-20 hours",
+        "detailDifficulty": "Demanding",
+        "detailTags": [
+          "Consciousness",
+          "Philosophy",
+          "Embodiment"
+        ],
+        "sortOrder": 21,
+        "continuations": []
+      },
+      "semanticAtomsSha256": "0a314cf8de786a6bde560914a77f0242f607055484df4503a364526d44b0eac3",
+      "semanticAtomCount": 31,
+      "semanticAtomCounts": {
+        "blockquote": 5,
+        "h2": 5,
+        "li": 7,
+        "p": 14
+      },
+      "requiredHeadings": [
+        "Why I Recommend This",
+        "The Book",
+        "Passages That Stayed With Me",
+        "Read This If...",
+        "Skip This If..."
+      ],
+      "sourceBodySha256": "49fb93a6066bc77d66c027e4206541a0150069eaba127a79cb015aae83812ec8"
+    },
+    {
+      "slug": "the-embodied-mind",
+      "route": "/library/the-embodied-mind",
+      "publicationStatus": "published",
+      "sortOrder": 17,
+      "metadata": {
+        "slug": "the-embodied-mind",
+        "publicationStatus": "published",
+        "title": "The Embodied Mind",
+        "pageTitle": "The Embodied Mind | Library | Amitoj Singh",
+        "description": "Varela, Thompson, and Rosch on cognition as enaction.",
+        "author": "Francisco J. Varela, Evan Thompson, and Eleanor Rosch",
+        "cardTitle": "The Embodied Mind",
+        "cardAuthor": "Francisco J. Varela, Evan Thompson & Eleanor Rosch",
+        "cardReadingTime": "16-25 hours",
+        "cardDifficulty": "Demanding",
+        "cardTags": [
+          "Philosophy",
+          "Consciousness",
+          "Embodiment"
+        ],
+        "teaser": "Mindfulness teachers say \"observe your thoughts.\" Cognitive scientists say \"there's no observer.\" Varela, Thompson, and Rosch built the bridge.",
+        "detailReadingTime": "16-25 hours",
+        "detailDifficulty": "Demanding",
+        "detailTags": [
+          "Philosophy",
+          "Consciousness",
+          "Embodiment"
+        ],
+        "sortOrder": 17,
+        "continuations": []
+      },
+      "semanticAtomsSha256": "5e58fb739e5ec6f8c091e8fd340980a39777b9ff4aaa5f1d350f407138d5d73d",
+      "semanticAtomCount": 29,
+      "semanticAtomCounts": {
+        "blockquote": 5,
+        "h2": 5,
+        "li": 5,
+        "p": 14
+      },
+      "requiredHeadings": [
+        "Why I Recommend This",
+        "The Book",
+        "Passages That Stayed With Me",
+        "Read This If...",
+        "Skip This If..."
+      ],
+      "sourceBodySha256": "9d5fef76d86aa261fdf572a6f3cf9b247c425e83eac43bf0ad2a25b8465a54ca"
+    },
+    {
+      "slug": "the-forge-and-the-crucible",
+      "route": "/library/the-forge-and-the-crucible",
+      "publicationStatus": "published",
+      "sortOrder": 36,
+      "metadata": {
+        "slug": "the-forge-and-the-crucible",
+        "publicationStatus": "published",
+        "title": "The Forge and the Crucible",
+        "pageTitle": "The Forge and the Crucible | Library | Amitoj Singh",
+        "description": "Mircea Eliade traces alchemy to its roots in metallurgy, revealing how our earliest transformations of matter were sacred acts.",
+        "author": "Mircea Eliade",
+        "cardTitle": "The Forge and the Crucible",
+        "cardAuthor": "Mircea Eliade",
+        "cardReadingTime": "6-8 hours",
+        "cardDifficulty": "Demanding",
+        "cardTags": [
+          "History",
+          "Spirituality"
+        ],
+        "teaser": "A blacksmith once said the metal teaches you what it wants to become. Eliade showed it was cosmology.",
+        "detailReadingTime": "6-8 hours",
+        "detailDifficulty": "Demanding",
+        "detailTags": [
+          "History",
+          "Spirituality",
+          "Philosophy"
+        ],
+        "sortOrder": 36,
+        "continuations": []
+      },
+      "semanticAtomsSha256": "d05c139a7f9d2e931bab35ed4bba839cfd85b64760a6ae7f49ec5ece7f94bb4b",
+      "semanticAtomCount": 32,
+      "semanticAtomCounts": {
+        "blockquote": 5,
+        "h2": 5,
+        "li": 8,
+        "p": 14
+      },
+      "requiredHeadings": [
+        "Why I Recommend This",
+        "The Book",
+        "Passages That Stayed With Me",
+        "Read This If...",
+        "Skip This If..."
+      ],
+      "sourceBodySha256": "bd9610e74db5508eba36869fcd86f5a5e9318144e6b4e73577b6bcd8176a6292"
+    },
+    {
+      "slug": "the-great-transformation",
+      "route": "/library/the-great-transformation",
+      "publicationStatus": "published",
+      "sortOrder": 9,
+      "metadata": {
+        "slug": "the-great-transformation",
+        "publicationStatus": "published",
+        "title": "The Great Transformation",
+        "pageTitle": "The Great Transformation | Library | Amitoj Singh",
+        "description": "Karl Polanyi on why self-regulating markets are impossible and how society protects itself.",
+        "author": "Karl Polanyi",
+        "cardTitle": "The Great Transformation",
+        "cardAuthor": "Karl Polanyi",
+        "cardReadingTime": "12-16 hours",
+        "cardDifficulty": "Demanding",
+        "cardTags": [
+          "Economics",
+          "History"
+        ],
+        "teaser": "Watching platform companies label worker protections as \"friction to be optimized away.\" Polanyi saw this pattern a century ago.",
+        "detailReadingTime": "12-16 hours",
+        "detailDifficulty": "Demanding",
+        "detailTags": [
+          "Economics",
+          "History",
+          "Philosophy"
+        ],
+        "sortOrder": 9,
+        "continuations": []
+      },
+      "semanticAtomsSha256": "23a328f10f3133a307878f8f7f9d06498e9bedb0fcf257a9b6d4e54d64d01ddb",
+      "semanticAtomCount": 31,
+      "semanticAtomCounts": {
+        "blockquote": 5,
+        "h2": 5,
+        "li": 7,
+        "p": 14
+      },
+      "requiredHeadings": [
+        "Why I Recommend This",
+        "The Book",
+        "Passages That Stayed With Me",
+        "Read This If...",
+        "Skip This If..."
+      ],
+      "sourceBodySha256": "2f113b2b5a08eedcd77ff68ab6d169b74222d43941821dbb028e9fb0445af2a5"
+    },
+    {
+      "slug": "the-lessons-of-history",
+      "route": "/library/the-lessons-of-history",
+      "publicationStatus": "published",
+      "sortOrder": 34,
+      "metadata": {
+        "slug": "the-lessons-of-history",
+        "publicationStatus": "published",
+        "title": "The Lessons of History",
+        "pageTitle": "The Lessons of History | Library | Amitoj Singh",
+        "description": "Will and Ariel Durant on what 5,000 years of history teaches about human nature, progress, and civilization.",
+        "author": "Will and Ariel Durant",
+        "cardTitle": "The Lessons of History",
+        "cardAuthor": "Will & Ariel Durant",
+        "cardReadingTime": "3-4 hours",
+        "cardDifficulty": "Accessible",
+        "cardTags": [
+          "History",
+          "Philosophy"
+        ],
+        "teaser": "A colleague declaring that AI changes everything, that nothing like this has happened before. The Durants heard equivalent claims in every century.",
+        "detailReadingTime": "3-4 hours",
+        "detailDifficulty": "Accessible",
+        "detailTags": [
+          "History",
+          "Philosophy",
+          "Systems"
+        ],
+        "sortOrder": 34,
+        "continuationLabel": "Related",
+        "continuations": [
+          {
+            "href": "/third-enlightenment",
+            "label": "The Third Enlightenment — historical grounding for current transformation →"
+          }
+        ]
+      },
+      "semanticAtomsSha256": "88c44615cfb225261957349380c6346fefe6b6d1f70ea59eaaafe23c31037958",
+      "semanticAtomCount": 29,
+      "semanticAtomCounts": {
+        "blockquote": 5,
+        "h2": 5,
+        "li": 5,
+        "p": 14
+      },
+      "requiredHeadings": [
+        "Why I Recommend This",
+        "The Book",
+        "Passages That Stayed With Me",
+        "Read This If...",
+        "Skip This If..."
+      ],
+      "sourceBodySha256": "9408742b32958e827631ad654712ffd2c427e2bcf673b6536e747f4de87894a6"
+    },
+    {
+      "slug": "the-listening-book",
+      "route": "/library/the-listening-book",
+      "publicationStatus": "published",
+      "sortOrder": 30,
+      "metadata": {
+        "slug": "the-listening-book",
+        "publicationStatus": "published",
+        "title": "The Listening Book",
+        "pageTitle": "The Listening Book | Library | Amitoj Singh",
+        "description": "W. A. Mathieu on listening as spiritual practice and discovering your own innate musicality.",
+        "author": "W. A. Mathieu",
+        "cardTitle": "The Listening Book",
+        "cardAuthor": "W. A. Mathieu",
+        "cardReadingTime": "4-6 hours",
+        "cardDifficulty": "Accessible",
+        "cardTags": [
+          "Creativity",
+          "Embodiment"
+        ],
+        "teaser": "A room full of executives falling silent. The silence where something becomes audible that was always there.",
+        "detailReadingTime": "4-6 hours",
+        "detailDifficulty": "Accessible",
+        "detailTags": [
+          "Creativity",
+          "Embodiment",
+          "Spirituality"
+        ],
+        "sortOrder": 30,
+        "continuations": []
+      },
+      "semanticAtomsSha256": "0a54dc81deea3c053469d11ee7d751d4a7847c9dc476692f6cb58b210ae97790",
+      "semanticAtomCount": 30,
+      "semanticAtomCounts": {
+        "blockquote": 5,
+        "h2": 5,
+        "li": 6,
+        "p": 14
+      },
+      "requiredHeadings": [
+        "Why I Recommend This",
+        "The Book",
+        "Passages That Stayed With Me",
+        "Read This If...",
+        "Skip This If..."
+      ],
+      "sourceBodySha256": "9c81e188e9d87d2abe79d89cd83e283f88b32e84309c79b3a05f84ee6425e45d"
+    },
+    {
+      "slug": "the-matter-with-things",
+      "route": "/library/the-matter-with-things",
+      "publicationStatus": "published",
+      "sortOrder": 2,
+      "metadata": {
+        "slug": "the-matter-with-things",
+        "publicationStatus": "published",
+        "title": "The Matter with Things",
+        "pageTitle": "The Matter with Things | Library | Amitoj Singh",
+        "description": "Iain McGilchrist on how the two hemispheres apprehend reality, and why hemispheric imbalance threatens Western civilization.",
+        "author": "Iain McGilchrist",
+        "cardTitle": "The Matter with Things",
+        "cardAuthor": "Iain McGilchrist",
+        "cardReadingTime": "20-30 hours",
+        "cardDifficulty": "Demanding",
+        "cardTags": [
+          "Philosophy",
+          "Consciousness",
+          "Systems"
+        ],
+        "teaser": "A dashboard with 47 metrics, every number green. The organization was dying. McGilchrist explains why this keeps happening.",
+        "detailReadingTime": "20-30 hours",
+        "detailDifficulty": "Demanding",
+        "detailTags": [
+          "Philosophy",
+          "Consciousness",
+          "Systems"
+        ],
+        "sortOrder": 2,
+        "continuationLabel": "Related",
+        "continuations": [
+          {
+            "href": "/library/sovereignty-of-good",
+            "label": "The Sovereignty of Good — Murdoch on attention as moral practice →"
+          },
+          {
+            "href": "/third-enlightenment",
+            "label": "The Third Enlightenment — integrating differentiation and wholeness →"
+          }
+        ]
+      },
+      "semanticAtomsSha256": "78fbaaaaddcfc3b6a97bf35b1087d471bf2be656916db10fe2fa7e4bc2c55c93",
+      "semanticAtomCount": 31,
+      "semanticAtomCounts": {
+        "blockquote": 5,
+        "h2": 5,
+        "li": 7,
+        "p": 14
+      },
+      "requiredHeadings": [
+        "Why I Recommend This",
+        "The Book",
+        "Passages That Stayed With Me",
+        "Read This If...",
+        "Skip This If..."
+      ],
+      "sourceBodySha256": "af25e818d0214e258b058431794e7f8c0e9b1f6bb478060c1176a2a887f51a6e"
+    },
+    {
+      "slug": "the-origin-of-consciousness",
+      "route": "/library/the-origin-of-consciousness",
+      "publicationStatus": "published",
+      "sortOrder": 22,
+      "metadata": {
+        "slug": "the-origin-of-consciousness",
+        "publicationStatus": "published",
+        "title": "The Origin of Consciousness in the Breakdown of the Bicameral Mind",
+        "pageTitle": "The Origin of Consciousness in the Breakdown of the Bicameral Mind | Library | Amitoj Singh",
+        "description": "Julian Jaynes's audacious theory that consciousness emerged 3,000 years ago from the collapse of a god-hearing mind.",
+        "author": "Julian Jaynes",
+        "cardTitle": "The Origin of Consciousness in the Breakdown of the Bicameral Mind",
+        "cardAuthor": "Julian Jaynes",
+        "cardReadingTime": "12-16 hours",
+        "cardDifficulty": "Demanding",
+        "cardTags": [
+          "Consciousness",
+          "History"
+        ],
+        "teaser": "Reading the Iliad carefully, something is missing. The characters don't deliberate. Jaynes took that observation seriously and built a theory from it.",
+        "detailReadingTime": "12-16 hours",
+        "detailDifficulty": "Demanding",
+        "detailTags": [
+          "Psychology",
+          "Consciousness",
+          "History"
+        ],
+        "sortOrder": 22,
+        "continuations": []
+      },
+      "semanticAtomsSha256": "cedbdc993ca4eef5246140a09fc77664c105097a5c4a3fbc657ea48e0f676fad",
+      "semanticAtomCount": 32,
+      "semanticAtomCounts": {
+        "blockquote": 5,
+        "h2": 5,
+        "li": 8,
+        "p": 14
+      },
+      "requiredHeadings": [
+        "Why I Recommend This",
+        "The Book",
+        "Passages That Stayed With Me",
+        "Read This If...",
+        "Skip This If..."
+      ],
+      "sourceBodySha256": "0434080ee2a189598929c430a92bcd3e3fe77b9de62e8848a61edf63f67fe92a"
+    },
+    {
+      "slug": "the-passion-of-the-western-mind",
+      "route": "/library/the-passion-of-the-western-mind",
+      "publicationStatus": "published",
+      "sortOrder": 14,
+      "metadata": {
+        "slug": "the-passion-of-the-western-mind",
+        "publicationStatus": "published",
+        "title": "The Passion of the Western Mind",
+        "pageTitle": "The Passion of the Western Mind | Library | Amitoj Singh",
+        "description": "Richard Tarnas traces Western intellectual history as an archetypal journey—from primal unity through dualistic alienation toward conscious participation in an ensouled cosmos.",
+        "author": "Richard Tarnas",
+        "cardTitle": "The Passion of the Western Mind",
+        "cardAuthor": "Richard Tarnas",
+        "cardReadingTime": "16-25 hours",
+        "cardDifficulty": "Demanding",
+        "cardTags": [
+          "Philosophy",
+          "History",
+          "Consciousness"
+        ],
+        "teaser": "Trace any Western idea back far enough and it leads to the same fork — Plato or Aristotle. Tarnas held both threads simultaneously.",
+        "detailReadingTime": "16-25 hours",
+        "detailDifficulty": "Demanding",
+        "detailTags": [
+          "Philosophy",
+          "History",
+          "Consciousness"
+        ],
+        "sortOrder": 14,
+        "continuations": []
+      },
+      "semanticAtomsSha256": "2f50297f6054659a856accd3351ebe8168577340fbb9e38a129f42ecaf310523",
+      "semanticAtomCount": 32,
+      "semanticAtomCounts": {
+        "blockquote": 5,
+        "h2": 5,
+        "li": 8,
+        "p": 14
+      },
+      "requiredHeadings": [
+        "Why I Recommend This",
+        "The Book",
+        "Passages That Stayed With Me",
+        "Read This If...",
+        "Skip This If..."
+      ],
+      "sourceBodySha256": "02a4b98daefe7204bf4eb5b423e181a4f743aa3d45f7c587aedacb02fba9db08"
+    },
+    {
+      "slug": "the-prophet",
+      "route": "/library/the-prophet",
+      "publicationStatus": "published",
+      "sortOrder": 25,
+      "metadata": {
+        "slug": "the-prophet",
+        "publicationStatus": "published",
+        "title": "The Prophet",
+        "pageTitle": "The Prophet | Library | Amitoj Singh",
+        "description": "Kahlil Gibran's timeless wisdom on love, work, freedom, and the integration of opposites.",
+        "author": "Kahlil Gibran",
+        "cardTitle": "The Prophet",
+        "cardAuthor": "Kahlil Gibran",
+        "cardReadingTime": "3-5 hours",
+        "cardDifficulty": "Accessible",
+        "cardTags": [
+          "Spirituality",
+          "Philosophy"
+        ],
+        "teaser": "Someone giving this book at twenty. Understanding it at forty. The images didn't change; the capacity to receive them did.",
+        "detailReadingTime": "3-5 hours",
+        "detailDifficulty": "Accessible",
+        "detailTags": [
+          "Philosophy",
+          "Spirituality",
+          "Wisdom"
+        ],
+        "sortOrder": 25,
+        "continuationLabel": "Related",
+        "continuations": [
+          {
+            "href": "/third-enlightenment",
+            "label": "The Third Enlightenment — on integrating opposites and finding meaning beyond optimization →"
+          }
+        ]
+      },
+      "semanticAtomsSha256": "17798202e81546487c062f770093e0e2884d936b0fbffe2f5a7b1418f2709047",
+      "semanticAtomCount": 30,
+      "semanticAtomCounts": {
+        "blockquote": 5,
+        "h2": 5,
+        "li": 6,
+        "p": 14
+      },
+      "requiredHeadings": [
+        "Why I Recommend This",
+        "The Book",
+        "Passages That Stayed With Me",
+        "Read This If...",
+        "Skip This If..."
+      ],
+      "sourceBodySha256": "c31a3531df0d39b15ba9d9f4b5779588c41773d9658fc1e70eab5f7a7b19fbe9"
+    },
+    {
+      "slug": "the-self-organizing-universe",
+      "route": "/library/the-self-organizing-universe",
+      "publicationStatus": "published",
+      "sortOrder": 38,
+      "metadata": {
+        "slug": "the-self-organizing-universe",
+        "publicationStatus": "published",
+        "title": "The Self-Organizing Universe",
+        "pageTitle": "The Self-Organizing Universe | Library | Amitoj Singh",
+        "description": "Erich Jantsch's unifying vision of cosmic, biological, and cultural evolution through the paradigm of self-organization.",
+        "author": "Erich Jantsch",
+        "cardTitle": "The Self-Organizing Universe",
+        "cardAuthor": "Erich Jantsch",
+        "cardReadingTime": "16-25 hours",
+        "cardDifficulty": "Demanding",
+        "cardTags": [
+          "Systems",
+          "Philosophy"
+        ],
+        "teaser": "Most systems studied in management were designed by someone. The interesting ones designed themselves.",
+        "detailReadingTime": "16-25 hours",
+        "detailDifficulty": "Demanding",
+        "detailTags": [
+          "Systems",
+          "Philosophy",
+          "Science"
+        ],
+        "sortOrder": 38,
+        "continuations": []
+      },
+      "semanticAtomsSha256": "d4d21915c6c43038d36e6a4f1fb501ba8a284384c9714252554699620e97d127",
+      "semanticAtomCount": 32,
+      "semanticAtomCounts": {
+        "blockquote": 5,
+        "h2": 5,
+        "li": 8,
+        "p": 14
+      },
+      "requiredHeadings": [
+        "Why I Recommend This",
+        "The Book",
+        "Passages That Stayed With Me",
+        "Read This If...",
+        "Skip This If..."
+      ],
+      "sourceBodySha256": "619a9165a2a5a5bc3c3824afa9a65635308cc3dcd5903d68330a3601b2dbc804"
+    },
+    {
+      "slug": "the-spell-of-the-sensuous",
+      "route": "/library/the-spell-of-the-sensuous",
+      "publicationStatus": "published",
+      "sortOrder": 19,
+      "metadata": {
+        "slug": "the-spell-of-the-sensuous",
+        "publicationStatus": "published",
+        "title": "The Spell of the Sensuous",
+        "pageTitle": "The Spell of the Sensuous | Library | Amitoj Singh",
+        "description": "David Abram argues that the ecological crisis is fundamentally a crisis of perception, rooted in how alphabetic literacy severed our sensory participation from the animate earth.",
+        "author": "David Abram",
+        "cardTitle": "The Spell of the Sensuous",
+        "cardAuthor": "David Abram",
+        "cardReadingTime": "10-14 hours",
+        "cardDifficulty": "Moderate",
+        "cardTags": [
+          "Philosophy",
+          "Embodiment",
+          "Consciousness"
+        ],
+        "teaser": "After a week of silent retreat, the parking lot sounded violent. Perception had recalibrated. Abram explains what was lost when literacy replaced oral culture.",
+        "detailReadingTime": "10-14 hours",
+        "detailDifficulty": "Moderate",
+        "detailTags": [
+          "Philosophy",
+          "Embodiment",
+          "Consciousness"
+        ],
+        "sortOrder": 19,
+        "continuations": []
+      },
+      "semanticAtomsSha256": "29f0349a4116c56ee151b83a567b13aa0acf90296b4ddc61c2a1b41aada52eb9",
+      "semanticAtomCount": 32,
+      "semanticAtomCounts": {
+        "blockquote": 5,
+        "h2": 5,
+        "li": 8,
+        "p": 14
+      },
+      "requiredHeadings": [
+        "Why I Recommend This",
+        "The Book",
+        "Passages That Stayed With Me",
+        "Read This If...",
+        "Skip This If..."
+      ],
+      "sourceBodySha256": "37a11295fc77ecb2813d06a520dbf7e5166663469a1c1dfa20fb0b991db8f87e"
+    },
+    {
+      "slug": "the-stairway-to-heaven",
+      "route": "/library/the-stairway-to-heaven",
+      "publicationStatus": "published",
+      "sortOrder": 28,
+      "metadata": {
+        "slug": "the-stairway-to-heaven",
+        "publicationStatus": "published",
+        "title": "The Stairway to Heaven",
+        "pageTitle": "The Stairway to Heaven | Library | Amitoj Singh",
+        "description": "Tara Springett maps nine stages of consciousness development from unawareness to enlightenment, showing why different people need different kinds of help.",
+        "author": "Tara Springett",
+        "cardTitle": "The Stairway to Heaven",
+        "cardAuthor": "Tara Springett",
+        "cardReadingTime": "10-14 hours",
+        "cardDifficulty": "Moderate",
+        "cardTags": [
+          "Spirituality",
+          "Consciousness"
+        ],
+        "teaser": "Two students tried the same meditation technique. One had a breakthrough. The other had a breakdown. Springett's developmental framework explains why.",
+        "detailReadingTime": "10-14 hours",
+        "detailDifficulty": "Moderate",
+        "detailTags": [
+          "Psychology",
+          "Spirituality",
+          "Consciousness"
+        ],
+        "sortOrder": 28,
+        "continuations": []
+      },
+      "semanticAtomsSha256": "8a650ddf6d97f58098718e46e3331c500b84f31b1e489580690fdf6496c0215b",
+      "semanticAtomCount": 31,
+      "semanticAtomCounts": {
+        "blockquote": 5,
+        "h2": 5,
+        "li": 7,
+        "p": 14
+      },
+      "requiredHeadings": [
+        "Why I Recommend This",
+        "The Book",
+        "Passages That Stayed With Me",
+        "Read This If...",
+        "Skip This If..."
+      ],
+      "sourceBodySha256": "c39cf009ddedb6b8c69af5aa0034c150c28674fe612fa7acedc2072f10134670"
+    },
+    {
+      "slug": "the-structure-of-scientific-revolutions",
+      "route": "/library/the-structure-of-scientific-revolutions",
+      "publicationStatus": "published",
+      "sortOrder": 11,
+      "metadata": {
+        "slug": "the-structure-of-scientific-revolutions",
+        "publicationStatus": "published",
+        "title": "The Structure of Scientific Revolutions",
+        "pageTitle": "The Structure of Scientific Revolutions | Library | Amitoj Singh",
+        "description": "Thomas Kuhn's revolutionary account of how science actually progresses through paradigm shifts.",
+        "author": "Thomas Kuhn",
+        "cardTitle": "The Structure of Scientific Revolutions",
+        "cardAuthor": "Thomas Kuhn",
+        "cardReadingTime": "6-8 hours",
+        "cardDifficulty": "Moderate",
+        "cardTags": [
+          "Philosophy",
+          "History"
+        ],
+        "teaser": "Two colleagues looking at identical data and seeing different problems entirely. Same spreadsheet, different worlds. Kuhn explained how this happens.",
+        "detailReadingTime": "6-8 hours",
+        "detailDifficulty": "Moderate",
+        "detailTags": [
+          "Philosophy",
+          "Science",
+          "History"
+        ],
+        "sortOrder": 11,
+        "continuations": []
+      },
+      "semanticAtomsSha256": "e2210c97398f4cf82430a73c9d26b61e222bb18339b3fcc066f4d9a015e63eb6",
+      "semanticAtomCount": 32,
+      "semanticAtomCounts": {
+        "blockquote": 5,
+        "h2": 5,
+        "li": 8,
+        "p": 14
+      },
+      "requiredHeadings": [
+        "Why I Recommend This",
+        "The Book",
+        "Passages That Stayed With Me",
+        "Read This If...",
+        "Skip This If..."
+      ],
+      "sourceBodySha256": "a668334dc19640c8c0d54061611da34f04dad1bdd6c642caf8ebb2e02ea208d8"
+    },
+    {
+      "slug": "thinking-in-systems",
+      "route": "/library/thinking-in-systems",
+      "publicationStatus": "published",
+      "sortOrder": 7,
+      "metadata": {
+        "slug": "thinking-in-systems",
+        "publicationStatus": "published",
+        "title": "Thinking in Systems",
+        "pageTitle": "Thinking in Systems | Library | Amitoj Singh",
+        "description": "Donella Meadows on how systems create their own behavior through feedback loops, leverage points, and emergent structure.",
+        "author": "Donella H. Meadows",
+        "cardTitle": "Thinking in Systems",
+        "cardAuthor": "Donella H. Meadows",
+        "cardReadingTime": "8-12 hours",
+        "cardDifficulty": "Accessible",
+        "cardTags": [
+          "Systems",
+          "Philosophy"
+        ],
+        "teaser": "An organization that doubled its quality controls and watched defect rates go up. The intervention caused the problem. Meadows explains why.",
+        "detailReadingTime": "8-12 hours",
+        "detailDifficulty": "Accessible",
+        "detailTags": [
+          "Systems",
+          "Complexity",
+          "Philosophy"
+        ],
+        "sortOrder": 7,
+        "continuationLabel": "Related",
+        "continuations": [
+          {
+            "href": "/library/rules",
+            "label": "Rules — Daston on why frameworks fail at the edges →"
+          },
+          {
+            "href": "/third-enlightenment",
+            "label": "The Third Enlightenment — systems thinking as foundational worldview →"
+          }
+        ]
+      },
+      "semanticAtomsSha256": "c3095bf7256421c1df3f2e093e4c1e5973d6adfb0db417a776761ca5ce2514b1",
+      "semanticAtomCount": 30,
+      "semanticAtomCounts": {
+        "blockquote": 5,
+        "h2": 5,
+        "li": 6,
+        "p": 14
+      },
+      "requiredHeadings": [
+        "Why I Recommend This",
+        "The Book",
+        "Passages That Stayed With Me",
+        "Read This If...",
+        "Skip This If..."
+      ],
+      "sourceBodySha256": "eee5c33607d4fc84d84d5d8f89ed9c5ad399b11ae6fe841897ed9ff47bba2824"
+    },
+    {
+      "slug": "what-tech-calls-thinking",
+      "route": "/library/what-tech-calls-thinking",
+      "publicationStatus": "published",
+      "sortOrder": 32,
+      "metadata": {
+        "slug": "what-tech-calls-thinking",
+        "publicationStatus": "published",
+        "title": "What Tech Calls Thinking",
+        "pageTitle": "What Tech Calls Thinking | Library | Amitoj Singh",
+        "description": "Adrian Daub on Silicon Valley's recycled philosophy dressed in hoodies.",
+        "author": "Adrian Daub",
+        "cardTitle": "What Tech Calls Thinking",
+        "cardAuthor": "Adrian Daub",
+        "cardReadingTime": "3-4 hours",
+        "cardDifficulty": "Accessible",
+        "cardTags": [
+          "Culture",
+          "Philosophy"
+        ],
+        "teaser": "Names what I felt but could not articulate about borrowed wisdom in tech.",
+        "detailReadingTime": "3-4 hours",
+        "detailDifficulty": "Accessible",
+        "detailTags": [
+          "Tech Criticism",
+          "Intellectual History"
+        ],
+        "sortOrder": 32,
+        "continuations": []
+      },
+      "semanticAtomsSha256": "b304a094992fb7e1a77afd116ab9f23719b9f80bdbd0fc891872adf37248d9f7",
+      "semanticAtomCount": 26,
+      "semanticAtomCounts": {
+        "blockquote": 4,
+        "h2": 5,
+        "li": 5,
+        "p": 12
+      },
+      "requiredHeadings": [
+        "Why I Recommend This",
+        "The Book",
+        "Passages That Stayed With Me",
+        "Read This If...",
+        "Skip This If..."
+      ],
+      "sourceBodySha256": "db405e456951fc6d03f34b081e46fd292cce7527a4c661d2271be596045a445e"
+    },
+    {
+      "slug": "why-greatness-cannot-be-planned",
+      "route": "/library/why-greatness-cannot-be-planned",
+      "publicationStatus": "published",
+      "sortOrder": 16,
+      "metadata": {
+        "slug": "why-greatness-cannot-be-planned",
+        "publicationStatus": "published",
+        "title": "Why Greatness Cannot Be Planned",
+        "pageTitle": "Why Greatness Cannot Be Planned | Library | Amitoj Singh",
+        "description": "Stanley and Lehman's computational proof that objectives block discovery, validated through AI experiments.",
+        "author": "Kenneth O. Stanley and Joel Lehman",
+        "cardTitle": "Why Greatness Cannot Be Planned",
+        "cardAuthor": "Kenneth O. Stanley & Joel Lehman",
+        "cardReadingTime": "6-8 hours",
+        "cardDifficulty": "Accessible",
+        "cardTags": [
+          "Creativity",
+          "Systems"
+        ],
+        "teaser": "The best product feature ever shipped wasn't on any roadmap. Stanley and Lehman proved computationally why this keeps happening.",
+        "detailReadingTime": "6-8 hours",
+        "detailDifficulty": "Accessible",
+        "detailTags": [
+          "Creativity",
+          "Systems",
+          "Philosophy"
+        ],
+        "sortOrder": 16,
+        "continuations": []
+      },
+      "semanticAtomsSha256": "96f80dff20648fd6e05a6c72e24e28aa94e149a808ef48c5a387d1860250799e",
+      "semanticAtomCount": 31,
+      "semanticAtomCounts": {
+        "blockquote": 5,
+        "h2": 5,
+        "li": 7,
+        "p": 14
+      },
+      "requiredHeadings": [
+        "Why I Recommend This",
+        "The Book",
+        "Passages That Stayed With Me",
+        "Read This If...",
+        "Skip This If..."
+      ],
+      "sourceBodySha256": "9d3417429ef3abda7a2bea42dc42a57ccde0fa3123b6ab7318b0b820a1e40ea9"
+    },
+    {
+      "slug": "zen-and-the-art-of-motorcycle-maintenance",
+      "route": "/library/zen-and-the-art-of-motorcycle-maintenance",
+      "publicationStatus": "published",
+      "sortOrder": 3,
+      "metadata": {
+        "slug": "zen-and-the-art-of-motorcycle-maintenance",
+        "publicationStatus": "published",
+        "title": "Zen and the Art of Motorcycle Maintenance",
+        "pageTitle": "Zen and the Art of Motorcycle Maintenance | Library | Amitoj Singh",
+        "description": "Robert Pirsig's philosophical journey that bridges technology and meaning, showing how Quality precedes the split between thinking and feeling.",
+        "author": "Robert M. Pirsig",
+        "cardTitle": "Zen and the Art of Motorcycle Maintenance",
+        "cardAuthor": "Robert M. Pirsig",
+        "cardReadingTime": "10-16 hours",
+        "cardDifficulty": "Moderate",
+        "cardTags": [
+          "Philosophy",
+          "Systems",
+          "Consciousness"
+        ],
+        "teaser": "A motorcycle that runs well and an organization that works well have something in common. Pirsig called it Quality.",
+        "detailReadingTime": "10-16 hours",
+        "detailDifficulty": "Moderate",
+        "detailTags": [
+          "Philosophy",
+          "Systems",
+          "Consciousness"
+        ],
+        "sortOrder": 3,
+        "continuations": []
+      },
+      "semanticAtomsSha256": "42e075978c5e0e67588210a3fe02b56621d9f48354d8f0948279b98d644761ff",
+      "semanticAtomCount": 35,
+      "semanticAtomCounts": {
+        "blockquote": 6,
+        "h2": 5,
+        "li": 8,
+        "p": 16
+      },
+      "requiredHeadings": [
+        "Why I Recommend This",
+        "The Book",
+        "Passages That Stayed With Me",
+        "Read This If...",
+        "Skip This If..."
+      ],
+      "sourceBodySha256": "d6cfa9ba6b02dfaa8e3ef7cbf6e5cd872b476ed5066246ce5de22133adab8d25"
+    }
+  ],
+  "drafts": [
+    {
+      "slug": "where-you-are",
+      "route": null,
+      "publicationStatus": "draft",
+      "sortOrder": 999,
+      "metadata": {
+        "slug": "where-you-are",
+        "publicationStatus": "draft",
+        "title": "Where You Are",
+        "sortOrder": 999,
+        "continuations": []
+      },
+      "bodySha256": "34eef0d2271e13ca1830d5b0950e0da357561db963e9350c51f2baddfdbe000a"
+    }
+  ],
+  "formattingNormalization": {
+    "scope": "All four published Essays and 38 Reading Annotations",
+    "change": "Removed source-only leading indentation from raw HTML lines so Markdown renders the preserved HTML instead of code blocks.",
+    "editorialImpact": "None; ordered semantic atoms and metadata remain exact."
+  }
+}

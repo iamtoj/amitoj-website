@@ -1,0 +1,23 @@
+---
+import { render, type CollectionEntry } from 'astro:content';
+import ReadingAnnotation from '../../components/ReadingAnnotation.astro';
+import { getPublishedReadingAnnotations } from '../../lib/content';
+
+export async function getStaticPaths() {
+  return (await getPublishedReadingAnnotations()).map((entry) => ({
+    params: { slug: entry.data.slug },
+    props: { entry },
+  }));
+}
+
+interface Props {
+  entry: CollectionEntry<'readingAnnotations'>;
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+---
+
+<ReadingAnnotation entry={entry}>
+  <Content />
+</ReadingAnnotation>

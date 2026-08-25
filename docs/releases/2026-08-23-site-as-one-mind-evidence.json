@@ -1,0 +1,333 @@
+{
+  "schemaVersion": 1,
+  "recordedAt": "2026-08-24T06:42:58Z",
+  "decision": "NO-GO",
+  "productionPromoted": false,
+  "candidate": {
+    "branch": "feat/site-as-one-mind",
+    "localAuditCommit": "a407d32de7c8d6864f3ae99cca97a15dc9723d79",
+    "localAuditTree": "ee47f0a268792b4339601080a9a46627825ac8fe",
+    "previewSourceCommit": "d4da9f6ebfb22e710c88fd940913e340e6e1aa1f",
+    "previewSourceTree": "92bdacfce7e0549a3ba1e96f8a48fa017356aaba",
+    "treeDifference": [
+      ".github/workflows/ci.yml exists only in the local audit tree"
+    ],
+    "deployableRuntimeFilesMatch": true,
+    "lockfileAndVercelConfigurationMatch": true
+  },
+  "runtime": {
+    "node": "24.5.0",
+    "npm": "11.5.1",
+    "astro": "7.2.4",
+    "tailwindcss": "4.3.3",
+    "typescript": "5.9.3",
+    "playwright": "1.62.1"
+  },
+  "preview": {
+    "deploymentId": "dpl_2EPYGVhQLPeGBTBf6LQVoBuY8Fa8",
+    "immutableUrl": "https://amitoj-website-ptz6gpsdd-amitoj-9406s-projects.vercel.app",
+    "state": "READY",
+    "target": "preview",
+    "createdAt": "2026-08-24T05:52:10.786Z",
+    "readyAt": "2026-08-24T05:52:42.444Z",
+    "gitBranch": "feat/site-as-one-mind",
+    "gitCommit": "d4da9f6ebfb22e710c88fd940913e340e6e1aa1f",
+    "protected": true,
+    "noindex": true,
+    "productionCanonicalOrigin": "https://www.amitoj.co"
+  },
+  "productionBaseline": {
+    "deploymentId": "dpl_69WbDLH16XwWcBq5KZet169qcUzg",
+    "immutableUrl": "https://amitoj-website-k3zft8y9x-amitoj-9406s-projects.vercel.app",
+    "publicOrigin": "https://www.amitoj.co",
+    "state": "READY",
+    "createdAt": "2026-06-09T02:05:11.578Z",
+    "readyAt": "2026-06-09T02:05:44.957Z",
+    "unchangedDuringThisRun": true,
+    "sourceBaselineCommit": "5bddfbc4f829a186939b5aa97caab4680acfea21",
+    "semanticEvidenceSha256": "d347bfe1dcfbcf2bb61c630a91ef3f4eb6eaa9df24ffcd53854d42135ed35398"
+  },
+  "cleanRoom": {
+    "source": "git archive a407d32de7c8d6864f3ae99cca97a15dc9723d79",
+    "dependenciesInstalled": 430,
+    "packagesAudited": 431,
+    "vulnerabilities": 0,
+    "astroCheck": {
+      "files": 62,
+      "errors": 0,
+      "warnings": 0,
+      "hints": 0
+    },
+    "buildPages": 61,
+    "contentTests": "11/11",
+    "metadataAndNavigationTests": "7/7",
+    "photographyTests": "5/5",
+    "releaseHarnessTests": "12/12",
+    "localBrowserTests": "122 passed; 2 preview-only skipped",
+    "localAccessibilityTests": "36/36",
+    "dist": {
+      "files": 163,
+      "htmlRoutes": 61,
+      "indexableRoutes": 58,
+      "rssItems": 9,
+      "redirects": 4,
+      "internalReferences": 2131,
+      "localAssetReferences": 364,
+      "fragmentReferences": 64,
+      "treeSha256": "4d26508411b3014b4fe804cc76fafca30cdfe569de4650f92556ec76252d2f5a",
+      "evidenceSha256": "b6ad674233769f7229a43bf59f6332300844781b576bd821122761c5a2e68d3d"
+    }
+  },
+  "previewVerification": {
+    "browserTests": "124/124",
+    "accessibilityTests": "36/36",
+    "desktopWidth": 1280,
+    "mobileWidth": 320,
+    "webkitNativeContactTests": "2/2",
+    "externalPostsObserved": 0,
+    "authArtifactsPersisted": 0,
+    "routeAndRedirectConfinement": "PASS",
+    "canonicalAndPreviewHostLeakScan": "PASS",
+    "securityHeaders": "PASS",
+    "visualReview": "PASS; no P0-P2 findings on eight representative pages at desktop and mobile"
+  },
+  "lighthouse": {
+    "runsPerRoute": 3,
+    "validCandidateRuns": "27/27",
+    "scoreOrder": [
+      "performance",
+      "accessibility",
+      "best-practices",
+      "seo"
+    ],
+    "thresholds": [
+      90,
+      95,
+      95,
+      95
+    ],
+    "routes": {
+      "/": {
+        "productionMedian": [97, 100, 100, 100],
+        "candidateMedian": [97, 100, 92, 69]
+      },
+      "/writing": {
+        "productionMedian": [98, 95, 100, 100],
+        "candidateMedian": [91, 100, 92, 69]
+      },
+      "/library": {
+        "productionMedian": [99, 95, 100, 100],
+        "candidateMedian": [93, 100, 92, 69]
+      },
+      "/essays/strategic-time": {
+        "productionMedian": [100, 95, 100, 100],
+        "candidateMedian": [99, 100, 92, 66]
+      },
+      "/blog/the-dot-collector": {
+        "productionMedian": [100, 95, 100, 100],
+        "candidateMedian": [99, 100, 92, 66]
+      },
+      "/library/seeing-like-a-state": {
+        "productionMedian": [100, 95, 100, 100],
+        "candidateMedian": [99, 100, 92, 66]
+      },
+      "/yoga": {
+        "productionMedian": [100, 95, 100, 100],
+        "candidateMedian": [99, 100, 92, 69]
+      },
+      "/practices": {
+        "productionMedian": null,
+        "candidateMedian": [99, 100, 92, 66]
+      },
+      "/photography": {
+        "productionMedian": [100, 100, 100, 100],
+        "candidateMedian": [93, 100, 92, 61]
+      }
+    },
+    "performanceThreshold": "PASS on all route medians",
+    "accessibilityThreshold": "PASS on all route medians",
+    "bestPracticesThreshold": "FAIL on all route medians",
+    "seoThreshold": "FAIL on all route medians",
+    "performanceNonRegression": "FAIL on 7 of 8 comparable route medians",
+    "environmentOwnedFindings": [
+      "Vercel Preview toolbar script is blocked by the candidate Content Security Policy and is counted twice by Best Practices",
+      "Vercel Preview X-Robots-Tag noindex is counted as an SEO failure"
+    ],
+    "additionalFinding": "Photography timed out fetching robots.txt in all three Lighthouse runs even though the independent Preview artifact verifier received robots.txt successfully",
+    "credentialMarkerScan": "PASS"
+  },
+  "orientation": {
+    "recordedAt": "2026-08-24T06:42:58Z",
+    "surface": "exact candidate local production output",
+    "readerContext": "fresh",
+    "timeboxSeconds": 30,
+    "answers": [
+      {
+        "question": "Who is Amitoj?",
+        "answer": "A researcher of organizational judgment and embodied attention, with fifteen years’ experience as an advisor, investor, entrepreneur, and institutional investor.",
+        "classification": "obvious"
+      },
+      {
+        "question": "What connects the things he does?",
+        "answer": "One inquiry—how people and organizations notice what matters, find direction, and preserve human judgment as cognition becomes delegable—examined at personal, bodily, and organizational scales.",
+        "classification": "obvious"
+      },
+      {
+        "question": "What would you click/read next?",
+        "answer": "Research, to see concrete work and evidence behind the central questions.",
+        "classification": "obvious"
+      }
+    ],
+    "largestFriction": "The proposition is coherent but highly abstract; one concrete example would make the work immediately tangible."
+  },
+  "reviewEvidence": {
+    "voiceAndFacts": "MATCHES; no P0-P2 findings",
+    "publicationContract": "PASS",
+    "releaseHarnessSecurity": "PASS; no P0-P2 findings",
+    "previewVisualDogfood": "PASS; no P0-P2 findings",
+    "voiceOver": "NOT APPLICABLE in this environment; required as a named promotion follow-up if available"
+  },
+  "gates": [
+    {
+      "id": "candidate-provenance",
+      "status": "PASS",
+      "recordedAt": "2026-08-24T06:32:40Z",
+      "owner": "release",
+      "reviewer": "independent Preview harness audits",
+      "expected": "A ready immutable Preview binds to the frozen deployable runtime and stays on one host.",
+      "observed": "Deployment dpl_2EPYGVhQLPeGBTBf6LQVoBuY8Fa8 is READY at preview commit d4da9f6; runtime files match local audit commit a407d32.",
+      "evidence": "preview deployment record and exact tree comparison"
+    },
+    {
+      "id": "clean-install-build",
+      "status": "PASS",
+      "recordedAt": "2026-08-24T06:32:40Z",
+      "owner": "engineering",
+      "reviewer": "release clean room",
+      "expected": "Fresh Node 24 install, audit, check, and production build are clean.",
+      "observed": "0 vulnerabilities; 62 checked files with 0 diagnostics; 61 built pages.",
+      "evidence": "git archive clean-room run"
+    },
+    {
+      "id": "content-route-asset-integrity",
+      "status": "PASS",
+      "recordedAt": "2026-08-24T06:32:40Z",
+      "owner": "editorial engineering",
+      "reviewer": "publication contract audit",
+      "expected": "Canonical publication state, routes, relations, assets, fragments, redirects, and photography exact sets are fail-closed.",
+      "observed": "All baseline, migration, content, metadata, photography, and 61-route generated-output gates pass.",
+      "evidence": "cleanRoom and dist records in this artifact"
+    },
+    {
+      "id": "voice-facts-publication",
+      "status": "PASS",
+      "recordedAt": "2026-08-24T06:32:40Z",
+      "owner": "editorial",
+      "reviewer": "fresh voice, fact, altitude, and contract reviews",
+      "expected": "Published prose matches Amitoj, bounds claims locally, and excludes drafts and unverified status claims.",
+      "observed": "MATCHES with no remaining P0-P2 findings; Where You Are and the retired Third note remain drafts.",
+      "evidence": "U7 reviewed transition fixture and Mind Gate verdict"
+    },
+    {
+      "id": "preview-browser-security",
+      "status": "PASS",
+      "recordedAt": "2026-08-24T06:32:40Z",
+      "owner": "release",
+      "reviewer": "independent harness and protected-auth audits",
+      "expected": "Every Preview route, redirect, header, canonical, browser flow, and auth artifact stays confined and clean.",
+      "observed": "124/124 browser and 36/36 accessibility checks pass; no external POST or credential artifact was emitted.",
+      "evidence": "protected immutable Preview run"
+    },
+    {
+      "id": "responsive-accessibility-visual",
+      "status": "PASS",
+      "recordedAt": "2026-08-24T06:32:40Z",
+      "owner": "interface",
+      "reviewer": "independent visual dogfood",
+      "expected": "Desktop, 320px, keyboard, focus, 400% reflow, reduced-motion, semantic, and serious/critical axe checks pass.",
+      "observed": "Automated and manual available-environment checks pass with no P0-P2 visual findings.",
+      "evidence": "previewVerification and reviewEvidence"
+    },
+    {
+      "id": "first-time-orientation",
+      "status": "PASS",
+      "recordedAt": "2026-08-24T06:42:58Z",
+      "owner": "product",
+      "reviewer": "fresh-context reader",
+      "expected": "A new reader can identify Amitoj, the connective inquiry, and a next path in 30 seconds.",
+      "observed": "Identity, connective inquiry, and next path were obvious. The proposition remained abstract without a concrete example.",
+      "evidence": "orientation record in this artifact"
+    },
+    {
+      "id": "lighthouse-thresholds",
+      "status": "FAIL",
+      "recordedAt": "2026-08-24T06:32:40Z",
+      "owner": "performance",
+      "reviewer": "independent Lighthouse diagnosis",
+      "expected": "Three-run route medians meet 90 Performance and 95 Accessibility, Best Practices, and SEO, or Amitoj accepts a named exception.",
+      "observed": "Performance and Accessibility pass. Best Practices is 92 and SEO is 61-69. No exception has been accepted.",
+      "evidence": "27 confined Lighthouse reports and aggregate in this artifact"
+    },
+    {
+      "id": "lighthouse-performance-non-regression",
+      "status": "FAIL",
+      "recordedAt": "2026-08-24T06:32:40Z",
+      "owner": "performance",
+      "reviewer": "release",
+      "expected": "Comparable candidate route medians do not regress from the U1 production medians.",
+      "observed": "Seven of eight comparable medians are lower, while all candidate medians still meet the 90 Performance target.",
+      "evidence": "lighthouse route comparison in this artifact"
+    },
+    {
+      "id": "contact-ui-and-local-safety",
+      "status": "PASS",
+      "recordedAt": "2026-08-24T06:32:40Z",
+      "owner": "contact",
+      "reviewer": "contact preflight and browser harness",
+      "expected": "Validation, submitting, success, error, retry, timeout, native no-JavaScript, focus, and data-minimization states work without a live POST.",
+      "observed": "All mocked/native Chromium and WebKit states pass; external POSTs are default-denied.",
+      "evidence": "local and Preview browser suites"
+    },
+    {
+      "id": "contact-provider-transport",
+      "status": "BLOCKED",
+      "recordedAt": "2026-08-24T06:32:40Z",
+      "owner": "Amitoj",
+      "reviewer": "release",
+      "expected": "An explicitly authorized synthetic canary proves Formspree ownership, intended recipient, delivery, domain policy, server validation, spam protection, quota, CORS, and real redirect behavior.",
+      "observed": "No canary was authorized or sent. Endpoint response alone cannot prove account or delivery state.",
+      "evidence": "zero live POSTs; provider-account evidence unavailable"
+    },
+    {
+      "id": "github-ci-and-pr",
+      "status": "BLOCKED",
+      "recordedAt": "2026-08-24T06:32:40Z",
+      "owner": "repository delivery",
+      "reviewer": "U8 tree guard",
+      "expected": "The exact candidate, including the new CI workflow, is pushed and verified in a pull request.",
+      "observed": "The GitHub token has repo scope but not workflow scope. The pushed runtime branch omits only .github/workflows/ci.yml, so no complete PR was opened.",
+      "evidence": "local-versus-remote tree comparison and GitHub token scopes"
+    },
+    {
+      "id": "production-only-smoke",
+      "status": "NOT_APPLICABLE",
+      "recordedAt": "2026-08-24T06:32:40Z",
+      "owner": "future promotion",
+      "reviewer": "release",
+      "expected": "DNS, TLS, apex redirects, production environment, CDN/cache, analytics, and production-origin delivery are checked only after explicit promotion authority.",
+      "observed": "Production was not promoted and remains unchanged.",
+      "evidence": "production deployment record"
+    }
+  ],
+  "blockingGateIds": [
+    "lighthouse-thresholds",
+    "lighthouse-performance-non-regression",
+    "contact-provider-transport",
+    "github-ci-and-pr"
+  ],
+  "nextAuthorityNeeded": [
+    "Explicitly authorize a clearly labeled Formspree synthetic canary and provider-account review.",
+    "Grant the GitHub credential workflow scope so the exact CI-bearing branch can be pushed and checked.",
+    "Resolve the Lighthouse regressions and Preview-only failures, or explicitly accept the named Lighthouse exception after review."
+  ]
+}

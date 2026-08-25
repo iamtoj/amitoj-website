@@ -1,48 +1,15 @@
 ---
 import Layout from '../../layouts/Layout.astro';
+import EditorialLabel from '../../components/EditorialLabel.astro';
+import { getEditorialNetwork, getPublishedReadingAnnotations } from '../../lib/content';
 
-const books = [
-  { slug: 'sovereignty-of-good', title: 'The Sovereignty of Good', author: 'Iris Murdoch', time: '4-6 hours', difficulty: 'Demanding', tags: ['Philosophy', 'Consciousness'], teaser: 'Moral life is about vision, not choice. I could only choose within the world I could see.' },
-  { slug: 'the-matter-with-things', title: 'The Matter with Things', author: 'Iain McGilchrist', time: '20-30 hours', difficulty: 'Demanding', tags: ['Philosophy', 'Consciousness', 'Systems'], teaser: 'A dashboard with 47 metrics, every number green. The organization was dying. McGilchrist explains why this keeps happening.' },
-  { slug: 'zen-and-the-art-of-motorcycle-maintenance', title: 'Zen and the Art of Motorcycle Maintenance', author: 'Robert M. Pirsig', time: '10-16 hours', difficulty: 'Moderate', tags: ['Philosophy', 'Systems', 'Consciousness'], teaser: 'A motorcycle that runs well and an organization that works well have something in common. Pirsig called it Quality.' },
-  { slug: 'seeing-like-a-state', title: 'Seeing Like a State', author: 'James C. Scott', time: '10-14 hours', difficulty: 'Moderate', tags: ['Systems', 'History'], teaser: 'A beautifully designed restructuring that looked perfect on the whiteboard and fell apart within months. Scott explains why legibility projects destroy the knowledge they can\'t see.' },
-  { slug: 'rules', title: 'Rules', author: 'Lorraine Daston', time: '10-14 hours', difficulty: 'Moderate', tags: ['Philosophy', 'Systems'], teaser: 'Why frameworks fail when they meet reality. The vocabulary I was missing.' },
-  { slug: 'finite-and-infinite-games', title: 'Finite and Infinite Games', author: 'James P. Carse', time: '5-7 hours', difficulty: 'Accessible', tags: ['Philosophy', 'Systems', 'Spirituality'], teaser: 'Watching a boardroom where both sides claimed victory yet both lost something essential. The distinction named what was happening.' },
-  { slug: 'thinking-in-systems', title: 'Thinking in Systems', author: 'Donella H. Meadows', time: '8-12 hours', difficulty: 'Accessible', tags: ['Systems', 'Philosophy'], teaser: 'An organization that doubled its quality controls and watched defect rates go up. The intervention caused the problem. Meadows explains why.' },
-  { slug: 'governing-the-commons', title: 'Governing the Commons', author: 'Elinor Ostrom', time: '8-12 hours', difficulty: 'Moderate', tags: ['Systems', 'Economics'], teaser: 'A fishing ground that thrived for decades without central authority. The community had developed rules about who could fish where.' },
-  { slug: 'the-great-transformation', title: 'The Great Transformation', author: 'Karl Polanyi', time: '12-16 hours', difficulty: 'Demanding', tags: ['Economics', 'History'], teaser: 'Watching platform companies label worker protections as "friction to be optimized away." Polanyi saw this pattern a century ago.' },
-  { slug: 'liquidated', title: 'Liquidated', author: 'Karen Ho', time: '8-12 hours', difficulty: 'Moderate', tags: ['Economics', 'Culture'], teaser: 'A recruiting event at a business school where the pitch sounded like an initiation rite. The investment bankers described 100-hour weeks, constant job insecurity.' },
-  { slug: 'the-structure-of-scientific-revolutions', title: 'The Structure of Scientific Revolutions', author: 'Thomas Kuhn', time: '6-8 hours', difficulty: 'Moderate', tags: ['Philosophy', 'History'], teaser: 'Two colleagues looking at identical data and seeing different problems entirely. Same spreadsheet, different worlds. Kuhn explained how this happens.' },
-  { slug: 'the-beginning-of-infinity', title: 'The Beginning of Infinity', author: 'David Deutsch', time: '12-16 hours', difficulty: 'Demanding', tags: ['Philosophy', 'Systems'], teaser: 'Evaluating a consultant\'s proposal and realizing the framework fit every possible situation equally well — which meant it explained nothing.' },
-  { slug: 'philosophy-and-the-mirror-of-nature', title: 'Philosophy and the Mirror of Nature', author: 'Richard Rorty', time: '12-18 hours', difficulty: 'Demanding', tags: ['Philosophy', 'Consciousness'], teaser: 'Every model built assumes a world sitting there waiting to be accurately described. Rorty asked: what if that assumption is the problem?' },
-  { slug: 'the-passion-of-the-western-mind', title: 'The Passion of the Western Mind', author: 'Richard Tarnas', time: '16-25 hours', difficulty: 'Demanding', tags: ['Philosophy', 'History', 'Consciousness'], teaser: 'Trace any Western idea back far enough and it leads to the same fork — Plato or Aristotle. Tarnas held both threads simultaneously.' },
-  { slug: 'how-not-to-be-wrong', title: 'How Not to Be Wrong', author: 'Jordan Ellenberg', time: '8-12 hours', difficulty: 'Accessible', tags: ['Systems', 'Philosophy'], teaser: 'The bullet holes on returning WWII bombers clustered in the fuselage and wings. Abraham Wald said: armor the engines.' },
-  { slug: 'why-greatness-cannot-be-planned', title: 'Why Greatness Cannot Be Planned', author: 'Kenneth O. Stanley & Joel Lehman', time: '6-8 hours', difficulty: 'Accessible', tags: ['Creativity', 'Systems'], teaser: 'The best product feature ever shipped wasn\'t on any roadmap. Stanley and Lehman proved computationally why this keeps happening.' },
-  { slug: 'the-embodied-mind', title: 'The Embodied Mind', author: 'Francisco J. Varela, Evan Thompson & Eleanor Rosch', time: '16-25 hours', difficulty: 'Demanding', tags: ['Philosophy', 'Consciousness', 'Embodiment'], teaser: 'Mindfulness teachers say "observe your thoughts." Cognitive scientists say "there\'s no observer." Varela, Thompson, and Rosch built the bridge.' },
-  { slug: 'radical-wholeness', title: 'Radical Wholeness', author: 'Philip Shepherd', time: '12-16 hours', difficulty: 'Demanding', tags: ['Embodiment', 'Philosophy', 'Consciousness'], teaser: 'A moment in yoga when a student stops thinking about the body and starts thinking from it. Shepherd explains why that distinction is a Copernican revolution.' },
-  { slug: 'the-spell-of-the-sensuous', title: 'The Spell of the Sensuous', author: 'David Abram', time: '10-14 hours', difficulty: 'Moderate', tags: ['Philosophy', 'Embodiment', 'Consciousness'], teaser: 'After a week of silent retreat, the parking lot sounded violent. Perception had recalibrated. Abram explains what was lost when literacy replaced oral culture.' },
-  { slug: 'breath', title: 'Breath', author: 'James Nestor', time: '6-8 hours', difficulty: 'Accessible', tags: ['Embodiment', 'Health'], teaser: 'Nestor documents what mouth-taping, nasal breathing, and exhale holds do to the nervous system — mechanisms behind the effects.' },
-  { slug: 'the-book-of-not-knowing', title: 'The Book of Not Knowing', author: 'Peter Ralston', time: '16-20 hours', difficulty: 'Demanding', tags: ['Consciousness', 'Embodiment'], teaser: 'Martial arts and ontology shouldn\'t share a bookshelf. When survival depends on accurate perception, philosophical pretense collapses fast.' },
-  { slug: 'the-origin-of-consciousness', title: 'The Origin of Consciousness in the Breakdown of the Bicameral Mind', author: 'Julian Jaynes', time: '12-16 hours', difficulty: 'Demanding', tags: ['Consciousness', 'History'], teaser: 'Reading the Iliad carefully, something is missing. The characters don\'t deliberate. Jaynes took that observation seriously and built a theory from it.' },
-  { slug: 'notes-on-complexity', title: 'Notes on Complexity', author: 'Neil Theise', time: '6-8 hours', difficulty: 'Accessible', tags: ['Systems', 'Consciousness'], teaser: 'A pathologist who meditates — the rarity signals how wide the gap between empirical rigor and contemplative insight has become.' },
-  { slug: 'mans-search-for-meaning', title: 'Man\'s Search for Meaning', author: 'Viktor Frankl', time: '4-6 hours', difficulty: 'Accessible', tags: ['Philosophy', 'Spirituality'], teaser: 'A student asked what to do when the work stops meaning anything. Frankl wrote from the one place where that question couldn\'t be avoided.' },
-  { slug: 'the-prophet', title: 'The Prophet', author: 'Kahlil Gibran', time: '3-5 hours', difficulty: 'Accessible', tags: ['Spirituality', 'Philosophy'], teaser: 'Someone giving this book at twenty. Understanding it at forty. The images didn\'t change; the capacity to receive them did.' },
-  { slug: 'the-alchemist', title: 'The Alchemist', author: 'Paulo Coelho', time: '3-5 hours', difficulty: 'Accessible', tags: ['Spirituality', 'Philosophy'], teaser: 'A shepherd who dreams of treasure. By the book\'s end, the journey has created capacity to recognize what was already there.' },
-  { slug: 'confessions-of-a-born-again-pagan', title: 'Confessions of a Born-Again Pagan', author: 'Anthony T. Kronman', time: '20-25 hours', difficulty: 'Demanding', tags: ['Philosophy', 'Spirituality'], teaser: 'A student saying "I\'m not religious, but I\'m not not-religious either." Kronman maps the philosophical territory that gap occupies.' },
-  { slug: 'the-stairway-to-heaven', title: 'The Stairway to Heaven', author: 'Tara Springett', time: '10-14 hours', difficulty: 'Moderate', tags: ['Spirituality', 'Consciousness'], teaser: 'Two students tried the same meditation technique. One had a breakthrough. The other had a breakdown. Springett\'s developmental framework explains why.' },
-  { slug: 'the-artists-way', title: 'The Artist\'s Way', author: 'Julia Cameron', time: '6-8 hours', difficulty: 'Accessible', tags: ['Creativity', 'Spirituality'], teaser: 'The first morning writing three pages of longhand before coffee — nothing happened. The thirtieth morning, something shifted.' },
-  { slug: 'the-listening-book', title: 'The Listening Book', author: 'W. A. Mathieu', time: '4-6 hours', difficulty: 'Accessible', tags: ['Creativity', 'Embodiment'], teaser: 'A room full of executives falling silent. The silence where something becomes audible that was always there.' },
-  { slug: 'parallels-and-paradoxes', title: 'Parallels and Paradoxes', author: 'Edward Said & Daniel Barenboim', time: '4-6 hours', difficulty: 'Accessible', tags: ['Culture', 'Creativity'], teaser: 'Integration without reduction. Understanding does not require agreement.' },
-  { slug: 'what-tech-calls-thinking', title: 'What Tech Calls Thinking', author: 'Adrian Daub', time: '3-4 hours', difficulty: 'Accessible', tags: ['Culture', 'Philosophy'], teaser: 'Names what I felt but could not articulate about borrowed wisdom in tech.' },
-  { slug: 'one-hundred-years-of-solitude', title: 'One Hundred Years of Solitude', author: 'Gabriel García Márquez', time: '12-16 hours', difficulty: 'Moderate', tags: ['Culture', 'History'], teaser: 'Three generations of a family business making the same strategic error — each convinced they were the first to face the problem.' },
-  { slug: 'the-lessons-of-history', title: 'The Lessons of History', author: 'Will & Ariel Durant', time: '3-4 hours', difficulty: 'Accessible', tags: ['History', 'Philosophy'], teaser: 'A colleague declaring that AI changes everything, that nothing like this has happened before. The Durants heard equivalent claims in every century.' },
-  { slug: 'a-story-waiting-to-pierce-you', title: 'A Story Waiting to Pierce You', author: 'Peter Kingsley', time: '8-12 hours', difficulty: 'Demanding', tags: ['Philosophy', 'History', 'Spirituality'], teaser: 'We teach Parmenides as the birth of logic. Kingsley argues we got the story exactly wrong.' },
-  { slug: 'the-forge-and-the-crucible', title: 'The Forge and the Crucible', author: 'Mircea Eliade', time: '6-8 hours', difficulty: 'Demanding', tags: ['History', 'Spirituality'], teaser: 'A blacksmith once said the metal teaches you what it wants to become. Eliade showed it was cosmology.' },
-  { slug: 'into-the-cool', title: 'Into the Cool', author: 'Eric D. Schneider & Dorion Sagan', time: '14-18 hours', difficulty: 'Demanding', tags: ['Systems', 'Philosophy'], teaser: 'A puzzle about evolution\'s arrow — why maximum complexity increases over time. Schneider and Sagan locate the answer in thermodynamics.' },
-  { slug: 'the-self-organizing-universe', title: 'The Self-Organizing Universe', author: 'Erich Jantsch', time: '16-25 hours', difficulty: 'Demanding', tags: ['Systems', 'Philosophy'], teaser: 'Most systems studied in management were designed by someone. The interesting ones designed themselves.' },
-];
-
-const allTags = ['All', 'Philosophy', 'Systems', 'Consciousness', 'Embodiment', 'Spirituality', 'History', 'Creativity', 'Culture', 'Economics'];
+const network = await getEditorialNetwork();
+const books = await getPublishedReadingAnnotations();
+const bookCards = books.map((entry) => ({
+  entry,
+  target: network.resolve({ kind: 'annotation', slug: entry.data.slug }),
+}));
+const allTags = ['All', ...new Set(books.flatMap((book) => book.data.cardTags!))];
 ---
 
 <Layout title="Library | Amitoj Singh" description="Books that earned their place through re-reading, annotation, and integration into how I work.">
@@ -69,37 +36,44 @@ const allTags = ['All', 'Philosophy', 'Systems', 'Consciousness', 'Embodiment', 
       </p>
 
       <!-- Filter chips -->
-      <div class="flex flex-wrap gap-2 mb-12" id="filter-container">
+      <div class="flex flex-wrap gap-2 mb-4" id="filter-container" aria-label="Filter reading annotations">
         {allTags.map((tag, index) => (
           <button
+            type="button"
             class={`px-4 py-2 text-sm rounded-full transition-colors filter-chip ${index === 0 ? 'bg-ink text-oat-50' : 'bg-oat-200 text-ink hover:bg-oat-300'}`}
             data-tag={tag}
+            aria-pressed={index === 0 ? 'true' : 'false'}
+            aria-controls="book-list"
           >
             {tag}
           </button>
         ))}
       </div>
+      <p class="text-sm text-ink-muted mb-12" id="filter-status" role="status" aria-live="polite" aria-atomic="true">
+        {books.length} reading annotations
+      </p>
 
       <!-- Book cards -->
       <div class="space-y-8" id="book-list">
-        {books.map((book) => (
-          <article class="group border-b border-oat-300 pb-8" data-tags={book.tags.join(',')}>
-            <a href={`/library/${book.slug}`} class="block no-underline">
+        {bookCards.map(({ entry: book, target }) => (
+          <article class="group border-b border-oat-300 pb-8" data-tags={book.data.cardTags!.join(',')} data-library-slug={book.data.slug}>
+            <a href={target.path} class="block no-underline">
               <div class="flex justify-between items-start gap-4">
                 <div>
+                  <EditorialLabel form={target.form} />
                   <h2 class="text-xl mb-1 group-hover:text-sage-600 transition-colors">
-                    {book.title}
+                    {book.data.cardTitle}
                   </h2>
-                  <p class="text-ink-muted mb-3">{book.author}</p>
-                  <p class="text-ink-light mb-4">{book.teaser}</p>
+                  <p class="text-ink-muted mb-3">{book.data.cardAuthor}</p>
+                  <p class="text-ink-light mb-4">{book.data.teaser}</p>
                   <div class="flex flex-wrap gap-2 text-sm text-ink-muted">
-                    <span>{book.time}</span>
+                    <span>{book.data.cardReadingTime}</span>
                     <span class="text-oat-400">·</span>
-                    <span>{book.difficulty}</span>
+                    <span>{book.data.cardDifficulty}</span>
                     <span class="text-oat-400">·</span>
-                    {book.tags.map((tag, i) => (
+                    {book.data.cardTags!.map((tag, i) => (
                       <span>
-                        {tag}{i < book.tags.length - 1 ? ', ' : ''}
+                        {tag}{i < book.data.cardTags!.length - 1 ? ', ' : ''}
                       </span>
                     ))}
                   </div>
@@ -115,30 +89,31 @@ const allTags = ['All', 'Philosophy', 'Systems', 'Consciousness', 'Embodiment', 
 </Layout>
 
 <script>
-  const chips = document.querySelectorAll('.filter-chip');
-  const books = document.querySelectorAll('#book-list article');
+  const chips = Array.from(document.querySelectorAll<HTMLButtonElement>('.filter-chip'));
+  const books = Array.from(document.querySelectorAll<HTMLElement>('#book-list article'));
+  const status = document.querySelector<HTMLElement>('#filter-status');
 
   chips.forEach(chip => {
     chip.addEventListener('click', () => {
-      const tag = chip.getAttribute('data-tag');
+      const tag = chip.dataset.tag ?? 'All';
 
-      // Update chip styles
       chips.forEach(c => {
         c.classList.remove('bg-ink', 'text-oat-50');
-        c.classList.add('bg-oat-200', 'text-ink');
+        c.classList.add('bg-oat-200', 'text-ink', 'hover:bg-oat-300');
+        c.setAttribute('aria-pressed', 'false');
       });
-      chip.classList.remove('bg-oat-200', 'text-ink');
+      chip.classList.remove('bg-oat-200', 'text-ink', 'hover:bg-oat-300');
       chip.classList.add('bg-ink', 'text-oat-50');
+      chip.setAttribute('aria-pressed', 'true');
 
-      // Filter books
+      let visibleCount = 0;
       books.forEach(book => {
-        const bookTags = book.getAttribute('data-tags') || '';
-        if (tag === 'All' || (tag && bookTags.includes(tag))) {
-          book.classList.remove('hidden');
-        } else {
-          book.classList.add('hidden');
-        }
+        const bookTags = (book.dataset.tags ?? '').split(',').filter(Boolean);
+        const matches = tag === 'All' || bookTags.includes(tag);
+        book.hidden = !matches;
+        if (matches) visibleCount += 1;
       });
+      if (status) status.textContent = `${visibleCount} reading ${visibleCount === 1 ? 'annotation' : 'annotations'}`;
     });
   });
 </script>

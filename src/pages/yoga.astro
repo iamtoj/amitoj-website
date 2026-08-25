@@ -1,84 +1,61 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import { practiceClaims } from '../data/site-facts';
 ---
 
-<Layout title="Yoga | Amitoj Singh" description="Yoga practice and offerings. Where movement meets contemplative wisdom.">
-  <!-- Hero Photo -->
-  <section class="container-zen pt-12 pb-8">
+<Layout title="Yoga | Amitoj Singh" description="A personal practice of attention, effort, and release through the body.">
+  <section class="container-zen pt-8 md:pt-12 pb-8">
     <div class="max-w-3xl">
       <img
         src="/images/photography-optimized/DSCF1773.webp"
-        alt="Delicate branch with soft bokeh background"
-        class="w-full h-72 object-cover"
-        style="object-position: center 55%;"
+        alt="A thin branch against a softly blurred orange and gray background"
+        class="practice-hero"
+        width="1600"
+        height="1066"
+        loading="eager"
+        fetchpriority="high"
+        decoding="async"
       />
     </div>
   </section>
 
   <section class="container-zen section-zen pt-8">
     <div class="max-w-2xl">
-      <h1 class="mb-8 text-balance">Yoga</h1>
-
+      <p class="text-sm text-ink-muted mb-3">{practiceClaims.router.yoga.label}</p>
+      <h1 class="mb-6 text-balance">Yoga</h1>
       <div class="accent-line mb-8"></div>
-
-      <p class="text-lg text-ink-light mb-6">
-        Yoga is how I study the same questions I research — attention, effort, release — through the body instead of the literature.
-      </p>
-
-      <p class="text-ink-light">
-        I've practiced for over a decade. What began as physical exercise became a laboratory for understanding attention.
-      </p>
+      <p class="text-lg text-ink-light mb-6">{practiceClaims.yogaMethod}</p>
+      <p class="text-ink-light">The test is physical before it is conceptual: effort changes breath, balance, and the width of attention.</p>
     </div>
   </section>
 
   <section class="container-zen section-zen border-t border-oat-300">
-    <h2 class="text-2xl mb-8 section-header">Practice</h2>
-
     <div class="max-w-2xl">
-      <p class="text-ink-light mb-6">
-        Vinyasa tradition, emphasis on alignment and breath. Yoga Alliance RYT.
-      </p>
-
-      <p class="text-ink-light">
-        Physical practice supports cognitive and emotional clarity by training the nervous system to move between states with intention. The body knows things the mind doesn't.
-      </p>
+      <h2 class="text-2xl mb-6 section-header">Practice</h2>
+      <p class="text-ink-light mb-6">Attention is easier to describe than to sustain. A pose makes the lapse difficult to hide: I can still be producing the shape after I have stopped noticing what is happening.</p>
+      <p class="text-ink-light">Yoga does not tell me what to do. It shows me when effort has displaced attention.</p>
     </div>
   </section>
 
   <section class="container-zen section-zen border-t border-oat-300">
-    <h2 class="text-2xl mb-8 section-header">Offerings</h2>
-
     <div class="max-w-2xl">
-      <p class="text-ink-light mb-4">
-        Private sessions, group classes, and workshops. I also bring contemplative practice into organizational settings for teams navigating transformation or building resilience together.
-      </p>
-      <p class="text-ink-muted text-sm">
-        Contact for details.
-      </p>
+      <h2 class="text-2xl mb-6 section-header">A local connection</h2>
+      <p class="text-ink-light mb-6">That is yoga’s local contribution to the wider work: it gives me a place where the relation between attention and action becomes visible in the body.</p>
+      <a href="/third-enlightenment" class="arrow-link">Read the working theory</a>
     </div>
   </section>
 
   <section class="container-zen section-zen border-t border-oat-300">
-    <h2 class="text-2xl mb-8 section-header">Third Enlightenment Connection</h2>
-
-    <div class="max-w-2xl">
-      <p class="text-ink-light mb-6">
-        The connection between contemplative practice and the <a href="/third-enlightenment" class="text-sage-700 hover:text-sage-900 underline">Third Enlightenment framework</a> is spelled out on its own page. The short version: AI handles cognitive labor; what remains is the kind of knowing that comes through the body. Yoga trains that.
-      </p>
-
-      <a href="/third-enlightenment" class="arrow-link">Read the full framework</a>
-    </div>
-  </section>
-
-  <section class="container-zen section-zen border-t border-oat-300 bg-oat-100">
-    <div class="max-w-2xl">
-      <h2 class="text-2xl mb-6">Begin</h2>
-
-      <p class="text-ink-light mb-8">
-        If you're in Boston and want to practice, get in touch.
-      </p>
-
-      <a href="/contact" class="arrow-link">Get in touch</a>
-    </div>
+    <a href="/practices" class="arrow-link">All practices</a>
   </section>
 </Layout>
+
+<style>
+  .practice-hero {
+    display: block;
+    width: 100%;
+    max-height: 22rem;
+    object-fit: cover;
+    object-position: center 55%;
+  }
+</style>

@@ -1,0 +1,169 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import Layout from '../layouts/Layout.astro';
+import { resolveEditorialView } from '../lib/content';
+import EditorialLabel from './EditorialLabel.astro';
+import RelatedPaths from './RelatedPaths.astro';
+
+interface Props {
+  entry: CollectionEntry<'notes'>;
+}
+
+const { entry } = Astro.props;
+const { data } = entry;
+const view = await resolveEditorialView(
+  { kind: 'note', slug: data.slug },
+  data.continuations,
+);
+---
+
+<Layout
+  title={`${data.title} | Amitoj Singh`}
+  description={data.description!}
+  kind="article"
+  canonicalPath={`/blog/${data.slug}`}
+  publishedAt={data.pubDate!}
+  updatedAt={data.updatedDate}
+  tags={data.tags}
+>
+  <article class="container-zen section-zen">
+    <header class="max-w-2xl mb-12">
+      <a href="/writing" class="text-ink-muted text-sm no-underline hover:text-ink mb-6 block w-fit">
+        &larr; Back to Writing
+      </a>
+
+      <EditorialLabel form={view.current.form} />
+      <h1 class="mb-4 text-balance">{data.title}</h1>
+
+      <p class="text-lg text-ink-light mb-4" data-editorial-context>{view.current.context}</p>
+
+      <p class="text-ink-muted mb-4">
+        {data.pubDate!.toLocaleDateString('en-US', {
+          year: 'numeric',
+          month: 'long',
+          day: 'numeric',
+          timeZone: 'UTC',
+        })}
+        {data.updatedDate && (
+          <span class="ml-4">
+            (Updated: {data.updatedDate.toLocaleDateString('en-US', {
+              year: 'numeric',
+              month: 'long',
+              day: 'numeric',
+              timeZone: 'UTC',
+            })})
+          </span>
+        )}
+      </p>
+
+      {data.tags.length > 0 && (
+        <div class="flex flex-wrap gap-2" data-note-tags>
+          {data.tags.map((tag) => (
+            <span class="text-xs text-ink-muted bg-oat-100 px-2 py-1 shrink-0 whitespace-nowrap" data-note-tag>
+              {tag}
+            </span>
+          ))}
+        </div>
+      )}
+
+      <div class="accent-line mt-8"></div>
+    </header>
+
+    {data.heroImage && (
+      <figure class="mb-12">
+        <img src={data.heroImage} alt="" class="w-full max-w-3xl" />
+      </figure>
+    )}
+
+    <div class="prose max-w-2xl" data-editorial-body>
+      <slot />
+    </div>
+
+    <div class="max-w-2xl mt-12 pt-8 border-t border-oat-300">
+      <RelatedPaths paths={view.continuations} />
+    </div>
+  </article>
+</Layout>
+
+<style is:global>
+  @reference "../styles/global.css";
+
+  .prose {
+    @apply text-ink leading-relaxed;
+    font-size: 1.125rem;
+  }
+
+  .prose p {
+    margin-bottom: 1.5rem;
+    line-height: 1.8;
+  }
+
+  .prose h2 {
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  .prose h3 {
+    @apply text-xl mt-8 mb-4;
+  }
+
+  .prose ul,
+  .prose ol {
+    @apply mb-7 pl-6;
+  }
+
+  .prose li {
+    @apply mb-3;
+  }
+
+  .prose blockquote {
+    @apply border-l-4 border-sage-300 pl-6 my-8 text-ink-light italic;
+  }
+
+  .prose blockquote.pullquote,
+  .prose > p > strong:only-child {
+    @apply not-italic font-normal;
+  }
+
+  .prose .callout {
+    @apply bg-oat-50 border border-oat-300 p-6 my-10 text-ink;
+  }
+
+  .prose code {
+    @apply bg-oat-100 px-1.5 py-0.5 text-sm;
+  }
+
+  .prose pre {
+    @apply bg-oat-100 p-4 overflow-x-auto mb-7;
+  }
+
+  .prose pre code {
+    @apply bg-transparent p-0;
+  }
+
+  .prose a {
+    @apply text-ink underline decoration-sage-300 underline-offset-4 hover:decoration-sage-500;
+  }
+
+  .prose img {
+    @apply my-10;
+  }
+
+  .prose hr {
+    @apply border-oat-300 my-14;
+  }
+
+  .prose em {
+    @apply text-ink;
+  }
+
+  .prose strong {
+    @apply font-semibold text-ink;
+  }
+
+  .prose hr + p:first-line {
+    font-size: 1.1em;
+  }
+</style>
