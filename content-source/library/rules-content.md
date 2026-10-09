@@ -1,69 +1,59 @@
-# Rules: A Short History of What We Live By
-**Lorraine Daston**
-
+---
+source: src/pages/library/rules.astro
+source-sha256: 04b1e4e8f2c561f066436e6d189b8cf36bce8aa0a82b1ad48b1bf2110e422045
+url: /library/rules
+status: derived reading copy; edit the source file
 ---
 
-## WHY I RECOMMEND THIS
+[← Back to Library](/library)
 
-A question runs through organizational design: why do frameworks fail at the edges? Strategy papers, organizational designs, AI governance proposals — they look complete on paper, then crumble against cases their authors never imagined.
+# Rules
 
-Daston's vocabulary — thin rules versus thick rules — names the spectrum. Thick rules are loaded with caveats, examples, room for judgment. Thin rules are mechanical, context-free, aspiring to cover everything. The insight is historical: we used to know that rules couldn't anticipate every situation. Discretion wasn't a bug — it was the feature. Somewhere in the twentieth century, we convinced ourselves that the ideal rule was an algorithm, executable without thought.
+Lorraine Daston
 
-The distinction reshapes how you design systems: which domains deserve thin rules and which demand thick ones. Not all domains deserve thin rules. Some require humans who can recognize when the rule doesn't fit.
+10-14 hours · Moderate · Philosophy, Systems, AI Governance
 
----
+## Why I Recommend This
 
-## THE BOOK
+I was reviewing an AI governance proposal when a researcher flagged an edge case the framework couldn't handle. The authors had tried to specify every scenario in advance. The more complete their rules became, the more brittle they were. Then I read Daston.
 
-Daston traces 2,500 years of Western rule-making through three persistent forms: rules as algorithms (procedures to execute), rules as laws (commands to obey), and rules as models (exemplars to imitate). The last form - paradigms requiring interpretation - dominated until the Enlightenment but has largely been forgotten.
+She distinguishes *thick rules* (loaded with caveats, examples, room for judgment) from *thin rules* (mechanical, context-free, aspiring to cover everything). Her insight is historical: for most of Western history, people understood that rules couldn't anticipate every situation. Discretion was part of how rules worked. Somewhere along the way, we forgot.
 
-Her central argument: the shift from thick to thin rules reflects a transformation in what we consider rational. Cold War thinkers elevated the algorithm to the ideal form of reasoning. But the ancient problem remains unsolved - no universal can anticipate every case it will encounter. Thick rules acknowledged this. Thin rules pretend otherwise.
+## The Book
 
----
+Daston traces 2,500 years of Western rule-making through three persistent forms: rules as algorithms (procedures to execute), rules as laws (commands to obey), and rules as models (exemplars to imitate). The last form—paradigms requiring interpretation—dominated until the Enlightenment but has largely been forgotten.
 
-## PASSAGES THAT STAYED WITH ME
+Her central argument is that the shift from thick to thin rules reflects a change in what we consider rational. Cold War thinkers elevated the algorithm to the ideal form of reasoning. But the ancient problem remains unsolved—no universal rule can anticipate every case it will encounter.
 
-**On the fundamental gap:**
-> "Even if rule and particular clearly match, they almost never align perfectly. To a greater or lesser extent, tailoring and tweaking will be necessary to smooth over the gap between universal and particular."
+## Passages That Stayed With Me
 
-*Entire specialties - equity, casuistry, case law - grew in this gap between what rules say and what situations demand.*
+"Even if rule and particular clearly match, they almost never align perfectly. Tailoring and tweaking will be necessary to smooth over the gap between universal and particular."
 
-**On what algorithms actually are:**
-> "We could introduce the idea of an algorithm as a recipe that assumes it will be mindlessly applied, with zero judgment. An algorithm would then be seen not as the perfection of a rule, but as a pathological case of a rule."
+Entire specialties—equity, casuistry, case law—grew in this gap.
 
-*The recipe-algorithm comparison inverts the usual hierarchy.*
+"An algorithm would then be seen not as the perfection of a rule, but as a pathological case of a rule."
 
-**On what we've lost:**
-> "By driving the exercise of discretion underground, rules-as-algorithms blow up the bridges that connected universals to particulars in rules-as-models."
+The recipe-algorithm comparison inverts the usual hierarchy.
 
-*We eliminated judgment from rule-following, then wondered why our systems became rigid.*
+"By driving the exercise of discretion underground, rules-as-algorithms blow up the bridges that connected universals to particulars."
 
-**On what thick rules require:**
-> "Thick rules create a flexible order out of a disorderly world, but thin rules need an order that already exists in order to function at all."
+We eliminated judgment from rule-following, then wondered why our systems became rigid.
 
-*Thin rules don't impose order - they presuppose it.*
+"Thick rules create a flexible order out of a disorderly world, but thin rules need an order that already exists in order to function at all."
 
----
+Thin rules don't impose order—they presuppose it.
 
-## READ THIS IF...
+## Read This If...
 
-- You design systems (organizations, AI, policies) and want to understand why specification always fails at the edges
-- You're interested in how Cold War thinking reshaped what we consider rational
-- You work in a domain where judgment matters but keeps getting squeezed out by demands for "consistency" and "objectivity"
+-  • You design systems (organizations, AI, policies) and want to understand why specification always fails at the edges
+-  • You're interested in how Cold War thinking reshaped what we consider rational
+-  • You work in a domain where judgment matters but keeps getting squeezed out by demands for "consistency"
 
----
+## Skip This If...
 
-## SKIP THIS IF...
+-  • You want guidance on when to use thick rather than thin rules
+-  • You prefer tight arguments to historical panoramas
 
-- You want prescriptive guidance on when to use thick vs. thin rules (Daston diagnoses, she doesn't prescribe)
-- You prefer tight arguments to historical panoramas (the book ranges widely across cookbooks, monasteries, algorithms, and Kafka)
+Related essay
 
----
-
-## METADATA
-
-**Reading time:** 10-14 hours (400 pages, scholarly but clearly written)
-
-**Difficulty:** Moderate - Daston writes for intelligent non-specialists, but the material is conceptually dense
-
-**Tags:** philosophy of rules, history of rationality, tacit knowledge, AI governance
+[What Rules Can't Capture — where Wittgenstein's insight meets system design →](/essays/what-rules-cant-capture) [← Back to Library](/library)

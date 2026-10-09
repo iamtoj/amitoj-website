@@ -1,62 +1,59 @@
+---
+source: src/pages/library/sovereignty-of-good.astro
+source-sha256: 02c9ad17393f31624c2ef92253b921cc42baf0344a533ba62a8c08e9f18802a2
+url: /library/sovereignty-of-good
+status: derived reading copy; edit the source file
+---
+
+[← Back to Library](/library)
+
 # The Sovereignty of Good
-**Iris Murdoch (1970)**
 
----
+Iris Murdoch
 
-## WHY I RECOMMEND THIS
+4-6 hours · Demanding · Philosophy, Attention, Platonism
 
-The usual frameworks for organizational change offer levers to pull, feedback loops to adjust, interventions to design. Murdoch offers something stranger: the idea that you can only choose within the world you can see.
+## Why I Recommend This
 
-What becomes visible once you accept this is that moral failure is perceptual before it is behavioral. The problem is not weak willpower or poor decision-making. The problem is vision itself, shaped by what she calls "the fat relentless ego" distorting reality into something more comfortable. Her central example carries the argument: M, the mother-in-law, learns to see D, her daughter-in-law, differently through patient attention — nothing outward changes, the transformation is entirely interior, and it counts as moral work.
+I read this after spending a semester teaching business ethics through case studies—trolley problems, trade-offs, the dramatic instant of choice. Students learned to optimize under constraints. Then they'd graduate and tell me the problem wasn't choosing but seeing what the choice actually was. The frameworks didn't help when the situation looked nothing like the case.
 
-For anyone working at the intersection of Eastern and Western thought, Murdoch provides philosophical scaffolding for what contemplative traditions have always known. Attention is the work. The gap between frameworks and lived experience, between what we know and how we see, closes only through sustained inner effort.
+Murdoch says moral life is mostly about the slow, patient work of attention that determines what you can see when a choice arrives. "I can only choose within the world I can see." If vision is clouded by fantasy, ego, or inattention, the right option may never even appear. The work isn't in choosing. It's in learning to see clearly.
 
----
+## The Book
 
-## THE BOOK
+Murdoch's claim is that moral life is about vision, not choice. Against the prevailing philosophy of her time, which located morality in public action and discrete moments of decision, she argues that "I can only choose within the world I can see." Our perception is shaped by accumulated practices of attention long before we face any choice.
 
-Murdoch's radical claim: moral life is about vision, not choice. Against the prevailing philosophy of her time, which located morality in public action and discrete moments of decision, she argues that "I can only choose within the world I can see." Our perception is shaped by accumulated practices of attention long before we face any choice.
+The Good, for Murdoch, is not projection or construction but transcendent reality that functions like Plato's sun: not directly visible, but the source of light by which all else is seen. The path toward it requires "unselfing," the disciplined reduction of ego's distortions.
 
-The Good, for Murdoch, is not projection or construction but transcendent reality that functions like Plato's sun: not directly visible, but the source of light by which all else is seen. The path toward it requires "unselfing," the disciplined reduction of ego's distortions. Love becomes not feeling but accurate perception, "the extremely difficult realization that something other than oneself is real."
+## Passages That Stayed With Me
 
----
+"I can only choose within the world I can see."
 
-## PASSAGES THAT STAYED WITH ME
+Choice presupposes vision. The sequence matters.
 
-**"I can only choose within the world I can see."**
-The sentence that upends will-centered ethics. What we perceive determines the range of what we can imagine doing.
+"In the moral life, the enemy is the fat relentless ego."
 
-**"In the moral life, the enemy is the fat relentless ego."**
-Not circumstances, not other people, not lack of information. The obstacle is internal and constant.
+The obstacle is internal.
 
-**"Love is the extremely difficult realization that something other than oneself is real."**
-Love redefined as ontological breakthrough, not sentiment.
+"Love is the extremely difficult realization that something other than oneself is real."
 
-**"Attention is the effort to counteract fantasy."**
-Fantasy is the ego's self-serving distortion. Attention is the ongoing struggle against it.
+Murdoch treats love as the capacity to perceive another person's reality, rather than merely a feeling.
 
-**"The exercise of our freedom is a small piecemeal business that goes on all the time and not a grandiose leaping about unimpeded at important moments."**
-Murdoch's point: freedom as daily attention, not dramatic decision.
+"The exercise of our freedom is a small piecemeal business that goes on all the time."
 
----
+Freedom exercised in how you look at colleagues on a Tuesday, not in crisis moments.
 
-## READ THIS IF...
+## Read This If...
 
-- You've sensed that the problem with your choices is not weakness of will but narrowness of vision
-- You sense that attention is a moral act, and want to understand why
-- You are interested in how Eastern practices (attention, ego-reduction) map onto Western ethical frameworks
+-  • You've sensed that the problem with your choices is not weakness of will but narrowness of vision
+-  • You want philosophical rigor applied to attention and inner work, without requiring religious commitment
+-  • You are interested in how Eastern practices relate to Western ethical frameworks
 
----
+## Skip This If...
 
-## SKIP THIS IF...
+-  • You want concrete how-to instructions for moral development
+-  • You find Platonic metaphysics alienating and prefer purely empirical accounts
 
-- You want concrete how-to instructions for moral development (Murdoch diagnoses but does not prescribe specific practices)
-- You find Platonic metaphysics alienating and prefer purely empirical accounts of ethics
+Related essay
 
----
-
-## METADATA
-
-- **Reading time:** 4-6 hours (150 pages of dense philosophical prose)
-- **Difficulty:** Moderate to Demanding (clear writing, but requires philosophical patience)
-- **Tags:** attention, moral philosophy, Platonism, contemplative practice
+[The Right Direction — Murdoch's attention as the foundation for choosing well →](/essays/the-right-direction) [← Back to Library](/library)

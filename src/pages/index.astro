@@ -6,17 +6,17 @@ const featuredEssays = [
   {
     slug: 'the-right-direction',
     title: 'The Right Direction',
-    description: 'Markets coordinate brilliantly within frameworks they cannot generate. Price signals tell you how to win the game  -  they can\'t tell you whether it\'s the right game.',
+    description: 'Markets coordinate within rules they cannot choose. Better measurement sharpens the question of which objectives matter, without settling it.',
   },
   {
     slug: 'strategic-time',
     title: 'Strategic Time',
-    description: 'Strategic choice lives in a narrow temporal zone between market degeneration and survival pressure. The mismatch between three clocks is where strategy happens.',
+    description: 'Strategy needs time to pursue a commitment and learn whether it works. Organizations must protect that time from both rapid market signals and pressure to survive at any cost.',
   },
   {
     slug: 'architecture-of-commitment',
     title: 'The Architecture of Commitment',
-    description: 'As measurement improves, execution becomes tractable. What remains contested is what the organization should be pursuing in the first place.',
+    description: 'Organizations need stable purposes and methods that adapt to evidence. The question is which commitments to protect, which to revise, and what should trigger each change.',
   },
 ];
 ---
@@ -43,7 +43,7 @@ const featuredEssays = [
       <div class="accent-line mb-8"></div>
 
       <p class="text-ink-light mb-4">
-        Entrepreneur and institutional investor across private equity, venture capital, and hedge fund. Now a PhD student at Harvard Business School, researching how organizations allocate attention and find direction. Based in Boston, teaching yoga at HBS, writing about what happens when cognition itself becomes externalizable.
+        I’ve worked as an entrepreneur and institutional investor across private equity, venture capital, and hedge fund investing. Now I’m a PhD student at Harvard Business School, researching how organizations allocate attention and find direction. I’m based in Boston, teach yoga at HBS, and write about what changes when machines can take on cognitive work.
       </p>
 
       <nav class="flex gap-6">
@@ -51,6 +51,46 @@ const featuredEssays = [
         <a href="/writing" class="arrow-link">Read my writing</a>
         <a href="/about" class="arrow-link">About me</a>
       </nav>
+    </div>
+  </section>
+
+  <section class="container-zen section-zen border-t border-oat-300">
+    <h2 class="text-2xl mb-8 section-header">What I Practice</h2>
+
+    <p class="text-ink-light mb-10 max-w-prose">
+      Two questions organize everything I do: <em>awareness</em> — what is actually happening? — and <em>agency</em> — what should we do, and what can we do? Both questions apply inward and outward.
+    </p>
+
+    <div class="matrix-wrap">
+      <div class="practice-matrix">
+        <div class="matrix-corner"></div>
+        <div class="matrix-col-label">Internal</div>
+        <div class="matrix-col-label">External</div>
+
+        <div class="matrix-row-label">Awareness</div>
+        <a class="matrix-cell" href="/yoga" data-label="Awareness · Internal">
+          <span class="matrix-cell-title">Yoga</span>
+          <span class="matrix-cell-desc">What matters to you</span>
+          <span class="matrix-cell-arrow">→</span>
+        </a>
+        <a class="matrix-cell" href="/writing" data-label="Awareness · External">
+          <span class="matrix-cell-title">Research & Investing</span>
+          <span class="matrix-cell-desc">What matters to others</span>
+          <span class="matrix-cell-arrow">→</span>
+        </a>
+
+        <div class="matrix-row-label">Agency</div>
+        <a class="matrix-cell" href="/about" data-label="Agency · Internal">
+          <span class="matrix-cell-title">Executive Coaching</span>
+          <span class="matrix-cell-desc">Clarity into action</span>
+          <span class="matrix-cell-arrow">→</span>
+        </a>
+        <a class="matrix-cell" href="/work" data-label="Agency · External">
+          <span class="matrix-cell-title">Consulting</span>
+          <span class="matrix-cell-desc">Putting organizations into motion</span>
+          <span class="matrix-cell-arrow">→</span>
+        </a>
+      </div>
     </div>
   </section>
 
@@ -89,3 +129,162 @@ const featuredEssays = [
     </div>
   </section>
 </Layout>
+
+<style>
+  .matrix-wrap {
+    max-width: 680px;
+  }
+
+  .practice-matrix {
+    display: grid;
+    grid-template-columns: 32px 1fr 1fr;
+    grid-template-rows: 32px 1fr 1fr;
+  }
+
+  @media (min-width: 768px) {
+    .practice-matrix {
+      grid-template-columns: 40px 1fr 1fr;
+      grid-template-rows: 36px 1fr 1fr;
+    }
+  }
+
+  .matrix-corner { }
+
+  .matrix-col-label {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 12px;
+    font-family: system-ui, -apple-system, sans-serif;
+    font-size: 10px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: #8A857E;
+    font-weight: 500;
+  }
+
+  @media (min-width: 768px) {
+    .matrix-col-label { font-size: 11px; }
+  }
+
+  .matrix-row-label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    font-family: system-ui, -apple-system, sans-serif;
+    font-size: 10px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: #8A857E;
+    font-weight: 500;
+    padding-right: 12px;
+  }
+
+  @media (min-width: 768px) {
+    .matrix-row-label { font-size: 11px; padding-right: 14px; }
+  }
+
+  .matrix-cell {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 28px 16px;
+    background: #FAF8F4;
+    border: 1px solid #EBE3D4;
+    text-decoration: none;
+    color: inherit;
+    transition: background 0.25s ease, border-color 0.25s ease;
+  }
+
+  @media (min-width: 768px) {
+    .matrix-cell { padding: 36px 28px; }
+  }
+
+  /* Collapse double borders between cells */
+  /* nth-of-type counts <a> tags only: 1=top-left, 2=top-right, 3=bottom-left, 4=bottom-right */
+  .matrix-cell:nth-of-type(1) { border-right: none; }
+  .matrix-cell:nth-of-type(3) { border-right: none; border-top: none; }
+  .matrix-cell:nth-of-type(4) { border-top: none; }
+
+  .matrix-cell:hover {
+    background: #f4f6f2;
+    border-color: #B2BDA0;
+  }
+
+  .matrix-cell-title {
+    font-family: 'EB Garamond', Georgia, serif;
+    font-size: 19px;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    margin-bottom: 6px;
+    transition: color 0.2s ease;
+  }
+
+  @media (min-width: 768px) {
+    .matrix-cell-title { font-size: 21px; }
+  }
+
+  .matrix-cell:hover .matrix-cell-title {
+    color: #6B7D56;
+  }
+
+  .matrix-cell-desc {
+    font-size: 15px;
+    color: #5A5651;
+    font-style: italic;
+    line-height: 1.5;
+    margin-bottom: 12px;
+    max-width: 22ch;
+  }
+
+  .matrix-cell-arrow {
+    font-size: 14px;
+    color: #82966A;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+  }
+
+  .matrix-cell:hover .matrix-cell-arrow {
+    opacity: 1;
+  }
+
+  /* Mobile: stack to single column */
+  @media (max-width: 540px) {
+    .practice-matrix {
+      grid-template-columns: 1fr;
+      grid-template-rows: auto;
+    }
+
+    .matrix-corner,
+    .matrix-col-label,
+    .matrix-row-label {
+      display: none;
+    }
+
+    .matrix-cell {
+      border: 1px solid #EBE3D4 !important;
+      margin-bottom: -1px;
+      padding: 24px 20px;
+    }
+
+    .matrix-cell::before {
+      content: attr(data-label);
+      display: block;
+      font-family: system-ui, -apple-system, sans-serif;
+      font-size: 10px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: #8A857E;
+      margin-bottom: 8px;
+      font-style: normal;
+    }
+
+    .matrix-cell-arrow {
+      opacity: 1;
+    }
+  }
+</style>

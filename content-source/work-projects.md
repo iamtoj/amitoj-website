@@ -1,58 +1,60 @@
-# Work Page Content
-
-Edit this file in Obsidian. Changes sync to the website on `/next`.
-
+---
+source: src/pages/work.astro
+source-sha256: 3283d0ce7649ad66dcb2d6988d051c00a32352a7d687c300ea063e2a0ec6bb1f
+url: /work
+status: derived reading copy; edit the source file
 ---
 
-## intro
+# Work
 
-Intelligence transformation consulting. Knowledge systems for funds.
-Executive coaching with a different model. Research and writing on the Third Enlightenment.
+These projects explore how technology can help people flourish, from personal knowledge systems to changes in how organizations work.
 
----
+Academic research is my main focus. Every project below grows from my curiosity and research interests, and from questions I’m trying to answer.
 
-## current-projects
+## Current Projects
 
-```yaml
-- title: Third Enlightenment Consulting
-  description: Intelligence transformation for organizations. What if any company had access to a thousand brilliant interns? Building the architecture that makes that real — workflows that amplify human judgment, the architecture that makes intelligence transformation operational.
-  tags: [Intelligence Transformation, Strategy, Knowledge Systems]
-  status: Active
-  link: /contact
+What does it mean to thrive in an age of intelligent machines?
 
-- title: Knowledge Systems for Funds
-  description: Building the infrastructure that lets institutional investors capture, process, and act on what they know. The same patterns I learned building an investment fund, now systematized.
-  tags: [Institutional Investors, Knowledge Management, AI Systems]
-  status: Active
-  link: /contact
+### Research & Writing
 
-- title: Executive Coaching
-  description: Twelve sessions across your lifetime. The first six to eight do the primary work. The rest are banked for when you need them. Pay only if you got value.
-  tags: [Coaching, Leadership, Personal Development]
-  status: Active
-  link: /contact
+Essays exploring technology, contemplative practice, and human development.
 
-- title: Research & Writing
-  description: Harvard Business PhD research on attention allocation and organizational direction. Third Enlightenment newsletter on technology, contemplative practice, and human development.
-  tags: [Research, Writing, Third Enlightenment]
-  status: Ongoing
-  link: /writing
-```
+Essays  Technology  Contemplative Practice
 
----
+[ Learn more ](/writing)
 
-## past-projects
+What if your thinking tools could learn how you think?
 
-```yaml
-- title: "[Placeholder Project]"
-  description: Description of a past project or engagement. What it was, what was achieved, what was learned.
-  tags: [Category]
-  year: "2024"
-```
+### Knowledge Creation Systems
 
----
+Building personal systems for thinking, creating, and acting with AI as a partner. These systems capture, classify, and process information in recurring cycles.
 
-## collaborate
+AI Partnership  Personal Infrastructure  Knowledge Management
 
-Open to consulting engagements, research collaborations,
-and conversations about technology and human flourishing.
+[ View slides ](/managing-interns.pdf)
+
+How should organizations adapt when AI changes how they think?
+
+### Third Enlightenment Consulting
+
+Helping organizations put intelligence transformation into practice: building workflows and systems that strengthen human judgment as AI changes how companies think.
+
+Intelligence Transformation  Strategy  Knowledge Systems
+
+[ Learn more ](/contact)
+
+What would it look like to lead from clarity rather than certainty?
+
+### Executive Coaching
+
+One-on-one work with leaders to understand complex situations, build self-awareness, and bring their actions into line with their values.
+
+Leadership  Self-Awareness  Values Alignment
+
+[ Learn more ](/contact)
+
+## Collaborate
+
+I’m open to consulting engagements, research collaborations, and conversations about technology and human flourishing.
+
+[Get in touch](/contact)

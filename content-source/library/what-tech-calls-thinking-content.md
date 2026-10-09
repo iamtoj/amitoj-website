@@ -1,74 +1,57 @@
+---
+source: src/pages/library/what-tech-calls-thinking.astro
+source-sha256: e066a8e14afed04e0e703a87dd4d37f56b1f5374b6708ff9f9413a6f90c4557d
+url: /library/what-tech-calls-thinking
+status: derived reading copy; edit the source file
+---
+
+[← Back to Library](/library)
+
 # What Tech Calls Thinking
-**Adrian Daub** (2020)
 
----
+Adrian Daub
 
-## WHY I RECOMMEND THIS
+3-4 hours · Accessible · Tech Criticism, Intellectual History
 
-I spent years in tech and finance before landing at HBS, and one pattern kept bothering me: the borrowed wisdom. Executives citing philosophers they'd clearly never read. "Disruption" invoked like scripture to justify what was often just regulatory arbitrage. Genius narratives that erased the thousands of people who actually built the product.
+## Why I Recommend This
 
-Daub names the rhetorical move: how tech borrows philosophical language to make commercial decisions sound inevitable. He traces each Silicon Valley buzzword back to its philosophical source and shows what got lost in translation. Girard's complex theology becomes "people copy each other." Schumpeter's pessimism about capitalism becomes "disruption is good." Beckett's existential despair becomes VC pitch fodder.
+I spent two years at Stanford watching tech executives pitch "revolutionary ideas" that turned out to be Schumpeter without the ambivalence, Girard without the theology, Heidegger without the difficulty. Daub teaches literature across campus and wrote this book during that same period. He traces seven keywords, including disruption, genius, and failure, back to their intellectual origins and shows what got stripped out in translation.
 
-The book isn't anti-technology. It's anti-bullshit. And the distinction matters.
+The pattern: tech claims every challenge is unprecedented, which lets it evade the analytical tools society developed for similar problems decades ago. Uber operates as an unlicensed taxi service. Facebook operates as a publisher with liability shields. The vocabulary of "platforms" and "ride-sharing" obscures regulatory questions that already have answers. Daub makes those older questions visible again.
 
----
+## The Book
 
-## THE BOOK
+Silicon Valley's "revolutionary ideas" are recycled philosophy dressed in hoodies. Daub, a Stanford literature professor with a front-row seat to tech culture, traces seven keywords—dropping out, content, genius, communication, desire, disruption, failure—back to their intellectual origins.
 
-Silicon Valley's "revolutionary ideas" are recycled philosophy dressed in hoodies. Daub, a Stanford literature professor with a front-row seat to tech culture, traces seven keywords - dropping out, content, genius, communication, desire, disruption, failure - back to their intellectual origins in Heidegger, Rand, McLuhan, Girard, and Schumpeter.
+Daub's argument is that by claiming every challenge is unprecedented, tech evades the analytical tools society has developed for similar problems. The vocabulary of "platforms" and "ride-sharing" obscures questions we've answered before—about publishers, taxis, labor classification, common carrier obligations. The language obscures familiar regulatory questions.
 
-The core argument: by claiming every challenge is unprecedented, tech evades the analytical tools society has developed for similar problems. Uber isn't ride-sharing innovation - it's an unlicensed taxi service. Facebook isn't a platform - it's a publisher with liability shields. The language is smokescreen.
+## Passages That Stayed With Me
 
----
+"Often, those fancy new ideas are simply old motifs playing dress-up in a hoodie."
 
-## PASSAGES THAT STAYED WITH ME
+The book in one sentence.
 
-**On recycled philosophy:**
-> "Often, those fancy new ideas are simply old motifs playing dress-up in a hoodie."
+"Fetishizing the novelty of the problem deprives the public of the analytic tools it has previously brought to bear on similar problems."
 
-The central metaphor. Strip away the aesthetic rebellion and you find the same old ideas, badly misread.
+"Unprecedented" as strategic vocabulary.
 
-**On strategic amnesia:**
-> "Fetishing the novelty of the problem deprives the public of the analytic tools it has previously brought to bear on similar problems."
+"The troll is in control of when you lose control."
 
-Why "unprecedented" is the most useful word in a tech lobbyist's vocabulary.
+Online harassment dynamics, compressed.
 
-**On trolls:**
-> "The troll is in control of when you lose control."
+"Twitter was happy to claim Tahrir Square, it seems, but Nazis are someone else's problem."
 
-Concise formulation of online harassment dynamics - the asymmetry is structural, not incidental.
+Can't claim credit while disclaiming responsibility.
 
-**On selective credit:**
-> "Twitter was happy to claim Tahrir Square, it seems, but Nazis are someone else's problem."
+## Read This If...
 
-You can't claim credit for good uses while disclaiming responsibility for bad ones.
+-  • You work in tech and feel uneasy about the ideas floating around you but can't articulate why
+-  • You want to see through "disruption" rhetoric to the older patterns underneath
+-  • You enjoy intellectual demolition done with wit and precision
 
-**On failure fetish:**
-> "'Fail better' isn't about getting funded by venture capital next time - it is about a world where only failure exists."
+## Skip This If...
 
-Beckett's nihilism inverted into entrepreneurial optimism. The perversion is complete.
+-  • You want constructive alternatives (Daub diagnoses but doesn't prescribe)
+-  • You're looking for deep engagement with tech workers themselves
 
----
-
-## READ THIS IF...
-
-- You work in tech and feel uneasy about the ideas floating around you but can't articulate why
-- You want to see through "disruption" rhetoric to the older patterns underneath
-- You enjoy intellectual demolition done with wit and precision
-
----
-
-## SKIP THIS IF...
-
-- You want constructive alternatives (Daub diagnoses but doesn't prescribe)
-- You're looking for deep engagement with tech workers themselves (this is critique from the Stanford faculty lounge, not the trading floor)
-
----
-
-## METADATA
-
-**Reading time:** 3-4 hours (150 pages, accessible prose)
-
-**Difficulty:** Accessible
-
-**Tags:** tech-criticism, intellectual-history, silicon-valley, philosophy
+[← Back to Library](/library)

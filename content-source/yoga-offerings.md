@@ -1,67 +1,36 @@
-# Yoga Page Content
-
-Edit this file in Obsidian. Changes sync to the website on `/next`.
-
+---
+source: src/pages/yoga.astro
+source-sha256: 1df55f6e7fb5eaaa30afedc69238e037e626776c198be410e933914b6b631a6d
+url: /yoga
+status: derived reading copy; edit the source file
 ---
 
-## intro
+# Yoga
 
-Movement as meditation. Practice as inquiry.
+In yoga, I study the same questions I research — attention, effort, release — through the body rather than the literature.
 
-[Placeholder: How yoga fits into Toj's work - the thread connecting
-contemplative practice, embodiment, and the Third Enlightenment vision.
-Yoga as a technology for human development.]
+I’ve practiced for over a decade. What began as physical exercise became a way to study attention.
 
----
+## Practice
 
-## practice
+My practice follows the Vinyasa tradition, with an emphasis on alignment and breath. Yoga Alliance Registered Yoga Teacher (RYT).
 
-[Placeholder: Describe your yoga background - tradition, years of practice,
-teachers who shaped your approach. What makes your perspective on yoga distinct.]
+Physical practice supports clarity in thought and feeling by training the nervous system to move between states intentionally. The body knows things the mind doesn’t.
 
-[Placeholder: The role of embodied practice in navigating complexity.
-How physical practice supports cognitive and emotional clarity.
-The integration of breath, movement, and awareness.]
+## Offerings
 
----
+I offer private sessions, group classes, and workshops. I also bring contemplative practice into organizations for teams working through change or building resilience together.
 
-## offerings
+Contact me for details.
 
-### Private Sessions
+## Third Enlightenment Connection
 
-[Placeholder: One-on-one instruction tailored to individual needs.
-What a typical session looks like. Who benefits most.]
+The [Third Enlightenment framework](/third-enlightenment) connects contemplative practice with the use of intelligent machines. AI handles cognitive work; what remains is the kind of knowing that comes through the body. Yoga trains that knowing.
 
-**Currently accepting limited clients**
+[Read the full framework](/third-enlightenment)
 
-### Group Classes
+## Begin
 
-[Placeholder: Describe group offerings - style, frequency, location.
-What participants can expect from the experience.]
+If you're in Boston and want to practice, get in touch.
 
-**Schedule coming soon**
-
-### Workshops
-
-[Placeholder: Intensive sessions exploring specific themes.
-Integration of practice with contemplative inquiry.]
-
-**Inquire for availability**
-
-### Corporate Wellness
-
-[Placeholder: Bringing contemplative practice into organizational settings.
-Yoga and mindfulness for teams navigating transformation.]
-
-**Contact for details**
-
----
-
-## third-enlightenment-connection
-
-Contemplative practice is not separate from technological transformation.
-The First Enlightenment was about awareness — Eastern traditions discovering that consciousness itself is the ground, that seeing clearly requires stopping the separation between observer and observed. The Second Enlightenment was about agency — Descartes, science, modernity, the capacity to master reality through understanding.
-The Third integrates these: using Second Enlightenment tools with First Enlightenment awareness. That is what yoga trains. That is what this moment requires.
-
-[Placeholder: How yoga practice informs AI-age work. The role of embodiment
-in an increasingly digital world. Why contemplative technologies matter now.]
+[Get in touch](/contact)

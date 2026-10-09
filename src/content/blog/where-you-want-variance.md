@@ -4,12 +4,11 @@ description: "As we get better at specifying things, the question shifts from 'c
 pubDate: 2026-01-19
 tags: ["AI", "systems", "expertise", "design"]
 ---
+Setting an objective separates what must happen from how to make it happen: the _that_ and the _how_.
 
-Every objective, when you set it, immediately creates a split: the _that_ and the _how_.
+The _that_ is the outcome you specify. The _how_ is the choice of method you leave to judgment. A manager says "get this report done by Friday" (_that_) but doesn't specify whether you work from home, use a template, or start at midnight (_how_).
 
-The _that_ is what must happen—the outcome you're specifying. The _how_ is left to judgment—the method discretion you're granting. A manager says "get this report done by Friday" (_that_) but doesn't specify whether you work from home, use a template, or start at midnight (_how_).
-
-This split is fractal. Every _how_, once you look closer, contains its own _thats_ and _hows_. "Use a template" (_that_) but choose which sections to emphasize (_how_). The decomposition can continue as deep as you want to go.
+The same distinction appears within each task. Every _how_, once you look closer, contains its own _thats_ and _hows_. "Use a template" (_that_) but choose which sections to emphasize (_how_). The decomposition can continue as deep as you want to go.
 
 ---
 
@@ -17,7 +16,7 @@ Building systems that try to capture how I work, I've noticed the boundary betwe
 
 When something is tacit—when I can't articulate why I make a certain choice—it has to stay a _how_. I leave it to judgment because I can't specify it. But as tacit knowledge becomes explicit, _hows_ can be decomposed into _thats_. The thing I used to leave to discretion becomes something I can nail down.
 
-This is variance reduction. When a _how_ becomes a _that_, there's one less place where outcomes can differ based on who's doing the work or what mood they're in. The process becomes more predictable, more consistent, more controllable.
+Specifying a _how_ reduces variance: outcomes have one less way to differ with the person doing the work or the mood they are in. The process becomes more predictable and easier to control.
 
 ---
 
@@ -31,21 +30,19 @@ Art: variance is the point. If every painting followed a procedure so tight that
 
 ---
 
-The question is "should we?"
+The question becomes: where should we reduce variance, and where should we preserve it?
 
-And the answer depends on what you're optimizing for. If you want reliability, reduce variance. If you want creativity, preserve it. If you want both, you need to be very deliberate about which parts of the process get specified and which stay open.
+The answer depends on the objective. If you want reliability, reduce variance. If you want creativity, preserve it. If you want both, you need to be very deliberate about which parts of the process get specified and which stay open.
 
 This is what makes system design hard. The ability to specify something doesn't mean you should. As our tools get better at capturing tacit knowledge—as AI helps us articulate things we couldn't articulate before—the _can_ question gets easier. More things _can_ be specified.
 
-Which means the _should_ question gets more important.
+As more things _can_ be specified, deciding which ones _should_ be specified matters more.
 
 ---
 
 I've been building a system that helps me process information. Early on, I tried to specify everything. I wrote rules for classifications. Handlers for edge cases. The system became rigid in a way that defeated its purpose—it followed my specifications and missed what I actually wanted.
 
-The fix was knowing where to stop specifying. Some things stay as principles rather than rules. Some _hows_ stay as _hows_ even when I could, in theory, decompose them further.
-
-Because articulating them would be wrong for the given objective.
+The fix was knowing where to stop specifying. Some things stay as principles rather than rules. Some _hows_ stay as _hows_ even when I could decompose them further, because doing so would work against the objective.
 
 ---
 

@@ -4,6 +4,7 @@ node_modules/
 # Build output
 dist/
 .astro/
+.worktrees/
 
 # Environment variables
 .env
@@ -23,3 +24,7 @@ Thumbs.db
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Private release references and generated API requests, never public source.
+.vercel/production-preserved-files.json
+.vercel/preview-request.json
