@@ -44,5 +44,12 @@ build and live routes, then retain its file references in the private manifest
 for the next release. A Git-only checkout
 does not contain the private files needed for a hosted release.
 
+Automatic Git deployments from `main` are disabled in `vercel.json`. Pushes
+save the public source; releases use the complete file request above. This
+prevents duplicate Git builds from failing because the private agenda and its
+access controls are absent from the public checkout. Other branches keep their
+existing deployment settings. The hosted-build guard still rejects an
+incomplete release.
+
 The writing revision and source qualifications are recorded in
 `docs/reviews/2026-10-09-writing-update.md`.
