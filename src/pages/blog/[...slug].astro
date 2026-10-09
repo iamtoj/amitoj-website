@@ -27,6 +27,7 @@ const { Content } = await post.render();
 
       <p class="text-ink-muted mb-4">
         {post.data.pubDate.toLocaleDateString('en-US', {
+          timeZone: 'UTC',
           year: 'numeric',
           month: 'long',
           day: 'numeric'
@@ -34,6 +35,7 @@ const { Content } = await post.render();
         {post.data.updatedDate && (
           <span class="ml-4">
             (Updated: {post.data.updatedDate.toLocaleDateString('en-US', {
+              timeZone: 'UTC',
               year: 'numeric',
               month: 'long',
               day: 'numeric'

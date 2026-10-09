@@ -26,6 +26,11 @@ Claims that AI processes every possible connection were narrowed to the
 comparison the personal case supports. The dot-pair count is described as
 growing rapidly, rather than exponentially.
 
+A live comparison exposed a date-formatting bug: a local build could display
+a note one day before its publication date. The note page, update date, and
+Writing index now format dates in UTC. Builds in New York and Honolulu produce
+identical pages, preserving the dates on the published site.
+
 Checks preserve routes apart from that repaired link, image sources, form fields and destination, page
 structure and styles, biography, teaching schedule, coaching terms, dates,
 figures, book identities, and credited quotations. The eight published note

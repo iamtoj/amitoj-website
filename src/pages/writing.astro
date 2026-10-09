@@ -116,6 +116,7 @@ const essays = [
                   </div>
                   <span class="text-ink-muted text-sm whitespace-nowrap">
                     {post.data.pubDate.toLocaleDateString('en-US', {
+                      timeZone: 'UTC',
                       year: 'numeric',
                       month: 'long',
                     })}

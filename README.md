@@ -37,9 +37,11 @@ python3 scripts/deployment-files.py
 ```
 
 Submit the generated request through the authenticated Vercel deployment
-tool. It creates a preview using the existing production settings and
-environment, exact dependency lock, images, and protected files. Check the
-build and routes, then promote the reviewed deployment. A Git-only checkout
+tool. It creates a preview using the existing project settings, exact
+dependency lock, images, and protected files. After the preview passes, submit
+the same complete file set with `target: production`. Check the production
+build and live routes, then retain its file references in the private manifest
+for the next release. A Git-only checkout
 does not contain the private files needed for a hosted release.
 
 The writing revision and source qualifications are recorded in
